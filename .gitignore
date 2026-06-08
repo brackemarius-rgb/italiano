@@ -30,8 +30,9 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
-.env*
+# env files – nur die geheime lokale Datei ignorieren; .env (öffentliche Werte) bleibt dabei
+.env.local
+.env*.local
 
 # vercel
 .vercel
@@ -42,3 +43,4 @@ next-env.d.ts
 
 # große Quell-PDF (nicht fürs Deployment nötig, überschreitet GitHubs 100-MB-Limit)
 content/docs/
+/deploy
