@@ -1,0 +1,50 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das fehlende Vergleichswort: \"Sie ist sympathischer als er.\"",
+    "content": { "sentence": "Lei è più simpatica ___ lui." },
+    "correct_answer": "di",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor Pronomen (lui, lei) steht beim Vergleich 'di', nicht 'che'. Also: più simpatica di lui."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form ist richtig? \"Dieses Restaurant ist besser als das andere.\"",
+    "content": { "options": ["Questo ristorante è più buono che l'altro.", "Questo ristorante è migliore dell'altro.", "Questo ristorante è meglio dell'altro.", "Questo ristorante è più migliore dell'altro."] },
+    "correct_answer": "Questo ristorante è migliore dell'altro.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Der unregelmäßige Komparativ von 'buono' ist 'migliore' (besser). 'meglio' ist ein Adverb (zu bene), 'più migliore' ist doppelt gemoppelt und falsch. Vor einem Substantiv steht 'di' (di + l' = dell')."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze 'di' oder 'che': \"Er ist eher nett als attraktiv.\" (Vergleich von zwei Eigenschaften)",
+    "content": { "sentence": "Lui è più simpatico ___ attraente." },
+    "correct_answer": "che",
+    "acceptable_alternatives": [],
+    "explanation_de": "Beim Vergleich von zwei Eigenschaften (simpatico / attraente) steht 'che', nicht 'di'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle die richtige Form: \"Mir geht es heute besser.\"",
+    "content": { "options": ["Sto migliore oggi.", "Sto più bene oggi.", "Sto meglio oggi.", "Sto più meglio oggi."] },
+    "correct_answer": "Sto meglio oggi.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'meglio' ist der Komparativ des Adverbs 'bene' (gut). Mit dem Verb 'stare' (sich fühlen) braucht man das Adverb, nicht das Adjektiv 'migliore'. 'Sto migliore' ist ein typischer Fehler."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: \"Marco ist so groß wie Luigi.\"",
+    "content": { "tokens": ["Marco", "è", "alto", "come", "Luigi"] },
+    "correct_answer": "Marco è alto come Luigi.",
+    "acceptable_alternatives": ["Marco è così alto come Luigi."],
+    "explanation_de": "Den Gleichheitsvergleich 'so ... wie' bildet man mit '(così) ... come'. Das 'così' ist optional, 'come' bleibt fest."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: \"Er hat weniger Geld als sie.\"",
+    "content": {},
+    "correct_answer": "Lui ha meno soldi di lei.",
+    "acceptable_alternatives": ["Ha meno soldi di lei."],
+    "explanation_de": "'weniger ... als' bildet man mit 'meno ... di'. Vor dem Pronomen 'lei' steht 'di'. Das Subjektpronomen 'lui' kann auch weggelassen werden."
+  }
+]

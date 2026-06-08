@@ -1,0 +1,66 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Schreibe auf Italienisch: 'Ich kaufe eine Tasche.' ('borsa' ist feminin und beginnt mit einem Konsonant.)",
+    "content": {},
+    "correct_answer": "Compro una borsa.",
+    "acceptable_alternatives": ["Io compro una borsa."],
+    "explanation_de": "'borsa' ist feminin und beginnt mit einem Konsonant, daher 'una borsa': Compro una borsa."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Schreibe auf Italienisch: 'Es gibt einen Studenten.' ('studente' ist maskulin und beginnt mit s + Konsonant.)",
+    "content": {},
+    "correct_answer": "C'è uno studente.",
+    "acceptable_alternatives": ["C'è uno studente qui."],
+    "explanation_de": "Vor maskulinen Substantiven mit s + Konsonant steht 'uno': uno studente."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Schreibe auf Italienisch: 'Ich habe eine Freundin.' ('amica' ist feminin und beginnt mit einem Vokal.)",
+    "content": {},
+    "correct_answer": "Ho un'amica.",
+    "acceptable_alternatives": ["Io ho un'amica."],
+    "explanation_de": "Feminin vor Vokal: 'una' wird zu 'un'' mit Apostroph: un'amica."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Schreibe auf Italienisch: 'Da ist ein Mann.' ('uomo' ist maskulin und beginnt mit einem Vokal.)",
+    "content": {},
+    "correct_answer": "C'è un uomo.",
+    "acceptable_alternatives": ["C'è un uomo lì."],
+    "explanation_de": "Maskulin vor Vokal: 'un' OHNE Apostroph (un uomo). Der Apostroph steht nur im Femininum."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde einen korrekten Satz. 'studente' ist maskulin und beginnt mit s + Konsonant.",
+    "content": { "tokens": ["Marco", "è", "uno", "studente"] },
+    "correct_answer": "Marco è uno studente.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor maskulinen Substantiven mit s + Konsonant steht 'uno': uno studente."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde einen korrekten Satz. 'casa' ist feminin und beginnt mit einem Konsonant.",
+    "content": { "tokens": ["Abbiamo", "una", "casa", "grande"] },
+    "correct_answer": "Abbiamo una casa grande.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor femininen Substantiven mit Konsonant steht 'una': una casa."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde einen korrekten Satz. 'albergo' ist maskulin und beginnt mit einem Vokal.",
+    "content": { "tokens": ["Cerco", "un", "albergo", "economico"] },
+    "correct_answer": "Cerco un albergo economico.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Maskulin vor Vokal: 'un' OHNE Apostroph (un albergo)."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde einen korrekten Satz. 'amica' ist feminin und beginnt mit einem Vokal.",
+    "content": { "tokens": ["Ho", "un'", "amica", "italiana"] },
+    "correct_answer": "Ho un'amica italiana.",
+    "acceptable_alternatives": ["Ho un' amica italiana."],
+    "explanation_de": "Feminin vor Vokal: 'una' wird zu 'un'' mit Apostroph (un'amica), direkt ans Wort angehängt."
+  }
+]

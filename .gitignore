@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# große Quell-PDF (nicht fürs Deployment nötig, überschreitet GitHubs 100-MB-Limit)
+content/docs/

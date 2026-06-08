@@ -1,0 +1,88 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Ersetze das Objekt durch ein Pronomen: \"Leggi il giornale ogni mattina? Sì, ___ leggo.\"",
+    "content": {
+      "sentence": "Leggi il giornale ogni mattina? Sì, ___ leggo."
+    },
+    "correct_answer": "lo",
+    "acceptable_alternatives": [],
+    "explanation_de": "\"il giornale\" ist maskulin Singular, das passende direkte Objektpronomen ist \"lo\" (ihn/es). Es steht vor dem konjugierten Verb: \"Lo leggo.\""
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle das richtige direkte Objektpronomen: \"Inviti Anna e Sara alla festa? Sì, ___ invito.\"",
+    "content": {
+      "options": ["le", "li", "la", "gli"]
+    },
+    "correct_answer": "le",
+    "acceptable_alternatives": [],
+    "explanation_de": "\"Anna e Sara\" sind zwei weibliche Personen, also feminin Plural. Das direkte Objektpronomen ist \"le\" (sie): \"Le invito.\""
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge (das Pronomen steht vor dem Verb!).",
+    "content": {
+      "tokens": ["Sì", "ti", "aspetto", "qui"]
+    },
+    "correct_answer": "Sì, ti aspetto qui.",
+    "acceptable_alternatives": ["Sì ti aspetto qui."],
+    "explanation_de": "Das direkte Objektpronomen \"ti\" (dich) steht vor dem konjugierten Verb \"aspetto\" (ich warte): \"Ti aspetto qui.\" (Ich warte hier auf dich.)"
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze das Pronomen mit Apostroph ein: \"L'orologio nuovo? ___ ho comprato ieri.\"",
+    "content": {
+      "sentence": "L'orologio nuovo? ___ ho comprato ieri."
+    },
+    "correct_answer": "L'",
+    "acceptable_alternatives": ["L"],
+    "explanation_de": "Vor einem Vokal wird \"lo\" zu \"l'\": \"L'ho comprato.\" \"orologio\" ist maskulin Singular, daher endet das Partizip auf \"-o\": \"comprato\"."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle die korrekte Form im Passato Prossimo: \"Ho visto le foto.\" Wie lautet der Satz mit Pronomen?",
+    "content": {
+      "options": ["Le ho viste.", "Le ho visto.", "Li ho visti.", "Le ho vista."]
+    },
+    "correct_answer": "Le ho viste.",
+    "acceptable_alternatives": [],
+    "explanation_de": "\"le foto\" ist feminin Plural, das Pronomen ist \"le\". Im Passato Prossimo passt sich das Partizip an: feminin Plural → Endung \"-e\": \"viste\"."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Antworte mit einem direkten Objektpronomen: \"Mangi la torta?\" (Ja, ich esse sie.)",
+    "content": {},
+    "correct_answer": "Sì, la mangio.",
+    "acceptable_alternatives": ["Sì la mangio.", "La mangio.", "Sì, la mangio"],
+    "explanation_de": "\"la torta\" ist feminin Singular, das direkte Objektpronomen ist \"la\". Es steht vor dem konjugierten Verb: \"La mangio.\""
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Bei Modalverb + Infinitiv: Welche Form ist KORREKT für \"Ich möchte ihn anrufen\" (telefonare → ihn = Paolo)?",
+    "content": {
+      "options": ["Voglio chiamarlo.", "Voglio lo chiamare.", "Voglio chiamare lo.", "Lo voglio chiamarlo."]
+    },
+    "correct_answer": "Voglio chiamarlo.",
+    "acceptable_alternatives": ["Lo voglio chiamare."],
+    "explanation_de": "Bei Modalverb + Infinitiv hängt man das Pronomen an den Infinitiv an (Endvokal entfällt): \"chiamare\" → \"chiamarlo\". Genauso richtig wäre \"Lo voglio chiamare\"."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Höflichkeitsform: Ein Kellner sagt zum Gast: \"Signora, ___ accompagno al tavolo.\" (Ich begleite Sie zum Tisch.)",
+    "content": {
+      "sentence": "Signora, ___ accompagno al tavolo."
+    },
+    "correct_answer": "La",
+    "acceptable_alternatives": [],
+    "explanation_de": "Die Höflichkeitsform \"Sie\" als direktes Objekt ist \"La\" (großgeschrieben). Sie steht vor dem Verb: \"La accompagno.\""
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Antworte im Passato Prossimo mit Pronomen: \"Hai chiamato i tuoi amici?\" (Ja, ich habe sie gestern angerufen.)",
+    "content": {},
+    "correct_answer": "Sì, li ho chiamati ieri.",
+    "acceptable_alternatives": ["Sì li ho chiamati ieri.", "Li ho chiamati ieri.", "Sì, li ho chiamati ieri"],
+    "explanation_de": "\"i tuoi amici\" ist maskulin Plural, das Pronomen ist \"li\". Es steht vor dem Verb, und im Passato Prossimo endet das Partizip auf \"-i\": \"chiamati\"."
+  }
+]

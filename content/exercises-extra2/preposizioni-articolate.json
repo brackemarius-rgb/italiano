@@ -1,0 +1,50 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Wir gehen in den Park.' (Tipp: andare, il parco)",
+    "content": {},
+    "correct_answer": "Andiamo al parco.",
+    "acceptable_alternatives": ["Andiamo al parco", "Noi andiamo al parco.", "Noi andiamo al parco"],
+    "explanation_de": "a + il = al. 'parco' ist maskulin und beginnt mit Konsonant, daher der Artikel 'il'. So entsteht 'al parco'."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Die Kinder sind in der Schule.' (Tipp: i bambini, la scuola)",
+    "content": {},
+    "correct_answer": "I bambini sono nella scuola.",
+    "acceptable_alternatives": ["I bambini sono nella scuola", "i bambini sono nella scuola"],
+    "explanation_de": "in + la = nella. 'scuola' ist feminin und beginnt mit Konsonant, daher der Artikel 'la'. So entsteht 'nella scuola'."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Heute gehe ich zum Arzt.' (Tipp: oggi, andare, il medico)",
+    "content": {},
+    "correct_answer": "Oggi vado dal medico.",
+    "acceptable_alternatives": ["Oggi vado dal medico", "oggi vado dal medico", "Oggi io vado dal medico."],
+    "explanation_de": "da + il = dal. Bei Personen, zu denen man geht, benutzt man 'da': 'dal medico' bedeutet 'zum Arzt'. 'medico' ist maskulin mit Artikel 'il'."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge. (Das Foto ist an der Wand.)",
+    "content": { "tokens": ["La", "foto", "è", "sulla", "parete"] },
+    "correct_answer": "La foto è sulla parete.",
+    "acceptable_alternatives": ["La foto è sulla parete"],
+    "explanation_de": "su + la = sulla. 'parete' (Wand) ist feminin und beginnt mit Konsonant, daher der Artikel 'la'. So wird aus 'su la parete' das Wort 'sulla parete'."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge. (Wir wohnen im Zentrum der Stadt.)",
+    "content": { "tokens": ["Abitiamo", "nel", "centro", "della", "città"] },
+    "correct_answer": "Abitiamo nel centro della città.",
+    "acceptable_alternatives": ["Abitiamo nel centro della città"],
+    "explanation_de": "in + il = nel und di + la = della. 'centro' ist maskulin mit Artikel 'il' (nel centro), 'città' ist feminin mit Artikel 'la' (della città)."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge. (Ich nehme den Zucker aus dem Schrank.)",
+    "content": { "tokens": ["Prendo", "lo", "zucchero", "dall'", "armadio"] },
+    "correct_answer": "Prendo lo zucchero dall'armadio.",
+    "acceptable_alternatives": ["Prendo lo zucchero dall'armadio"],
+    "explanation_de": "da + l' = dall'. 'armadio' (Schrank) ist maskulin und beginnt mit Vokal, daher der Artikel 'l''. Der Apostroph bleibt erhalten: 'dall'armadio'."
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das passende Relativpronomen (che oder cui).",
+    "content": { "sentence": "La pizza ___ abbiamo mangiato ieri era buonissima." },
+    "correct_answer": "che",
+    "acceptable_alternatives": [],
+    "explanation_de": "'che' ist unveränderlich und ersetzt hier das direkte Objekt ('die Pizza, die wir gegessen haben'). Es steht keine Präposition davor, also nie 'cui'."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das passende Relativpronomen nach der Präposition.",
+    "content": { "sentence": "Il collega con ___ lavoro è molto gentile." },
+    "correct_answer": "cui",
+    "acceptable_alternatives": [],
+    "explanation_de": "Nach einer Präposition (hier 'con') steht immer 'cui', nie 'che'. 'Il collega con cui lavoro' = 'Der Kollege, mit dem ich arbeite'."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze 'il cui', 'la cui' oder 'i cui' (Besitz). Achte auf den besessenen Gegenstand.",
+    "content": { "sentence": "La professoressa, ___ lezioni sono interessanti, è simpatica." },
+    "correct_answer": "le cui",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei Besitz ('deren') steht 'cui' mit bestimmtem Artikel. Der Artikel richtet sich nach dem besessenen Gegenstand ('le lezioni', weiblich Plural), also 'le cui lezioni'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle die richtige Form: 'Der Zug, mit dem ich nach Rom fahre.'",
+    "content": { "options": ["Il treno che vado a Roma", "Il treno con cui vado a Roma", "Il treno in cui che vado a Roma", "Il treno cui vado a Roma"] },
+    "correct_answer": "Il treno con cui vado a Roma",
+    "acceptable_alternatives": [],
+    "explanation_de": "Hier braucht man die Präposition 'con' (mit dem). Nach Präposition steht immer 'cui': 'con cui'. 'che' allein ist ohne Präposition falsch."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle die richtige Form: 'Die Stadt, die ich besuchen möchte.'",
+    "content": { "options": ["La città a cui voglio visitare", "La città che voglio visitare", "La città in cui voglio visitare", "La città di cui voglio visitare"] },
+    "correct_answer": "La città che voglio visitare",
+    "acceptable_alternatives": [],
+    "explanation_de": "'visitare' ist ein direktes Verb ohne Präposition ('etwas besuchen'). Daher steht das direkte Objekt 'che', nicht 'cui'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle die richtige Form: 'Die Studentin, deren Eltern in Mailand wohnen.'",
+    "content": { "options": ["La studentessa che genitori abitano a Milano", "La studentessa di cui genitori abitano a Milano", "La studentessa i cui genitori abitano a Milano", "La studentessa il cui genitori abitano a Milano"] },
+    "correct_answer": "La studentessa i cui genitori abitano a Milano",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei Besitz ('deren') steht 'cui' mit Artikel. Der Artikel richtet sich nach dem besessenen Gegenstand ('i genitori', männlich Plural), also 'i cui genitori'."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: 'Der Grund, weshalb ich studiere.'",
+    "content": { "tokens": ["La", "ragione", "per", "cui", "studio"] },
+    "correct_answer": "La ragione per cui studio",
+    "acceptable_alternatives": [],
+    "explanation_de": "Die feste Wendung 'per cui' bedeutet 'weshalb/aus dem Grund'. Nach der Präposition 'per' steht 'cui'."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Der Film, den wir gestern gesehen haben, war schön.'",
+    "content": {},
+    "correct_answer": "Il film che abbiamo visto ieri era bello.",
+    "acceptable_alternatives": ["Il film che abbiamo visto ieri era bello", "Il film che abbiamo visto ieri e' stato bello."],
+    "explanation_de": "'che' ersetzt hier das direkte Objekt ('der Film, den wir gesehen haben'). Es ist unveränderlich und steht ohne Präposition."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Der Freund, dem ich ein Geschenk gebe.'",
+    "content": {},
+    "correct_answer": "L'amico a cui do un regalo.",
+    "acceptable_alternatives": ["L'amico a cui do un regalo", "L'amico a cui faccio un regalo."],
+    "explanation_de": "'dare a qualcuno' verlangt die Präposition 'a'. Nach der Präposition steht 'cui': 'a cui do' = 'dem ich gebe'. Beachte den Apostroph in l'amico."
+  }
+]

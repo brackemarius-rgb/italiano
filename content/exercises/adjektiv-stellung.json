@@ -1,0 +1,50 @@
+[
+  {
+    "type": "reorder",
+    "prompt_de": "Bring die Wörter in die richtige Reihenfolge. Beschreibende Adjektive (Farben, Eigenschaften) stehen normalerweise NACH dem Substantiv.",
+    "content": { "tokens": ["la", "borsa", "rossa"] },
+    "correct_answer": "la borsa rossa",
+    "acceptable_alternatives": [],
+    "explanation_de": "Beschreibende Adjektive wie Farben stehen im Italienischen nach dem Substantiv: 'la borsa rossa' (die rote Tasche), nicht 'la rossa borsa'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Wortstellung ist richtig? (ein interessantes Buch)",
+    "content": { "options": ["un libro interessante", "un interessante libro", "interessante un libro", "un libro interessanto"] },
+    "correct_answer": "un libro interessante",
+    "acceptable_alternatives": [],
+    "explanation_de": "Das beschreibende Adjektiv steht nach dem Substantiv: 'un libro interessante'. 'interessante' endet auf -e und bleibt im Singular unverändert."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Form von 'bello' vor dem Substantiv. (vor Konsonant, maskulin: ein schönes Buch)",
+    "content": { "sentence": "Marco ha comprato un ___ libro." },
+    "correct_answer": "bel",
+    "acceptable_alternatives": [],
+    "explanation_de": "Steht 'bello' vor dem Substantiv, verhält es sich wie der bestimmte Artikel. Vor einem maskulinen Wort mit Konsonant (il libro) wird es zu 'bel': un bel libro. 'un bello libro' wäre falsch."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle die richtige Form von 'bello' vor dem Substantiv. (vor s+Konsonant, maskulin)",
+    "content": { "options": ["un bello specchio", "un bel specchio", "un bell'specchio", "un begli specchio"] },
+    "correct_answer": "un bello specchio",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor maskulinen Wörtern mit s+Konsonant (lo specchio) heißt es 'bello': un bello specchio. Die Form folgt dem bestimmten Artikel 'lo'."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Form von 'buono' vor dem Substantiv. (vor Konsonant, maskulin: ein guter Kaffee)",
+    "content": { "sentence": "Prendo un ___ caffè." },
+    "correct_answer": "buon",
+    "acceptable_alternatives": [],
+    "explanation_de": "Steht 'buono' vor einem Substantiv im Singular, verhält es sich wie der unbestimmte Artikel. Vor maskulinem Konsonant wird es zu 'buon': un buon caffè."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Das ist eine gute Freundin.' (buono vor weiblichem Wort mit Vokal: amica)",
+    "content": {},
+    "correct_answer": "Questa è una buon'amica.",
+    "acceptable_alternatives": ["Questa è una buon' amica.", "È una buon'amica.", "Questa è una buona amica."],
+    "explanation_de": "Vor einem femininen Wort mit Vokal verliert 'buona' das -a und bekommt einen Apostroph: una buon'amica. Die Schreibweise mit Apostroph ist hier die regelgerechte Lösung."
+  }
+]

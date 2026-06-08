@@ -1,0 +1,633 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "id": "espresso-1",
+    "title": "Espresso 1",
+    "type": "book",
+    "language_level": "A1"
+  },
+  "lesson_number": 1,
+  "lesson_title": "Ciao, come stai?",
+  "lesson_topics": ["Begrüßung", "Vorstellen", "Italien & Regionen"],
+  "items": [
+    {
+      "italian": "Ciao!",
+      "ipa": "tʃao",
+      "german": "Hallo, Tschüs!",
+      "word_type": "phrase",
+      "notes": "Begrüßung und Abschied",
+      "topic_tags": ["Begrüßung"],
+      "section_marker": 1
+    },
+    {
+      "italian": "il papà",
+      "ipa": "il papa",
+      "german": "Papa",
+      "word_type": "noun",
+      "gender": "m",
+      "article": "il",
+      "topic_tags": ["Familie"]
+    },
+    {
+      "italian": "a più tardi",
+      "ipa": "a pju tardi",
+      "german": "bis später",
+      "word_type": "phrase",
+      "topic_tags": ["Begrüßung"]
+    },
+    {
+      "italian": "buonasera",
+      "ipa": "buonasera",
+      "german": "guten Abend",
+      "word_type": "phrase",
+      "topic_tags": ["Begrüßung"]
+    },
+    {
+      "italian": "buongiorno",
+      "ipa": "buondʒorno",
+      "german": "guten Morgen, guten Tag",
+      "word_type": "phrase",
+      "topic_tags": ["Begrüßung"]
+    },
+    {
+      "italian": "il signore",
+      "ipa": "il siɲore",
+      "german": "Herr",
+      "word_type": "noun",
+      "gender": "m",
+      "article": "il",
+      "topic_tags": ["Anrede"]
+    },
+    {
+      "italian": "ah, sì",
+      "ipa": "a, si",
+      "german": "ach, ja",
+      "word_type": "phrase"
+    },
+    {
+      "italian": "la signora",
+      "ipa": "la siɲora",
+      "german": "Frau",
+      "word_type": "noun",
+      "gender": "f",
+      "article": "la",
+      "topic_tags": ["Anrede"]
+    },
+    {
+      "italian": "e",
+      "ipa": "e",
+      "german": "und",
+      "word_type": "conjunction"
+    },
+    {
+      "italian": "Pulce",
+      "ipa": "pultʃe",
+      "german": "Floh (Eigenname)",
+      "word_type": "proper_noun",
+      "notes": "wörtl.: Floh",
+      "topic_tags": ["Eigennamen"]
+    },
+    {
+      "italian": "ah, grazie",
+      "ipa": "a, gratsie",
+      "german": "ach, danke",
+      "word_type": "phrase",
+      "topic_tags": ["Höflichkeit"]
+    },
+    {
+      "italian": "grazie",
+      "ipa": "gratsie",
+      "german": "danke",
+      "word_type": "phrase",
+      "topic_tags": ["Höflichkeit"]
+    },
+    {
+      "italian": "prego",
+      "ipa": "prɛgo",
+      "german": "bitte sehr",
+      "word_type": "phrase",
+      "topic_tags": ["Höflichkeit"]
+    },
+    {
+      "italian": "arrivederci",
+      "ipa": "arrivedertʃi",
+      "german": "auf Wiedersehen",
+      "word_type": "phrase",
+      "topic_tags": ["Begrüßung"]
+    },
+    {
+      "italian": "a domani",
+      "ipa": "a domani",
+      "german": "bis morgen",
+      "word_type": "phrase",
+      "topic_tags": ["Begrüßung", "Zeit"]
+    },
+    {
+      "italian": "domani",
+      "ipa": "domani",
+      "german": "morgen",
+      "word_type": "adverb",
+      "topic_tags": ["Zeit"]
+    },
+    {
+      "italian": "Marche",
+      "ipa": "marke",
+      "german": "die Marken (it. Region)",
+      "word_type": "proper_noun",
+      "gender": "f",
+      "number": "plural",
+      "topic_tags": ["Regionen"],
+      "section_marker": 5
+    },
+    {
+      "italian": "Chianti",
+      "ipa": "kianti",
+      "german": "Rotwein aus der Toskana",
+      "word_type": "proper_noun",
+      "gender": "m",
+      "topic_tags": ["Wein", "Italien"]
+    },
+    {
+      "italian": "la Sicilia",
+      "ipa": "la sitʃilia",
+      "german": "Sizilien",
+      "word_type": "proper_noun",
+      "gender": "f",
+      "article": "la",
+      "topic_tags": ["Regionen"]
+    },
+    {
+      "italian": "Como",
+      "ipa": "komo",
+      "german": "Stadt in der Lombardei",
+      "word_type": "proper_noun",
+      "topic_tags": ["Städte"]
+    },
+    {
+      "italian": "Pinocchio",
+      "ipa": "pinokkio",
+      "german": "berühmte Figur aus einem Märchen von Carlo Collodi",
+      "word_type": "proper_noun",
+      "topic_tags": ["Kultur"]
+    },
+    {
+      "italian": "Bocelli (Andrea)",
+      "ipa": "botʃelli andrea",
+      "german": "it. Tenor",
+      "word_type": "proper_noun",
+      "topic_tags": ["Personen"]
+    },
+    {
+      "italian": "il centro",
+      "ipa": "il tʃɛntro",
+      "german": "Zentrum",
+      "word_type": "noun",
+      "gender": "m",
+      "article": "il"
+    },
+    {
+      "italian": "spaghetti",
+      "ipa": "spagetti",
+      "german": "Spaghetti",
+      "word_type": "noun",
+      "gender": "m",
+      "number": "plural",
+      "topic_tags": ["Essen"]
+    },
+    {
+      "italian": "Lamborghini",
+      "ipa": "lamborgini",
+      "german": "it. Automarke",
+      "word_type": "proper_noun",
+      "topic_tags": ["Marken"]
+    },
+    {
+      "italian": "il parmigiano",
+      "ipa": "il parmidʒano",
+      "german": "Parmesan",
+      "word_type": "noun",
+      "gender": "m",
+      "article": "il",
+      "topic_tags": ["Essen"]
+    },
+    {
+      "italian": "l'albergo",
+      "ipa": "lalbɛrgo",
+      "german": "Hotel",
+      "word_type": "noun",
+      "gender": "m",
+      "article": "l'",
+      "topic_tags": ["Reise"]
+    },
+    {
+      "italian": "la Liguria",
+      "ipa": "la liguria",
+      "german": "Ligurien",
+      "word_type": "proper_noun",
+      "gender": "f",
+      "article": "la",
+      "topic_tags": ["Regionen"]
+    },
+    {
+      "italian": "allora",
+      "ipa": "allora",
+      "german": "also",
+      "word_type": "adverb",
+      "section_marker": 6
+    },
+    {
+      "italian": "Come va?",
+      "ipa": "kome va",
+      "german": "Wie geht's?",
+      "word_type": "phrase",
+      "topic_tags": ["Smalltalk"]
+    },
+    {
+      "italian": "bene",
+      "ipa": "bɛne",
+      "german": "gut",
+      "word_type": "adverb"
+    },
+    {
+      "italian": "Tu come stai?",
+      "ipa": "tu kome stai",
+      "german": "Wie geht es dir?",
+      "word_type": "phrase",
+      "topic_tags": ["Smalltalk"]
+    },
+    {
+      "italian": "tu",
+      "ipa": "tu",
+      "german": "du",
+      "word_type": "pronoun"
+    },
+    {
+      "italian": "stare",
+      "ipa": "stare",
+      "german": "sich befinden",
+      "word_type": "verb",
+      "notes": "unregelmäßig"
+    },
+    {
+      "italian": "Sto abbastanza bene.",
+      "ipa": "sto abbastantsa bɛne",
+      "german": "Mir geht es ganz gut.",
+      "word_type": "phrase",
+      "topic_tags": ["Smalltalk"]
+    },
+    {
+      "italian": "abbastanza",
+      "ipa": "abbastantsa",
+      "german": "ziemlich",
+      "word_type": "adverb"
+    },
+    {
+      "italian": "Come sta?",
+      "ipa": "kome sta",
+      "german": "Wie geht es Ihnen?",
+      "word_type": "phrase",
+      "notes": "Höflichkeitsform",
+      "topic_tags": ["Smalltalk", "Höflichkeit"]
+    },
+    {
+      "italian": "oggi",
+      "ipa": "ɔdʒi",
+      "german": "heute",
+      "word_type": "adverb",
+      "topic_tags": ["Zeit"]
+    },
+    {
+      "italian": "non c'è male",
+      "ipa": "non tʃɛ male",
+      "german": "nicht schlecht",
+      "word_type": "phrase"
+    },
+    {
+      "italian": "E Lei?",
+      "ipa": "e lɛi",
+      "german": "Und (wie geht es) Ihnen?",
+      "word_type": "phrase",
+      "notes": "Höflichkeitsform"
+    },
+    {
+      "italian": "Lei",
+      "ipa": "lɛi",
+      "german": "Sie (Anrede)",
+      "word_type": "pronoun",
+      "notes": "Höflichkeitsform"
+    },
+    {
+      "italian": "sto benissimo",
+      "ipa": "sto benissimo",
+      "german": "mir geht es sehr gut",
+      "word_type": "phrase"
+    },
+    {
+      "italian": "male",
+      "ipa": "male",
+      "german": "schlecht",
+      "word_type": "adverb"
+    },
+    {
+      "italian": "l'ombrello",
+      "ipa": "lombrɛllo",
+      "german": "Regenschirm",
+      "word_type": "noun",
+      "gender": "m",
+      "article": "l'",
+      "section_marker": 9
+    },
+    {
+      "italian": "il bacio",
+      "ipa": "il batʃo",
+      "german": "Kuss",
+      "word_type": "noun",
+      "gender": "m",
+      "article": "il"
+    },
+    {
+      "italian": "il cane",
+      "ipa": "il kane",
+      "german": "Hund",
+      "word_type": "noun",
+      "gender": "m",
+      "article": "il",
+      "topic_tags": ["Tiere"]
+    },
+    {
+      "italian": "Oddio!",
+      "ipa": "oddio",
+      "german": "Oh Gott!",
+      "word_type": "interjection"
+    },
+    {
+      "italian": "grazie mille",
+      "ipa": "gratsie mille",
+      "german": "vielen Dank (wörtl.: tausend Dank)",
+      "word_type": "phrase",
+      "topic_tags": ["Höflichkeit"]
+    },
+    {
+      "italian": "di niente",
+      "ipa": "di niɛnte",
+      "german": "keine Ursache, gern geschehen, nichts zu danken",
+      "word_type": "phrase",
+      "topic_tags": ["Höflichkeit"]
+    },
+    {
+      "italian": "la borsa",
+      "ipa": "la borsa",
+      "german": "Tasche",
+      "word_type": "noun",
+      "gender": "f",
+      "article": "la"
+    },
+    {
+      "italian": "la",
+      "ipa": "la",
+      "german": "die (best. Artikel; f, Sg.)",
+      "word_type": "article",
+      "notes": "bestimmter Artikel feminin Singular"
+    },
+    {
+      "italian": "grazie tante",
+      "ipa": "gratsie tante",
+      "german": "vielen Dank",
+      "word_type": "phrase",
+      "topic_tags": ["Höflichkeit"]
+    },
+    {
+      "italian": "non c'è di che",
+      "ipa": "non tʃɛ di ke",
+      "german": "keine Ursache, gern geschehen",
+      "word_type": "phrase",
+      "topic_tags": ["Höflichkeit"]
+    },
+    {
+      "italian": "la chiave",
+      "ipa": "la kiave",
+      "german": "Schlüssel",
+      "word_type": "noun",
+      "gender": "f",
+      "article": "la"
+    },
+    {
+      "italian": "il giornale",
+      "ipa": "il dʒornale",
+      "german": "Zeitung",
+      "word_type": "noun",
+      "gender": "m",
+      "article": "il"
+    },
+    {
+      "italian": "l'acqua",
+      "ipa": "lakua",
+      "german": "Wasser",
+      "word_type": "noun",
+      "gender": "f",
+      "article": "l'",
+      "section_marker": 11,
+      "topic_tags": ["Getränke"]
+    },
+    {
+      "italian": "il vino",
+      "ipa": "il vino",
+      "german": "Wein",
+      "word_type": "noun",
+      "gender": "m",
+      "article": "il",
+      "topic_tags": ["Getränke"]
+    },
+    {
+      "italian": "lo studente",
+      "ipa": "lo studɛnte",
+      "german": "Student",
+      "word_type": "noun",
+      "gender": "m",
+      "article": "lo",
+      "notes": "Artikel 'lo' vor s+Konsonant, z, x, y, gn, ps"
+    },
+    {
+      "italian": "la posta",
+      "ipa": "la pɔsta",
+      "german": "Post",
+      "word_type": "noun",
+      "gender": "f",
+      "article": "la"
+    },
+    {
+      "italian": "lo zucchero",
+      "ipa": "lo dzukkero",
+      "german": "Zucker",
+      "word_type": "noun",
+      "gender": "m",
+      "article": "lo",
+      "notes": "Artikel 'lo' vor z",
+      "topic_tags": ["Essen"]
+    },
+    {
+      "italian": "il telegramma",
+      "ipa": "il telegramma",
+      "german": "Telegramm",
+      "word_type": "noun",
+      "gender": "m",
+      "article": "il",
+      "notes": "männliches Substantiv auf -a (Ausnahme)",
+      "section_marker": 13
+    },
+    {
+      "italian": "il Piemonte",
+      "ipa": "il piemonte",
+      "german": "Piemont",
+      "word_type": "proper_noun",
+      "gender": "m",
+      "article": "il",
+      "topic_tags": ["Regionen"],
+      "section_marker": 17
+    },
+    {
+      "italian": "la Lombardia",
+      "ipa": "la lombardia",
+      "german": "Lombardei",
+      "word_type": "proper_noun",
+      "gender": "f",
+      "article": "la",
+      "topic_tags": ["Regionen"]
+    },
+    {
+      "italian": "il Veneto",
+      "ipa": "il vɛneto",
+      "german": "Venetien",
+      "word_type": "proper_noun",
+      "gender": "m",
+      "article": "il",
+      "topic_tags": ["Regionen"]
+    },
+    {
+      "italian": "il Friuli Venezia Giulia",
+      "ipa": "il friuli venɛtsia dʒulia",
+      "german": "Friaul",
+      "word_type": "proper_noun",
+      "gender": "m",
+      "article": "il",
+      "topic_tags": ["Regionen"]
+    },
+    {
+      "italian": "la Toscana",
+      "ipa": "la toskana",
+      "german": "Toskana",
+      "word_type": "proper_noun",
+      "gender": "f",
+      "article": "la",
+      "topic_tags": ["Regionen"]
+    },
+    {
+      "italian": "il Lazio",
+      "ipa": "il latsio",
+      "german": "Latium",
+      "word_type": "proper_noun",
+      "gender": "m",
+      "article": "il",
+      "topic_tags": ["Regionen"]
+    },
+    {
+      "italian": "l'Umbria",
+      "ipa": "lumbria",
+      "german": "Umbrien",
+      "word_type": "proper_noun",
+      "gender": "f",
+      "article": "l'",
+      "topic_tags": ["Regionen"]
+    },
+    {
+      "italian": "l'Abruzzo",
+      "ipa": "labruttso",
+      "german": "Abruzzen",
+      "word_type": "proper_noun",
+      "gender": "m",
+      "article": "l'",
+      "topic_tags": ["Regionen"]
+    },
+    {
+      "italian": "la Puglia",
+      "ipa": "la puʎa",
+      "german": "Apulien",
+      "word_type": "proper_noun",
+      "gender": "f",
+      "article": "la",
+      "topic_tags": ["Regionen"]
+    },
+    {
+      "italian": "la Calabria",
+      "ipa": "la kalabria",
+      "german": "Kalabrien",
+      "word_type": "proper_noun",
+      "gender": "f",
+      "article": "la",
+      "topic_tags": ["Regionen"]
+    },
+    {
+      "italian": "la Sardegna",
+      "ipa": "la sardeɲa",
+      "german": "Sardinien",
+      "word_type": "proper_noun",
+      "gender": "f",
+      "article": "la",
+      "topic_tags": ["Regionen"]
+    },
+    {
+      "italian": "la Val d'Aosta",
+      "ipa": "la val daosta",
+      "german": "Aostatal",
+      "word_type": "proper_noun",
+      "gender": "f",
+      "article": "la",
+      "topic_tags": ["Regionen"]
+    },
+    {
+      "italian": "l'Emilia Romagna",
+      "ipa": "lemilia romaɲa",
+      "german": "Emilia-Romagna",
+      "word_type": "proper_noun",
+      "gender": "f",
+      "article": "l'",
+      "topic_tags": ["Regionen"]
+    },
+    {
+      "italian": "il Molise",
+      "ipa": "il molise",
+      "german": "Molise",
+      "word_type": "proper_noun",
+      "gender": "m",
+      "article": "il",
+      "topic_tags": ["Regionen"]
+    },
+    {
+      "italian": "la Campania",
+      "ipa": "la kampania",
+      "german": "Kampanien",
+      "word_type": "proper_noun",
+      "gender": "f",
+      "article": "la",
+      "topic_tags": ["Regionen"]
+    },
+    {
+      "italian": "la Basilicata",
+      "ipa": "la basilikata",
+      "german": "Basilicata",
+      "word_type": "proper_noun",
+      "gender": "f",
+      "article": "la",
+      "topic_tags": ["Regionen"]
+    },
+    {
+      "italian": "il Trentino Alto Adige",
+      "ipa": "il trentino alto adidʒe",
+      "german": "Trentino-Tiroler Etschland (Südtirol)",
+      "word_type": "proper_noun",
+      "gender": "m",
+      "article": "il",
+      "topic_tags": ["Regionen"]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher bestimmte Artikel passt: ___ studente?",
+    "content": { "options": ["il", "lo", "la", "l'"] },
+    "correct_answer": "lo",
+    "explanation_de": "Vor s + Konsonant (st-) steht im Maskulin Singular 'lo': lo studente."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher bestimmte Artikel passt: ___ amico?",
+    "content": { "options": ["il", "lo", "l'", "la"] },
+    "correct_answer": "l'",
+    "explanation_de": "Vor einem Vokal wird der maskuline Artikel zu 'l'': l'amico."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher bestimmte Artikel passt: ___ zaino?",
+    "content": { "options": ["il", "lo", "la", "gli"] },
+    "correct_answer": "lo",
+    "explanation_de": "Vor 'z' steht im Maskulin Singular 'lo': lo zaino."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze den bestimmten Artikel ein.",
+    "content": { "sentence": "___ libro è sul tavolo." },
+    "correct_answer": "Il",
+    "acceptable_alternatives": ["il"],
+    "explanation_de": "'libro' ist maskulin und beginnt mit Konsonant → 'il'."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze den bestimmten Artikel ein (Plural).",
+    "content": { "sentence": "Dove sono ___ studenti?" },
+    "correct_answer": "gli",
+    "explanation_de": "Maskuliner Plural vor s + Konsonant (oder Vokal/z) → 'gli': gli studenti."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wie lautet der Plural von 'la casa'?",
+    "content": { "options": ["le case", "i case", "gli case", "la case"] },
+    "correct_answer": "le case",
+    "explanation_de": "Feminin Plural: 'la' → 'le', '-a' → '-e': le case."
+  }
+]

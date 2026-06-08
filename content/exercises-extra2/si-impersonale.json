@@ -1,0 +1,50 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische (si impersonale): „Hier spricht man Englisch.“",
+    "content": {},
+    "correct_answer": "Qui si parla inglese.",
+    "acceptable_alternatives": ["Si parla inglese qui."],
+    "explanation_de": "Das si impersonale wird mit „si“ + 3. Person Singular gebildet: „si parla“ (man spricht). Die Ortsangabe „qui“ kann am Anfang oder am Ende stehen."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische (si impersonale): „In diesem Restaurant isst man sehr gut.“",
+    "content": {},
+    "correct_answer": "In questo ristorante si mangia molto bene.",
+    "acceptable_alternatives": ["Si mangia molto bene in questo ristorante.", "In questo ristorante si mangia benissimo."],
+    "explanation_de": "Allgemeine Aussagen mit „man“ bildet man mit „si“ + 3. Person Singular: „si mangia“. Ohne direktes Objekt bleibt das Verb immer im Singular."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische (si impersonale): „Wann fährt man los?“",
+    "content": {},
+    "correct_answer": "A che ora si parte?",
+    "acceptable_alternatives": ["Quando si parte?"],
+    "explanation_de": "In Fragen steht das Fragewort vorne, danach das si impersonale: „si parte“ (man fährt los), 3. Person Singular."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: „In Italien spricht man Italienisch.“",
+    "content": { "tokens": ["In", "Italia", "si", "parla", "italiano."] },
+    "correct_answer": "In Italia si parla italiano.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Zuerst die Ortsangabe „In Italia“, dann das si impersonale „si parla“ (man spricht), 3. Person Singular."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: „Wenn man jung ist, ist man glücklich.“",
+    "content": { "tokens": ["Quando", "si", "è", "giovani,", "si", "è", "felici."] },
+    "correct_answer": "Quando si è giovani, si è felici.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Nach dem si impersonale stehen Adjektive im Maskulin Plural: „si è giovani“ (man ist jung), „si è felici“ (man ist glücklich)."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: „Man amüsiert sich hier sehr.“",
+    "content": { "tokens": ["Qui", "ci", "si", "diverte", "molto."] },
+    "correct_answer": "Qui ci si diverte molto.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei reflexiven Verben vermeidet man das Doppel-si und benutzt „ci si“: „ci si diverte“ (man amüsiert sich)."
+  }
+]

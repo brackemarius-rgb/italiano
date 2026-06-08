@@ -1,0 +1,74 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Form des Adjektivs 'giallo' (gelb). Das Substantiv ist feminin Singular.",
+    "content": { "sentence": "Lei porta una gonna ___." },
+    "correct_answer": "gialla",
+    "acceptable_alternatives": [],
+    "explanation_de": "Adjektive auf -o haben vier Formen. 'una gonna' ist feminin Singular, deshalb wird aus 'giallo' -> 'gialla' (femininer Singular auf -a)."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Form des Adjektivs 'elegante' (elegant). Vorsicht: Adjektive auf -e haben im Plural nur EINE Form.",
+    "content": { "sentence": "Marco compra due maglioni ___." },
+    "correct_answer": "eleganti",
+    "acceptable_alternatives": [],
+    "explanation_de": "Adjektive auf -e unterscheiden nur Singular und Plural. Im Plural wird aus -e ein -i: 'elegante' -> 'eleganti' – egal ob maskulin oder feminin."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form ist korrekt? 'die rosa Blumen' – das Farbadjektiv 'rosa' ist unveränderlich.",
+    "content": { "options": ["i fiori rosa", "i fiori rosi", "i fiori rose", "i fiori roso"] },
+    "correct_answer": "i fiori rosa",
+    "acceptable_alternatives": [],
+    "explanation_de": "'rosa' gehört zu den unveränderlichen Farbadjektiven und bekommt nie eine Endung. Formen wie 'rosi', 'rose' oder 'roso' sind falsch."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze den maskulinen Plural von 'lungo' (lang). Substantiv: 'i capelli' (die Haare).",
+    "content": { "sentence": "Ha i capelli ___." },
+    "correct_answer": "lunghi",
+    "acceptable_alternatives": [],
+    "explanation_de": "Maskuline Adjektive auf -go bilden den Plural auf -ghi, um den harten Klang zu erhalten: lungo -> lunghi."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Pluralform von 'simpatico' (sympathisch)? 'die sympathischen Mädchen' (feminin Plural).",
+    "content": { "options": ["le ragazze simpatiche", "le ragazze simpatici", "le ragazze simpatice", "le ragazze simpatica"] },
+    "correct_answer": "le ragazze simpatiche",
+    "acceptable_alternatives": [],
+    "explanation_de": "Im Femininum gilt die -ci/-gi-Ausnahme nicht: feminine Adjektive auf -ca bilden den Plural immer auf -che. Also 'simpatica' -> 'simpatiche'. Die Form 'simpatici' ist nur maskulin."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde einen korrekten Satz: 'Die kleinen Häuser sind weiß.' Bringe die Wörter in die richtige Reihenfolge.",
+    "content": { "tokens": ["Le", "case", "piccole", "sono", "bianche"] },
+    "correct_answer": "Le case piccole sono bianche.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'le case' ist feminin Plural, daher die Endung -e bei 'piccole'. 'bianco' wird im femininen Plural zu 'bianche' (-ca -> -che zur Erhaltung des harten Klangs)."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Die braunen Schuhe sind neu.' (Tipp: 'marrone' wird oft unverändert verwendet, 'scarpe' ist feminin Plural.)",
+    "content": {},
+    "correct_answer": "Le scarpe marroni sono nuove.",
+    "acceptable_alternatives": ["Le scarpe marrone sono nuove."],
+    "explanation_de": "'le scarpe' ist feminin Plural, deshalb 'nuove' (nuovo -> nuove). Bei 'marrone' sind beide Formen verbreitet: angepasst 'marroni' oder unverändert 'marrone'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form ist korrekt? 'die hellgrüne Jacke' – Zusammensetzungen mit 'chiaro' bleiben unverändert.",
+    "content": { "options": ["la giacca verde chiaro", "la giacca verde chiara", "la giacca verde chiare", "la giacca verdi chiari"] },
+    "correct_answer": "la giacca verde chiaro",
+    "acceptable_alternatives": [],
+    "explanation_de": "Zusammensetzungen mit 'chiaro' (hell) oder 'scuro' (dunkel) bleiben immer unverändert, unabhängig vom Substantiv: 'verde chiaro'."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Form des Adjektivs 'tedesco' (deutsch). Substantiv: 'gli studenti' (maskulin Plural).",
+    "content": { "sentence": "Gli studenti ___ parlano bene l'italiano." },
+    "correct_answer": "tedeschi",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei 'tedesco' liegt die Betonung auf der vorletzten Silbe, daher maskuliner Plural auf -chi: tedesco -> tedeschi."
+  }
+]

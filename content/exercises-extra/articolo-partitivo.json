@@ -1,0 +1,74 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze den Teilungsartikel. \"Formaggio\" (Käse) ist maskulin Singular mit dem Artikel \"il\".",
+    "content": { "sentence": "Compro ___ formaggio." },
+    "correct_answer": "del",
+    "acceptable_alternatives": [],
+    "explanation_de": "\"Formaggio\" ist maskulin Singular mit Artikel \"il\". Der Teilungsartikel ist di + il = del."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Teilungsartikel passt? Mangio ___ frutta.",
+    "content": { "options": ["della", "del", "delle", "dei"] },
+    "correct_answer": "della",
+    "acceptable_alternatives": [],
+    "explanation_de": "\"Frutta\" ist feminin Singular mit Artikel \"la\". Der Teilungsartikel ist di + la = della."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze den Teilungsartikel im Plural. \"Fragole\" (Erdbeeren) ist feminin Plural mit dem Artikel \"le\".",
+    "content": { "sentence": "Vorrei ___ fragole." },
+    "correct_answer": "delle",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor weiblichen Pluralwörtern mit Artikel \"le\" (le fragole) wird di + le = delle."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Teilungsartikel passt vor einem maskulinen Wort, das mit \"z\" beginnt? Prendo ___ zucchero.",
+    "content": { "options": ["dello", "del", "della", "degli"] },
+    "correct_answer": "dello",
+    "acceptable_alternatives": [],
+    "explanation_de": "\"Zucchero\" (Zucker) ist maskulin Singular mit Artikel \"lo\" (vor z-). Der Teilungsartikel ist di + lo = dello."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze den Teilungsartikel. \"Olio\" (Öl) ist maskulin Singular und beginnt mit einem Vokal (l'olio).",
+    "content": { "sentence": "Metto ___ olio nell'insalata." },
+    "correct_answer": "dell'",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor maskulinem Singular mit Vokalanlaut (l'olio) wird di + l' zu dell' (mit Apostroph)."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: \"Es gibt (einige) Eier.\"",
+    "content": { "tokens": ["Ci", "sono", "delle", "uova"] },
+    "correct_answer": "Ci sono delle uova.",
+    "acceptable_alternatives": [],
+    "explanation_de": "\"Uova\" (Eier) ist feminin Plural mit Artikel \"le\". Der Teilungsartikel ist di + le = delle."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Schreibe auf Italienisch: \"Ich kaufe (etwas) Wein.\" (Verwende \"compro\" und den Teilungsartikel; \"vino\" ist maskulin mit Artikel \"il\".)",
+    "content": {},
+    "correct_answer": "Compro del vino.",
+    "acceptable_alternatives": ["Compro del vino"],
+    "explanation_de": "Bei einer unbestimmten Menge steht der Teilungsartikel: di + il (vino) = del."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form ist richtig für \"einige Freunde\"? Ho invitato ___ amici.",
+    "content": { "options": ["degli", "dei", "delle", "dell'"] },
+    "correct_answer": "degli",
+    "acceptable_alternatives": [],
+    "explanation_de": "\"Amici\" ist maskulin Plural mit Vokalanlaut und nimmt den Artikel \"gli\". Der Teilungsartikel ist di + gli = degli."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Schreibe auf Italienisch: \"Ich hätte gerne (etwas) Milch.\" (Verwende \"vorrei\"; \"latte\" ist maskulin mit Artikel \"il\".)",
+    "content": {},
+    "correct_answer": "Vorrei del latte.",
+    "acceptable_alternatives": ["Vorrei del latte"],
+    "explanation_de": "Bei einer unbestimmten Menge steht der Teilungsartikel: di + il (latte) = del. Falsch wäre \"Vorrei di latte\"."
+  }
+]

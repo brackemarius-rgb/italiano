@@ -1,0 +1,26 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Wohin gehst du?' (Fragewort am Anfang, kein Subjektpronomen)",
+    "content": {},
+    "correct_answer": "Dove vai?",
+    "acceptable_alternatives": ["Dove vai tu?"],
+    "explanation_de": "Das Fragewort 'dove' steht am Satzanfang, direkt gefolgt vom Verb 'vai'. Das Subjektpronomen 'tu' lässt man weg, weil die Endung -i schon 'du' anzeigt."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Marco ist Italiener?' (Ja/Nein-Frage ohne Inversion)",
+    "content": {},
+    "correct_answer": "Marco è italiano?",
+    "acceptable_alternatives": [],
+    "explanation_de": "In Ja/Nein-Fragen ändert sich die Wortstellung nicht (keine Verb-Subjekt-Inversion wie im Deutschen). Die Wortfolge bleibt wie im Aussagesatz, nur die Stimme hebt sich: 'Marco è italiano?'"
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde einen korrekten italienischen Satz (SVO: Subjekt – Verb – Objekt).",
+    "content": { "tokens": ["Paolo", "guarda", "la", "televisione"] },
+    "correct_answer": "Paolo guarda la televisione.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Die Grundstellung ist SVO: zuerst das Subjekt (Paolo), dann das Verb (guarda), dann das Objekt (la televisione). Diese Reihenfolge ist im Italienischen strenger als im Deutschen."
+  }
+]

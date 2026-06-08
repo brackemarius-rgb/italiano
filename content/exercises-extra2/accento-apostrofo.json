@@ -1,0 +1,74 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze: Ja, ich bin Italiener. (Achte auf 'sì' und 'è'.)",
+    "content": {},
+    "correct_answer": "Sì, sono italiano.",
+    "acceptable_alternatives": ["Sì, io sono italiano."],
+    "explanation_de": "'Sì' (ja) wird mit accento grave geschrieben. Die Verbform 'sono' kommt von 'essere'; das Subjektpronomen 'io' kann entfallen."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze: Wo ist das Hotel? (Nutze die elidierte Form 'dov'è'.)",
+    "content": {},
+    "correct_answer": "Dov'è l'albergo?",
+    "acceptable_alternatives": ["Dov'è l'hotel?"],
+    "explanation_de": "'dove è' wird zu 'dov'è': Das End-e von 'dove' entfällt (Apostroph), und 'è' behält den accento grave als Verbform 'ist'."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze: Das ist der Freund von Maria. (Achte auf den Apostroph bei 'l'amico'.)",
+    "content": {},
+    "correct_answer": "Questo è l'amico di Maria.",
+    "acceptable_alternatives": ["Lui è l'amico di Maria."],
+    "explanation_de": "'lo amico' wird zu 'l'amico' (Elision mit Apostroph vor Vokal), und 'è' steht mit accento grave als Verbform 'ist'."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze: Warum bist du nicht zu Hause? (Achte auf 'perché' mit accento acuto.)",
+    "content": {},
+    "correct_answer": "Perché non sei a casa?",
+    "acceptable_alternatives": ["Perché non sei in casa?"],
+    "explanation_de": "'perché' wird mit accento acuto (´) geschrieben, weil das End-e geschlossen ausgesprochen wird."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze: Auch ich wohne in der Stadt. (Achte auf 'anch'io' und 'città'.)",
+    "content": {},
+    "correct_answer": "Anch'io abito in città.",
+    "acceptable_alternatives": ["Anch'io vivo in città."],
+    "explanation_de": "Vor dem Vokal 'i' entfällt das End-e von 'anche': 'anch'io'. 'città' trägt den accento grave auf dem betonten End-a."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den korrekten Satz. Achte auf den Apostroph bei 'l'amica'.",
+    "content": { "tokens": ["L'amica", "di", "Marco", "è", "simpatica"] },
+    "correct_answer": "L'amica di Marco è simpatica.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'la amica' wird zu 'l'amica' (Elision mit Apostroph vor Vokal), und 'è' steht mit accento grave als Verbform 'ist'."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den korrekten Satz. Achte auf 'è' und 'città'.",
+    "content": { "tokens": ["Roma", "è", "una", "bella", "città"] },
+    "correct_answer": "Roma è una bella città.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'è' (ist) trägt den accento grave, und 'città' den accento grave auf dem betonten End-a."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde die korrekte Frage. Achte auf 'dov'è'.",
+    "content": { "tokens": ["Dov'è", "l'ufficio", "di", "Laura"] },
+    "correct_answer": "Dov'è l'ufficio di Laura?",
+    "acceptable_alternatives": ["Dov'è l'ufficio di Laura."],
+    "explanation_de": "'dove è' wird zu 'dov'è', und 'lo ufficio' zu 'l'ufficio' (Elision mit Apostroph vor Vokal)."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den korrekten Satz. Achte auf 'anch'io'.",
+    "content": { "tokens": ["Anch'io", "sono", "di", "Napoli"] },
+    "correct_answer": "Anch'io sono di Napoli.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor dem Vokal 'i' entfällt das End-e von 'anche': 'anche io' → 'anch'io' (auch ich)."
+  }
+]

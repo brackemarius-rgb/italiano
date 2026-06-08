@@ -1,0 +1,74 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welches Hilfsverb passt? Luca ___ comprato un libro nuovo.",
+    "content": { "options": ["è", "ha", "sono", "hanno"] },
+    "correct_answer": "ha",
+    "acceptable_alternatives": [],
+    "explanation_de": "'comprare' ist transitiv (mit direktem Objekt 'un libro nuovo') und nimmt daher 'avere'. Bei 'lui/Luca' lautet die Form 'ha comprato'. 'È comprato' wäre falsch."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze das richtige Hilfsverb ein (avere oder essere, passende Form). Anna e Sara ___ partite per Napoli.",
+    "content": { "sentence": "Anna e Sara ___ partite per Napoli." },
+    "correct_answer": "sono",
+    "acceptable_alternatives": [],
+    "explanation_de": "'partire' (abreisen) ist ein Bewegungsverb und nimmt 'essere'. Bei 'loro' (zwei Frauen) lautet die Form 'sono partite'. Das Partizip endet auf '-e', weil das Subjekt feminin Plural ist."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Reflexives Verb: Welche Form ist korrekt? 'Sie (lei) hat sich die Haare gewaschen.'",
+    "content": { "options": ["Si è lavata i capelli.", "Ha si lavata i capelli.", "Si ha lavato i capelli.", "È lavata si i capelli."] },
+    "correct_answer": "Si è lavata i capelli.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Reflexive Verben bilden das passato prossimo immer mit 'essere'. Das Reflexivpronomen 'si' steht vor dem Hilfsverb 'è', das Partizip 'lavata' richtet sich nach dem Subjekt (lei, feminin)."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Verb mit Wechsel-Hilfsverb: Hier MIT direktem Objekt. Ieri ho ___ un nuovo lavoro.",
+    "content": { "sentence": "Ieri ho ___ un nuovo lavoro." },
+    "correct_answer": "cominciato",
+    "acceptable_alternatives": [],
+    "explanation_de": "'cominciare' kann beide Hilfsverben nehmen. Mit direktem Objekt ('un nuovo lavoro') verwendet man 'avere': 'ho cominciato'. Ohne Objekt ('Il film è cominciato') wäre es 'essere'."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge (Bewegungsverb mit essere).",
+    "content": { "tokens": ["Marco", "è", "uscito", "con", "gli", "amici"] },
+    "correct_answer": "Marco è uscito con gli amici.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'uscire' (hinausgehen) ist ein Bewegungsverb und nimmt 'essere': 'è uscito'. Das Partizip 'uscito' richtet sich nach dem Subjekt (Marco, maskulin Singular)."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Der Film hat mir gefallen.' (mir = a me/mi)",
+    "content": {},
+    "correct_answer": "Mi è piaciuto il film.",
+    "acceptable_alternatives": ["Il film mi è piaciuto.", "A me è piaciuto il film."],
+    "explanation_de": "'piacere' nimmt 'essere'. Das Partizip 'piaciuto' richtet sich nach dem, was gefällt ('il film', maskulin Singular). Form: 'mi è piaciuto'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Satz ist korrekt?",
+    "content": { "options": ["Ha bevuto un caffè.", "È bevuto un caffè.", "Ha bevuta un caffè.", "Sono bevuto un caffè."] },
+    "correct_answer": "Ha bevuto un caffè.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'bere' ist transitiv (mit direktem Objekt 'un caffè') und nimmt 'avere': 'ha bevuto'. Bei avere bleibt das Partizip unverändert auf '-o', daher nicht 'bevuta'."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze das richtige Hilfsverb ein (avere oder essere, passende Form). I bambini ___ cresciuti in fretta.",
+    "content": { "sentence": "I bambini ___ cresciuti in fretta." },
+    "correct_answer": "sono",
+    "acceptable_alternatives": [],
+    "explanation_de": "'crescere' (wachsen) drückt eine Zustandsveränderung aus und nimmt 'essere'. Bei 'loro' lautet die Form 'sono cresciuti'. Das Partizip endet auf '-i' (maskulin/gemischt Plural)."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Ich (weiblich) bin um acht Uhr angekommen.'",
+    "content": {},
+    "correct_answer": "Sono arrivata alle otto.",
+    "acceptable_alternatives": ["Io sono arrivata alle otto."],
+    "explanation_de": "'arrivare' (ankommen) ist ein Bewegungsverb und nimmt 'essere': 'sono arrivata'. Da das Subjekt weiblich ist, endet das Partizip auf '-a'. Das Subjektpronomen 'io' ist optional."
+  }
+]

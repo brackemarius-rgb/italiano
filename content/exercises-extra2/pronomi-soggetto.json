@@ -1,0 +1,42 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Sprecht ihr Englisch?' (Achtung: Subjektpronomen normalerweise weglassen.)",
+    "content": {},
+    "correct_answer": "Parlate inglese?",
+    "acceptable_alternatives": ["Voi parlate inglese?"],
+    "explanation_de": "Das Pronomen 'voi' (ihr) wird im Italienischen meist weggelassen, da die Verbendung '-ate' schon 'ihr' anzeigt: 'Parlate inglese?'. Mit Betonung ist 'Voi parlate inglese?' möglich."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze höflich ins Italienische (Höflichkeitsform Singular): 'Woher kommen Sie?'",
+    "content": {},
+    "correct_answer": "Lei di dov'è?",
+    "acceptable_alternatives": ["Di dov'è?", "Lei, di dov'è?"],
+    "explanation_de": "In der Höflichkeitsform verwendet man 'Lei' mit dem Verb in der 3. Person Singular ('è'). Das Pronomen kann auch weggelassen werden: 'Di dov'è?'"
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge (Klarstellung 3. Person): 'Er ist Spanier, sie ist Französin.'",
+    "content": { "tokens": ["Lui", "è", "spagnolo,", "lei", "è", "francese."] },
+    "correct_answer": "Lui è spagnolo, lei è francese.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Die Pronomen 'lui' (er) und 'lei' (sie) werden zur Klarstellung verwendet, weil die Verbform 'è' für beide gleich ist."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge (Kontrast/Hervorhebung): 'Du trinkst Wein, ich dagegen Wasser.'",
+    "content": { "tokens": ["Tu", "bevi", "vino,", "io", "invece", "acqua."] },
+    "correct_answer": "Tu bevi vino, io invece acqua.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Die Pronomen 'tu' und 'io' werden bewusst verwendet, um den Kontrast zwischen den beiden Personen hervorzuheben."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge (Höflichkeitsform): 'Wo wohnen Sie, Frau Rossi?'",
+    "content": { "tokens": ["Lei", "dove", "abita,", "signora", "Rossi?"] },
+    "correct_answer": "Lei dove abita, signora Rossi?",
+    "acceptable_alternatives": [],
+    "explanation_de": "In der Höflichkeitsform wird 'Lei' (großgeschrieben) mit dem Verb in der 3. Person Singular ('abita') verwendet."
+  }
+]

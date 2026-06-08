@@ -1,0 +1,58 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle die richtige Vergleichspartikel: Vergleich zwischen zwei Personen (Eigennamen).",
+    "content": { "options": ["di", "che", "del", "come"] },
+    "correct_answer": "di",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei einem Vergleich zwischen zwei verschiedenen Personen mit Eigennamen benutzt man 'di': Mario è più alto di Luigi."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Vergleichspartikel (di oder che). Hier werden zwei Eigenschaften derselben Person verglichen.",
+    "content": { "sentence": "Lei è più simpatica ___ intelligente." },
+    "correct_answer": "che",
+    "acceptable_alternatives": [],
+    "explanation_de": "Wenn man zwei Eigenschaften (Adjektive) derselben Person vergleicht, benutzt man 'che': più simpatica che intelligente."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Form (di + Artikel verschmolzen). Vergleich zwischen zwei Dingen.",
+    "content": { "sentence": "Il libro è più interessante ___ film." },
+    "correct_answer": "del",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei einem Vergleich zwischen zwei verschiedenen Dingen benutzt man 'di'. Mit dem Artikel 'il' verschmilzt es zu 'del' (di + il)."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Satz ist korrekt? (Vergleich zwischen zwei Verben)",
+    "content": { "options": ["Mi piace più leggere che scrivere.", "Mi piace più leggere di scrivere.", "Mi piace più leggere del scrivere.", "Mi piace più leggere come scrivere."] },
+    "correct_answer": "Mi piace più leggere che scrivere.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Beim Vergleich zwischen zwei Verben (leggere – scrivere) benutzt man immer 'che': Mi piace più leggere che scrivere."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Vergleichspartikel. Achte auf den Mengenvergleich (dieselbe Person isst zwei Dinge).",
+    "content": { "sentence": "Mangio più pasta ___ carne." },
+    "correct_answer": "che",
+    "acceptable_alternatives": [],
+    "explanation_de": "Wenn man bei derselben Person zwei Mengen/Substantive vergleicht, benutzt man 'che': Mangio più pasta che carne."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge. Vergleich zwischen zwei Personen (Eigennamen).",
+    "content": { "tokens": ["Marco", "è", "più", "gentile", "di", "Luca"] },
+    "correct_answer": "Marco è più gentile di Luca.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei einem Vergleich zwischen zwei Eigennamen benutzt man 'di': Marco è più gentile di Luca."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'In Italien gibt es mehr Kirchen als in Deutschland.' (Vergleich mit Präpositionalausdrücken)",
+    "content": {},
+    "correct_answer": "In Italia ci sono più chiese che in Germania.",
+    "acceptable_alternatives": ["In Italia ci sono più chiese che in Germania"],
+    "explanation_de": "Beim Vergleich zwischen zwei Präpositionalausdrücken (in Italia – in Germania) benutzt man 'che': In Italia ci sono più chiese che in Germania."
+  }
+]

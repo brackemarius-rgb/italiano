@@ -1,0 +1,50 @@
+[
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde einen korrekten italienischen Satz (SVO: Subjekt – Verb – Objekt).",
+    "content": { "tokens": ["Marco", "mangia", "la", "pizza"] },
+    "correct_answer": "Marco mangia la pizza.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Im Italienischen gilt die Grundstellung SVO, noch strenger als im Deutschen: zuerst das Subjekt (Marco), dann das Verb (mangia), dann das Objekt (la pizza)."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Satz ist die natürlichste italienische Ja/Nein-Frage für 'Isst du die Pizza?'",
+    "content": { "options": ["Mangi la pizza?", "Mangi tu la pizza?", "La pizza mangi?", "Tu mangi pizza?"] },
+    "correct_answer": "Mangi la pizza?",
+    "acceptable_alternatives": [],
+    "explanation_de": "In Ja/Nein-Fragen ändert sich die Wortstellung nicht (keine Inversion wie im Deutschen) – nur die Stimme hebt sich. Das Subjektpronomen 'tu' lässt man weg, weil die Verbendung die Person schon zeigt."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze das richtige Adjektiv an die korrekte Stelle ein. Beschreibe ein rotes Auto.",
+    "content": { "sentence": "Ho una macchina ___." },
+    "correct_answer": "rossa",
+    "acceptable_alternatives": [],
+    "explanation_de": "Die meisten Adjektive stehen im Italienischen NACH dem Substantiv: 'una macchina rossa' (nicht 'una rossa macchina'). Das Adjektiv passt sich in Genus und Numerus an (macchina ist feminin → rossa)."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das Fragewort für 'Wohin gehst du?' (Fragewort am Satzanfang).",
+    "content": { "sentence": "___ vai?" },
+    "correct_answer": "Dove",
+    "acceptable_alternatives": ["dove"],
+    "explanation_de": "W-Wörter (Fragewörter) stehen am Satzanfang, direkt gefolgt vom Verb: 'Dove vai?'. Das Subjektpronomen 'tu' wird weggelassen."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz 'Ich sehe ihn.' – achte auf die Position des Objektpronomens.",
+    "content": { "tokens": ["Lo", "vedo"] },
+    "correct_answer": "Lo vedo.",
+    "acceptable_alternatives": ["Io lo vedo."],
+    "explanation_de": "Das Objektpronomen steht direkt VOR dem konjugierten Verb: 'Lo vedo'. Nicht 'Vedo lo'. Ein Subjektpronomen (Io) ist möglich, aber meist überflüssig."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Ich spreche kein Italienisch.' (Verneinung mit 'non' vor dem Verb)",
+    "content": {},
+    "correct_answer": "Non parlo italiano.",
+    "acceptable_alternatives": ["Io non parlo italiano."],
+    "explanation_de": "Die Verneinung 'non' steht immer direkt vor dem Verb: 'Non parlo italiano.' Das Subjektpronomen 'io' lässt man normalerweise weg, weil die Verbendung -o schon 'ich' anzeigt."
+  }
+]

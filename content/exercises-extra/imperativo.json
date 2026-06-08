@@ -1,0 +1,74 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Du sagst zu deiner Freundin Giulia: 'Schließ das Fenster!' (tu, von 'chiudere'). Ergänze die richtige Imperativform.",
+    "content": { "sentence": "___ la finestra, Giulia!" },
+    "correct_answer": "Chiudi",
+    "acceptable_alternatives": ["chiudi"],
+    "explanation_de": "Bei -ere-Verben endet die tu-Form des Imperativs auf -i: 'chiudi!'. Die höfliche Lei-Form wäre 'chiuda!'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Im Restaurant sagst du höflich zum Kellner: 'Warten Sie einen Moment!' (Lei, von 'aspettare'). Welche Form ist korrekt?",
+    "content": { "options": ["Aspetta un momento!", "Aspetti un momento!", "Aspettate un momento!", "Aspettare un momento!"] },
+    "correct_answer": "Aspetti un momento!",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei -are-Verben endet die höfliche Lei-Form auf -i: 'aspetti!'. 'aspetta!' wäre die vertrauliche tu-Form, 'aspettate!' die voi-Form."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Anweisung an eine Gruppe Touristen (voi): 'Hört dem Reiseführer zu!' (von 'ascoltare'). Ergänze die voi-Form.",
+    "content": { "sentence": "___ la guida, per favore!" },
+    "correct_answer": "Ascoltate",
+    "acceptable_alternatives": ["ascoltate"],
+    "explanation_de": "Die voi-Form des Imperativs ist bei -are-Verben gleich der Präsensform: 'ascoltate!'. So sprichst du mehrere Personen an."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Schreibe auf Italienisch die Aufforderung an einen Freund (tu): 'Sei geduldig!' (von 'avere pazienza'). Achtung: unregelmäßige Form von 'avere'.",
+    "content": {},
+    "correct_answer": "Abbi pazienza!",
+    "acceptable_alternatives": ["Abbi pazienza"],
+    "explanation_de": "Der Imperativ von 'avere' (tu) ist unregelmäßig: 'abbi!'. 'Abbi pazienza!' bedeutet wörtlich 'Hab Geduld!'."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde die Aufforderung an einen Freund (tu): 'Sag mir die Wahrheit!' Achtung: Verdoppelung bei 'dire' und angehängtes Pronomen.",
+    "content": { "tokens": ["Dimmi", "la", "verità!"] },
+    "correct_answer": "Dimmi la verità!",
+    "acceptable_alternatives": [],
+    "explanation_de": "Der einsilbige Imperativ 'di'!' (von 'dire') verdoppelt den Anfangskonsonanten des angehängten Pronomens: 'dimmi!'. Das Pronomen wird angehängt und zusammengeschrieben."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Verneinter Imperativ (tu) von 'fumare': 'Rauch hier nicht!' Ergänze die Lücke. Achtung: NON + Infinitiv!",
+    "content": { "sentence": "Non ___ qui!" },
+    "correct_answer": "fumare",
+    "acceptable_alternatives": [],
+    "explanation_de": "Der verneinte Imperativ in der tu-Form wird mit NON + Infinitiv gebildet: 'non fumare!'. 'non fumi!' oder 'non fuma!' wären falsch."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Vorschlag an deine Freunde (noi): 'Gehen wir ins Kino!' (von 'andare'). Welche Form ist korrekt?",
+    "content": { "options": ["Andate al cinema!", "Vai al cinema!", "Andiamo al cinema!", "Vada al cinema!"] },
+    "correct_answer": "Andiamo al cinema!",
+    "acceptable_alternatives": [],
+    "explanation_de": "Die noi-Form des Imperativs ('lasst uns ...') ist gleich der Präsensform: 'andiamo!'. 'andate!' wäre voi, 'vai!' wäre tu und 'vada!' die höfliche Lei-Form."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Schreibe auf Italienisch die höfliche Aufforderung (Lei): 'Nehmen Sie es!' (es = 'il libro', lo). Achtung: Bei Lei steht das Pronomen VOR dem Verb.",
+    "content": {},
+    "correct_answer": "Lo prenda!",
+    "acceptable_alternatives": ["Lo prenda"],
+    "explanation_de": "In der Lei-Form wird das Pronomen vorangestellt: 'Lo prenda!'. Nur bei tu/noi/voi wird das Pronomen angehängt (z. B. 'prendilo!')."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den verneinten Imperativ an einen Freund (tu): 'Mach die Tür nicht zu!' Achtung: NON + Infinitiv.",
+    "content": { "tokens": ["Non", "chiudere", "la", "porta!"] },
+    "correct_answer": "Non chiudere la porta!",
+    "acceptable_alternatives": [],
+    "explanation_de": "Der verneinte Imperativ (tu) lautet NON + Infinitiv: 'Non chiudere!'. Der bejahte Befehl wäre 'Chiudi la porta!'."
+  }
+]

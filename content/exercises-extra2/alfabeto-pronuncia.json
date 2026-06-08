@@ -1,0 +1,72 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Schreibe das italienische Wort für »Hotel«. (Achtung: das h ist stumm, aber es wird geschrieben.)",
+    "content": {},
+    "correct_answer": "hotel",
+    "acceptable_alternatives": ["l'hotel"],
+    "explanation_de": "Das Wort »hotel« beginnt mit einem geschriebenen, aber stummen h. Es wird also 'otel' ausgesprochen, aber mit h geschrieben."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Wie schreibt man das italienische Wort für »Spaghetti«? (harter g-Laut vor e → mit h)",
+    "content": {},
+    "correct_answer": "spaghetti",
+    "acceptable_alternatives": ["gli spaghetti"],
+    "explanation_de": "Damit das g vor e hart wie in Golf klingt, schreibt man ein h dazwischen: -gh-. Außerdem hat das Wort ein doppeltes -tt-."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Schreibe das italienische Wort für »Pizza«. (Achtung: Doppelkonsonant!)",
+    "content": {},
+    "correct_answer": "pizza",
+    "acceptable_alternatives": ["la pizza"],
+    "explanation_de": "Das Wort »pizza« hat den Doppelkonsonanten -zz-, der deutlich verstärkt ausgesprochen wird."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Schreibe das italienische Wort für »Kirche«. (k-Laut vor i → mit h)",
+    "content": {},
+    "correct_answer": "chiesa",
+    "acceptable_alternatives": ["la chiesa"],
+    "explanation_de": "Damit das c vor i wie 'k' klingt, schreibt man ein h dazwischen: -ch-. So entsteht »chiesa« (gesprochen 'kiesa')."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Schreibe das italienische Wort für »Mama«. (Achtung: Doppelkonsonant!)",
+    "content": {},
+    "correct_answer": "mamma",
+    "acceptable_alternatives": ["la mamma"],
+    "explanation_de": "Das Wort »mamma« hat den Doppelkonsonanten -mm-, der im Italienischen deutlich hörbar verlängert ausgesprochen wird."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: »Das Hotel ist schön.« (Beachte das stumme h.)",
+    "content": { "tokens": ["L'hotel", "è", "bello."] },
+    "correct_answer": "L'hotel è bello."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: »Die Pizza ist gut.« (Achte auf den Doppelkonsonanten in pizza.)",
+    "content": { "tokens": ["La", "pizza", "è", "buona."] },
+    "correct_answer": "La pizza è buona."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: »Das Kino ist hier.« (cinema = c wie 'tsch')",
+    "content": { "tokens": ["Il", "cinema", "è", "qui."] },
+    "correct_answer": "Il cinema è qui."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: »Der Herr ist nett.« (signore mit -gn-)",
+    "content": { "tokens": ["Il", "signore", "è", "gentile."] },
+    "correct_answer": "Il signore è gentile."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: »Die Schule ist groß.« (scuola = sc wie 'sk')",
+    "content": { "tokens": ["La", "scuola", "è", "grande."] },
+    "correct_answer": "La scuola è grande."
+  }
+]

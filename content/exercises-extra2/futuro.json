@@ -1,0 +1,42 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische (Futuro): 'Im Sommer werden wir ans Meer fahren.' (Verb: andare, in estate, al mare)",
+    "content": {},
+    "correct_answer": "In estate andremo al mare.",
+    "acceptable_alternatives": ["Andremo al mare in estate.", "In estate andremo al mare"],
+    "explanation_de": "'andare' hat den unregelmäßigen Stamm andr-. Für 'noi' lautet die Form 'andremo'. Die Zeitangabe 'In estate' steht am Satzanfang."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische (Futuro): 'Wie spät mag es wohl sein?' (Vermutung in der Gegenwart, Verb: essere)",
+    "content": {},
+    "correct_answer": "Che ore saranno?",
+    "acceptable_alternatives": ["Che ora sarà?"],
+    "explanation_de": "Das Futuro drückt eine Vermutung über die Gegenwart aus. 'Che ore saranno?' (essere, Stamm sar-, 3. Person Plural 'saranno') bedeutet 'Wie spät mag es wohl sein?'."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische (Futuro): 'Morgen werde ich meine Großmutter sehen.' (Verb: vedere, mia nonna)",
+    "content": {},
+    "correct_answer": "Domani vedrò mia nonna.",
+    "acceptable_alternatives": ["Vedrò mia nonna domani.", "Io domani vedrò mia nonna.", "Domani vedrò mia nonna"],
+    "explanation_de": "'vedere' hat den unregelmäßigen Stamm vedr-. Für 'io' lautet die Form 'vedrò'. Vor Verwandtschaftsbezeichnungen im Singular steht kein Artikel: 'mia nonna'."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge (Futuro von 'venire').",
+    "content": { "tokens": ["Stasera", "Marco", "verrà", "da", "noi"] },
+    "correct_answer": "Stasera Marco verrà da noi.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'venire' hat den unregelmäßigen Stamm verr-. Für 'lui' lautet die Form 'verrà'. Die Zeitangabe 'Stasera' steht am Satzanfang."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge (Futuro von 'dovere').",
+    "content": { "tokens": ["Domani", "dovrai", "studiare", "molto"] },
+    "correct_answer": "Domani dovrai studiare molto.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'dovere' hat den unregelmäßigen Stamm dovr-. Für 'tu' lautet die Form 'dovrai'. Nach 'dovere' folgt der Infinitiv 'studiare'."
+  }
+]

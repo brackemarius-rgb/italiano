@@ -1,0 +1,74 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das regelmäßige Partizip Perfekt von 'dormire'.",
+    "content": { "sentence": "Stanotte ho ___ molto bene." },
+    "correct_answer": "dormito",
+    "acceptable_alternatives": [],
+    "explanation_de": "Verben auf -ire bilden das Partizip auf -ito: dormire → dormito. Das Hilfsverb 'ho' (avere) darf nicht fehlen."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das regelmäßige Partizip Perfekt von 'credere'.",
+    "content": { "sentence": "Non ti ho ___ subito." },
+    "correct_answer": "creduto",
+    "acceptable_alternatives": [],
+    "explanation_de": "Verben auf -ere bilden das regelmäßige Partizip auf -uto: credere → creduto."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welches ist das richtige Partizip Perfekt von 'scrivere'?",
+    "content": { "options": ["scrivuto", "scritto", "scrivato", "scrivito"] },
+    "correct_answer": "scritto",
+    "acceptable_alternatives": [],
+    "explanation_de": "'scrivere' ist unregelmäßig: das Partizip lautet 'scritto'. Die regelmäßige Form 'scrivuto' wäre falsch."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welches ist das richtige Partizip Perfekt von 'fare'?",
+    "content": { "options": ["facuto", "faciuto", "fatto", "fato"] },
+    "correct_answer": "fatto",
+    "acceptable_alternatives": [],
+    "explanation_de": "'fare' ist unregelmäßig: das Partizip lautet 'fatto'."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das Partizip von 'partire'. Achte auf die Anpassung an das Subjekt (le ragazze, feminin Plural).",
+    "content": { "sentence": "Le ragazze sono ___ stamattina." },
+    "correct_answer": "partite",
+    "acceptable_alternatives": [],
+    "explanation_de": "Mit dem Hilfsverb 'essere' richtet sich das Partizip nach Genus und Numerus des Subjekts. 'le ragazze' ist feminin Plural: partito → partite."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Satz ist korrekt im passato prossimo?",
+    "content": { "options": ["Anna è venuto presto.", "Anna ha venuta presto.", "Anna è venuta presto.", "Anna venuta presto."] },
+    "correct_answer": "Anna è venuta presto.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'venire' braucht das Hilfsverb 'essere' und hat das unregelmäßige Partizip 'venuto'. Bei feminin Singular passt es sich an: venuta."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge (passato prossimo mit avere).",
+    "content": { "tokens": ["Hanno", "comprato", "una", "macchina", "nuova"] },
+    "correct_answer": "Hanno comprato una macchina nuova.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Aufbau: Hilfsverb (hanno) + Partizip (comprato, regelmäßig von comprare) + Objekt. 'Sie haben ein neues Auto gekauft.'"
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge (passato prossimo mit essere).",
+    "content": { "tokens": ["Marco", "è", "rimasto", "a", "casa"] },
+    "correct_answer": "Marco è rimasto a casa.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Aufbau: Subjekt (Marco) + Hilfsverb essere (è) + Partizip (rimasto, unregelmäßig von rimanere). 'Marco ist zu Hause geblieben.'"
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische (passato prossimo): 'Wir haben einen Brief geschrieben.'",
+    "content": {},
+    "correct_answer": "Abbiamo scritto una lettera.",
+    "acceptable_alternatives": ["Noi abbiamo scritto una lettera."],
+    "explanation_de": "passato prossimo = Präsens von avere (abbiamo) + Partizip (scritto, unregelmäßig von scrivere). Das Subjektpronomen 'noi' kann stehen, wird aber meist weggelassen."
+  }
+]

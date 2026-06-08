@@ -1,0 +1,42 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Ich kaufe sie euch.' (sie = 'la pizza' = la, euch = indirekt)",
+    "content": {},
+    "correct_answer": "Ve la compro.",
+    "acceptable_alternatives": ["Ve la compro", "Io ve la compro."],
+    "explanation_de": "Das indirekte Pronomen 'vi' (euch) wird vor 'la' (für 'la pizza') zu 've'. Reihenfolge: indirekt zuerst, dann direkt, dann Verb: 'Ve la compro.' Falsch wäre 'Vi la compro' oder 'La ve compro'."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Ich sage es ihm.' (es = 'lo', ihm = gli)",
+    "content": {},
+    "correct_answer": "Glielo dico.",
+    "acceptable_alternatives": ["Glielo dico", "Io glielo dico."],
+    "explanation_de": "Für 'ihm' wird das indirekte Pronomen 'gli' zu 'glie-' und mit dem direkten Pronomen 'lo' zu EINEM Wort verbunden: 'glielo'. Niemals getrennt schreiben ('gli lo' ist falsch)."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Bringst du sie mir?' (sie = 'le foto' = le, mir = indirekt)",
+    "content": {},
+    "correct_answer": "Me le porti?",
+    "acceptable_alternatives": ["Me le porti", "Tu me le porti?"],
+    "explanation_de": "Das indirekte Pronomen 'mi' wird vor 'le' (für 'le foto', weiblich Plural) zu 'me'. Reihenfolge: indirekt zuerst, dann direkt, dann Verb: 'Me le porti?'. Falsch wäre 'Mi le porti?' oder 'Le me porti?'."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bring die Wörter in die richtige Reihenfolge (indirekt vor direkt!). Bedeutung: 'Gibst du ihm das Buch? Ja, ich gebe es ihm morgen.'",
+    "content": { "tokens": ["Sì,", "glielo", "do", "domani."] },
+    "correct_answer": "Sì, glielo do domani.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Für 'ihm' wird 'gli' zu 'glie-' und mit 'lo' (für 'il libro', männlich) zu einem Wort 'glielo' verbunden. Reihenfolge: kombiniertes Pronomen vor dem Verb: 'glielo do'."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bring die Wörter in die richtige Reihenfolge (indirekt vor direkt!). Bedeutung: 'Schreibt er uns die Nachricht? Ja, er schreibt sie uns heute Abend.'",
+    "content": { "tokens": ["Ce", "lo", "scrive", "stasera."] },
+    "correct_answer": "Ce lo scrive stasera.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Das indirekte Pronomen 'ci' (uns) wird vor 'lo' (für 'il messaggio', männlich) zu 'ce'. Das Verb 'scrive' ist 3. Person Singular ('er/sie schreibt'). Reihenfolge: indirektes Pronomen + direktes Pronomen + Verb: 'Ce lo scrive stasera.'"
+  }
+]

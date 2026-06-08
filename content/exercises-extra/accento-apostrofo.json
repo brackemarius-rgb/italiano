@@ -1,0 +1,74 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Schreibweise bedeutet 'warum/weil'?",
+    "content": { "options": ["perche", "perchè", "perché", "perche'"] },
+    "correct_answer": "perché",
+    "acceptable_alternatives": [],
+    "explanation_de": "'perché' wird mit accento acuto (´) geschrieben, weil das End-e geschlossen ausgesprochen wird. Schreibweisen wie 'perchè' oder 'perche' sind falsch."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Schreibweise ist korrekt? 'Il bar è in fondo alla ___.' (Die Bar ist am Ende der Stadt/des Ortes — gemeint: 'città'.)",
+    "content": { "options": ["citta", "cittá", "città", "citta'"] },
+    "correct_answer": "città",
+    "acceptable_alternatives": [],
+    "explanation_de": "'città' wird mit accento grave (`) auf dem End-a geschrieben, da die letzte Silbe betont ist. Auf -a steht im Italienischen immer der accento grave."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze 'lo' vor 'ombrello' (Schirm) richtig mit Apostroph ein.",
+    "content": { "sentence": "Ho dimenticato ___ ombrello a casa." },
+    "correct_answer": "l'",
+    "acceptable_alternatives": ["l'ombrello"],
+    "explanation_de": "Vor einem Vokal wird 'lo' zu 'l'' mit Apostroph: 'lo ombrello' → 'l'ombrello'."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze die unbestimmte Form 'una' vor 'amica' (Freundin) richtig mit Apostroph ein.",
+    "content": { "sentence": "Laura è ___ amica simpatica." },
+    "correct_answer": "un'",
+    "acceptable_alternatives": ["un'amica"],
+    "explanation_de": "Vor einem weiblichen Wort mit Anfangsvokal wird 'una' zu 'un'' mit Apostroph: 'una amica' → 'un'amica'. Wichtig: Bei männlichem 'un' (z. B. 'un uomo') steht KEIN Apostroph."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Satz ist korrekt geschrieben?",
+    "content": { "options": ["Lei e di Milano.", "Lei è di Milano.", "Lei é di Milano.", "Lei e' di Milano."] },
+    "correct_answer": "Lei è di Milano.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'è' (mit accento grave) ist die Verbform 'ist'. Ohne Akzent geschriebenes 'e' bedeutet 'und' und ergibt hier keinen Sinn."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze 'lo' vor 'studente' (Student) ein. Achtung: hier folgt KEIN Vokal!",
+    "content": { "sentence": "Conosci ___ studente nuovo?" },
+    "correct_answer": "lo",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor 'st-' (und 's' + Konsonant, 'z', 'ps', 'gn') steht der Artikel 'lo' ohne Elision und ohne Apostroph: 'lo studente'. Ein Apostroph kommt nur vor einem Vokal."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den korrekten Satz. Achte auf den Apostroph bei 'l'estate' (der Sommer).",
+    "content": { "tokens": ["L'estate", "in", "Italia", "è", "calda"] },
+    "correct_answer": "L'estate in Italia è calda.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'la estate' wird zu 'l'estate' (Elision mit Apostroph vor Vokal), und 'è' steht mit accento grave als Verbform 'ist'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form ist richtig? (Plural: 'die Freundinnen')",
+    "content": { "options": ["l'amiche", "le amiche", "l' amiche", "le'amiche"] },
+    "correct_answer": "le amiche",
+    "acceptable_alternatives": [],
+    "explanation_de": "Im Plural wird grundsätzlich nicht apostrophiert. Der weibliche Plural-Artikel 'le' bleibt auch vor einem Vokal stehen: 'le amiche'."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Schreibe 'dove è' (wo ist) in der elidierten Form: ___ la stazione?",
+    "content": { "sentence": "___ la stazione?" },
+    "correct_answer": "Dov'è",
+    "acceptable_alternatives": ["dov'è"],
+    "explanation_de": "'dove è' wird zu 'dov'è': Das End-e von 'dove' entfällt (Apostroph), und 'è' behält seinen accento grave als Verbform 'ist'."
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: \"Dieses Haus ist groß.\" (la casa = das Haus, f. Sg.; groß = grande)",
+    "content": {},
+    "correct_answer": "Questa casa è grande.",
+    "acceptable_alternatives": ["questa casa è grande"],
+    "explanation_de": "Bei femininem Singular vor Konsonant lautet die Form \"questa\": questa casa. Das Adjektiv \"grande\" bleibt im Singular unverändert."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: \"Ich kenne jenen Jungen.\" (conoscere = kennen, ich kenne = conosco; il ragazzo = der Junge, m. Sg. vor Konsonant)",
+    "content": {},
+    "correct_answer": "Conosco quel ragazzo.",
+    "acceptable_alternatives": ["conosco quel ragazzo", "Io conosco quel ragazzo.", "io conosco quel ragazzo"],
+    "explanation_de": "Vor einem maskulinen Substantiv mit Konsonant-Anlaut (wie der Artikel \"il\") wird quello zu \"quel\": quel ragazzo."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: \"Diese Freunde wohnen in Mailand.\" (gli amici = die Freunde, m. Pl. vor Vokal; abitare = wohnen, sie wohnen = abitano; in Mailand = a Milano)",
+    "content": {},
+    "correct_answer": "Questi amici abitano a Milano.",
+    "acceptable_alternatives": ["questi amici abitano a Milano"],
+    "explanation_de": "Bei maskulinem Plural lautet die Form von questo \"questi\": questi amici. Im Plural gibt es nie einen Apostroph (also nicht \"quest'amici\")."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: \"Jenes Eis ist gut.\" (il gelato = das Eis, m. Sg. vor Konsonant; buono = gut).",
+    "content": { "tokens": ["Quel", "gelato", "è", "buono"] },
+    "correct_answer": "Quel gelato è buono.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor einem maskulinen Substantiv mit Konsonant-Anlaut (wie der Artikel \"il\") wird quello zu \"quel\": quel gelato."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: \"Diese Frau ist Lehrerin.\" (la donna = die Frau, f. Sg.; insegnante = Lehrerin).",
+    "content": { "tokens": ["Questa", "donna", "è", "insegnante"] },
+    "correct_answer": "Questa donna è insegnante.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei femininem Singular vor Konsonant lautet die Form von questo \"questa\": questa donna."
+  }
+]

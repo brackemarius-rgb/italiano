@@ -1,0 +1,60 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle das richtige direkte Objektpronomen: \"Conosci Mario? Sì, ___ conosco.\"",
+    "content": {
+      "options": ["lo", "la", "gli", "le"]
+    },
+    "correct_answer": "lo",
+    "acceptable_alternatives": [],
+    "explanation_de": "\"Mario\" ist maskulin Singular, das direkte Objektpronomen ist \"lo\" (ihn). Es steht vor dem konjugierten Verb: \"Lo conosco.\""
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ersetze das Objekt durch ein Pronomen: \"Compri le pere? Sì, ___ compro.\"",
+    "content": {
+      "sentence": "Compri le pere? Sì, ___ compro."
+    },
+    "correct_answer": "le",
+    "acceptable_alternatives": [],
+    "explanation_de": "\"le pere\" ist feminin Plural, das passende direkte Objektpronomen ist \"le\". Es steht vor dem Verb."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge (das Pronomen steht vor dem Verb!).",
+    "content": {
+      "tokens": ["Sì", "la", "compro"]
+    },
+    "correct_answer": "Sì, la compro.",
+    "acceptable_alternatives": ["Sì la compro."],
+    "explanation_de": "Das direkte Objektpronomen \"la\" (sie, z. B. die Mozzarella) steht vor dem konjugierten Verb \"compro\". Falsch wäre \"compro la\"."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze das Pronomen mit Apostroph ein: \"L'aranciata? ___ ho bevuta.\"",
+    "content": {
+      "sentence": "L'aranciata? ___ ho bevuta."
+    },
+    "correct_answer": "L'",
+    "acceptable_alternatives": ["L"],
+    "explanation_de": "Vor einem Vokal wird \"la\" zu \"l'\": \"L'ho bevuta.\" Beachte auch die Anpassung des Partizips an das feminine Objekt: \"bevuta\"."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle die korrekte Form im Passato Prossimo: \"Ho comprato la mozzarella.\" Wie lautet der Satz mit Pronomen?",
+    "content": {
+      "options": ["L'ho comprata.", "L'ho comprato.", "La ho comprato.", "Lo ho comprata."]
+    },
+    "correct_answer": "L'ho comprata.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor einem Vokal wird \"la\" zu \"l'\". Im Passato Prossimo passt sich das Partizip an das direkte Objektpronomen an: feminin Singular \"la\" → Endung \"-a\": \"comprata\"."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Antworte mit einem direkten Objektpronomen: \"Vedi i bambini?\" (Ja, ich sehe sie.)",
+    "content": {},
+    "correct_answer": "Sì, li vedo.",
+    "acceptable_alternatives": ["Sì li vedo.", "Li vedo.", "Sì, li vedo"],
+    "explanation_de": "\"i bambini\" ist maskulin Plural, das direkte Objektpronomen ist \"li\". Es steht vor dem konjugierten Verb: \"Li vedo.\""
+  }
+]

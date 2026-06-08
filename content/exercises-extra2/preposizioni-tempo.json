@@ -1,0 +1,50 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: \"Der Film beginnt um acht Uhr.\" (il film = der Film, cominciare = beginnen, le otto = acht Uhr)",
+    "content": {},
+    "correct_answer": "Il film comincia alle otto.",
+    "acceptable_alternatives": ["Il film inizia alle otto."],
+    "explanation_de": "Bei Uhrzeiten verschmilzt 'a' mit dem Artikel 'le': a + le = 'alle otto' (um acht Uhr). Die Verschmelzung ist Pflicht."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: \"Wir fahren in einer Woche ab.\" (partire = abfahren, una settimana = eine Woche)",
+    "content": {},
+    "correct_answer": "Partiamo fra una settimana.",
+    "acceptable_alternatives": ["Partiamo tra una settimana.", "Noi partiamo fra una settimana.", "Noi partiamo tra una settimana."],
+    "explanation_de": "Für Zukünftiges ('in einer Woche') steht 'fra' oder 'tra' (gleichbedeutend) vor der Zeitangabe. 'fa' wäre falsch, da es 'vor' (Vergangenheit) bedeutet."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: \"Im Winter spielen wir oft Karten.\" (in inverno = im Winter, giocare a carte = Karten spielen, spesso = oft)",
+    "content": {},
+    "correct_answer": "In inverno giochiamo spesso a carte.",
+    "acceptable_alternatives": ["In inverno noi giochiamo spesso a carte.", "Giochiamo spesso a carte in inverno."],
+    "explanation_de": "Bei Jahreszeiten steht 'in': 'in inverno' (im Winter). Das Subjektpronomen 'noi' kann entfallen, da die Verbendung die Person zeigt."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: \"Ich wohne seit drei Monaten in Rom.\"",
+    "content": { "tokens": ["Abito", "a", "Roma", "da", "tre", "mesi"] },
+    "correct_answer": "Abito a Roma da tre mesi.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'da' bedeutet 'seit' und steht mit dem Präsens (abito): 'da tre mesi' = seit drei Monaten."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: \"Das Geschäft öffnet um neun Uhr.\"",
+    "content": { "tokens": ["Il", "negozio", "apre", "alle", "nove"] },
+    "correct_answer": "Il negozio apre alle nove.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei Uhrzeiten verschmilzt 'a' mit dem Artikel 'le' zu 'alle': 'alle nove' = um neun Uhr."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: \"Ich habe vor einer Stunde gegessen.\"",
+    "content": { "tokens": ["Ho", "mangiato", "un'ora", "fa"] },
+    "correct_answer": "Ho mangiato un'ora fa.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'fa' bedeutet 'vor' (Vergangenheit) und steht nach der Zeitangabe: 'un'ora fa' = vor einer Stunde. Beachte den Apostroph: 'un'ora'."
+  }
+]

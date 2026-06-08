@@ -1,0 +1,42 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Kommst du mit uns?'",
+    "content": {},
+    "correct_answer": "Vieni con noi?",
+    "acceptable_alternatives": ["Tu vieni con noi?"],
+    "explanation_de": "Nach der Präposition 'con' steht das betonte Pronomen. Für die 1. Person Plural ist es 'noi' (identisch mit dem Subjektpronomen): con noi."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Diese Blumen sind für dich.'",
+    "content": {},
+    "correct_answer": "Questi fiori sono per te.",
+    "acceptable_alternatives": ["Sono per te questi fiori."],
+    "explanation_de": "Nach der Präposition 'per' steht das betonte Pronomen 'te' für die 2. Person Singular (nicht 'tu'): per te."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Sie sprechen oft über ihn.' (parlare di ...)",
+    "content": {},
+    "correct_answer": "Parlano spesso di lui.",
+    "acceptable_alternatives": ["Loro parlano spesso di lui."],
+    "explanation_de": "Nach der Präposition 'di' steht das betonte Pronomen. Für die 3. Person Singular maskulin ist es 'lui': di lui."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: 'Mir gefällt der Tee.' (zur Hervorhebung)",
+    "content": { "tokens": ["A", "me", "piace", "il", "tè"] },
+    "correct_answer": "A me piace il tè.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Zur Hervorhebung nutzt man 'a' + betontes Pronomen: 'a me'. Für die 1. Person Singular ist es 'me' (nicht 'io' oder 'mi')."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: 'Heute Abend esse ich bei euch.' (da ...)",
+    "content": { "tokens": ["Stasera", "mangio", "da", "voi"] },
+    "correct_answer": "Stasera mangio da voi.",
+    "acceptable_alternatives": ["Mangio da voi stasera."],
+    "explanation_de": "Nach der Präposition 'da' (im Sinne von 'bei') steht das betonte Pronomen. Für die 2. Person Plural ist es 'voi' (identisch mit dem Subjektpronomen): da voi."
+  }
+]

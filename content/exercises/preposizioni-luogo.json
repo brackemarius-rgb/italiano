@@ -1,0 +1,50 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Stadt oder Land? Wähle die richtige Präposition: 'Vado ___ Roma.'",
+    "content": { "options": ["a", "in", "da", "di"] },
+    "correct_answer": "a",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei Städten steht 'a': 'Vado a Roma.' (nach Rom). 'in' wird nur bei Ländern und Regionen verwendet."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze die richtige Präposition ein (Land!): 'Quest'anno andiamo ___ Italia.'",
+    "content": { "sentence": "Quest'anno andiamo ___ Italia." },
+    "correct_answer": "in",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei Ländern (und Regionen, großen Inseln) steht 'in': 'in Italia'. 'a Italia' wäre falsch."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Zu einer Person gehen: Welche Präposition passt? 'Domani vado ___ medico.'",
+    "content": { "options": ["dal", "al", "nel", "in"] },
+    "correct_answer": "dal",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei Personen steht 'da' (hier mit Artikel: dal = da + il): 'Vado dal medico.' (zum Arzt). 'Vado al medico' ist ein typischer Fehler."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Herkunft / aktueller Wohnort: 'Vengo ___ Germania.' (Ich komme aus Deutschland.)",
+    "content": { "sentence": "Vengo ___ Germania." },
+    "correct_answer": "dalla",
+    "acceptable_alternatives": [],
+    "explanation_de": "Herkunft aus einem Land wird mit 'da' + Artikel ausgedrückt: dalla = da + la. Also 'Vengo dalla Germania.'"
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wo liegt das Buch? 'Il libro è ___ tavolo.' (auf dem Tisch)",
+    "content": { "options": ["sul", "sotto il", "nel", "dal"] },
+    "correct_answer": "sul",
+    "acceptable_alternatives": [],
+    "explanation_de": "'auf' = 'su' + Artikel: sul = su + il. 'Il libro è sul tavolo.' 'sotto' hieße 'unter', 'nel' 'in'."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bring die Wörter in die richtige Reihenfolge (Geburtsort mit 'di', Wohnort mit 'a').",
+    "content": { "tokens": ["Sono", "di", "Trieste", "ma", "abito", "a", "Roma"] },
+    "correct_answer": "Sono di Trieste, ma abito a Roma.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Geburtsort wird mit 'di' angegeben (di Trieste = gebürtig aus Triest), der aktuelle Wohnort bei Städten mit 'a' (abito a Roma)."
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze den Condizionale von 'avere' (ich): Ich hätte Lust auf eine Pizza.",
+    "content": { "sentence": "___ voglia di una pizza." },
+    "correct_answer": "Avrei",
+    "acceptable_alternatives": ["avrei"],
+    "explanation_de": "'Avere' ist unregelmäßig: Der Condizionale-Stamm ist 'avr-', die io-Endung ist '-ei': avrei = ich hätte. Die Floskel 'avrei voglia di' heißt 'ich hätte Lust auf'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form ist der korrekte Condizionale von 'essere' für 'es' (Das wäre schön)?",
+    "content": { "options": ["sarebbe", "serebbe", "saresti", "sarebbero"] },
+    "correct_answer": "sarebbe",
+    "acceptable_alternatives": [],
+    "explanation_de": "'Essere' bildet den Condizionale mit dem Stamm 'sar-'. Die lui/lei/es-Endung ist '-ebbe': sarebbe bello = das wäre schön. 'saresti' ist die tu-Form, 'sarebbero' die loro-Form."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Achtung Doppelkonsonant! Ergänze den Condizionale von 'prendere' (wir): Wir würden den Zug nehmen.",
+    "content": { "sentence": "Noi ___ il treno." },
+    "correct_answer": "prenderemmo",
+    "acceptable_alternatives": [],
+    "explanation_de": "Die noi-Form endet auf '-emmo' mit Doppel-m: prenderemmo. 'prenderemo' (nur ein m) wäre Futuro."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische (höfliche Bitte an Sie): Würden Sie mir eine Auskunft geben? (Verwende 'dare', Höflichkeitsform Lei)",
+    "content": {},
+    "correct_answer": "Mi darebbe un'informazione?",
+    "acceptable_alternatives": ["mi darebbe un'informazione", "Mi darebbe un'informazione, per favore?"],
+    "explanation_de": "In der Höflichkeitsform (Lei) benutzt man die lui/lei-Form des Condizionale: darebbe. 'Mi darebbe un'informazione?' = Würden Sie mir eine Auskunft geben? Beachte den Apostroph bei un'informazione (weiblich)."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde einen höflichen Ratschlag: An deiner Stelle würde ich mit ihm reden.",
+    "content": { "tokens": ["Al", "posto", "tuo", "parlerei", "con", "lui"] },
+    "correct_answer": "Al posto tuo parlerei con lui.",
+    "acceptable_alternatives": ["Al posto tuo, parlerei con lui."],
+    "explanation_de": "'Al posto tuo' (an deiner Stelle) leitet eine Hypothese ein. 'parlerei' ist der Condizionale von 'parlare' in der io-Form: An deiner Stelle würde ich mit ihm reden."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form ist der korrekte Condizionale von 'potere' für 'ich' (Könnte ich das Fenster öffnen)?",
+    "content": { "options": ["Potrei", "Posserei", "Potresti", "Poterei"] },
+    "correct_answer": "Potrei",
+    "acceptable_alternatives": [],
+    "explanation_de": "'Potere' hat den unregelmäßigen Stamm 'potr-'. Die io-Endung ist '-ei': potrei = könnte ich. 'Potresti' ist die tu-Form, die anderen Formen sind falsch gebildet."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze den Condizionale von 'comprare' (ich): Ich würde ein Haus am Meer kaufen.",
+    "content": { "sentence": "___ una casa al mare." },
+    "correct_answer": "Comprerei",
+    "acceptable_alternatives": ["comprerei"],
+    "explanation_de": "'Comprare' ist regelmäßig: Der Stamm ist 'comprer-', die io-Endung ist '-ei': comprerei = ich würde kaufen."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische (höfliche Bitte an einen Freund): Könntest du das Fenster schließen? (Verwende 'potere' und 'chiudere la finestra')",
+    "content": {},
+    "correct_answer": "Potresti chiudere la finestra?",
+    "acceptable_alternatives": ["potresti chiudere la finestra", "Potresti chiudere la finestra, per favore?"],
+    "explanation_de": "Für eine höfliche Bitte an du benutzt man 'potresti' (Condizionale von 'potere', tu-Form) + Infinitiv: Potresti chiudere la finestra? = Könntest du das Fenster schließen?"
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Satz ist ein korrekter höflicher Ratschlag (Du solltest dich ausruhen)?",
+    "content": { "options": ["Dovresti riposare.", "Devi riposare.", "Doveresti riposare.", "Dovrei riposare."] },
+    "correct_answer": "Dovresti riposare.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'Dovresti' ist der Condizionale von 'dovere' in der tu-Form (Stamm 'dovr-' + Endung '-esti') und drückt einen Ratschlag aus. 'Devi' (Präsens) klingt wie ein Befehl, 'Dovrei' wäre die io-Form (ich sollte)."
+  }
+]

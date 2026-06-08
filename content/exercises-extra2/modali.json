@@ -1,0 +1,42 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: \"Darf ich hereinkommen?\" (io)",
+    "content": {},
+    "correct_answer": "Posso entrare?",
+    "acceptable_alternatives": ["Posso entrare", "Io posso entrare?"],
+    "explanation_de": "\"potere\" drückt die Erlaubnis aus. Die io-Form ist \"posso\", gefolgt vom Infinitiv \"entrare\". Das Subjektpronomen \"io\" entfällt normalerweise."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: \"Ich kann Klavier spielen.\" (gelernte Fähigkeit, io)",
+    "content": {},
+    "correct_answer": "So suonare il pianoforte.",
+    "acceptable_alternatives": ["So suonare il pianoforte", "Io so suonare il pianoforte."],
+    "explanation_de": "Für eine gelernte Fähigkeit benutzt man \"sapere\". Die io-Form ist \"so\", gefolgt vom Infinitiv \"suonare\"."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: \"Könntest du das Fenster schließen?\" (höfliche Bitte, tu)",
+    "content": {},
+    "correct_answer": "Potresti chiudere la finestra?",
+    "acceptable_alternatives": ["Potresti chiudere la finestra"],
+    "explanation_de": "Höfliche Bitten stehen oft im Konditional: \"Potresti…?\" (Könntest du…?), gefolgt vom Infinitiv \"chiudere\"."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: \"Ich will nach Hause gehen.\"",
+    "content": { "tokens": ["Voglio", "andare", "a", "casa"] },
+    "correct_answer": "Voglio andare a casa.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Modalverb \"voglio\" (io von volere) plus Infinitiv \"andare\". \"a casa\" bedeutet nach Hause."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde die Frage: \"Könnt ihr morgen kommen?\" (voi)",
+    "content": { "tokens": ["Potete", "venire", "domani?"] },
+    "correct_answer": "Potete venire domani?",
+    "acceptable_alternatives": [],
+    "explanation_de": "Die voi-Form von \"potere\" ist \"potete\", gefolgt vom Infinitiv \"venire\". \"domani\" steht am Satzende."
+  }
+]

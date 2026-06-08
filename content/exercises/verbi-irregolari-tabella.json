@@ -1,0 +1,50 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Setze das Partizip Perfekt von 'fare' ein (passato prossimo).",
+    "content": { "sentence": "Oggi ho ___ molti compiti." },
+    "correct_answer": "fatto",
+    "acceptable_alternatives": [],
+    "explanation_de": "Das Partizip von 'fare' ist unregelmäßig: 'fatto'. Im passato prossimo wird es mit dem Hilfsverb 'avere' gebildet (ho fatto)."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welches Hilfsverb braucht 'andare' im passato prossimo?",
+    "content": { "options": ["avere", "essere", "fare", "stare"] },
+    "correct_answer": "essere",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bewegungsverben wie 'andare' bilden das passato prossimo mit 'essere': sono andato/andata. Laut Tabelle steht in der Spalte 'Hilfsverb' für andare: essere."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wie lautet der Futuro-Stamm von 'venire'?",
+    "content": { "options": ["ven-", "veni-", "verr-", "vien-"] },
+    "correct_answer": "verr-",
+    "acceptable_alternatives": [],
+    "explanation_de": "Der Futuro-Stamm von 'venire' ist unregelmäßig: 'verr-' (z. B. verrò, verrai). Daraus wird auch der Condizionale gebildet (verrei)."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze die richtige Präsensform von 'uscire' für 'io' ein.",
+    "content": { "sentence": "Io ___ di casa alle otto." },
+    "correct_answer": "esco",
+    "acceptable_alternatives": [],
+    "explanation_de": "'uscire' ist im Präsens unregelmäßig: io esco, tu esci, lui/lei esce, loro escono. Die 1. Person Singular lautet 'esco'."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze die Imperfetto-Form von 'bere' für 'io' ein.",
+    "content": { "sentence": "Da bambino ___ sempre il latte." },
+    "correct_answer": "bevevo",
+    "acceptable_alternatives": [],
+    "explanation_de": "'bere' ist im Imperfetto unregelmäßig (Stamm bev-): io bevevo. Es gehört zu den Ausnahmen (essere, fare, dire, bere)."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde einen korrekten Satz im Präsens mit der unregelmäßigen Form von 'volere'.",
+    "content": { "tokens": ["Io", "voglio", "un", "caffè", "."] },
+    "correct_answer": "Io voglio un caffè.",
+    "acceptable_alternatives": ["Voglio un caffè."],
+    "explanation_de": "'volere' ist im Präsens unregelmäßig: io voglio, tu vuoi, lui/lei vuole, loro vogliono. Das Subjektpronomen 'io' kann auch wegfallen."
+  }
+]

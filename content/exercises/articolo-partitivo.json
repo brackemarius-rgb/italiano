@@ -1,0 +1,50 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Teilungsartikel passt? Vorrei ___ pane.",
+    "content": { "options": ["del", "della", "dei", "di"] },
+    "correct_answer": "del",
+    "acceptable_alternatives": [],
+    "explanation_de": "\"Pane\" ist maskulin Singular mit Artikel \"il\". Der Teilungsartikel ist di + il = del."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze den Teilungsartikel (di + Artikel). \"Acqua\" ist feminin Singular und beginnt mit einem Vokal.",
+    "content": { "sentence": "Bevo ___ acqua." },
+    "correct_answer": "dell'",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor weiblichem Singular mit Vokalanlaut (l'acqua) wird di + l' zu dell' (mit Apostroph)."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Es gibt (einige) Tomaten. Wähle die richtige Form: Ci sono ___ pomodori.",
+    "content": { "options": ["dei", "del", "delle", "degli"] },
+    "correct_answer": "dei",
+    "acceptable_alternatives": [],
+    "explanation_de": "\"Pomodori\" ist maskulin Plural mit Artikel \"i\". Der Teilungsartikel ist di + i = dei (= einige/etwas Tomaten)."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze den Teilungsartikel im Plural. \"Spinaci\" (Spinat) ist maskulin Plural mit dem Artikel \"gli\".",
+    "content": { "sentence": "Compro ___ spinaci." },
+    "correct_answer": "degli",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor maskulinen Pluralwörtern mit Artikel \"gli\" (z. B. gli spinaci) wird di + gli = degli."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: \"Ich nehme (etwas) Mozzarella.\"",
+    "content": { "tokens": ["Prendo", "della", "mozzarella"] },
+    "correct_answer": "Prendo della mozzarella.",
+    "acceptable_alternatives": [],
+    "explanation_de": "\"Mozzarella\" ist feminin Singular mit Artikel \"la\". Der Teilungsartikel ist di + la = della."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Schreibe auf Italienisch: \"Ich hätte gerne (etwas) Brot.\" (Verwende \"vorrei\" und den Teilungsartikel.)",
+    "content": {},
+    "correct_answer": "Vorrei del pane.",
+    "acceptable_alternatives": ["Vorrei del pane"],
+    "explanation_de": "Bei unbestimmten Mengen steht der Teilungsartikel, nicht nur \"di\": di + il (pane) = del. Falsch wäre \"Vorrei di pane\"."
+  }
+]

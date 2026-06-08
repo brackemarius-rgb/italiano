@@ -1,0 +1,74 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Setze den absoluten Superlativ von 'stanco' ein (Achtung: harter k-Klang): Ich bin sehr müde.",
+    "content": { "sentence": "Sono ___ oggi." },
+    "correct_answer": "stanchissimo",
+    "acceptable_alternatives": ["stanchissima"],
+    "explanation_de": "Bei -co-Adjektiven wird ein 'h' eingefügt, um den k-Klang zu erhalten: stanch-issimo. 'stancissimo' wäre falsch. Bei einer Sprecherin: stanchissima."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Satz ist korrekt? 'Das ist der teuerste Wein des Restaurants.'",
+    "content": { "options": ["Questo è il vino più caro del ristorante.", "Questo è più caro vino del ristorante.", "Questo è il vino carissimo del ristorante.", "Questo è vino il più caro del ristorante."] },
+    "correct_answer": "Questo è il vino più caro del ristorante.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Relativer Superlativ: bestimmter Artikel + Nomen + più + Adjektiv (il vino più caro). Der Artikel darf nicht fehlen, und die Wortstellung mit nachgestelltem Adjektiv ist üblich."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Bilde den absoluten Superlativ von 'dolce': Diese Kekse sind sehr süß.",
+    "content": { "sentence": "Questi biscotti sono ___." },
+    "correct_answer": "dolcissimi",
+    "acceptable_alternatives": [],
+    "explanation_de": "Absoluter Superlativ: Stamm dolc- + -issimi. Endung -i, weil 'biscotti' männlich Plural ist."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: 'Luca ist der jüngste der Klasse.'",
+    "content": { "tokens": ["Luca", "è", "il", "più", "giovane", "della classe"] },
+    "correct_answer": "Luca è il più giovane della classe.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Relativer Superlativ: bestimmter Artikel + più + Adjektiv (il più giovane), gefolgt vom Vergleich mit der Gruppe (della classe)."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische (absoluter Superlativ mit -issimo): 'Das Auto ist sehr schnell.'",
+    "content": {},
+    "correct_answer": "La macchina è velocissima.",
+    "acceptable_alternatives": ["L'auto è velocissima.", "La macchina è molto veloce.", "La macchina è veramente veloce."],
+    "explanation_de": "Absoluter Superlativ: veloc- + -issima (weiblich Singular, weil 'macchina' weiblich ist). Alternativ: 'molto veloce' oder 'veramente veloce'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle die korrekte unregelmäßige Form für den absoluten Superlativ: 'Das Wetter ist sehr schlecht.'",
+    "content": { "options": ["Il tempo è pessimo.", "Il tempo è massimo.", "Il tempo è ottimo.", "Il tempo è minimo."] },
+    "correct_answer": "Il tempo è pessimo.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Die unregelmäßige absolute Superlativform von 'cattivo' (schlecht) ist 'pessimo'. 'ottimo' = sehr gut, 'massimo' = größter, 'minimo' = kleinster."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze den fehlenden Artikel im relativen Superlativ: 'Anna ist die fleißigste Studentin.'",
+    "content": { "sentence": "Anna è ___ più brava studentessa." },
+    "correct_answer": "la",
+    "acceptable_alternatives": [],
+    "explanation_de": "Der relative Superlativ braucht den bestimmten Artikel. Da 'studentessa' weiblich Singular ist, lautet er 'la': la più brava studentessa."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: 'Diese Suppe ist sehr lecker.'",
+    "content": { "tokens": ["Questa", "minestra", "è", "buonissima"] },
+    "correct_answer": "Questa minestra è buonissima.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Absoluter Superlativ buonissima (weiblich Singular wegen 'minestra'). Reihenfolge: Subjekt + Verb + Superlativ."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische (relativer Superlativ): 'Roma ist die größte Stadt Italiens.'",
+    "content": {},
+    "correct_answer": "Roma è la città più grande d'Italia.",
+    "acceptable_alternatives": ["Roma è la più grande città d'Italia."],
+    "explanation_de": "Relativer Superlativ: bestimmter Artikel la + Nomen + più grande (oder la più grande città). Der Vergleich mit der Gruppe folgt mit d'Italia."
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form ist korrekt? \"___ libro\" (jenes Buch, vor Konsonant).",
+    "content": { "options": ["Quello libro", "Quel libro", "Quell' libro", "Quei libro"] },
+    "correct_answer": "Quel libro",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor einem maskulinen Substantiv mit Konsonant-Anlaut verhält sich quello wie der Artikel \"il\" und wird zu \"quel\": quel libro."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze die richtige Form von quello ein (jene Studenten, m. Pl. vor s+Konsonant).",
+    "content": { "sentence": "Conosci ___ studenti?" },
+    "correct_answer": "quegli",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor einem maskulinen Plural mit s+Konsonant (wie der Artikel \"gli\") wird quello zu \"quegli\": quegli studenti. \"quei\" wäre hier falsch."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze die richtige Form von questo ein (dieser Freund, m. Sg. vor Vokal). Achte auf den Apostroph.",
+    "content": { "sentence": "Mi piace ___ amico." },
+    "correct_answer": "quest'",
+    "acceptable_alternatives": [],
+    "explanation_de": "Im Singular wird questo/questa vor einem Vokal zu \"quest'\" apostrophiert: quest'amico. Im Plural gibt es KEINEN Apostroph (questi amici)."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form passt? \"Quanto costano ___ guanti?\" (jene Handschuhe, m. Pl. vor Konsonant).",
+    "content": { "options": ["quegli", "quei", "quelle", "quelli"] },
+    "correct_answer": "quei",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor einem maskulinen Plural mit Konsonant-Anlaut (wie der Artikel \"i\") wird quello zu \"quei\": quei guanti. \"quegli\" steht nur vor Vokal oder s+Konsonant."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: \"Ich hätte gerne jene Schuhe.\" (le scarpe = die Schuhe, f. Pl.)",
+    "content": { "tokens": ["Vorrei", "quelle", "scarpe"] },
+    "correct_answer": "Vorrei quelle scarpe.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei femininem Plural ist die Form von quello immer \"quelle\" (wie der Artikel \"le\"): quelle scarpe."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: \"Diese Straße ist lang.\" (la strada = die Straße, f. Sg.; lang = lunga)",
+    "content": {},
+    "correct_answer": "Questa strada è lunga.",
+    "acceptable_alternatives": ["questa strada è lunga"],
+    "explanation_de": "Bei femininem Singular vor Konsonant lautet die Form \"questa\": questa strada. Das Adjektiv passt sich an (lunga)."
+  }
+]

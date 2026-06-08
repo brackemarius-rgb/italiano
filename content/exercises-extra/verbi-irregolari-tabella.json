@@ -1,0 +1,74 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Setze das Partizip Perfekt von 'prendere' ein (passato prossimo).",
+    "content": { "sentence": "Ieri abbiamo ___ il treno per Roma." },
+    "correct_answer": "preso",
+    "acceptable_alternatives": [],
+    "explanation_de": "Das Partizip von 'prendere' ist unregelmäßig: 'preso'. Im passato prossimo wird es mit 'avere' gebildet (abbiamo preso)."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welches Hilfsverb braucht 'rimanere' im passato prossimo?",
+    "content": { "options": ["avere", "essere", "stare", "fare"] },
+    "correct_answer": "essere",
+    "acceptable_alternatives": [],
+    "explanation_de": "Laut Tabelle bildet 'rimanere' das passato prossimo mit 'essere': sono rimasto/rimasta. Das Partizip lautet 'rimasto'."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze die richtige Präsensform von 'scegliere' für 'io' ein.",
+    "content": { "sentence": "Io ___ sempre il gelato al cioccolato." },
+    "correct_answer": "scelgo",
+    "acceptable_alternatives": [],
+    "explanation_de": "'scegliere' ist im Präsens unregelmäßig: io scelgo, tu scegli, loro scelgono. Die 1. Person Singular lautet 'scelgo'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wie lautet das Partizip Perfekt von 'vedere'?",
+    "content": { "options": ["veduto", "visto", "veso", "vidato"] },
+    "correct_answer": "visto",
+    "acceptable_alternatives": [],
+    "explanation_de": "Das gebräuchliche Partizip von 'vedere' ist unregelmäßig: 'visto' (z. B. ho visto un film). Es wird mit 'avere' gebildet."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze die Präsensform von 'sapere' für 'loro' ein.",
+    "content": { "sentence": "I miei amici ___ parlare tre lingue." },
+    "correct_answer": "sanno",
+    "acceptable_alternatives": [],
+    "explanation_de": "'sapere' ist im Präsens unregelmäßig: io so, tu sai, loro sanno. Die 3. Person Plural lautet 'sanno'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wie lautet der Futuro-Stamm von 'rimanere'?",
+    "content": { "options": ["riman-", "rimaner-", "rimarr-", "rimas-"] },
+    "correct_answer": "rimarr-",
+    "acceptable_alternatives": [],
+    "explanation_de": "Der Futuro-Stamm von 'rimanere' ist unregelmäßig: 'rimarr-' (z. B. rimarrò, rimarrai). Daraus entsteht auch der Condizionale (rimarrei)."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde einen korrekten Satz im passato prossimo mit dem Partizip von 'dire'.",
+    "content": { "tokens": ["Lei", "ha", "detto", "la", "verità", "."] },
+    "correct_answer": "Lei ha detto la verità.",
+    "acceptable_alternatives": ["Ha detto la verità."],
+    "explanation_de": "Das Partizip von 'dire' ist unregelmäßig: 'detto'. Mit 'avere' gebildet: ha detto. Das Subjektpronomen 'Lei' kann auch wegfallen."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze die Imperfetto-Form von 'fare' für 'io' ein.",
+    "content": { "sentence": "Ogni estate ___ un viaggio al mare." },
+    "correct_answer": "facevo",
+    "acceptable_alternatives": [],
+    "explanation_de": "'fare' ist im Imperfetto unregelmäßig (Stamm fac-): io facevo. Es gehört zu den Ausnahmen (essere, fare, dire, bere)."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Ich möchte zu Hause bleiben.' (Präsens, mit 'volere' + 'rimanere')",
+    "content": {},
+    "correct_answer": "Voglio rimanere a casa.",
+    "acceptable_alternatives": ["Io voglio rimanere a casa.", "Voglio restare a casa."],
+    "explanation_de": "'volere' ist im Präsens unregelmäßig: io voglio. Danach folgt der Infinitiv 'rimanere' (oder 'restare'). Das Subjektpronomen 'io' kann wegfallen."
+  }
+]

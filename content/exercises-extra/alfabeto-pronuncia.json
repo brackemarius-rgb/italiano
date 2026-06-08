@@ -1,0 +1,74 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wie wird das -c- in »amico« ausgesprochen?",
+    "content": { "options": ["wie 'k' (Kino)", "wie 'tsch' (tschüs)", "wie 'sch' (Scherz)", "wie 'g' (Golf)"] },
+    "correct_answer": "wie 'k' (Kino)",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor a, o, u wird -c- wie 'k' ausgesprochen. »amico« klingt also 'amiko'. Nur vor e und i würde das c wie 'tsch' klingen."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "In welchem Wort wird das -g- wie 'g' (Golf) ausgesprochen?",
+    "content": { "options": ["giorno", "gelato", "lago", "gentile"] },
+    "correct_answer": "lago",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor a, o, u klingt -g- wie 'g' in Golf: »lago« = 'lago'. Bei »giorno«, »gelato« und »gentile« steht das g vor i/e und klingt wie 'dsch'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wie wird das -ch- in »chiave« ausgesprochen?",
+    "content": { "options": ["wie 'k' (Kino)", "wie 'tsch' (tschüs)", "wie 'sch' (Scherz)", "wie 'ch' (Bach)"] },
+    "correct_answer": "wie 'k' (Kino)",
+    "acceptable_alternatives": [],
+    "explanation_de": "Das -h- nach dem c sorgt dafür, dass das c auch vor i/e wie 'k' klingt: »chiave« = 'kiave'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wie wird das -gh- in »spaghetti« ausgesprochen?",
+    "content": { "options": ["wie 'g' (Golf)", "wie 'dsch' (Gin)", "wie 'sch' (Scherz)", "wie 'k' (Kino)"] },
+    "correct_answer": "wie 'g' (Golf)",
+    "acceptable_alternatives": [],
+    "explanation_de": "Steht ein -h- zwischen g und e/i, bleibt das g hart wie in Golf: »spaghetti« = 'spagetti', nicht 'spadschetti'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wie wird die Buchstabenfolge -gn- in »signore« ausgesprochen?",
+    "content": { "options": ["wie 'gn' (Kognak)", "wie 'g' + 'n' getrennt", "wie 'ng' (singen)", "wie 'nj' getrennt mit hartem g"] },
+    "correct_answer": "wie 'gn' (Kognak)",
+    "acceptable_alternatives": [],
+    "explanation_de": "Die Folge -gn- klingt wie 'gn' [nj] in Kognak: »signore« = 'sinjore'. Es wird nicht in g und n getrennt."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wie wird die Buchstabenfolge -gl- in »famiglia« ausgesprochen?",
+    "content": { "options": ["wie 'll' [lj] (Feuilleton)", "wie 'g' + 'l' getrennt", "wie 'gl' (Glas)", "wie 'j' (Junge)"] },
+    "correct_answer": "wie 'll' [lj] (Feuilleton)",
+    "acceptable_alternatives": [],
+    "explanation_de": "Die Folge -gl- vor i klingt weich wie 'll' [lj] in Feuilleton: »famiglia« = 'familja'. Das g wird nicht einzeln gesprochen."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "In welchem Wort wird -sc- wie 'sk' (Skala) ausgesprochen?",
+    "content": { "options": ["pesce", "scienza", "tedesco", "uscire"] },
+    "correct_answer": "tedesco",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor a, o, u klingt -sc- wie 'sk': »tedesco« = 'tedesko'. Vor e und i (pesce, scienza, uscire) klingt es dagegen wie 'sch'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wie heißt der Buchstabe »Z« im italienischen Alphabet?",
+    "content": { "options": ["zeta", "zeda", "zett", "ipsilon"] },
+    "correct_answer": "zeta",
+    "acceptable_alternatives": [],
+    "explanation_de": "Der Buchstabe Z heißt im Italienischen »zeta«. »ipsilon« ist der Name für das Y, das nur in Fremdwörtern vorkommt."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "In welchem Wort hört man einen deutlichen Doppelkonsonanten?",
+    "content": { "options": ["pizza", "casa", "vino", "sera"] },
+    "correct_answer": "pizza",
+    "acceptable_alternatives": [],
+    "explanation_de": "In »pizza« wird der Doppelkonsonant -zz- verstärkt und länger ausgesprochen. »casa«, »vino« und »sera« haben nur einfache Konsonanten."
+  }
+]

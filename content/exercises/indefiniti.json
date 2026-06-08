@@ -1,0 +1,50 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Form von 'molto' als Adjektiv (es richtet sich nach dem Substantiv).",
+    "content": { "sentence": "In frigorifero c'è ___ pasta." },
+    "correct_answer": "molta",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor dem Substantiv 'pasta' (feminin, Singular) ist 'molto' ein Adjektiv und passt sich an: molta."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Satz ist korrekt? Achte auf 'molto' als Adverb vor einem Adjektiv.",
+    "content": { "options": ["Sono molta stanca.", "Sono molto stanca.", "Sono molte stanca.", "Sono molti stanca."] },
+    "correct_answer": "Sono molto stanca.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor einem Adjektiv ('stanca') ist 'molto' ein Adverb und bleibt unveränderlich: molto stanca."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze 'ogni'. Achtung: Welche Form hat das Substantiv nach 'ogni'?",
+    "content": { "sentence": "Vado in palestra ogni ___." },
+    "correct_answer": "giorno",
+    "acceptable_alternatives": ["mattina", "sera", "settimana"],
+    "explanation_de": "'ogni' ist unveränderlich und steht immer im Singular: ogni giorno (nicht 'ogni giorni')."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wie sagt man 'einige Freunde'? Beachte den Unterschied zwischen 'qualche' und 'alcuni'.",
+    "content": { "options": ["qualche amici", "alcuni amico", "alcuni amici", "ogni amici"] },
+    "correct_answer": "alcuni amici",
+    "acceptable_alternatives": [],
+    "explanation_de": "'alcuni' steht mit dem Plural: alcuni amici. 'qualche' würde dagegen den Singular verlangen: qualche amico."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische (mit doppelter Verneinung): 'Ich sehe niemanden.'",
+    "content": {},
+    "correct_answer": "Non vedo nessuno.",
+    "acceptable_alternatives": ["Io non vedo nessuno."],
+    "explanation_de": "Mit 'nessuno' braucht man im Italienischen die doppelte Verneinung: Non vedo nessuno. ('Vedo nessuno' wäre falsch.)"
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: 'Den ganzen Tag arbeite ich.' Beachte: tutto + Artikel + Substantiv.",
+    "content": { "tokens": ["Lavoro", "tutto", "il", "giorno"] },
+    "correct_answer": "Lavoro tutto il giorno.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'tutto' steht mit bestimmtem Artikel und Substantiv: tutto il giorno (den ganzen Tag)."
+  }
+]

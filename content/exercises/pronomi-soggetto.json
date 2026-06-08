@@ -1,0 +1,50 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welches Subjektpronomen bedeutet 'wir'?",
+    "content": { "options": ["noi", "voi", "loro", "lui"] },
+    "correct_answer": "noi",
+    "acceptable_alternatives": [],
+    "explanation_de": "'noi' heißt 'wir'. 'voi' = ihr, 'loro' = sie (Plural), 'lui' = er."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Sie sprechen mit einer fremden, erwachsenen Person (Höflichkeitsform). Wie fragen Sie 'Sind Sie Italiener(in)?'",
+    "content": { "options": ["Lei è italiana?", "Tu sei italiana?", "Voi siete italiana?", "Lei sei italiana?"] },
+    "correct_answer": "Lei è italiana?",
+    "acceptable_alternatives": [],
+    "explanation_de": "Die Höflichkeitsform ist 'Lei' mit dem Verb in der 3. Person Singular ('è'). 'Tu sei' ist die du-Form; 'Lei sei' kombiniert falsch das Höflichkeitspronomen mit der du-Verbform."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Höflichkeitsform: Ergänzen Sie das passende Pronomen. 'Wie heißen Sie, mein Herr?'",
+    "content": { "sentence": "___ come si chiama, signore?" },
+    "correct_answer": "Lei",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei der höflichen Anrede wird 'Lei' (großgeschrieben) verwendet, mit dem Verb in der 3. Person Singular ('si chiama')."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Zur Klarstellung in der 3. Person: 'Er ist Italiener, sie ist Deutsche.' Ergänzen Sie die fehlenden Pronomen (durch Komma getrennt: er, sie).",
+    "content": { "sentence": "___ è italiano, ___ è tedesca." },
+    "correct_answer": "Lui, lei",
+    "acceptable_alternatives": ["lui, lei"],
+    "explanation_de": "In der 3. Person verwendet man die Pronomen 'lui' (er) und 'lei' (sie) zur Klarstellung, weil die Verbform für beide gleich ist ('è')."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetzen Sie ins Italienische: 'Ich bin aus Rom.' (Achtung: Subjektpronomen wird normalerweise weggelassen.)",
+    "content": {},
+    "correct_answer": "Sono di Roma.",
+    "acceptable_alternatives": ["Io sono di Roma."],
+    "explanation_de": "Das Subjektpronomen 'io' wird im Italienischen normalerweise weggelassen, da die Verbendung das Subjekt schon zeigt: 'Sono di Roma.' Mit Betonung ist 'Io sono di Roma.' möglich."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringen Sie die Wörter in die richtige Reihenfolge (Kontrast/Hervorhebung): 'Ich wohne in Rom, er dagegen in Mailand.'",
+    "content": { "tokens": ["Io", "abito", "a", "Roma,", "lui", "invece", "a", "Milano."] },
+    "correct_answer": "Io abito a Roma, lui invece a Milano.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Hier werden die Pronomen 'io' und 'lui' bewusst verwendet, um den Kontrast zwischen den beiden Personen hervorzuheben."
+  }
+]

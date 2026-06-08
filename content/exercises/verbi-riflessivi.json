@@ -1,0 +1,50 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das richtige Reflexivpronomen. (io / alzarsi)",
+    "content": { "sentence": "La mattina ___ alzo alle sette." },
+    "correct_answer": "mi",
+    "acceptable_alternatives": [],
+    "explanation_de": "In der ersten Person Singular (io) lautet das Reflexivpronomen 'mi' und steht vor dem konjugierten Verb: 'mi alzo'."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze das reflexive Verb im Presente in die richtige Form. (chiamarsi, tu)",
+    "content": { "sentence": "Come ___ ___? Io mi chiamo Anna." },
+    "correct_answer": "ti chiami",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei 'tu' lautet das Reflexivpronomen 'ti', das Verb chiamarsi wird zu 'chiami': 'Come ti chiami?' (Wie heißt du?)."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form ist im passato prossimo richtig? (Maria, divertirsi)",
+    "content": { "options": ["Maria ha divertito molto.", "Maria si è divertita molto.", "Maria si è divertito molto.", "Maria si ha divertita molto."] },
+    "correct_answer": "Maria si è divertita molto.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Reflexive Verben bilden das passato prossimo immer mit 'essere'. Das Partizip richtet sich nach dem Subjekt: Maria (weiblich) → 'divertita'. Also: 'Maria si è divertita molto.'"
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die Hilfsverb-Form im passato prossimo. (io, maskulin / alzarsi)",
+    "content": { "sentence": "Stamattina mi ___ alzato alle sei." },
+    "correct_answer": "sono",
+    "acceptable_alternatives": [],
+    "explanation_de": "Reflexive Verben benutzen im passato prossimo immer 'essere'. Für 'io' ist das 'sono': 'mi sono alzato'. (Häufiger Fehler: 'ho mi alzato' ist falsch.)"
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge.",
+    "content": { "tokens": ["La", "sera", "mi", "addormento", "verso", "le undici"] },
+    "correct_answer": "La sera mi addormento verso le undici.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Das Reflexivpronomen 'mi' steht direkt vor dem konjugierten Verb 'addormento'. Ergebnis: 'La sera mi addormento verso le undici.' (Abends schlafe ich gegen elf ein.)"
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: „Wir haben uns in Rom kennengelernt.“ (conoscersi, passato prossimo, gemischte/männliche Gruppe)",
+    "content": {},
+    "correct_answer": "Ci siamo conosciuti a Roma.",
+    "acceptable_alternatives": ["Noi ci siamo conosciuti a Roma."],
+    "explanation_de": "Reflexive Verben bilden das passato prossimo mit 'essere'. Für 'noi' lautet das Hilfsverb 'siamo', das Reflexivpronomen ist 'ci'. Das Partizip endet bei gemischter oder männlicher Gruppe auf '-i': 'ci siamo conosciuti'."
+  }
+]

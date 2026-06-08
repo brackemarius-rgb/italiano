@@ -1,0 +1,74 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welches Subjektpronomen bedeutet 'ihr' (Anrede an mehrere Personen)?",
+    "content": { "options": ["voi", "noi", "loro", "tu"] },
+    "correct_answer": "voi",
+    "acceptable_alternatives": [],
+    "explanation_de": "'voi' heißt 'ihr' (2. Person Plural). 'noi' = wir, 'loro' = sie (Plural), 'tu' = du."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Du sprichst mit deiner Freundin Giulia (vertraute Form). Wie fragst du 'Woher kommst du?'",
+    "content": { "options": ["Tu di dove sei?", "Lei di dov'è?", "Voi di dove siete?", "Tu di dov'è?"] },
+    "correct_answer": "Tu di dove sei?",
+    "acceptable_alternatives": [],
+    "explanation_de": "Unter Freunden benutzt man die vertraute Form 'tu' mit der 2. Person Singular ('sei'). 'Lei di dov'è?' wäre die Höflichkeitsform, 'voi' der Plural."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Höflichkeitsform: Ergänze das passende Pronomen. 'Haben Sie ein Auto, Frau Bianchi?'",
+    "content": { "sentence": "___ ha una macchina, signora Bianchi?" },
+    "correct_answer": "Lei",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei der höflichen Anrede wird 'Lei' (großgeschrieben) mit dem Verb in der 3. Person Singular ('ha') verwendet."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Hervorhebung/Kontrast: Ergänze das fehlende Pronomen. 'Wir essen Fisch, sie (Plural) dagegen Fleisch.'",
+    "content": { "sentence": "Noi mangiamo pesce, ___ invece carne." },
+    "correct_answer": "loro",
+    "acceptable_alternatives": [],
+    "explanation_de": "Zum Kontrast wird 'loro' (sie, Plural) verwendet. Das Verb 'mangiano' wird hier weggelassen, das Pronomen betont aber den Gegensatz zu 'noi'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wie übersetzt man am natürlichsten 'Sprichst du Deutsch?' (zu einem Freund)? Beachte: das Subjektpronomen wird meist weggelassen.",
+    "content": { "options": ["Parli tedesco?", "Tu parli tedesco?", "Lei parla tedesco?", "Voi parlate tedesco?"] },
+    "correct_answer": "Parli tedesco?",
+    "acceptable_alternatives": [],
+    "explanation_de": "Das Subjektpronomen 'tu' wird normalerweise weggelassen, weil die Verbendung '-i' das Subjekt schon zeigt: 'Parli tedesco?'. 'Tu parli tedesco?' ist nur mit Betonung üblich."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Wir wohnen in Neapel.' (Achtung: Subjektpronomen normalerweise weglassen.)",
+    "content": {},
+    "correct_answer": "Abitiamo a Napoli.",
+    "acceptable_alternatives": ["Noi abitiamo a Napoli.", "Viviamo a Napoli.", "Noi viviamo a Napoli."],
+    "explanation_de": "Das Pronomen 'noi' wird im Italienischen meist weggelassen, da die Verbendung '-iamo' schon 'wir' anzeigt: 'Abitiamo a Napoli.' Mit Betonung ist 'Noi abitiamo a Napoli.' möglich."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze höflich ins Italienische (Höflichkeitsform Singular): 'Wie heißen Sie?'",
+    "content": {},
+    "correct_answer": "Lei come si chiama?",
+    "acceptable_alternatives": ["Come si chiama?", "Lei, come si chiama?"],
+    "explanation_de": "In der Höflichkeitsform verwendet man 'Lei' mit dem reflexiven Verb in der 3. Person Singular ('si chiama'). Das Pronomen kann auch weggelassen werden: 'Come si chiama?'"
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge (Klarstellung 3. Person): 'Er ist Arzt, sie ist Lehrerin.'",
+    "content": { "tokens": ["Lui", "è", "medico,", "lei", "è", "insegnante."] },
+    "correct_answer": "Lui è medico, lei è insegnante.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Die Pronomen 'lui' (er) und 'lei' (sie) werden zur Klarstellung verwendet, weil die Verbform 'è' für beide gleich ist."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das fehlende Subjektpronomen (1. Person Singular) zur Betonung: 'Ich zahle, du nicht!'",
+    "content": { "sentence": "Pago ___, tu no!" },
+    "correct_answer": "io",
+    "acceptable_alternatives": [],
+    "explanation_de": "Zur Hervorhebung wird 'io' (ich) verwendet, um den Kontrast zu 'tu' (du) zu betonen. Ohne Betonung würde man das Pronomen weglassen."
+  }
+]

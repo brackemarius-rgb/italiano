@@ -1,0 +1,50 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Verschmelzung von 'a' mit dem Artikel.",
+    "content": { "sentence": "Stasera andiamo ___ cinema con Marco." },
+    "correct_answer": "al",
+    "acceptable_alternatives": [],
+    "explanation_de": "a + il = al. 'cinema' ist maskulin und beginnt mit Konsonant, daher der Artikel 'il'. Die Präposition 'a' verschmilzt mit 'il' zu 'al'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form ist korrekt? 'Il libro è ___ tavolo.' (Das Buch liegt auf dem Tisch.)",
+    "content": { "options": ["su il", "sul", "sullo", "nel"] },
+    "correct_answer": "sul",
+    "acceptable_alternatives": [],
+    "explanation_de": "su + il = sul. 'tavolo' ist maskulin und beginnt mit Konsonant, daher 'il'. 'su il' ist falsch, weil die Verschmelzung Pflicht ist; 'sullo' bräuchte den Artikel 'lo', 'nel' käme von 'in'."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Verschmelzung von 'in' mit dem Artikel.",
+    "content": { "sentence": "I bambini giocano ___ parco ogni pomeriggio." },
+    "correct_answer": "nel",
+    "acceptable_alternatives": [],
+    "explanation_de": "in + il = nel. 'parco' ist maskulin und beginnt mit Konsonant. Häufiger Fehler: 'in il parco' — die Verschmelzung ist obligatorisch."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Verschmelzung von 'da' mit dem Artikel (vor Vokal).",
+    "content": { "sentence": "Domani vado ___ amica di Sara." },
+    "correct_answer": "dall'",
+    "acceptable_alternatives": [],
+    "explanation_de": "da + l' = dall'. 'amica' ist feminin und beginnt mit Vokal, daher der Artikel 'l''. Bei Verschmelzung mit l' wird der Apostroph beibehalten: dall'amica."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge. (Wir treffen uns um neun Uhr.)",
+    "content": { "tokens": ["Ci", "vediamo", "alle", "nove"] },
+    "correct_answer": "Ci vediamo alle nove.",
+    "acceptable_alternatives": ["Ci vediamo alle nove"],
+    "explanation_de": "a + le = alle. Bei Uhrzeiten verwendet man 'a' + Artikel 'le' (von 'le ore'): 'alle nove' bedeutet 'um neun Uhr'."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Das Haus von Marios Bruder' (di + Artikel). Tipp: la casa, il fratello.",
+    "content": {},
+    "correct_answer": "La casa del fratello di Mario.",
+    "acceptable_alternatives": ["La casa del fratello di Mario", "la casa del fratello di Mario"],
+    "explanation_de": "di + il = del. Vor 'fratello' (maskulin, Konsonant) steht der Artikel 'il', daher 'del fratello'. Der Eigenname 'Mario' braucht keinen Artikel, deshalb bleibt 'di Mario' ohne Verschmelzung."
+  }
+]

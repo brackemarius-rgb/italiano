@@ -1,0 +1,74 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Auf welcher Silbe wird das Wort 'università' betont?",
+    "content": { "options": ["auf der ersten Silbe", "auf der vorletzten Silbe", "auf der letzten Silbe", "auf der drittletzten Silbe"] },
+    "correct_answer": "auf der letzten Silbe",
+    "acceptable_alternatives": [],
+    "explanation_de": "Der Akzent zeigt es: 'università' wird auf der letzten Silbe betont (u-ni-ver-si-TÀ). Deshalb steht dort ein Akzent."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze den fehlenden Akzent: Das italienische Wort für 'Tee' wird auf der letzten Silbe betont. Schreibe das ganze Wort richtig.",
+    "content": { "sentence": "Bevo un ___ caldo la sera." },
+    "correct_answer": "tè",
+    "acceptable_alternatives": [],
+    "explanation_de": "'tè' wird auf der einzigen bzw. letzten Silbe betont und trägt deshalb einen Akzent. Ohne Akzent (te) bedeutet es 'dich'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welches Wort wird auf der drittletzten Silbe betont (kein Akzent, muss man lernen)?",
+    "content": { "options": ["telefono", "ristorante", "felicità", "bambino"] },
+    "correct_answer": "telefono",
+    "acceptable_alternatives": [],
+    "explanation_de": "'telefono' wird auf der drittletzten Silbe betont: te-LE-fo-no. Solche Wörter tragen keinen Akzent. 'ristorante' und 'bambino' werden auf der vorletzten Silbe betont, 'felicità' auf der letzten."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welches Wort ist richtig geschrieben?",
+    "content": { "options": ["pero", "però", "pèro", "perô"] },
+    "correct_answer": "però",
+    "acceptable_alternatives": [],
+    "explanation_de": "'però' (aber) wird auf der letzten Silbe betont und braucht einen Akzent: pe-RÒ. Ohne Akzent ('pero') bedeutet das Wort 'Birnbaum'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welches Wort wird NICHT auf der vorletzten Silbe betont?",
+    "content": { "options": ["amico", "finestra", "sabato", "ragazza"] },
+    "correct_answer": "sabato",
+    "acceptable_alternatives": [],
+    "explanation_de": "'sabato' wird auf der drittletzten Silbe betont: SA-ba-to. Die anderen Wörter (a-MI-co, fi-NE-stra, ra-GAZ-za) werden ganz normal auf der vorletzten Silbe betont."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze den fehlenden Akzent: Das Wort für 'Montag' wird auf der letzten Silbe betont. Schreibe das ganze Wort richtig.",
+    "content": { "sentence": "Il ___ vado a lavoro presto." },
+    "correct_answer": "lunedì",
+    "acceptable_alternatives": [],
+    "explanation_de": "'lunedì' wird auf der letzten Silbe betont: lu-ne-DÌ. Wie alle Wochentage außer Samstag/Sonntag (martedì, mercoledì usw.) trägt es einen Akzent."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Schreibweise ist korrekt für das Wort 'mehr / nicht mehr'?",
+    "content": { "options": ["piu", "più", "piú", "pìu"] },
+    "correct_answer": "più",
+    "acceptable_alternatives": [],
+    "explanation_de": "'più' wird betont und trägt einen Akzent auf dem u: più. Die Schreibweise ohne Akzent ist falsch."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Auf welcher Silbe wird die Stadt 'Bologna' betont?",
+    "content": { "options": ["Bo-LO-gna (vorletzte Silbe)", "BO-lo-gna (drittletzte Silbe)", "Bo-lo-GNA (letzte Silbe)", "keine Betonung"] },
+    "correct_answer": "Bo-LO-gna (vorletzte Silbe)",
+    "acceptable_alternatives": [],
+    "explanation_de": "'Bologna' wird ganz normal auf der vorletzten Silbe betont: Bo-LO-gna. Deshalb steht kein Akzent."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze den fehlenden Akzent: Das Wort für 'schon / bereits' wird auf der letzten Silbe betont. Schreibe das ganze Wort richtig.",
+    "content": { "sentence": "Ho ___ mangiato, grazie." },
+    "correct_answer": "già",
+    "acceptable_alternatives": [],
+    "explanation_de": "'già' wird betont und trägt einen Akzent auf dem a: già. Ohne Akzent ist die Schreibweise falsch."
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Du sagst zu deinem Freund Marco: Sprich langsamer! Wähle die richtige tu-Form von 'parlare'.",
+    "content": { "options": ["Parli più lentamente!", "Parla più lentamente!", "Parlare più lentamente!", "Parlate più lentamente!"] },
+    "correct_answer": "Parla più lentamente!",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei -are-Verben endet die tu-Form des Imperativs auf -a: 'parla!'. 'parli!' wäre die höfliche Lei-Form, 'parlate!' die voi-Form."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Höfliche Aufforderung (Lei) von 'prendere': 'Nehmen Sie diesen Bus!' Ergänze die richtige Imperativform.",
+    "content": { "sentence": "___ questo autobus, signora!" },
+    "correct_answer": "Prenda",
+    "acceptable_alternatives": ["prenda"],
+    "explanation_de": "Bei -ere-Verben endet die Lei-Form auf -a: 'prenda!'. Die tu-Form wäre 'prendi!'."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Verneinter Imperativ (tu) von 'andare': 'Geh nicht weg!' Ergänze die Lücke. Achtung: NON + Infinitiv!",
+    "content": { "sentence": "Non ___ via!" },
+    "correct_answer": "andare",
+    "acceptable_alternatives": [],
+    "explanation_de": "Der verneinte Imperativ in der tu-Form wird mit NON + Infinitiv gebildet: 'non andare!'. 'non vai!' oder 'non va!' wären falsch."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "'Gib mir einen Kuss!' (tu). Welche Form ist korrekt? Beachte die Verdoppelung bei 'dare'.",
+    "content": { "options": ["Dami un bacio!", "Da-mi un bacio!", "Dammi un bacio!", "Mi dai un bacio!"] },
+    "correct_answer": "Dammi un bacio!",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei einsilbigen Imperativen wie 'da'!' wird der Anfangskonsonant des angehängten Pronomens verdoppelt: 'dammi!'. Das Pronomen wird zusammengeschrieben, nicht getrennt."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde die höfliche Aufforderung (Lei): 'Geben Sie mir ein Buch!' Achtung: Bei Lei steht das Pronomen VOR dem Verb.",
+    "content": { "tokens": ["Mi", "dia", "un", "libro!"] },
+    "correct_answer": "Mi dia un libro!",
+    "acceptable_alternatives": [],
+    "explanation_de": "In der Lei-Form wird das Pronomen vorangestellt: 'Mi dia un libro!'. Nur bei tu/noi/voi wird das Pronomen angehängt (z. B. 'dammi')."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Schreibe auf Italienisch die freundliche Aufforderung an einen Freund (tu): 'Mach dir keine Sorgen!' (von 'preoccuparsi').",
+    "content": {},
+    "correct_answer": "Non preoccuparti!",
+    "acceptable_alternatives": ["Non ti preoccupare!"],
+    "explanation_de": "Der verneinte Imperativ (tu) nutzt NON + Infinitiv; das Reflexivpronomen kann angehängt ('non preoccuparti!') oder vorangestellt ('non ti preoccupare!') werden. Beide Varianten sind korrekt."
+  }
+]

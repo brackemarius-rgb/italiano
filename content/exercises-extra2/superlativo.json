@@ -1,0 +1,34 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische (absoluter Superlativ mit -issimo): 'Das Buch ist sehr interessant.'",
+    "content": {},
+    "correct_answer": "Il libro è interessantissimo.",
+    "acceptable_alternatives": ["Il libro è molto interessante.", "Il libro è veramente interessante."],
+    "explanation_de": "Absoluter Superlativ: interessant- + -issimo (männlich Singular, weil 'libro' männlich ist). Alternativ: 'molto interessante' oder 'veramente interessante'."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische (relativer Superlativ): 'Giulia ist die intelligenteste der Klasse.'",
+    "content": {},
+    "correct_answer": "Giulia è la più intelligente della classe.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Relativer Superlativ: bestimmter Artikel la + più + Adjektiv (la più intelligente), gefolgt vom Vergleich mit der Gruppe (della classe)."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: 'Der Kuchen ist sehr süß.'",
+    "content": { "tokens": ["La", "torta", "è", "dolcissima"] },
+    "correct_answer": "La torta è dolcissima.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Absoluter Superlativ dolcissima (weiblich Singular wegen 'torta'). Reihenfolge: Subjekt + Verb + Superlativ."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: 'Das ist das günstigste Hotel der Stadt.'",
+    "content": { "tokens": ["Questo", "è", "l'albergo", "meno", "caro", "della città"] },
+    "correct_answer": "Questo è l'albergo meno caro della città.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Relativer Superlativ mit 'meno': bestimmter Artikel + Nomen + meno + Adjektiv (l'albergo meno caro), gefolgt vom Vergleich (della città)."
+  }
+]

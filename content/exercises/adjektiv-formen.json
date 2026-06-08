@@ -1,0 +1,50 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Form des Adjektivs 'nero' (schwarz). Achte auf Geschlecht und Zahl: das Substantiv ist feminin Plural.",
+    "content": { "sentence": "Mi piacciono le scarpe ___." },
+    "correct_answer": "nere",
+    "acceptable_alternatives": [],
+    "explanation_de": "Adjektive auf -o haben vier Formen. 'le scarpe' ist feminin Plural, deshalb wird aus 'nero' -> 'nere' (femininer Plural auf -e)."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Form des Adjektivs 'grande' (groß). Vorsicht: Adjektive auf -e haben im Singular nur EINE Form.",
+    "content": { "sentence": "La camera è molto ___." },
+    "correct_answer": "grande",
+    "acceptable_alternatives": [],
+    "explanation_de": "Adjektive auf -e unterscheiden nur Singular und Plural, nicht Maskulin/Feminin. Im Singular bleibt es 'grande' – auch bei einem femininen Substantiv wie 'la camera'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form ist korrekt? 'die blauen Hosen' – das Farbadjektiv 'blu' ist unveränderlich.",
+    "content": { "options": ["i pantaloni blu", "i pantaloni blui", "i pantaloni blue", "i pantaloni bli"] },
+    "correct_answer": "i pantaloni blu",
+    "acceptable_alternatives": [],
+    "explanation_de": "'blu' gehört zu den unveränderlichen Farbadjektiven und bekommt nie eine Endung. Formen wie 'blui', 'blue' oder 'bli' sind falsch."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Pluralform von 'simpatico' (sympathisch) ist korrekt? 'die sympathischen Freunde' (maskulin Plural).",
+    "content": { "options": ["gli amici simpatici", "gli amici simpatichi", "gli amici simpatice", "gli amici simpatico"] },
+    "correct_answer": "gli amici simpatici",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei 'simpatico' liegt die Betonung auf der drittletzten Silbe, daher Plural maskulin auf -ci: 'simpatici'. Die Form 'simpatichi' wäre nur bei Betonung auf der vorletzten Silbe richtig (z. B. fresco -> freschi)."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze den femininen Plural von 'fresco' (frisch). Substantiv: 'le mozzarelle'.",
+    "content": { "sentence": "Compro due mozzarelle ___." },
+    "correct_answer": "fresche",
+    "acceptable_alternatives": [],
+    "explanation_de": "Feminine Adjektive auf -ca bilden den Plural auf -che, um den harten Klang zu erhalten: fresca -> fresche."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde einen korrekten Satz: 'Das rote Kleid ist klein.' Bringe die Wörter in die richtige Reihenfolge.",
+    "content": { "tokens": ["Il", "vestito", "rosso", "è", "piccolo"] },
+    "correct_answer": "Il vestito rosso è piccolo.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'vestito' ist maskulin Singular, daher die Endung -o bei beiden Adjektiven: 'rosso' und 'piccolo'. Das Adjektiv richtet sich in Geschlecht und Zahl nach dem Substantiv."
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Setze 'essere' im Präsens ein.",
+    "content": { "sentence": "Io ___ italiano. (essere)" },
+    "correct_answer": "sono",
+    "explanation_de": "essere, io-Form: sono."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze 'avere' im Präsens ein.",
+    "content": { "sentence": "Noi ___ fame. (avere)" },
+    "correct_answer": "abbiamo",
+    "explanation_de": "avere, noi-Form: abbiamo. 'avere fame' = Hunger haben."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form ist richtig? Loro ___ a casa. (essere)",
+    "content": { "options": ["sono", "siamo", "siete", "è"] },
+    "correct_answer": "sono",
+    "explanation_de": "essere, loro-Form: sono (loro sono)."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: „Ich habe einen Hund.“",
+    "content": {},
+    "correct_answer": "Ho un cane.",
+    "acceptable_alternatives": ["Io ho un cane."],
+    "explanation_de": "avere, io-Form: ho. 'un cane' = ein Hund."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bring die Wörter in die richtige Reihenfolge.",
+    "content": { "tokens": ["Marco", "è", "molto", "simpatico"] },
+    "correct_answer": "Marco è molto simpatico.",
+    "explanation_de": "Subjekt + Verb (è) + Ergänzung: Marco è molto simpatico."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bring die Wörter in die richtige Reihenfolge.",
+    "content": { "tokens": ["Abbiamo", "due", "gatti"] },
+    "correct_answer": "Abbiamo due gatti.",
+    "explanation_de": "Im Italienischen kann das Subjekt (noi) wegfallen: Abbiamo due gatti."
+  }
+]

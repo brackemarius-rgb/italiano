@@ -1,0 +1,34 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Es ist ein interessanter Film.' (beschreibendes Adjektiv nach dem Substantiv; film ist maskulin)",
+    "content": {},
+    "correct_answer": "È un film interessante.",
+    "acceptable_alternatives": ["È un film interessante", "Questo è un film interessante.", "Questo è un film interessante"],
+    "explanation_de": "Beschreibende Adjektive stehen im Italienischen nach dem Substantiv: 'un film interessante'. 'interessante' endet auf -e und bleibt im Singular unverändert."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Marco ist ein guter Junge.' (buono vor maskulinem Wort mit Konsonant: ragazzo)",
+    "content": {},
+    "correct_answer": "Marco è un buon ragazzo.",
+    "acceptable_alternatives": ["Marco è un buon ragazzo"],
+    "explanation_de": "Steht 'buono' vor einem maskulinen Wort im Singular mit Konsonant (il ragazzo), wird es zu 'buon': un buon ragazzo. Es verhält sich wie der unbestimmte Artikel."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bring die Wörter in die richtige Reihenfolge. Beschreibende Adjektive stehen normalerweise NACH dem Substantiv.",
+    "content": { "tokens": ["un", "ragazzo", "simpatico"] },
+    "correct_answer": "un ragazzo simpatico",
+    "acceptable_alternatives": [],
+    "explanation_de": "Beschreibende Adjektive stehen im Italienischen nach dem Substantiv: 'un ragazzo simpatico' (ein netter Junge), nicht 'un simpatico ragazzo'."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bring die Wörter in die richtige Reihenfolge. 'grande' (groß) gehört zu den Adjektiven, die meist VOR dem Substantiv stehen.",
+    "content": { "tokens": ["una", "grande", "città"] },
+    "correct_answer": "una grande città",
+    "acceptable_alternatives": [],
+    "explanation_de": "'grande' steht meist vor dem Substantiv: 'una grande città' (eine große Stadt). Es behält dabei die normalen Adjektivendungen."
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Setze die richtige Form von quello ein (jener Spiegel, m. Sg. vor s+Konsonant: lo specchio).",
+    "content": { "sentence": "Mi piace ___ specchio." },
+    "correct_answer": "quello",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor einem maskulinen Singular mit s+Konsonant (wie der Artikel \"lo\") bleibt die Form \"quello\": quello specchio. \"quel\" wäre hier falsch."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form passt? \"___ zaino è nuovo.\" (jener Rucksack, m. Sg. vor z: lo zaino).",
+    "content": { "options": ["Quel", "Quello", "Quell'", "Quei"] },
+    "correct_answer": "Quello",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor einem maskulinen Substantiv mit z-Anlaut verhält sich quello wie der Artikel \"lo\" und bleibt \"quello\": quello zaino."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze die richtige Form von quello ein (jener Mann, m. Sg. vor Vokal: l'uomo). Achte auf den Apostroph.",
+    "content": { "sentence": "Chi è ___ uomo?" },
+    "correct_answer": "quell'",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor einem maskulinen Singular mit Vokal-Anlaut (wie der Artikel \"l'\") wird quello zu \"quell'\": quell'uomo."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: \"Diese Mädchen sind sympathisch.\" (le ragazze = die Mädchen, f. Pl.; simpatiche = sympathisch).",
+    "content": { "tokens": ["Queste", "ragazze", "sono", "simpatiche"] },
+    "correct_answer": "Queste ragazze sono simpatiche.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei femininem Plural lautet die Form von questo immer \"queste\": queste ragazze. Das Adjektiv passt sich an (simpatiche)."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Als Pronomen: \"Quale gelato vuoi? ___\" (Welches Eis willst du? Dieses hier. il gelato, m. Sg.).",
+    "content": { "options": ["Questa", "Questo", "Quest'", "Questi"] },
+    "correct_answer": "Questo",
+    "acceptable_alternatives": [],
+    "explanation_de": "Als alleinstehendes Pronomen hat questo vier reguläre Formen. Für ein maskulines Singular-Wort (il gelato) lautet es \"Questo\"."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze die richtige Form von questo ein (diese Geschenke, m. Pl. vor Konsonant: i regali = die Geschenke).",
+    "content": { "sentence": "___ regali sono per te." },
+    "correct_answer": "Questi",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei maskulinem Plural lautet die Form von questo \"questi\": questi regali. Im Plural gibt es nie einen Apostroph."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: \"Ich kaufe jene Blumen.\" (comprare = kaufen, ich kaufe = compro; i fiori = die Blumen, m. Pl. vor Konsonant).",
+    "content": {},
+    "correct_answer": "Compro quei fiori.",
+    "acceptable_alternatives": ["compro quei fiori", "Io compro quei fiori.", "io compro quei fiori"],
+    "explanation_de": "Vor einem maskulinen Plural mit Konsonant-Anlaut (wie der Artikel \"i\") wird quello zu \"quei\": quei fiori."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: \"Jene Engel sind schön.\" (gli angeli = die Engel, m. Pl. vor Vokal; belli = schön).",
+    "content": { "tokens": ["Quegli", "angeli", "sono", "belli"] },
+    "correct_answer": "Quegli angeli sono belli.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor einem maskulinen Plural mit Vokal-Anlaut (wie der Artikel \"gli\") wird quello zu \"quegli\": quegli angeli."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form ist korrekt? \"___ amica abita a Roma.\" (diese Freundin, f. Sg. vor Vokal: l'amica). Achte auf den Apostroph.",
+    "content": { "options": ["Questa", "Quest'", "Questo", "Queste"] },
+    "correct_answer": "Quest'",
+    "acceptable_alternatives": [],
+    "explanation_de": "Im femininen Singular wird questa vor einem Vokal zu \"quest'\" apostrophiert: quest'amica."
+  }
+]

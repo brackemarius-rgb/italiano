@@ -1,0 +1,66 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Schreibe auf Italienisch: 'Ich bin dreißig Jahre alt.'",
+    "content": {},
+    "correct_answer": "Ho trenta anni.",
+    "acceptable_alternatives": ["Io ho trenta anni."],
+    "explanation_de": "Das Alter wird mit 'avere' gebildet: 'Ho ... anni'. 30 heißt 'trenta'."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Schreibe auf Italienisch: 'Das Buch kostet fünfzehn Euro.'",
+    "content": {},
+    "correct_answer": "Il libro costa quindici euro.",
+    "acceptable_alternatives": [],
+    "explanation_de": "15 heißt 'quindici'. 'costare' = kosten; 'euro' bleibt unverändert (kein Plural-s)."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Schreibe auf Italienisch: 'Heute ist der erste Mai.'",
+    "content": {},
+    "correct_answer": "Oggi è il primo maggio.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Nur beim 1. des Monats verwendet man die Ordnungszahl 'primo': 'il primo maggio'. Ab dem 2. nimmt man die Grundzahl."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Schreibe auf Italienisch: 'Wir wohnen im dritten Stock.'",
+    "content": {},
+    "correct_answer": "Abitiamo al terzo piano.",
+    "acceptable_alternatives": ["Noi abitiamo al terzo piano."],
+    "explanation_de": "Ordnungszahl 'terzo' (3.) richtet sich nach 'il piano' (maskulin). 'al' = a + il."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bring die Wörter in die richtige Reihenfolge: 'Maria ist fünfundzwanzig Jahre alt.'",
+    "content": { "tokens": ["Maria", "ha", "venticinque", "anni"] },
+    "correct_answer": "Maria ha venticinque anni.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Das Alter mit 'avere': 'ha ... anni'. 25 = venticinque (zusammengeschrieben)."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bring die Wörter in die richtige Reihenfolge: 'Die Wohnung kostet hunderttausend Euro.'",
+    "content": { "tokens": ["L'appartamento", "costa", "centomila", "euro"] },
+    "correct_answer": "L'appartamento costa centomila euro.",
+    "acceptable_alternatives": [],
+    "explanation_de": "100.000 = centomila ('mille' → 'mila', alles zusammengeschrieben). 'euro' bleibt unverändert."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bring die Wörter in die richtige Reihenfolge: 'Das ist das zweite Mal.'",
+    "content": { "tokens": ["È", "la", "seconda", "volta"] },
+    "correct_answer": "È la seconda volta.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Die Ordnungszahl 'secondo' richtet sich nach 'la volta' (feminin): 'la seconda volta'."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bring die Wörter in die richtige Reihenfolge: 'Heute ist der acht März.'",
+    "content": { "tokens": ["Oggi", "è", "l'otto", "marzo"] },
+    "correct_answer": "Oggi è l'otto marzo.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Ab dem 2. des Monats nimmt man die Grundzahl: 'l'otto marzo'. Vor 'otto' wird 'lo/il' zu 'l'' (Apostroph)."
+  }
+]

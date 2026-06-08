@@ -1,0 +1,74 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Präposition (oder keine) passt? 'Ho deciso ___ partire domani.'",
+    "content": { "options": ["a", "di", "—", "da"] },
+    "correct_answer": "di",
+    "acceptable_alternatives": [],
+    "explanation_de": "'decidere' (entscheiden) verlangt 'di': 'decidere di + Infinitiv'. Beispiel: 'Ho deciso di partire.'"
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze die richtige Präposition ein. 'Non riesco ___ dormire la notte.'",
+    "content": { "sentence": "Non riesco ___ dormire la notte." },
+    "correct_answer": "a",
+    "acceptable_alternatives": [],
+    "explanation_de": "'riuscire' (schaffen, gelingen) steht mit 'a': 'riuscire a + Infinitiv'. Beispiel: 'Non riesco a dormire.'"
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Nach Modalverben folgt der Infinitiv direkt. Ergänze nur den Infinitiv von 'venire': 'Puoi ___ con me?'",
+    "content": { "sentence": "Puoi ___ con me?" },
+    "correct_answer": "venire",
+    "acceptable_alternatives": [],
+    "explanation_de": "Nach dem Modalverb 'potere' (können) folgt der Infinitiv ohne Präposition: 'Puoi venire con me?'"
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Satz ist korrekt?",
+    "content": { "options": ["Ho smesso fumare.", "Ho smesso a fumare.", "Ho smesso di fumare.", "Ho smesso da fumare."] },
+    "correct_answer": "Ho smesso di fumare.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'smettere' (aufhören) verlangt 'di': 'smettere di + Infinitiv'. Verben des Aufhörens nehmen 'di'."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze die richtige Präposition ein. 'Mia madre mi aiuta ___ cucinare.'",
+    "content": { "sentence": "Mia madre mi aiuta ___ cucinare." },
+    "correct_answer": "a",
+    "acceptable_alternatives": [],
+    "explanation_de": "'aiutare' (helfen) steht mit 'a': 'aiutare a + Infinitiv'. Beispiel: 'Mi aiuta a cucinare.'"
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bring die Wörter in die richtige Reihenfolge.",
+    "content": { "tokens": ["Spero", "di", "vederti", "presto"] },
+    "correct_answer": "Spero di vederti presto.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'sperare' (hoffen) verlangt 'di': 'sperare di + Infinitiv'. Verben des Hoffens und Sagens nehmen 'di'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Präposition (oder keine) passt? 'Mi piace ___ leggere la sera.'",
+    "content": { "options": ["a", "di", "—", "da"] },
+    "correct_answer": "—",
+    "acceptable_alternatives": [],
+    "explanation_de": "Nach 'piacere' (gefallen) folgt der Infinitiv direkt, ohne Präposition: 'Mi piace leggere.'"
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Ich verspreche, morgen zurückzukommen.' (versprechen = promettere, zurückkommen = tornare)",
+    "content": {},
+    "correct_answer": "Prometto di tornare domani.",
+    "acceptable_alternatives": ["Io prometto di tornare domani.", "Prometto di tornare domani"],
+    "explanation_de": "'promettere' (versprechen) verlangt 'di': 'promettere di + Infinitiv'. Das Subjektpronomen 'io' kann man weglassen."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Wir lernen Italienisch sprechen.' (lernen = imparare, sprechen = parlare)",
+    "content": {},
+    "correct_answer": "Impariamo a parlare italiano.",
+    "acceptable_alternatives": ["Noi impariamo a parlare italiano.", "Impariamo a parlare italiano"],
+    "explanation_de": "'imparare' (lernen) verlangt 'a': 'imparare a + Infinitiv'. Verben des Lernens nehmen 'a'."
+  }
+]

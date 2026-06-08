@@ -1,0 +1,60 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Beantworte die Frage mit dem Ortspronomen: \"Vai a Roma?\" – \"Sì, ___ vado.\"",
+    "content": {
+      "options": ["ci", "ne", "lo", "ci sono"]
+    },
+    "correct_answer": "ci",
+    "acceptable_alternatives": [],
+    "explanation_de": "\"ci\" ersetzt hier die Ortsangabe \"a Roma\" (dort/dorthin). \"ne\" würde eine Menge ausdrücken, \"lo\" wäre ein direktes Objektpronomen."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze das passende Wort ein. Es geht darum, dass etwas vorhanden ist (es gibt + Singular): \"In centro ___ una bella piazza.\"",
+    "content": {
+      "sentence": "In centro ___ una bella piazza."
+    },
+    "correct_answer": "c'è",
+    "acceptable_alternatives": [],
+    "explanation_de": "\"c'è\" (= ci + è) bedeutet \"es gibt\" mit einem Substantiv im Singular. Bei Plural verwendet man \"ci sono\"."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze das passende Wort ein (es gibt + Plural): \"___ molte persone alla festa.\"",
+    "content": {
+      "sentence": "___ molte persone alla festa."
+    },
+    "correct_answer": "Ci sono",
+    "acceptable_alternatives": ["ci sono"],
+    "explanation_de": "\"ci sono\" ist die Pluralform von \"es gibt\" (esserci). Weil \"molte persone\" Plural ist, passt nicht \"c'è\", sondern \"ci sono\"."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Satz drückt korrekt aus: \"Ich kümmere mich darum\"? (festes Verb pensarci)",
+    "content": {
+      "options": ["Ci penso io.", "Ne penso io.", "Lo penso io.", "Penso io."]
+    },
+    "correct_answer": "Ci penso io.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Das feste Verb \"pensarci\" (daran/an etwas denken, sich darum kümmern) braucht \"ci\". \"ne penso\" wäre etwas anderes (eine Meinung über etwas haben)."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: \"Wir können mit dem Bus dorthin fahren.\"",
+    "content": {
+      "tokens": ["Ci", "possiamo", "andare", "in", "autobus"]
+    },
+    "correct_answer": "Ci possiamo andare in autobus.",
+    "acceptable_alternatives": ["Possiamo andarci in autobus."],
+    "explanation_de": "\"ci\" (dorthin) steht entweder vor dem konjugierten Verb (Ci possiamo andare) oder wird an den Infinitiv angehängt (possiamo andarci). Beide Stellungen sind korrekt."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Antworte auf die Frage mit dem Ortspronomen \"ci\": \"Sei stato in Italia?\" (Antwort: Ja, ich bin dort gewesen.)",
+    "content": {},
+    "correct_answer": "Sì, ci sono stato.",
+    "acceptable_alternatives": ["Sì, ci sono stata.", "Ci sono stato.", "Ci sono stata."],
+    "explanation_de": "\"ci\" ersetzt die Ortsangabe \"in Italia\" (dort). Im Passato Prossimo steht \"ci\" vor dem Hilfsverb: ci sono stato/stata (Endung je nach Geschlecht)."
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher bestimmte Artikel passt? ___ libro (das Buch)",
+    "content": { "options": ["il", "la", "lo", "l'"] },
+    "correct_answer": "il",
+    "acceptable_alternatives": [],
+    "explanation_de": "Substantive auf -o sind meist maskulin: il libro. Der bestimmte Artikel für maskuline Substantive, die mit einem Konsonanten beginnen, ist 'il'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Achtung, Ausnahme! Welcher Artikel ist richtig? ___ foto (das Foto)",
+    "content": { "options": ["la", "il", "lo", "l'"] },
+    "correct_answer": "la",
+    "acceptable_alternatives": [],
+    "explanation_de": "Obwohl 'foto' auf -o endet, ist es feminin (Kurzform von 'la fotografia'). Richtig ist also 'la foto', nicht 'il foto'."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze den richtigen bestimmten Artikel ein. Ausnahme: Substantiv auf -a, das maskulin ist! (das Problem)",
+    "content": { "sentence": "___ problema è difficile." },
+    "correct_answer": "Il",
+    "acceptable_alternatives": ["il"],
+    "explanation_de": "'Problema' endet auf -a, ist aber maskulin (wie viele Wörter griechischen Ursprungs auf -ma): il problema. 'La problema' ist falsch."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze den richtigen bestimmten Artikel ein. Substantiv auf -e — hier feminin! (der Schlüssel)",
+    "content": { "sentence": "Dov'è ___ chiave?" },
+    "correct_answer": "la",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei Substantiven auf -e muss man das Genus lernen. 'Chiave' ist feminin: la chiave. (Vergleiche: il giornale ist maskulin.)"
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welches Substantiv ist FEMININ?",
+    "content": { "options": ["la mano", "il cinema", "il film", "il programma"] },
+    "correct_answer": "la mano",
+    "acceptable_alternatives": [],
+    "explanation_de": "'La mano' (die Hand) ist feminin, obwohl es auf -o endet — eine wichtige Ausnahme. 'Cinema', 'film' und 'programma' sind dagegen maskulin."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz in der richtigen Reihenfolge (die Hand ist klein).",
+    "content": { "tokens": ["La", "mano", "è", "piccola."] },
+    "correct_answer": "La mano è piccola.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'Mano' ist feminin, deshalb 'la mano' und das feminine Adjektiv 'piccola'. Das Genus des Substantivs bestimmt Artikel und Adjektivendung."
+  }
+]

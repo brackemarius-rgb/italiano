@@ -1,0 +1,50 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Ich bin sehr müde.' (Frau, die spricht)",
+    "content": {},
+    "correct_answer": "Sono molto stanca.",
+    "acceptable_alternatives": ["Io sono molto stanca."],
+    "explanation_de": "Vor einem Adjektiv ('stanca') ist 'molto' ein Adverb und bleibt unveränderlich: molto stanca (nicht 'molta stanca')."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Ich gehe jeden Tag ins Büro.'",
+    "content": {},
+    "correct_answer": "Vado in ufficio ogni giorno.",
+    "acceptable_alternatives": ["Io vado in ufficio ogni giorno.", "Vado ogni giorno in ufficio."],
+    "explanation_de": "'ogni' ist unveränderlich und steht immer im Singular: ogni giorno (nicht 'ogni giorni')."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Jemand hat angerufen.'",
+    "content": {},
+    "correct_answer": "Qualcuno ha telefonato.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'qualcuno' (jemand) steht allein als Pronomen ohne Substantiv: Qualcuno ha telefonato."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: 'Ich arbeite zu viel.' ('troppo' als Adverb nach dem Verb)",
+    "content": { "tokens": ["Lavoro", "troppo"] },
+    "correct_answer": "Lavoro troppo.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Nach dem Verb ('lavoro') ist 'troppo' ein Adverb und bleibt unveränderlich: Lavoro troppo."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: 'Es ist niemand da.' (doppelte Verneinung)",
+    "content": { "tokens": ["Non", "c'è", "nessuno"] },
+    "correct_answer": "Non c'è nessuno.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Mit 'nessuno' braucht man die doppelte Verneinung: Non c'è nessuno (nicht 'C'è nessuno')."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: 'Ich habe einige Freunde.' ('alcuni' + Plural)",
+    "content": { "tokens": ["Ho", "alcuni", "amici"] },
+    "correct_answer": "Ho alcuni amici.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'alcuni' (einige) steht mit dem Plural: alcuni amici (nicht 'alcuni amico')."
+  }
+]

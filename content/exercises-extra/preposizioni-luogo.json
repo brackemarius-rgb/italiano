@@ -1,0 +1,74 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Region oder Stadt? Wähle die richtige Präposition: 'L'estate prossima vado ___ Toscana.'",
+    "content": { "options": ["in", "a", "da", "su"] },
+    "correct_answer": "in",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei Regionen steht 'in' wie bei Ländern: 'in Toscana'. 'a' wird nur bei Städten verwendet (z. B. a Firenze)."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Kleine Insel! Setze die richtige Präposition ein: 'Ad agosto andiamo ___ Capri.'",
+    "content": { "sentence": "Ad agosto andiamo ___ Capri." },
+    "correct_answer": "a",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei kleinen Inseln steht ausnahmsweise 'a': 'a Capri'. Nur bei großen Inseln und Regionen verwendet man 'in' (z. B. in Sicilia)."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Bei einer Person sein: Welche Präposition passt? 'Stasera siamo ___ Lucia.'",
+    "content": { "options": ["da", "a", "in", "su"] },
+    "correct_answer": "da",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei Personen steht 'da': 'siamo da Lucia' (wir sind bei Lucia). 'a' oder 'in' wären hier falsch."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Raum im Haus: Setze die richtige Präposition mit Artikel ein: 'La lavatrice è ___ bagno.' (im Badezimmer)",
+    "content": { "sentence": "La lavatrice è ___ bagno." },
+    "correct_answer": "nel",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei spezifischen Räumen steht 'in' + Artikel: nel = in + il. Also 'nel bagno' (im Bad)."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wo ist die Katze? 'Il gatto dorme ___ sedia.' (unter dem Stuhl)",
+    "content": { "options": ["sotto la", "sulla", "nella", "dalla"] },
+    "correct_answer": "sotto la",
+    "acceptable_alternatives": [],
+    "explanation_de": "'unter' = 'sotto' (+ Artikel ohne Verschmelzung): 'sotto la sedia'. 'sulla' hieße 'auf', 'nella' 'in'."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Ich fahre mit dem Zug nach Neapel.' (Stadt = a, Verkehrsmittel = in)",
+    "content": {},
+    "correct_answer": "Vado a Napoli in treno.",
+    "acceptable_alternatives": ["Vado in treno a Napoli.", "Io vado a Napoli in treno."],
+    "explanation_de": "Bei Städten steht 'a' (a Napoli), beim Verkehrsmittel steht 'in' (in treno). Die Reihenfolge der beiden Angaben ist flexibel."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bring die Wörter in die richtige Reihenfolge (Lagebeschreibung mit 'davanti a').",
+    "content": { "tokens": ["La", "macchina", "è", "davanti", "alla", "casa"] },
+    "correct_answer": "La macchina è davanti alla casa.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'davanti a' bedeutet 'vor'. Mit Artikel verschmilzt 'a' zu 'alla' (a + la): 'davanti alla casa'."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Geschäft/Ort: Setze die richtige Präposition ein: 'Compro il pane ___ supermercato.' (im Supermarkt)",
+    "content": { "sentence": "Compro il pane ___ supermercato." },
+    "correct_answer": "al",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei spezifischen Orten wie dem Supermarkt steht 'a' + Artikel: al = a + il. Also 'al supermercato'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Lagebeschreibung: 'La farmacia è ___ banca.' (gegenüber der Bank)",
+    "content": { "options": ["di fronte alla", "dietro la", "accanto al", "vicino al"] },
+    "correct_answer": "di fronte alla",
+    "acceptable_alternatives": [],
+    "explanation_de": "'gegenüber' = 'di fronte a'. Mit Artikel: 'di fronte alla banca' (a + la = alla). Die anderen Optionen bedeuten 'hinter', 'neben' bzw. 'in der Nähe von' und passen nicht."
+  }
+]

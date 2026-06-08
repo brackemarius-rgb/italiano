@@ -1,0 +1,58 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Auf dem Tisch sind zwei Gläser.'",
+    "content": {},
+    "correct_answer": "Sul tavolo ci sono due bicchieri.",
+    "acceptable_alternatives": ["Ci sono due bicchieri sul tavolo."],
+    "explanation_de": "Maskuline Substantive auf -e bilden den Plural auf -i: il bicchiere → i bicchieri."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Die Schülerinnen lesen die Zeitungen.'",
+    "content": {},
+    "correct_answer": "Le studentesse leggono i giornali.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Feminine Substantive auf -a bilden den Plural auf -e: la studentessa → le studentesse. Maskuline auf -e auf -i: il giornale → i giornali."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Schreibe den Satz im Plural: 'La mela è rossa.' (Die Äpfel sind rot.)",
+    "content": {},
+    "correct_answer": "Le mele sono rosse.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Feminine Substantive auf -a bilden den Plural auf -e: la mela → le mele. Auch Verb und Adjektiv passen sich an: è rossa → sono rosse."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'In der Stadt gibt es viele Geschäfte.'",
+    "content": {},
+    "correct_answer": "In città ci sono molti negozi.",
+    "acceptable_alternatives": ["In città ci sono tanti negozi."],
+    "explanation_de": "Substantive auf -io bilden den Plural mit einem einfachen -i: il negozio → i negozi (nicht negozii)."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge. Achte auf den Plural von 'il tavolo'.",
+    "content": { "tokens": ["I", "tavoli", "sono", "grandi"] },
+    "correct_answer": "I tavoli sono grandi.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Maskuline Substantive auf -o bilden den Plural auf -i: il tavolo → i tavoli. Der Artikel wird zu 'i'."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge. Achte auf den Plural von 'la stazione'.",
+    "content": { "tokens": ["Le", "stazioni", "sono", "nuove"] },
+    "correct_answer": "Le stazioni sono nuove.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Feminine Substantive auf -e bilden den Plural auf -i: la stazione → le stazioni. Der Artikel bleibt feminin (le)."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge. Achte auf den Plural von 'lo studente'.",
+    "content": { "tokens": ["Gli", "studenti", "studiano", "molto"] },
+    "correct_answer": "Gli studenti studiano molto.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Maskuline Substantive auf -e bilden den Plural auf -i: lo studente → gli studenti. Der Artikel wird im Plural zu 'gli'."
+  }
+]

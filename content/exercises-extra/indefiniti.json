@@ -1,0 +1,74 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Form von 'molto' als Adjektiv (es richtet sich nach dem Substantiv).",
+    "content": { "sentence": "Al mercato ci sono ___ persone." },
+    "correct_answer": "molte",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor dem Substantiv 'persone' (feminin, Plural) ist 'molto' ein Adjektiv und passt sich an: molte."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Form von 'troppo' als Adjektiv vor dem Substantiv.",
+    "content": { "sentence": "Hai messo ___ zucchero nel caffè!" },
+    "correct_answer": "troppo",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor dem Substantiv 'zucchero' (maskulin, Singular) passt sich 'troppo' an: troppo zucchero."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Satz ist korrekt? Achte auf 'poco' als Adverb vor einem Verb.",
+    "content": { "options": ["Marco dorme poca.", "Marco dorme poco.", "Marco dorme pochi.", "Marco dorme poche."] },
+    "correct_answer": "Marco dorme poco.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Nach einem Verb ('dorme') ist 'poco' ein Adverb und bleibt unveränderlich: dorme poco."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze 'ogni'. Achtung: In welcher Zahl steht das Substantiv nach 'ogni'?",
+    "content": { "sentence": "Lei prende l'autobus ogni ___." },
+    "correct_answer": "mattina",
+    "acceptable_alternatives": ["giorno", "sera", "settimana"],
+    "explanation_de": "'ogni' ist unveränderlich und steht immer im Singular: ogni mattina (nicht 'ogni mattine')."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wie sagt man 'einige Bücher'? Beachte den Unterschied zwischen 'qualche' und 'alcuni'.",
+    "content": { "options": ["qualche libri", "alcuni libro", "alcuni libri", "ogni libri"] },
+    "correct_answer": "alcuni libri",
+    "acceptable_alternatives": [],
+    "explanation_de": "'alcuni' steht mit dem Plural: alcuni libri. 'qualche' würde dagegen den Singular verlangen: qualche libro."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze 'qualche' richtig: In welcher Zahl steht das Substantiv danach?",
+    "content": { "sentence": "Ho comprato qualche ___ per la cena." },
+    "correct_answer": "pomodoro",
+    "acceptable_alternatives": ["mela", "limone", "patata"],
+    "explanation_de": "Nach 'qualche' steht das Substantiv immer im Singular (mit Pluralbedeutung): qualche pomodoro = einige Tomaten."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische (mit doppelter Verneinung): 'Ich verstehe nichts.'",
+    "content": {},
+    "correct_answer": "Non capisco niente.",
+    "acceptable_alternatives": ["Io non capisco niente.", "Non capisco nulla.", "Io non capisco nulla."],
+    "explanation_de": "Mit 'niente/nulla' braucht man im Italienischen die doppelte Verneinung: Non capisco niente. ('Capisco niente' wäre falsch.)"
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: 'Jeden Abend lese ich.' Beachte: tutto + Artikel + Substantiv.",
+    "content": { "tokens": ["Leggo", "tutte", "le", "sere"] },
+    "correct_answer": "Leggo tutte le sere.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'tutto' steht mit bestimmtem Artikel und Substantiv und passt sich an: tutte le sere (jeden Abend)."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welches Pronomen passt? 'jemand hat angeklopft'.",
+    "content": { "options": ["Nessuno ha bussato.", "Qualcuno ha bussato.", "Niente ha bussato.", "Ognuno ha bussato."] },
+    "correct_answer": "Qualcuno ha bussato.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'qualcuno' bedeutet 'jemand' und steht allein als Pronomen: Qualcuno ha bussato."
+  }
+]

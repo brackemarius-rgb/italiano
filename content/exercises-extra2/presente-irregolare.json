@@ -1,0 +1,42 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Wir gehen heute Abend ins Restaurant.' (Verb: andare)",
+    "content": {},
+    "correct_answer": "Andiamo al ristorante stasera.",
+    "acceptable_alternatives": ["Stasera andiamo al ristorante.", "Andiamo al ristorante stasera", "Noi andiamo al ristorante stasera."],
+    "explanation_de": "'andare' ist unregelmäßig: io vado, tu vai, lui/lei va, noi andiamo, voi andate, loro vanno. Die noi-Form ist 'andiamo'. Das Subjektpronomen 'noi' kann entfallen."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Sie müssen viel arbeiten.' (Verb: dovere, sie = loro)",
+    "content": {},
+    "correct_answer": "Devono lavorare molto.",
+    "acceptable_alternatives": ["Loro devono lavorare molto.", "Devono lavorare molto", "Loro devono lavorare molto"],
+    "explanation_de": "'dovere' ist ein unregelmäßiges Modalverb: io devo, tu devi, lui/lei deve, noi dobbiamo, voi dovete, loro devono. Für 'sie' (loro) heißt es 'devono'."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: 'Ich gehe morgen aus.'",
+    "content": { "tokens": ["Domani", "esco", "io"] },
+    "correct_answer": "Domani esco io.",
+    "acceptable_alternatives": ["Io esco domani.", "Domani esco io", "Domani io esco."],
+    "explanation_de": "'uscire' hat einen Stammwechsel u→e: io esco, tu esci, lui/lei esce, noi usciamo, voi uscite, loro escono. Die io-Form ist 'esco'."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: 'Was machst du am Sonntag?'",
+    "content": { "tokens": ["Cosa", "fai", "la", "domenica"] },
+    "correct_answer": "Cosa fai la domenica?",
+    "acceptable_alternatives": ["Cosa fai la domenica"],
+    "explanation_de": "'fare' ist unregelmäßig: io faccio, tu fai, lui/lei fa, noi facciamo, voi fate, loro fanno. Für 'du' (tu) heißt es 'fai'."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: 'Wir trinken einen Kaffee zusammen.'",
+    "content": { "tokens": ["Beviamo", "un", "caffè", "insieme"] },
+    "correct_answer": "Beviamo un caffè insieme.",
+    "acceptable_alternatives": ["Beviamo un caffè insieme"],
+    "explanation_de": "'bere' ist unregelmäßig mit dem Stamm 'bev-': io bevo, tu bevi, lui/lei beve, noi beviamo, voi bevete, loro bevono. Die noi-Form ist 'beviamo'."
+  }
+]

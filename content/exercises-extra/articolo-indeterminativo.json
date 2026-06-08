@@ -1,0 +1,74 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze den unbestimmten Artikel. 'libro' ist maskulin und beginnt mit einem Konsonant.",
+    "content": { "sentence": "Leggo ___ libro interessante." },
+    "correct_answer": "un",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor maskulinen Substantiven, die mit einem normalen Konsonant beginnen, steht 'un': un libro."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze den unbestimmten Artikel. 'isola' ist feminin und beginnt mit einem Vokal.",
+    "content": { "sentence": "La Sicilia è ___ isola grande." },
+    "correct_answer": "un'",
+    "acceptable_alternatives": [],
+    "explanation_de": "Feminin vor Vokal: 'una' wird zu 'un'' mit Apostroph: un'isola."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher unbestimmte Artikel passt zu 'specchio'? Achte auf s + Konsonant.",
+    "content": { "options": ["un", "uno", "una", "un'"] },
+    "correct_answer": "uno",
+    "acceptable_alternatives": [],
+    "explanation_de": "'specchio' ist maskulin und beginnt mit s + Konsonant. Daher steht 'uno': uno specchio."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form ist richtig?",
+    "content": { "options": ["un' albergo", "uno albergo", "un albergo", "una albergo"] },
+    "correct_answer": "un albergo",
+    "acceptable_alternatives": [],
+    "explanation_de": "'albergo' ist maskulin und beginnt mit Vokal. Maskulin vor Vokal: 'un' ohne Apostroph (un albergo). Der Apostroph steht nur im Femininum."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze den unbestimmten Artikel. 'macchina' ist feminin und beginnt mit einem Konsonant.",
+    "content": { "sentence": "Hanno comprato ___ macchina rossa." },
+    "correct_answer": "una",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor femininen Substantiven, die mit einem Konsonant beginnen, steht 'una': una macchina."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher unbestimmte Artikel passt zu 'psicologo'? Achte auf ps am Anfang.",
+    "content": { "options": ["un", "uno", "una", "un'"] },
+    "correct_answer": "uno",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor maskulinen Substantiven, die mit ps (auch s + Konsonant, z, x, y, gn) beginnen, steht 'uno': uno psicologo."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde einen korrekten Satz. 'arancia' ist feminin und beginnt mit einem Vokal.",
+    "content": { "tokens": ["Mangio", "un'", "arancia", "ogni", "mattina"] },
+    "correct_answer": "Mangio un'arancia ogni mattina.",
+    "acceptable_alternatives": ["Mangio un' arancia ogni mattina."],
+    "explanation_de": "Feminin vor Vokal: 'una' wird zu 'un'' mit Apostroph (un'arancia). Der Apostroph wird direkt ans Wort angehängt."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Schreibe auf Italienisch: 'Ich habe einen Hund.' ('cane' ist maskulin und beginnt mit einem Konsonant.)",
+    "content": {},
+    "correct_answer": "Ho un cane.",
+    "acceptable_alternatives": ["Io ho un cane."],
+    "explanation_de": "'cane' ist maskulin und beginnt mit einem Konsonant, daher 'un cane': Ho un cane."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Schreibe auf Italienisch: 'Es ist eine gute Idee.' ('idea' ist feminin und beginnt mit einem Vokal.)",
+    "content": {},
+    "correct_answer": "È un'idea buona.",
+    "acceptable_alternatives": ["È una buona idea.", "È una buon'idea.", "È un'idea bella.", "È una bella idea."],
+    "explanation_de": "Feminin vor Vokal: 'una' wird zu 'un'' mit Apostroph: un'idea. Beachte den Apostroph, der nur im Femininum steht."
+  }
+]

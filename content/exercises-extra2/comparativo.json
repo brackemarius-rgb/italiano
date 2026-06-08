@@ -1,0 +1,34 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: \"Die Pizza ist besser als die Lasagne.\"",
+    "content": {},
+    "correct_answer": "La pizza è migliore della lasagna.",
+    "acceptable_alternatives": ["La pizza è più buona della lasagna."],
+    "explanation_de": "Der unregelmäßige Komparativ von 'buono' ist 'migliore' (besser); auch 'più buona' ist möglich. Vor dem Substantiv steht 'di' (di + la = della)."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: \"Sofia ist so groß wie Giulia.\"",
+    "content": {},
+    "correct_answer": "Sofia è alta come Giulia.",
+    "acceptable_alternatives": ["Sofia è così alta come Giulia."],
+    "explanation_de": "Den Gleichheitsvergleich 'so ... wie' bildet man mit '(così) ... come'. Das 'così' ist optional, 'come' bleibt fest. Das Adjektiv 'alta' ist weiblich, weil es sich auf Sofia bezieht."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: \"Der Zug ist schneller als das Auto.\"",
+    "content": { "tokens": ["Il", "treno", "è", "più", "veloce", "della macchina"] },
+    "correct_answer": "Il treno è più veloce della macchina.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'schneller als' bildet man mit 'più veloce di'. Vor dem Substantiv steht 'di' (di + la = della)."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: \"Heute fühle ich mich besser.\" (Adverb)",
+    "content": { "tokens": ["Oggi", "mi", "sento", "meglio"] },
+    "correct_answer": "Oggi mi sento meglio.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'meglio' ist der Komparativ des Adverbs 'bene' (gut). Mit dem Verb 'sentirsi' (sich fühlen) braucht man das Adverb, nicht das Adjektiv 'migliore'."
+  }
+]

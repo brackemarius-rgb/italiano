@@ -1,0 +1,32 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: „Sie sind Studenten.“ (loro)",
+    "content": {},
+    "correct_answer": "Sono studenti.",
+    "acceptable_alternatives": ["Loro sono studenti."],
+    "explanation_de": "essere, loro-Form: sono. Das Subjektpronomen 'loro' kann wegfallen."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: „Wir haben Hunger.“",
+    "content": {},
+    "correct_answer": "Abbiamo fame.",
+    "acceptable_alternatives": ["Noi abbiamo fame."],
+    "explanation_de": "'avere fame' = Hunger haben. noi-Form von avere: abbiamo."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bring die Wörter in die richtige Reihenfolge.",
+    "content": { "tokens": ["Io", "ho", "due", "fratelli"] },
+    "correct_answer": "Io ho due fratelli.",
+    "explanation_de": "Besitz mit avere: 'Io ho due fratelli.' = Ich habe zwei Brüder."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bring die Wörter in die richtige Reihenfolge.",
+    "content": { "tokens": ["Voi", "siete", "molto", "stanchi"] },
+    "correct_answer": "Voi siete molto stanchi.",
+    "explanation_de": "essere + Eigenschaft: 'Voi siete molto stanchi.' = Ihr seid sehr müde."
+  }
+]

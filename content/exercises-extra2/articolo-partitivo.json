@@ -1,0 +1,42 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Schreibe auf Italienisch: \"Ich nehme (etwas) Zucker.\" (Verwende \"prendo\"; \"zucchero\" ist maskulin mit Artikel \"lo\".)",
+    "content": {},
+    "correct_answer": "Prendo dello zucchero.",
+    "acceptable_alternatives": ["Prendo dello zucchero"],
+    "explanation_de": "Bei einer unbestimmten Menge steht der Teilungsartikel: di + lo (zucchero, vor z-) = dello."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Schreibe auf Italienisch: \"Ich kaufe (einige) Erdbeeren.\" (Verwende \"compro\"; \"fragole\" ist feminin Plural mit Artikel \"le\".)",
+    "content": {},
+    "correct_answer": "Compro delle fragole.",
+    "acceptable_alternatives": ["Compro delle fragole"],
+    "explanation_de": "Bei einer unbestimmten Anzahl steht der Teilungsartikel: di + le (fragole) = delle."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: \"Ich hätte gerne (etwas) Käse.\"",
+    "content": { "tokens": ["Vorrei", "del", "formaggio"] },
+    "correct_answer": "Vorrei del formaggio.",
+    "acceptable_alternatives": [],
+    "explanation_de": "\"Formaggio\" ist maskulin Singular mit Artikel \"il\". Der Teilungsartikel ist di + il = del."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: \"Ich esse (etwas) Obst.\"",
+    "content": { "tokens": ["Mangio", "della", "frutta"] },
+    "correct_answer": "Mangio della frutta.",
+    "acceptable_alternatives": [],
+    "explanation_de": "\"Frutta\" ist feminin Singular mit Artikel \"la\". Der Teilungsartikel ist di + la = della."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: \"Ich kaufe (etwas) Brot und (etwas) Wasser.\"",
+    "content": { "tokens": ["Compro", "del", "pane", "e", "dell'acqua"] },
+    "correct_answer": "Compro del pane e dell'acqua.",
+    "acceptable_alternatives": [],
+    "explanation_de": "\"Pane\" ist maskulin mit Artikel \"il\" (di + il = del); \"acqua\" ist feminin mit Vokalanlaut (di + l' = dell'acqua)."
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle das richtige indirekte Objektpronomen: 'Scrivo a Marco' → '___ scrivo.'",
+    "content": { "options": ["Gli", "Lo", "Le", "Li"] },
+    "correct_answer": "Gli",
+    "acceptable_alternatives": [],
+    "explanation_de": "'a Marco' (ihm) ist ein indirektes Objekt (Dativ, Frage: wem?). Für die 3. Person Singular männlich steht 'gli'. 'lo'/'li' wären direkte Pronomen, 'le' wäre weiblich."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das indirekte Objektpronomen. 'Telefono a Maria' → '___ telefono.' (Ich rufe sie an.)",
+    "content": { "sentence": "___ telefono." },
+    "correct_answer": "Le",
+    "acceptable_alternatives": ["le"],
+    "explanation_de": "'telefonare a' verlangt ein indirektes Objekt. Für die 3. Person Singular weiblich (a Maria = ihr) steht 'le'. Achtung: nicht 'la' (das wäre das direkte Pronomen)."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Satz ist korrekt? (gefallen = piacere)",
+    "content": { "options": ["Mi piacciono gli spaghetti.", "Mi piaccio gli spaghetti.", "Mi piace gli spaghetti.", "Lo piacciono gli spaghetti."] },
+    "correct_answer": "Mi piacciono gli spaghetti.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei 'piacere' steht das indirekte Pronomen ('mi' = mir), und das Verb richtet sich nach dem, was gefällt. 'gli spaghetti' ist Plural, also 'piacciono'."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das indirekte Objektpronomen für 'mir'. 'Ti piace la pizza? Sì, ___ piace molto.'",
+    "content": { "sentence": "Ti piace la pizza? Sì, ___ piace molto." },
+    "correct_answer": "mi",
+    "acceptable_alternatives": [],
+    "explanation_de": "Die Antwort bezieht sich auf 'mir' (1. Person Singular) = 'mi'. Das Verb bleibt 'piace', weil 'la pizza' Singular ist."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: 'Ich schenke ihr Blumen.'",
+    "content": { "tokens": ["Le", "regalo", "dei", "fiori"] },
+    "correct_answer": "Le regalo dei fiori.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Das indirekte Objektpronomen 'le' (ihr) steht vor dem konjugierten Verb 'regalo'. 'regalare a' verlangt ein indirektes Objekt."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische und ersetze das indirekte Objekt durch ein Pronomen: 'Ich antworte ihm.' (rispondere a)",
+    "content": {},
+    "correct_answer": "Gli rispondo.",
+    "acceptable_alternatives": ["Io gli rispondo."],
+    "explanation_de": "'rispondere a' verlangt ein indirektes Objekt. Für 'ihm' (3. Person Singular männlich) steht 'gli', und es steht vor dem konjugierten Verb. Das Subjektpronomen 'io' kann entfallen."
+  }
+]

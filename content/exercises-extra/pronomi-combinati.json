@@ -1,0 +1,74 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das kombinierte Pronomen. 'Ci porti il caffè?' – 'Sì, ___ porto subito.' (Ja, ich bringe ihn uns sofort.)",
+    "content": { "sentence": "Ci porti il caffè? Sì, ___ porto subito." },
+    "correct_answer": "ce lo",
+    "acceptable_alternatives": [],
+    "explanation_de": "Das indirekte Pronomen 'ci' (uns) wird vor dem direkten Pronomen 'lo' (für 'il caffè') zu 'ce'. Reihenfolge: indirekt vor direkt, also 'ce lo porto'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle die richtige Form. 'Regali i fiori a tua madre?' – 'Sì, ___ regalo.'",
+    "content": { "options": ["glieli", "gli li", "gliele", "li gli"] },
+    "correct_answer": "glieli",
+    "acceptable_alternatives": [],
+    "explanation_de": "Für eine weibliche Person ('a tua madre' = 'le') wird das indirekte Pronomen zu 'glie-'. Das direkte Objekt 'i fiori' ist männlich Plural, also 'li'. Zusammen ergibt das EIN Wort: 'glieli'."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bring die Wörter in die richtige Reihenfolge (indirekt vor direkt!). Bedeutung: 'Sie schicken mir die E-Mail. → Sie schicken sie mir.'",
+    "content": { "tokens": ["Me", "la", "mandano", "domani."] },
+    "correct_answer": "Me la mandano domani.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Das indirekte Pronomen 'mi' (mir) wird vor 'la' (für 'la mail') zu 'me'. Reihenfolge: indirektes Pronomen + direktes Pronomen + Verb: 'Me la mandano domani.'"
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die kombinierte Form mit 'ne'. 'Quante mele desidera?' – 'Me ___ dia tre, per favore.' (Geben Sie mir drei davon.)",
+    "content": { "sentence": "Quante mele desidera? Me ___ dia tre, per favore." },
+    "correct_answer": "ne",
+    "acceptable_alternatives": [],
+    "explanation_de": "Mit Mengenangaben verwendet man 'ne' (davon). Das indirekte 'mi' wird zu 'me', davor: 'me ne dia tre'. 'dia' ist der höfliche Imperativ (Lei) von 'dare'; passend dazu auch 'desidera' (Lei)."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Ich erkläre es dir.' (es = 'lo', dir = indirekt)",
+    "content": {},
+    "correct_answer": "Te lo spiego.",
+    "acceptable_alternatives": ["Te lo spiego", "Io te lo spiego."],
+    "explanation_de": "Das indirekte Pronomen 'ti' wird vor 'lo' zu 'te'. Reihenfolge: indirekt zuerst, dann direkt, dann Verb: 'Te lo spiego.' Falsch wäre 'Ti lo spiego' oder 'Lo te spiego'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle die richtige Stellung mit Modalverb. 'Ich will sie ihm sagen.' (sie = 'la verità' = la, ihm = gli)",
+    "content": { "options": ["Voglio dirgliela.", "Voglio dire gliela.", "Voglio gliela dire la.", "Voglio dir gliela."] },
+    "correct_answer": "Voglio dirgliela.",
+    "acceptable_alternatives": ["Gliela voglio dire."],
+    "explanation_de": "Für 'ihm' wird 'gli' zu 'glie-' und mit 'la' (la verità) zu 'gliela'. Bei Modalverb + Infinitiv: entweder vor dem Modalverb ('Gliela voglio dire.') oder am Infinitiv angehängt ('Voglio dirgliela.', dabei verliert 'dire' das End-e)."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die kombinierte Form im Passato Prossimo. 'Avete comprato i biglietti per noi?' – 'Sì, ___ abbiamo comprati ieri.' (Ja, wir haben sie euch gestern gekauft.)",
+    "content": { "sentence": "Avete comprato i biglietti per noi? Sì, ___ abbiamo comprati ieri." },
+    "correct_answer": "ve li",
+    "acceptable_alternatives": [],
+    "explanation_de": "Das indirekte 'vi' (euch) wird vor 'li' (für 'i biglietti', männlich Plural) zu 've': 've li'. Das Partizip 'comprati' passt sich an das direkte Pronomen 'li' an (männlich Plural)."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bring die Wörter in die richtige Reihenfolge. Bedeutung: 'Leihst du mir das Auto? Ja, ich leihe es dir gern.'",
+    "content": { "tokens": ["Sì,", "te", "lo", "presto", "volentieri."] },
+    "correct_answer": "Sì, te lo presto volentieri.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Das indirekte 'ti' wird vor 'lo' (für 'la macchina'... hier 'es' = das Auto, im Italienischen 'lo' für ein männliches Objekt) zu 'te': 'te lo presto'. Reihenfolge: indirekt + direkt + Verb."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle die richtige Form. 'Hai dato le chiavi a Marco?' – 'Sì, ___ ho date stamattina.'",
+    "content": { "options": ["gliele", "glie le", "gli le", "le gli"] },
+    "correct_answer": "gliele",
+    "acceptable_alternatives": [],
+    "explanation_de": "Für 'a Marco' (= 'gli', männlich) wird das indirekte Pronomen zu 'glie-'. Das direkte Objekt 'le chiavi' ist weiblich Plural, also 'le'. Zusammen EIN Wort: 'gliele'. Das Partizip 'date' passt sich an 'le' an."
+  }
+]

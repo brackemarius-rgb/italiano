@@ -1,0 +1,55 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Gestern habe ich einen interessanten Film gesehen.' (einmaliges Ereignis -> passato prossimo)",
+    "content": {},
+    "correct_answer": "Ieri ho visto un film interessante.",
+    "acceptable_alternatives": [
+      "Ieri ho visto un film interessante",
+      "Ieri, ho visto un film interessante."
+    ],
+    "explanation_de": "'Ieri' signalisiert eine einmalige, abgeschlossene Handlung -> passato prossimo: 'ho visto'. Das imperfetto wäre hier falsch, da es kein Hintergrund und keine Gewohnheit ist."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Früher wohnten wir in Rom.' (andauernder Zustand in der Vergangenheit -> imperfetto)",
+    "content": {},
+    "correct_answer": "Una volta abitavamo a Roma.",
+    "acceptable_alternatives": [
+      "Prima abitavamo a Roma.",
+      "Una volta vivevamo a Roma.",
+      "Prima vivevamo a Roma."
+    ],
+    "explanation_de": "Ein andauernder Zustand in der Vergangenheit ('früher wohnten wir') steht im imperfetto: 'abitavamo'. Das passato prossimo würde dagegen eine einzelne, abgeschlossene Handlung bezeichnen."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz in der richtigen Reihenfolge. Beschreibung im imperfetto: 'Es war ein schöner Tag.'",
+    "content": {
+      "tokens": ["Era", "una", "bella", "giornata"]
+    },
+    "correct_answer": "Era una bella giornata.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Beschreibungen und Zustände stehen im imperfetto: 'era'. Das passato prossimo 'è stata' wäre hier falsch, da es um eine andauernde Beschreibung geht, nicht um ein einzelnes Ereignis."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz in der richtigen Reihenfolge. Hintergrund (imperfetto) + Ereignis (passato prossimo): 'Ich aß, als das Telefon klingelte.'",
+    "content": {
+      "tokens": ["Mangiavo", "quando", "ha", "squillato", "il telefono"]
+    },
+    "correct_answer": "Mangiavo quando ha squillato il telefono.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'Mangiavo' ist die andauernde Hintergrundhandlung -> imperfetto. 'ha squillato' ist das einzelne, punktuelle Ereignis -> passato prossimo. Beide Zeiten werden kombiniert."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz in der richtigen Reihenfolge. Einzelnes Ereignis im passato prossimo: 'Letztes Jahr bin ich nach Italien gefahren.'",
+    "content": {
+      "tokens": ["L'anno scorso", "sono", "andata", "in Italia"]
+    },
+    "correct_answer": "L'anno scorso sono andata in Italia.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'L'anno scorso' signalisiert eine einmalige, abgeschlossene Handlung -> passato prossimo: 'sono andata'. Das imperfetto würde eine wiederholte Gewohnheit bezeichnen."
+  }
+]

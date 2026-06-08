@@ -1,0 +1,50 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Form von volerci (Es dauert zwei Stunden mit dem Zug).",
+    "content": { "sentence": "Per arrivare a Roma ___ due ore in treno." },
+    "correct_answer": "ci vogliono",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei volerci richtet sich das Verb nach dem, was gebraucht wird. 'due ore' ist Plural, also 'ci vogliono'. Singular wäre 'ci vuole'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Satz ist korrekt? (Man muss reservieren.)",
+    "content": { "options": ["Bisogna prenotare.", "Bisogna una prenotazione.", "Ci vuole prenotare.", "Bisogna che prenoto."] },
+    "correct_answer": "Bisogna prenotare.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'bisogna' steht immer mit dem Infinitiv: 'bisogna prenotare'. Mit Substantiv ('bisogna una prenotazione') ist es falsch; dafür nimmt man 'avere bisogno di'."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Form von volerci (Es braucht Geduld).",
+    "content": { "sentence": "Per imparare l'italiano ___ pazienza." },
+    "correct_answer": "ci vuole",
+    "acceptable_alternatives": [],
+    "explanation_de": "'pazienza' ist Singular, deshalb 'ci vuole'. volerci drückt hier eine benötigte Eigenschaft aus."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: Man muss schnell machen / sich beeilen.",
+    "content": { "tokens": ["Bisogna", "fare", "presto"] },
+    "correct_answer": "Bisogna fare presto.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Unpersönliches 'bisogna' + Infinitiv ('fare'). 'fare presto' bedeutet sich beeilen."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Satz ist korrekt? (Es dauert eine Stunde.)",
+    "content": { "options": ["Ci vuole un'ora.", "Bisogna un'ora.", "Ci vogliono un'ora.", "Ha bisogno un'ora."] },
+    "correct_answer": "Ci vuole un'ora.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Zeitdauer mit einer Einheit (Singular) wird mit 'ci vuole' ausgedrückt: 'Ci vuole un'ora.' 'Bisogna' geht nicht mit Substantiv, und Plural 'ci vogliono' passt nicht zum Singular 'un'ora'."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: Wie lange dauert es bis dahin (um anzukommen)?",
+    "content": {},
+    "correct_answer": "Quanto tempo ci vuole per arrivare?",
+    "acceptable_alternatives": ["Quanto ci vuole per arrivare?"],
+    "explanation_de": "Frage nach der Zeitdauer mit 'quanto tempo ci vuole per' + Infinitiv. 'ci vuole' steht im Singular, weil nach der unbestimmten Dauer gefragt wird."
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher bestimmte Artikel passt? ___ casa (das Haus)",
+    "content": { "options": ["la", "il", "lo", "l'"] },
+    "correct_answer": "la",
+    "acceptable_alternatives": [],
+    "explanation_de": "Substantive auf -a sind meist feminin: la casa. Der bestimmte Artikel für feminine Substantive, die mit einem Konsonanten beginnen, ist 'la'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Achtung, Ausnahme! Welcher Artikel ist richtig? ___ clima (das Klima)",
+    "content": { "options": ["il", "la", "le", "l'"] },
+    "correct_answer": "il",
+    "acceptable_alternatives": [],
+    "explanation_de": "Obwohl 'clima' auf -a endet, ist es maskulin (wie viele Wörter griechischen Ursprungs auf -ma): il clima. 'La clima' ist falsch."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze den richtigen bestimmten Artikel ein. Substantiv auf -e — hier maskulin! (die Zeitung)",
+    "content": { "sentence": "Compro ___ giornale ogni mattina." },
+    "correct_answer": "il",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei Substantiven auf -e muss man das Genus lernen. 'Giornale' ist maskulin: il giornale. (Vergleiche: la chiave ist feminin.)"
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze den richtigen bestimmten Artikel ein. Ausnahme: Substantiv auf -o, das feminin ist! (das Radio)",
+    "content": { "sentence": "Accendi ___ radio, per favore." },
+    "correct_answer": "la",
+    "acceptable_alternatives": [],
+    "explanation_de": "Obwohl 'radio' auf -o endet, ist es feminin: la radio. Eine wichtige Ausnahme zur Regel '-o = maskulin'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welches Substantiv ist MASKULIN?",
+    "content": { "options": ["il programma", "la mano", "la crisi", "la foto"] },
+    "correct_answer": "il programma",
+    "acceptable_alternatives": [],
+    "explanation_de": "'Il programma' ist maskulin, obwohl es auf -a endet (Wort griechischen Ursprungs auf -ma). 'Mano', 'crisi' und 'foto' sind dagegen feminin."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Fremdwörter sind im Italienischen meist maskulin. Welcher Artikel passt? ___ sport (der Sport)",
+    "content": { "options": ["lo", "il", "la", "l'"] },
+    "correct_answer": "lo",
+    "acceptable_alternatives": [],
+    "explanation_de": "Fremdwörter und auf Konsonant endende Wörter sind meist maskulin. Vor 's' + Konsonant (sp-) steht der maskuline Artikel 'lo': lo sport."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze den richtigen bestimmten Artikel ein. Personenbezeichnung auf -ista — hier weiblich gemeint (die Pianistin).",
+    "content": { "sentence": "___ pianista suona molto bene; lei è bravissima." },
+    "correct_answer": "La",
+    "acceptable_alternatives": ["la"],
+    "explanation_de": "Wörter auf -ista haben nur eine Form für beide Geschlechter. Das Genus zeigt sich am Artikel: 'la pianista' (weiblich), 'il pianista' (männlich). Hier ist 'lei' weiblich, also 'la'."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz in der richtigen Reihenfolge (das Auto ist neu). Achtung: 'auto' ist feminin!",
+    "content": { "tokens": ["L'", "auto", "è", "nuova."] },
+    "correct_answer": "L'auto è nuova.",
+    "acceptable_alternatives": ["L' auto è nuova."],
+    "explanation_de": "'Auto' (Kurzform von 'automobile') ist feminin, obwohl es auf -o endet. Deshalb das feminine Adjektiv 'nuova'. Der Artikel 'la' wird vor Vokal zu 'l'."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Das Kino ist neu.' (Achte auf das Genus von 'cinema'!)",
+    "content": {},
+    "correct_answer": "Il cinema è nuovo.",
+    "acceptable_alternatives": ["Il cinema e nuovo."],
+    "explanation_de": "'Cinema' endet auf -a, ist aber maskulin: il cinema. Deshalb das maskuline Adjektiv 'nuovo'."
+  }
+]

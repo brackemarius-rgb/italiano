@@ -1,0 +1,74 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Vergleichspartikel (di oder che). Hier werden zwei Personen mit Pronomen verglichen.",
+    "content": { "sentence": "Tu sei più giovane ___ me." },
+    "correct_answer": "di",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei einem Vergleich mit einem Pronomen (me, te, lui ...) benutzt man 'di': Tu sei più giovane di me."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Satz ist korrekt? (Vergleich zweier Eigenschaften derselben Person)",
+    "content": { "options": ["Paolo è più stanco che nervoso.", "Paolo è più stanco di nervoso.", "Paolo è più stanco del nervoso.", "Paolo è più stanco come nervoso."] },
+    "correct_answer": "Paolo è più stanco che nervoso.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Beim Vergleich zweier Eigenschaften (stanco – nervoso) derselben Person benutzt man 'che': Paolo è più stanco che nervoso."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Form (di + Artikel verschmolzen). Vergleich zwischen zwei verschiedenen Dingen.",
+    "content": { "sentence": "Il treno è più veloce ___ autobus." },
+    "correct_answer": "dell'",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei einem Vergleich zwischen zwei verschiedenen Dingen benutzt man 'di'. Vor 'autobus' (Vokal) verschmilzt 'di + lo' zu 'dell'': Il treno è più veloce dell'autobus."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Vergleichspartikel. Achte auf den Zahlenvergleich.",
+    "content": { "sentence": "In classe ci sono più ___ venti studenti." },
+    "correct_answer": "di",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor einer Zahl benutzt man immer 'di': più di venti studenti (mehr als zwanzig Studenten)."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge. Vergleich zwischen zwei Verben.",
+    "content": { "tokens": ["È", "meglio", "studiare", "che", "dormire"] },
+    "correct_answer": "È meglio studiare che dormire.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Beim Vergleich zwischen zwei Verben (studiare – dormire) benutzt man 'che': È meglio studiare che dormire."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle die richtige Vergleichspartikel: 'Roma è più grande ___ Firenze.'",
+    "content": { "options": ["di", "che", "della", "come"] },
+    "correct_answer": "di",
+    "acceptable_alternatives": [],
+    "explanation_de": "Beim Vergleich zwischen zwei Eigennamen (Roma – Firenze) benutzt man 'di': Roma è più grande di Firenze."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Vergleichspartikel. Dieselbe Person trinkt zwei verschiedene Getränke (Mengenvergleich).",
+    "content": { "sentence": "Marta beve più caffè ___ tè." },
+    "correct_answer": "che",
+    "acceptable_alternatives": [],
+    "explanation_de": "Wenn man bei derselben Person zwei Mengen/Substantive vergleicht, benutzt man 'che': beve più caffè che tè."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Anna ist intelligenter als ihr Bruder.' (Vergleich zwischen zwei verschiedenen Personen mit Substantiv)",
+    "content": {},
+    "correct_answer": "Anna è più intelligente di suo fratello.",
+    "acceptable_alternatives": ["Anna è più intelligente di suo fratello", "Anna è più intelligente del fratello", "Anna è più intelligente del fratello."],
+    "explanation_de": "Bei einem Vergleich zwischen zwei verschiedenen Personen benutzt man 'di': Anna è più intelligente di suo fratello."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Im Sommer ist es in Neapel wärmer als in Turin.' (Vergleich mit Präpositionalausdrücken)",
+    "content": {},
+    "correct_answer": "D'estate fa più caldo a Napoli che a Torino.",
+    "acceptable_alternatives": ["D'estate fa più caldo a Napoli che a Torino", "In estate fa più caldo a Napoli che a Torino."],
+    "explanation_de": "Beim Vergleich zwischen zwei Präpositionalausdrücken (a Napoli – a Torino) benutzt man 'che': D'estate fa più caldo a Napoli che a Torino."
+  }
+]

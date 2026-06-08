@@ -1,0 +1,45 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Konjugiere das Verb in Klammern im Präsens.",
+    "content": { "sentence": "Io ___ italiano. (parlare)" },
+    "correct_answer": "parlo",
+    "explanation_de": "-are-Verben, 1. Person Singular: Stamm + -o → parlo."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Konjugiere das Verb in Klammern im Präsens.",
+    "content": { "sentence": "Noi ___ una lettera. (scrivere)" },
+    "correct_answer": "scriviamo",
+    "explanation_de": "-ere-Verben, 1. Person Plural: Stamm + -iamo → scriviamo."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Konjugiere das Verb in Klammern im Präsens.",
+    "content": { "sentence": "Loro ___ molto. (dormire)" },
+    "correct_answer": "dormono",
+    "explanation_de": "-ire-Verben (ohne -isc-), 3. Person Plural: Stamm + -ono → dormono."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form ist richtig? Tu ___ il caffè. (prendere)",
+    "content": { "options": ["prendi", "prende", "prendo", "prendete"] },
+    "correct_answer": "prendi",
+    "explanation_de": "-ere-Verben, 2. Person Singular (tu): Stamm + -i → prendi."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Konjugiere das Verb in Klammern im Präsens.",
+    "content": { "sentence": "Voi ___ la pizza. (mangiare)" },
+    "correct_answer": "mangiate",
+    "explanation_de": "-are-Verben, 2. Person Plural (voi): Stamm + -ate → mangiate."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: „Wir wohnen in Berlin.“",
+    "content": {},
+    "correct_answer": "Abitiamo a Berlino.",
+    "acceptable_alternatives": ["Noi abitiamo a Berlino."],
+    "explanation_de": "abitare (-are), noi-Form: abitiamo. Ort mit 'a': a Berlino."
+  }
+]

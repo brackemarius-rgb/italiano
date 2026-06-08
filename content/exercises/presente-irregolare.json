@@ -1,0 +1,50 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Form von 'andare' (gehen): Ich gehe ins Kino.",
+    "content": { "sentence": "Io ___ al cinema." },
+    "correct_answer": "vado",
+    "acceptable_alternatives": [],
+    "explanation_de": "'andare' ist unregelmäßig: io vado, tu vai, lui/lei va, noi andiamo, voi andate, loro vanno. Die Form 'ando' ist falsch."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form ist richtig? 'Was machst du heute Abend?'",
+    "content": { "options": ["Cosa fai stasera?", "Cosa facci stasera?", "Cosa fa stasera?", "Cosa fani stasera?"] },
+    "correct_answer": "Cosa fai stasera?",
+    "acceptable_alternatives": [],
+    "explanation_de": "'fare' wird unregelmäßig konjugiert: io faccio, tu fai, lui/lei fa, noi facciamo, voi fate, loro fanno. Für 'du' (tu) heißt es 'fai'."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Form von 'volere' (wollen): Ich möchte einen Kaffee.",
+    "content": { "sentence": "___ un caffè." },
+    "correct_answer": "Voglio",
+    "acceptable_alternatives": ["voglio"],
+    "explanation_de": "'volere' ist ein unregelmäßiges Modalverb: io voglio, tu vuoi, lui/lei vuole, noi vogliamo, voi volete, loro vogliono."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: 'Wir gehen mit Freunden aus.'",
+    "content": { "tokens": ["Usciamo", "con", "gli", "amici"] },
+    "correct_answer": "Usciamo con gli amici.",
+    "acceptable_alternatives": ["Usciamo con gli amici"],
+    "explanation_de": "'uscire' hat einen Stammwechsel u→e in den Einzahlformen und der 3. Pl. (esco, esci, esce, escono), aber 'noi' bleibt regelmäßig: usciamo."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form von 'potere' (können) passt? 'Sie (3. Pers. Singular) kann nicht kommen.'",
+    "content": { "options": ["Lei può non venire.", "Lei pò non venire.", "Non poto venire.", "Lei non può venire."] },
+    "correct_answer": "Lei non può venire.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'potere': io posso, tu puoi, lui/lei può, noi possiamo, voi potete, loro possono. Die 3. Person Singular ist 'può' (mit Akzent). Die Verneinung 'non' steht vor dem Verb."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Ich trinke nur Wasser.' (Verb: bere)",
+    "content": {},
+    "correct_answer": "Bevo solo acqua.",
+    "acceptable_alternatives": ["Io bevo solo acqua.", "Bevo solo acqua", "Io bevo solo acqua"],
+    "explanation_de": "'bere' ist unregelmäßig mit dem Stamm 'bev-': io bevo, tu bevi, lui/lei beve, noi beviamo, voi bevete, loro bevono. Das Subjektpronomen 'io' kann entfallen."
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Setze den Plural ein: Maskuline Substantive auf -o enden im Plural auf -i.",
+    "content": { "sentence": "Marco ha comprato due ___ (quaderno) per la scuola." },
+    "correct_answer": "quaderni",
+    "acceptable_alternatives": [],
+    "explanation_de": "Maskuline Substantive auf -o bilden den Plural auf -i: il quaderno → i quaderni."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze den Plural ein: Feminine Substantive auf -a enden im Plural auf -e (nicht -i!).",
+    "content": { "sentence": "Sul tavolo ci sono tre ___ (pizza)." },
+    "correct_answer": "pizze",
+    "acceptable_alternatives": [],
+    "explanation_de": "Feminine Substantive auf -a bilden den Plural auf -e: la pizza → le pizze. Ein häufiger Fehler ist die Endung -i (pizze, nicht pizzi)."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze den Plural ein: Feminine Substantive auf -a enden im Plural auf -e.",
+    "content": { "sentence": "Stasera invito due ___ (amica) e tre amici." },
+    "correct_answer": "amiche",
+    "acceptable_alternatives": [],
+    "explanation_de": "Achtung: 'amica' endet auf -a und ist feminin, also Plural auf -e. Damit der harte k-Laut erhalten bleibt, wird ein -h- eingefügt: l'amica → le amiche."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wie lautet der korrekte Plural von 'lo studente'?",
+    "content": { "options": ["gli studenti", "le studenti", "gli studente", "gli studentei"] },
+    "correct_answer": "gli studenti",
+    "acceptable_alternatives": [],
+    "explanation_de": "Substantive auf -e bilden den Plural auf -i. 'lo studente' ist maskulin, der Artikel wird im Plural zu 'gli': gli studenti."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welches Substantiv bleibt im Plural UNVERÄNDERT?",
+    "content": { "options": ["il caffè", "il libro", "la mela", "la stazione"] },
+    "correct_answer": "il caffè",
+    "acceptable_alternatives": [],
+    "explanation_de": "Substantive auf betontem Vokal bleiben unverändert: il caffè → i caffè. Die anderen ändern ihre Endung: libro → libri, mela → mele, stazione → stazioni."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wie lautet der korrekte Plural von 'la lezione'?",
+    "content": { "options": ["le lezioni", "i lezioni", "le lezione", "le lezioe"] },
+    "correct_answer": "le lezioni",
+    "acceptable_alternatives": [],
+    "explanation_de": "Feminine Substantive auf -e bilden den Plural auf -i: la lezione → le lezioni. Der Artikel bleibt feminin (le)."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge. Achte auf den Plural von 'la finestra'.",
+    "content": { "tokens": ["Le", "finestre", "sono", "aperte"] },
+    "correct_answer": "Le finestre sono aperte.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Feminine Substantive auf -a bilden den Plural auf -e: la finestra → le finestre. Auch das Adjektiv passt sich an: aperte."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Schreibe den Satz im Plural: 'Il ragazzo legge un libro.' (Die Jungen lesen Bücher.)",
+    "content": {},
+    "correct_answer": "I ragazzi leggono i libri.",
+    "acceptable_alternatives": ["I ragazzi leggono dei libri."],
+    "explanation_de": "Maskuline Substantive auf -o bilden den Plural auf -i: il ragazzo → i ragazzi, il libro → i libri. Auch das Verb wird angepasst: legge → leggono."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze den Plural ein: Maskuline Substantive auf -io haben nur ein einfaches -i.",
+    "content": { "sentence": "Ho ricevuto due ___ (bacio) dalla nonna." },
+    "correct_answer": "baci",
+    "acceptable_alternatives": [],
+    "explanation_de": "Substantive auf -io bilden den Plural mit einem einfachen -i: il bacio → i baci (nicht bacii)."
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die man-Form (si impersonale): „In der Schweiz lebt man gut.“",
+    "content": { "sentence": "In Svizzera ___ vive bene." },
+    "correct_answer": "si",
+    "acceptable_alternatives": [],
+    "explanation_de": "Das si impersonale besteht aus „si“ + Verb in der 3. Person Singular: „si vive“ (man lebt)."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das Verb in der richtigen Form: „In diesem Geschäft werden gute Schuhe verkauft.“",
+    "content": { "sentence": "In questo negozio si ___ scarpe buone." },
+    "correct_answer": "vendono",
+    "acceptable_alternatives": [],
+    "explanation_de": "„scarpe buone“ ist ein Plural-Objekt (si passivante), daher steht das Verb im Plural: „si vendono“ (3. Person Plural)."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Satz ist korrekt? (si passivante mit Singular-Objekt)",
+    "content": { "options": ["Si beve un buon vino qui.", "Si bevono un buon vino qui.", "Si bevi un buon vino qui.", "Si bevete un buon vino qui."] },
+    "correct_answer": "Si beve un buon vino qui.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Das Objekt „un buon vino“ steht im Singular, also bleibt das Verb im Singular: „si beve“. Plural „si bevono“ wäre nur bei einem Plural-Objekt richtig."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wie sagt man richtig „Im Urlaub erholt man sich.“? (reflexives Verb mit si impersonale)",
+    "content": { "options": ["Si si riposa in vacanza.", "Ci si riposa in vacanza.", "Si riposa in vacanza da soli.", "Ci riposa in vacanza."] },
+    "correct_answer": "Ci si riposa in vacanza.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei reflexiven Verben vermeidet man das Doppel-si und verwendet „ci si“: „ci si riposa“ (man erholt sich)."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das fehlende Wort (reflexives Verb): „Im Restaurant isst man gut und amüsiert sich.“",
+    "content": { "sentence": "Al ristorante si mangia bene e ___ si diverte." },
+    "correct_answer": "ci",
+    "acceptable_alternatives": [],
+    "explanation_de": "Beim reflexiven Verb „divertirsi“ wird statt „si si“ die Form „ci si“ benutzt: „ci si diverte“ (man amüsiert sich)."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: „Wo kauft man die Fahrkarten?“",
+    "content": { "tokens": ["Dove", "si", "comprano", "i", "biglietti?"] },
+    "correct_answer": "Dove si comprano i biglietti?",
+    "acceptable_alternatives": [],
+    "explanation_de": "In der Frage steht das Fragewort „Dove“ vorne. Da „i biglietti“ ein Plural-Objekt ist, steht das Verb im Plural: „si comprano“."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Satz ist korrekt? (Adjektiv nach si impersonale)",
+    "content": { "options": ["Quando si è stanchi, si dorme.", "Quando si è stanco, si dorme.", "Quando si è stanca, si dorme.", "Quando si è stanche, si dorme."] },
+    "correct_answer": "Quando si è stanchi, si dorme.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Nach dem si impersonale steht das Adjektiv im Maskulin Plural: „si è stanchi“ (man ist müde)."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische (si impersonale): „In Italien isst man viel Pasta.“",
+    "content": {},
+    "correct_answer": "In Italia si mangia molta pasta.",
+    "acceptable_alternatives": ["Si mangia molta pasta in Italia.", "In Italia si mangia tanta pasta."],
+    "explanation_de": "„pasta“ ist hier ein Singular-Objekt, daher bleibt das Verb im Singular: „si mangia“. Die Ortsangabe „in Italia“ kann am Anfang oder am Ende stehen."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Verbform: „Auf dem Schild steht: Hier wird nicht geraucht.“",
+    "content": { "sentence": "Qui non ___ fuma." },
+    "correct_answer": "si",
+    "acceptable_alternatives": [],
+    "explanation_de": "Auf Schildern und in Verboten benutzt man das si impersonale mit „non“: „non si fuma“ (Rauchen verboten / man raucht hier nicht)."
+  }
+]

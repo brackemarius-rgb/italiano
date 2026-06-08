@@ -1,0 +1,50 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die man-Form (si impersonale): „Hier isst man gut.“",
+    "content": { "sentence": "Qui ___ mangia bene." },
+    "correct_answer": "si",
+    "acceptable_alternatives": [],
+    "explanation_de": "Das si impersonale wird mit „si“ + Verb in der 3. Person Singular gebildet: „si mangia“ (man isst)."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Satz ist korrekt? (si passivante mit Plural-Objekt)",
+    "content": { "options": ["Si vende case.", "Si vendono case.", "Si vendi case.", "Si vendete case."] },
+    "correct_answer": "Si vendono case.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei einem Plural-Objekt („case“) steht das Verb ebenfalls im Plural: „si vendono“. Singular „si vende“ wäre nur bei einem Singular-Objekt richtig (z. B. „si vende una casa“)."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das Verb in der richtigen Form: „In Italien spricht man viele Sprachen.“",
+    "content": { "sentence": "In Italia si ___ molte lingue." },
+    "correct_answer": "parlano",
+    "acceptable_alternatives": [],
+    "explanation_de": "„molte lingue“ ist ein Plural-Objekt, daher richtet sich das Verb danach: „si parlano“ (3. Person Plural)."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wie sagt man richtig „Man steht früh auf.“? (reflexives Verb mit si impersonale)",
+    "content": { "options": ["Si si alza presto.", "Ci si alza presto.", "Si alza presto.", "Ci alza presto."] },
+    "correct_answer": "Ci si alza presto.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei reflexiven Verben vermeidet man das Doppel-si und benutzt stattdessen „ci si“: „ci si alza“ (man steht auf)."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: „Wie sagt man das auf Italienisch?“",
+    "content": { "tokens": ["Come", "si", "dice", "in", "italiano?"] },
+    "correct_answer": "Come si dice in italiano?",
+    "acceptable_alternatives": [],
+    "explanation_de": "In Fragen steht das Fragewort vorne, danach das si impersonale: „Come si dice …?“ (Wie sagt man …?)."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische (si impersonale): „Im Sommer fährt man ans Meer.“",
+    "content": {},
+    "correct_answer": "In estate si va al mare.",
+    "acceptable_alternatives": ["Si va al mare in estate.", "D'estate si va al mare."],
+    "explanation_de": "Allgemeine Aussagen mit „man“ bildet man mit „si“ + 3. Person Singular: „si va“. Die Zeitangabe „in estate“ kann am Anfang oder am Ende stehen."
+  }
+]

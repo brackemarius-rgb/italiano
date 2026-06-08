@@ -1,0 +1,74 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Setze 'mangiare' im Futuro für 'voi' ein.",
+    "content": { "sentence": "Domenica ___ tutti insieme al ristorante." },
+    "correct_answer": "mangerete",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei -are-Verben wird das 'a' zu 'e'. Bei 'mangiare' fällt zudem das 'i' weg: mangi- → manger-. Mit der Endung -ete für 'voi' ergibt sich 'mangerete'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form ist der korrekte Futuro von 'venire' in der 3. Person Singular (lui/lei)?",
+    "content": { "options": ["venirà", "verrà", "vienerà", "vorrà"] },
+    "correct_answer": "verrà",
+    "acceptable_alternatives": [],
+    "explanation_de": "'venire' hat den unregelmäßigen Stamm verr-, also 'verrà' (lui/lei). Vorsicht: 'vorrà' gehört zu 'volere' und darf nicht verwechselt werden."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze 'essere' im Futuro für 'loro' ein (Vermutung in der Gegenwart).",
+    "content": { "sentence": "Non sono ancora arrivati: ___ ancora in autostrada." },
+    "correct_answer": "saranno",
+    "acceptable_alternatives": [],
+    "explanation_de": "'essere' hat den Stamm sar-. Für 'loro' lautet die Form 'saranno'. Hier drückt das Futuro eine Vermutung über die Gegenwart aus."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge (Futuro von 'fare').",
+    "content": { "tokens": ["Sabato", "faremo", "una", "gita", "in", "montagna"] },
+    "correct_answer": "Sabato faremo una gita in montagna.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'fare' hat den unregelmäßigen Stamm far-. Für 'noi' lautet die Form 'faremo'. Die Zeitangabe 'Sabato' steht am Satzanfang."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische (Futuro): 'Nächste Woche werden wir nach Mailand fahren.' (Verb: andare, prossima settimana)",
+    "content": {},
+    "correct_answer": "La prossima settimana andremo a Milano.",
+    "acceptable_alternatives": ["Andremo a Milano la prossima settimana.", "La settimana prossima andremo a Milano.", "Andremo a Milano la settimana prossima.", "La prossima settimana andremo a Milano"],
+    "explanation_de": "'andare' hat den unregelmäßigen Stamm andr-. Für 'noi' lautet die Form 'andremo'. Vor Städtenamen steht die Präposition 'a': a Milano."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Satz drückt eine Vermutung in der Gegenwart korrekt aus? Bedeutung: 'Wie alt mag Lucia wohl sein?'",
+    "content": { "options": ["Quanti anni ha Lucia?", "Quanti anni avrà Lucia?", "Quanti anni aveva Lucia?", "Quanti anni avrebbe Lucia?"] },
+    "correct_answer": "Quanti anni avrà Lucia?",
+    "acceptable_alternatives": [],
+    "explanation_de": "Das Futuro von 'avere' (Stamm avr-, 3. Person 'avrà') drückt hier eine Vermutung über die Gegenwart aus: 'Wie alt mag sie wohl sein?'"
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze 'finire' im Futuro für 'tu' ein.",
+    "content": { "sentence": "Quando ___ di studiare, andiamo al cinema." },
+    "correct_answer": "finirai",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei -ire-Verben bleibt der Stamm erhalten: finir- + Endung -ai für 'tu' = 'finirai'."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze 'potere' im Futuro für 'io' ein.",
+    "content": { "sentence": "Domani non ___ venire alla festa, mi dispiace." },
+    "correct_answer": "potrò",
+    "acceptable_alternatives": [],
+    "explanation_de": "'potere' hat den unregelmäßigen Stamm potr-. Für 'io' lautet die Form 'potrò' (mit Akzent auf der letzten Silbe)."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge (Futuro von 'rimanere').",
+    "content": { "tokens": ["I", "bambini", "rimarranno", "a", "casa"] },
+    "correct_answer": "I bambini rimarranno a casa.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'rimanere' hat den unregelmäßigen Stamm rimarr-. Für 'loro' lautet die Form 'rimarranno'. Das Subjekt 'I bambini' steht vor dem Verb."
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: \"Möchten Sie Wasser? Ja, ich möchte ein Glas davon.\" (un bicchiere)",
+    "content": {},
+    "correct_answer": "Vuole dell'acqua? Sì, ne voglio un bicchiere.",
+    "acceptable_alternatives": ["Sì, ne voglio un bicchiere.", "Ne voglio un bicchiere."],
+    "explanation_de": "Da eine Menge angegeben ist (un bicchiere), muss \"ne\" (davon) stehen. Es ersetzt den Teilungsartikel \"dell'acqua\" und steht vor dem Verb."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: \"Sprichst du über das Problem? Nein, ich spreche nicht darüber.\" (parlare del problema)",
+    "content": {},
+    "correct_answer": "Parli del problema? No, non ne parlo.",
+    "acceptable_alternatives": ["No, non ne parlo.", "Non ne parlo."],
+    "explanation_de": "Bei Verben mit \"di\" (parlare di) ersetzt \"ne\" das Objekt. In der Verneinung steht es nach \"non\": \"non ne parlo\"."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge. (Antwort auf: Quante pizze avete ordinato?)",
+    "content": { "tokens": ["Ne", "abbiamo", "ordinate", "tre"] },
+    "correct_answer": "Ne abbiamo ordinate tre.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Im Passato Prossimo passt sich das Partizip an: \"pizze\" ist weiblich Plural, daher \"ordinate\". \"Ne\" steht vor dem konjugierten Verb."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge. (Antwort auf: Hai bisogno di soldi?)",
+    "content": { "tokens": ["No", "non", "ne", "ho", "bisogno"] },
+    "correct_answer": "No, non ne ho bisogno.",
+    "acceptable_alternatives": ["No non ne ho bisogno."],
+    "explanation_de": "\"avere bisogno di\" wird mit \"di\" konstruiert. \"ne\" ersetzt \"di soldi\" und steht in der Verneinung nach \"non\": \"non ne ho bisogno\"."
+  }
+]

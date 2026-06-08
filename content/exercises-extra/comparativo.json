@@ -1,0 +1,74 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das fehlende Vergleichswort: \"Mailand ist größer als Bologna.\"",
+    "content": { "sentence": "Milano è più grande ___ Bologna." },
+    "correct_answer": "di",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor Eigennamen (Städten) steht beim Vergleich 'di', nicht 'che'. Also: più grande di Bologna."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze 'di' oder 'che': \"Es ist besser zu schlafen als zu arbeiten.\" (Vergleich von zwei Verben)",
+    "content": { "sentence": "È meglio dormire ___ lavorare." },
+    "correct_answer": "che",
+    "acceptable_alternatives": [],
+    "explanation_de": "Beim Vergleich von zwei Verben (dormire / lavorare) steht 'che', nicht 'di'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle die richtige Form: \"Heute ist das Wetter schlechter als gestern.\"",
+    "content": { "options": ["Oggi il tempo è peggio di ieri.", "Oggi il tempo è peggiore di ieri.", "Oggi il tempo è più cattivo che ieri.", "Oggi il tempo è più peggiore di ieri."] },
+    "correct_answer": "Oggi il tempo è peggiore di ieri.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Der unregelmäßige Komparativ des Adjektivs 'cattivo' ist 'peggiore' (schlechter). 'peggio' ist ein Adverb (zu male) und passt hier nicht. 'più peggiore' wäre doppelt gemoppelt."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: \"Anna ist weniger müde als Paolo.\"",
+    "content": { "tokens": ["Anna", "è", "meno", "stanca", "di", "Paolo"] },
+    "correct_answer": "Anna è meno stanca di Paolo.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'weniger ... als' bildet man mit 'meno ... di'. Vor dem Eigennamen 'Paolo' steht 'di'. Das Adjektiv 'stanca' ist weiblich, weil es sich auf Anna bezieht."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: \"Dieses Buch ist interessanter als jener Film.\"",
+    "content": {},
+    "correct_answer": "Questo libro è più interessante di quel film.",
+    "acceptable_alternatives": ["Questo libro è più interessante di quel film."],
+    "explanation_de": "'interessanter als' bildet man mit 'più interessante di'. Vor dem einzelnen Substantiv (quel film) steht 'di'."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze den Komparativ des Adverbs: \"Maria kocht besser als ihre Mutter.\" (Adverb zu 'bene')",
+    "content": { "sentence": "Maria cucina ___ di sua madre." },
+    "correct_answer": "meglio",
+    "acceptable_alternatives": [],
+    "explanation_de": "Hier wird das Verb 'cucinare' beschrieben, also braucht man das Adverb. Der Komparativ von 'bene' ist 'meglio' (besser), nicht das Adjektiv 'migliore'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form drückt 'so ... wie' (Gleichheit) richtig aus? \"Dieses Zimmer ist so hell wie das andere.\"",
+    "content": { "options": ["Questa stanza è più luminosa dell'altra.", "Questa stanza è così luminosa come l'altra.", "Questa stanza è meno luminosa dell'altra.", "Questa stanza è luminosa di l'altra."] },
+    "correct_answer": "Questa stanza è così luminosa come l'altra.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Den Gleichheitsvergleich 'so ... wie' bildet man mit '(così) ... come'. Die anderen Optionen drücken 'mehr' oder 'weniger' aus und passen nicht."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: \"Mein älterer Bruder wohnt in Rom.\" (unregelmäßiger Komparativ als Adjektiv)",
+    "content": { "tokens": ["Mio", "fratello", "maggiore", "abita", "a", "Roma"] },
+    "correct_answer": "Mio fratello maggiore abita a Roma.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'maggiore' ist der unregelmäßige Komparativ von 'grande' und bedeutet hier 'älter'. Es steht nach dem Substantiv: fratello maggiore (der ältere Bruder)."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: \"Im Sommer kostet das Hotel weniger.\" (Komparativ des Adverbs)",
+    "content": {},
+    "correct_answer": "In estate l'hotel costa di meno.",
+    "acceptable_alternatives": ["D'estate l'hotel costa di meno.", "In estate l'albergo costa di meno."],
+    "explanation_de": "'weniger' als Komparativ des Adverbs 'poco' ist 'di meno'. Beispiel: costa di meno (es kostet weniger)."
+  }
+]

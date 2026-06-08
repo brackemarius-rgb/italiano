@@ -1,0 +1,66 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Ich gehe um acht Uhr aus dem Haus.' (Präsens, mit 'uscire')",
+    "content": {},
+    "correct_answer": "Esco di casa alle otto.",
+    "acceptable_alternatives": ["Io esco di casa alle otto."],
+    "explanation_de": "'uscire' ist im Präsens unregelmäßig: io esco. Das Subjektpronomen 'io' kann wegfallen."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Gestern habe ich einen Film gesehen.' (passato prossimo, mit 'vedere')",
+    "content": {},
+    "correct_answer": "Ieri ho visto un film.",
+    "acceptable_alternatives": ["Io ieri ho visto un film.", "Ho visto un film ieri."],
+    "explanation_de": "Das Partizip von 'vedere' ist unregelmäßig: 'visto'. Im passato prossimo mit 'avere' gebildet: ho visto."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Wir trinken einen Kaffee in der Bar.' (Präsens, mit 'bere')",
+    "content": {},
+    "correct_answer": "Beviamo un caffè al bar.",
+    "acceptable_alternatives": ["Noi beviamo un caffè al bar."],
+    "explanation_de": "'bere' ist im Präsens unregelmäßig (Stamm bev-): noi beviamo. Das Subjektpronomen 'noi' kann wegfallen."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Sie kommen morgen.' (Futur, mit 'venire')",
+    "content": {},
+    "correct_answer": "Verranno domani.",
+    "acceptable_alternatives": ["Loro verranno domani."],
+    "explanation_de": "Der Futuro-Stamm von 'venire' ist unregelmäßig: 'verr-'. 3. Person Plural: verranno. Das Subjektpronomen 'loro' kann wegfallen."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Ich muss heute arbeiten.' (Präsens, mit 'dovere')",
+    "content": {},
+    "correct_answer": "Devo lavorare oggi.",
+    "acceptable_alternatives": ["Io devo lavorare oggi.", "Oggi devo lavorare."],
+    "explanation_de": "'dovere' ist im Präsens unregelmäßig: io devo. Danach folgt der Infinitiv 'lavorare'. Das Subjektpronomen 'io' kann wegfallen."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde einen korrekten Satz im Präsens mit der unregelmäßigen Form von 'potere'.",
+    "content": { "tokens": ["Non", "posso", "venire", "stasera", "."] },
+    "correct_answer": "Non posso venire stasera.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'potere' ist im Präsens unregelmäßig: io posso. Danach folgt der Infinitiv 'venire'."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde einen korrekten Satz im passato prossimo mit dem Partizip von 'leggere'.",
+    "content": { "tokens": ["Ho", "letto", "un", "bel", "libro", "."] },
+    "correct_answer": "Ho letto un bel libro.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Das Partizip von 'leggere' ist unregelmäßig: 'letto'. Mit 'avere' gebildet: ho letto."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde einen korrekten Satz im Präsens mit der unregelmäßigen Form von 'fare'.",
+    "content": { "tokens": ["Faccio", "la", "spesa", "oggi", "."] },
+    "correct_answer": "Faccio la spesa oggi.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'fare' ist im Präsens unregelmäßig: io faccio. 'fare la spesa' bedeutet einkaufen."
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Das Auto ist schneller als das Fahrrad.' (Vergleich zwischen zwei verschiedenen Dingen)",
+    "content": {},
+    "correct_answer": "La macchina è più veloce della bicicletta.",
+    "acceptable_alternatives": ["La macchina è più veloce della bicicletta", "L'auto è più veloce della bicicletta.", "L'auto è più veloce della bicicletta"],
+    "explanation_de": "Bei einem Vergleich zwischen zwei verschiedenen Dingen benutzt man 'di'. Mit dem Artikel 'la' verschmilzt es zu 'della' (di + la): più veloce della bicicletta."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Ich lese lieber als ich schreibe.' (Vergleich zwischen zwei Verben)",
+    "content": {},
+    "correct_answer": "Mi piace più leggere che scrivere.",
+    "acceptable_alternatives": ["Mi piace più leggere che scrivere", "Preferisco leggere che scrivere.", "Preferisco leggere che scrivere"],
+    "explanation_de": "Beim Vergleich zwischen zwei Verben (leggere – scrivere) benutzt man immer 'che': Mi piace più leggere che scrivere."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge. Vergleich mit einem Pronomen.",
+    "content": { "tokens": ["Sono", "più", "alto", "di", "te"] },
+    "correct_answer": "Sono più alto di te.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei einem Vergleich mit einem Pronomen (te, me, lui ...) benutzt man 'di': Sono più alto di te."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge. Zwei Eigenschaften derselben Person.",
+    "content": { "tokens": ["Maria", "è", "più", "alta", "che", "magra"] },
+    "correct_answer": "Maria è più alta che magra.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Beim Vergleich zweier Eigenschaften (alta – magra) derselben Person benutzt man 'che': Maria è più alta che magra."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge. Mengenvergleich bei derselben Person.",
+    "content": { "tokens": ["Bevo", "più", "acqua", "che", "vino"] },
+    "correct_answer": "Bevo più acqua che vino.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Wenn man bei derselben Person zwei Mengen/Substantive vergleicht, benutzt man 'che': Bevo più acqua che vino."
+  }
+]

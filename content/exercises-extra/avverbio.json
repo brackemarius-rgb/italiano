@@ -1,0 +1,74 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form ist das richtige Adverb? Bilde das Adverb aus dem Adjektiv 'naturale' (natürlich).",
+    "content": { "options": ["naturalmente", "naturalemente", "naturamente", "naturalemmente"] },
+    "correct_answer": "naturalmente",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei Adjektiven auf -le entfällt das -e vor -mente: naturale → natural + mente = naturalmente."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze das Adverb ein. Bilde es aus dem Adjektiv 'regolare' (regelmäßig).",
+    "content": { "sentence": "Marco va in palestra ___." },
+    "correct_answer": "regolarmente",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei Adjektiven auf -re entfällt das -e vor -mente: regolare → regolar + mente = regolarmente."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Adjektiv oder Adverb? Wähle die korrekte Form: 'Oggi sto ___.' (Heute geht es mir schlecht.)",
+    "content": { "options": ["male", "cattivo", "cattiva", "malo"] },
+    "correct_answer": "male",
+    "acceptable_alternatives": [],
+    "explanation_de": "Nach 'stare' (sich befinden) braucht man das Adverb 'male' (schlecht). 'cattivo' ist das Adjektiv und passt hier nicht: Sto male."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze das passende Adverb ein (oft).",
+    "content": { "sentence": "La domenica andiamo ___ al mare." },
+    "correct_answer": "spesso",
+    "acceptable_alternatives": [],
+    "explanation_de": "'spesso' bedeutet 'oft' und ist ein unregelmäßiges Adverb der Häufigkeit. Es steht hier nach dem Verb."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge. (Wir sind endlich angekommen.)",
+    "content": { "tokens": ["Siamo", "finalmente", "arrivati"] },
+    "correct_answer": "Siamo finalmente arrivati.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Im zusammengesetzten Tempus steht das Adverb meist zwischen Hilfsverb (siamo) und Partizip (arrivati): Siamo finalmente arrivati."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Sie singt gut.' (Verb: cantare, Adverb: bene)",
+    "content": {},
+    "correct_answer": "Lei canta bene.",
+    "acceptable_alternatives": ["Canta bene."],
+    "explanation_de": "Das Verb 'cantare' wird durch ein Adverb beschrieben: 'bene' (gut) ist das unregelmäßige Adverb zu 'buono'. Das Subjektpronomen 'lei' kann weggelassen werden, da die Verbendung es bereits anzeigt."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welches Adverb passt? 'Il caffè è ___ caldo, non posso berlo.' (Der Kaffee ist zu heiß.)",
+    "content": { "options": ["troppo", "molto bene", "poco", "spesso"] },
+    "correct_answer": "troppo",
+    "acceptable_alternatives": [],
+    "explanation_de": "'troppo' bedeutet 'zu (sehr)' und drückt ein Übermaß aus. Hier verstärkt es das Adjektiv 'caldo': troppo caldo = zu heiß."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze das Adverb ein. Bilde es aus dem Adjektiv 'tranquillo' (ruhig).",
+    "content": { "sentence": "I bambini dormono ___." },
+    "correct_answer": "tranquillamente",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei Adjektiven auf -o nimmt man die feminine Form (tranquilla) und hängt -mente an: tranquilla + mente = tranquillamente."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge. (Ich habe diese Stadt nie besucht.)",
+    "content": { "tokens": ["Non", "ho", "mai", "visitato", "questa", "città"] },
+    "correct_answer": "Non ho mai visitato questa città.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Das Adverb 'mai' steht im zusammengesetzten Tempus zwischen Hilfsverb (ho) und Partizip (visitato). Die Verneinung 'non' steht vor dem Hilfsverb."
+  }
+]

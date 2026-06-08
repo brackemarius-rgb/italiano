@@ -1,0 +1,74 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher bestimmte Artikel passt: ___ zucchero?",
+    "content": { "options": ["il", "lo", "la", "l'"] },
+    "correct_answer": "lo",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor 'z' steht im Maskulin Singular 'lo': lo zucchero."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher bestimmte Artikel passt: ___ aranciata?",
+    "content": { "options": ["la", "l'", "il", "le"] },
+    "correct_answer": "l'",
+    "acceptable_alternatives": [],
+    "explanation_de": "'aranciata' ist feminin und beginnt mit Vokal → der Artikel 'la' wird zu 'l'': l'aranciata."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze den bestimmten Artikel ein.",
+    "content": { "sentence": "___ chiave è nella borsa." },
+    "correct_answer": "La",
+    "acceptable_alternatives": ["la"],
+    "explanation_de": "'chiave' ist feminin und beginnt mit Konsonant → 'la': la chiave."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze den bestimmten Artikel im Plural ein.",
+    "content": { "sentence": "___ amici di Marco arrivano domani." },
+    "correct_answer": "Gli",
+    "acceptable_alternatives": ["gli"],
+    "explanation_de": "Maskuliner Plural vor einem Vokal → 'gli': gli amici."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wie lautet der Plural von 'il bambino'?",
+    "content": { "options": ["i bambini", "gli bambini", "le bambini", "lo bambini"] },
+    "correct_answer": "i bambini",
+    "acceptable_alternatives": [],
+    "explanation_de": "Maskuliner Plural vor Konsonant: 'il' → 'i', '-o' → '-i': i bambini."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Artikel ist richtig?",
+    "content": { "options": ["lo specchio", "il specchio", "l'specchio", "la specchio"] },
+    "correct_answer": "lo specchio",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor s + Konsonant (sp-) steht im Maskulin Singular 'lo': lo specchio. 'il specchio' wäre falsch."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze den bestimmten Artikel ein (Uhrzeit).",
+    "content": { "sentence": "Sono ___ otto di sera." },
+    "correct_answer": "le",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei Uhrzeiten (außer 'l'una') steht der feminine Plural 'le': sono le otto."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge.",
+    "content": { "tokens": ["Studio", "l'", "italiano", "a", "Roma"] },
+    "correct_answer": "Studio l'italiano a Roma.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei Sprachen steht der bestimmte Artikel; vor dem Vokal wird 'il' zu 'l'': l'italiano."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: \"Die Studenten lesen die Bücher.\"",
+    "content": {},
+    "correct_answer": "Gli studenti leggono i libri.",
+    "acceptable_alternatives": ["gli studenti leggono i libri"],
+    "explanation_de": "'studenti' (s+Kons.) → maskuliner Plural 'gli'; 'libri' (Kons.) → maskuliner Plural 'i'."
+  }
+]

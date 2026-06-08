@@ -1,0 +1,42 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Es fängt an zu regnen.' (anfangen = iniziare, regnen = piovere)",
+    "content": {},
+    "correct_answer": "Inizia a piovere.",
+    "acceptable_alternatives": ["Comincia a piovere.", "Inizia a piovere"],
+    "explanation_de": "'iniziare' (anfangen) verlangt 'a': 'iniziare a + Infinitiv'. Verben des Anfangens nehmen 'a'. Auch 'cominciare a piovere' ist möglich."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Ich denke daran, nach Rom zu fahren.' (denken/vorhaben = pensare, fahren = andare)",
+    "content": {},
+    "correct_answer": "Penso di andare a Roma.",
+    "acceptable_alternatives": ["Io penso di andare a Roma.", "Penso di andare a Roma"],
+    "explanation_de": "'pensare' (im Sinne von vorhaben) verlangt 'di': 'pensare di + Infinitiv'. Das Subjektpronomen 'io' kann man weglassen."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bring die Wörter in die richtige Reihenfolge.",
+    "content": { "tokens": ["Voglio", "andare", "al", "mare"] },
+    "correct_answer": "Voglio andare al mare.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Nach dem Modalverb 'volere' (wollen) folgt der Infinitiv direkt, ohne Präposition: 'Voglio andare al mare.'"
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bring die Wörter in die richtige Reihenfolge.",
+    "content": { "tokens": ["Ho", "finito", "di", "studiare"] },
+    "correct_answer": "Ho finito di studiare.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'finire' (beenden) verlangt 'di': 'finire di + Infinitiv'. Verben des Beendens/Aufhörens nehmen 'di'."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bring die Wörter in die richtige Reihenfolge.",
+    "content": { "tokens": ["Provo", "a", "chiamare", "Marco"] },
+    "correct_answer": "Provo a chiamare Marco.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'provare' (versuchen) verlangt 'a': 'provare a + Infinitiv'. Verben des Versuchens nehmen 'a'."
+  }
+]

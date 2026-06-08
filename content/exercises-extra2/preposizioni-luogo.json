@@ -1,0 +1,58 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Ich wohne in Mailand.' (Stadt = a)",
+    "content": {},
+    "correct_answer": "Abito a Milano.",
+    "acceptable_alternatives": ["Io abito a Milano.", "Vivo a Milano."],
+    "explanation_de": "Bei Städten steht 'a': 'abito a Milano'. 'in Milano' wäre falsch, denn 'in' verwendet man nur bei Ländern und Regionen."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Wir fahren nach Sizilien.' (große Insel = in)",
+    "content": {},
+    "correct_answer": "Andiamo in Sicilia.",
+    "acceptable_alternatives": ["Noi andiamo in Sicilia."],
+    "explanation_de": "Bei großen Inseln und Regionen steht 'in': 'in Sicilia'. Nur bei kleinen Inseln (z. B. a Capri) verwendet man 'a'."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Heute Abend gehe ich zum Arzt.' (Person = da)",
+    "content": {},
+    "correct_answer": "Stasera vado dal medico.",
+    "acceptable_alternatives": ["Vado dal medico stasera.", "Stasera io vado dal medico."],
+    "explanation_de": "Bei Personen steht 'da' (mit Artikel: dal = da + il): 'vado dal medico'. 'vado al medico' ist ein typischer Fehler."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Die Katze ist unter dem Bett.'",
+    "content": {},
+    "correct_answer": "Il gatto è sotto il letto.",
+    "acceptable_alternatives": ["Il gatto sta sotto il letto."],
+    "explanation_de": "'unter' = 'sotto', danach folgt der Artikel ohne Verschmelzung: 'sotto il letto'."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bring die Wörter in die richtige Reihenfolge (Schlüssel auf dem Stuhl).",
+    "content": { "tokens": ["Le", "chiavi", "sono", "sulla", "sedia"] },
+    "correct_answer": "Le chiavi sono sulla sedia.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'auf' = 'su' + Artikel: sulla = su + la. Also 'Le chiavi sono sulla sedia.' (Die Schlüssel sind auf dem Stuhl.)"
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bring die Wörter in die richtige Reihenfolge (in Frankreich wohnen).",
+    "content": { "tokens": ["Mia", "sorella", "vive", "in", "Francia"] },
+    "correct_answer": "Mia sorella vive in Francia.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei Ländern steht 'in': 'in Francia'. 'a Francia' wäre falsch."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bring die Wörter in die richtige Reihenfolge (Lagebeschreibung mit 'accanto a').",
+    "content": { "tokens": ["La", "posta", "è", "accanto", "alla", "banca"] },
+    "correct_answer": "La posta è accanto alla banca.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'accanto a' bedeutet 'neben'. Mit Artikel verschmilzt 'a' zu 'alla' (a + la): 'accanto alla banca'."
+  }
+]

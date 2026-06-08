@@ -1,0 +1,50 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das kombinierte Pronomen. 'Mi dai il libro?' – 'Sì, ___ do.' (Ich gebe es dir.)",
+    "content": { "sentence": "Mi dai il libro? Sì, ___ do." },
+    "correct_answer": "te lo",
+    "acceptable_alternatives": [],
+    "explanation_de": "In der Antwort wird aus 'mir' ein 'dir': das indirekte Pronomen ist also 'ti', das vor dem direkten Pronomen 'lo' (für 'il libro') zu 'te' wird. Reihenfolge: indirekt vor direkt, also 'te lo do'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle die richtige Form. 'Lo dici a Maria?' – 'Sì, ___ dico.'",
+    "content": { "options": ["glielo", "gli lo", "le lo", "lo gli"] },
+    "correct_answer": "glielo",
+    "acceptable_alternatives": [],
+    "explanation_de": "Für eine weibliche Person ('a Maria' = 'le') wird das indirekte Pronomen zu 'glie-' und mit dem direkten Pronomen 'lo' zu EINEM Wort verbunden: 'glielo'. Niemals getrennt schreiben."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bring die Wörter in die richtige Reihenfolge (indirekt vor direkt!). Bedeutung: 'Erklärst du uns die Regel? Ja, ich erkläre sie euch.'",
+    "content": { "tokens": ["Sì,", "ve", "la", "spiego."] },
+    "correct_answer": "Sì, ve la spiego.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Das indirekte Pronomen 'vi' (euch) wird vor 'la' (für 'la regola') zu 've'. Reihenfolge: indirektes Pronomen + direktes Pronomen + Verb: 've la spiego'."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die kombinierte Form im Passato Prossimo. 'Mi hai dato la chiave?' – 'Sì, ___ ho data.' (Ja, ich habe sie dir gegeben.)",
+    "content": { "sentence": "Mi hai dato la chiave? Sì, ___ ho data." },
+    "correct_answer": "te l'",
+    "acceptable_alternatives": ["te l"],
+    "explanation_de": "'ti' wird vor dem direkten Pronomen zu 'te'. Da 'la' vor dem Vokal von 'ho' steht, wird es zu 'l'' apostrophiert: 'te l'ho data'. Das Partizip 'data' passt sich an das weibliche direkte Pronomen an."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Sagst du es mir?' (es = 'lo', mir = indirekt)",
+    "content": {},
+    "correct_answer": "Me lo dici?",
+    "acceptable_alternatives": ["Me lo dici", "Tu me lo dici?"],
+    "explanation_de": "Das indirekte Pronomen 'mi' wird vor 'lo' zu 'me'. Reihenfolge: indirekt zuerst, dann direkt, dann Verb: 'Me lo dici?'. Falsch wäre 'Mi lo dici?' oder 'Lo me dici?'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle die richtige Stellung mit Modalverb. 'Kannst du es mir geben?'",
+    "content": { "options": ["Puoi darmelo?", "Puoi dare melo?", "Puoi me lo dare?", "Puoi darme lo?"] },
+    "correct_answer": "Puoi darmelo?",
+    "acceptable_alternatives": ["Me lo puoi dare?"],
+    "explanation_de": "Bei Modalverb + Infinitiv gibt es zwei Möglichkeiten: vor dem Modalverb ('Me lo puoi dare?') oder angehängt an den Infinitiv ('Puoi darmelo?'). Das angehängte Pronomen wird mit dem Infinitiv zusammengeschrieben, dabei verliert 'dare' das End-e."
+  }
+]

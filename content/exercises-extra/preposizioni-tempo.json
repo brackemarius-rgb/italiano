@@ -1,0 +1,74 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die Verschmelzung für die Uhrzeit: \"La lezione comincia ___ una.\" (Der Unterricht beginnt um ein Uhr.)",
+    "content": { "sentence": "La lezione comincia ___ una." },
+    "correct_answer": "all'",
+    "acceptable_alternatives": ["all'una"],
+    "explanation_de": "Bei 'ein Uhr' steht der weibliche Artikel: a + l'una = 'all'una'. Vor dem Vokal wird 'la' zu 'l'' apostrophiert."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle die richtige Form: \"Ci vediamo ___ mezzogiorno.\" (Wir sehen uns mittags.)",
+    "content": { "options": ["al", "alle", "a", "allo"] },
+    "correct_answer": "a",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor 'mezzogiorno' (Mittag) und 'mezzanotte' (Mitternacht) steht nur 'a' ohne Artikel: 'a mezzogiorno'."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die Präposition für die Jahreszeit: \"___ estate andiamo sempre al mare.\" (Im Sommer fahren wir immer ans Meer.)",
+    "content": { "sentence": "___ estate andiamo sempre al mare." },
+    "correct_answer": "In",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei Jahreszeiten steht 'in': 'in estate' (im Sommer), 'in inverno' (im Winter) usw."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle die richtige Präposition für das Jahr: \"Mia sorella è nata ___ 2010.\" (Meine Schwester ist 2010 geboren.)",
+    "content": { "options": ["in", "nel", "al", "a"] },
+    "correct_answer": "nel",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor einer Jahreszahl steht 'in' + Artikel 'il' = 'nel': 'nel 2010'."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die Präposition für eine Gewohnheit am Tagesteil: \"___ mattina bevo sempre un caffè.\" (Morgens trinke ich immer einen Kaffee.)",
+    "content": { "sentence": "___ mattina bevo sempre un caffè." },
+    "correct_answer": "Di",
+    "acceptable_alternatives": [],
+    "explanation_de": "Für gewohnheitsmäßige Tagesteile steht 'di': 'di mattina' (morgens), 'di sera' (abends), 'di notte' (nachts)."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle die richtige Präposition: \"Ho finito di mangiare poco ___.\" (Ich habe vor Kurzem zu Ende gegessen.)",
+    "content": { "options": ["fra", "fa", "per", "da"] },
+    "correct_answer": "fa",
+    "acceptable_alternatives": [],
+    "explanation_de": "'fa' bedeutet 'vor' (Vergangenheit) und steht nach der Zeitangabe: 'poco fa' = vor Kurzem."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: \"Der Bus kommt in zehn Minuten an.\"",
+    "content": { "tokens": ["L'autobus", "arriva", "tra", "dieci", "minuti"] },
+    "correct_answer": "L'autobus arriva tra dieci minuti.",
+    "acceptable_alternatives": ["L'autobus arriva fra dieci minuti."],
+    "explanation_de": "Für Zukünftiges steht 'tra' oder 'fra' (gleichbedeutend) vor der Zeitangabe: 'tra dieci minuti' = in zehn Minuten."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: \"Ich warte seit einer Stunde.\" (aspettare = warten, un'ora = eine Stunde)",
+    "content": {},
+    "correct_answer": "Aspetto da un'ora.",
+    "acceptable_alternatives": ["Io aspetto da un'ora."],
+    "explanation_de": "'da' bedeutet 'seit' und wird mit dem Präsens (aspetto) gebraucht, wo das Deutsche oft das Perfekt nutzt. Beachte den Apostroph: 'un'ora'."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die Präposition für einen abgeschlossenen Zeitraum: \"Ieri ho lavorato ___ otto ore.\" (Gestern habe ich acht Stunden lang gearbeitet.)",
+    "content": { "sentence": "Ieri ho lavorato ___ otto ore." },
+    "correct_answer": "per",
+    "acceptable_alternatives": [],
+    "explanation_de": "'per' bezeichnet einen abgeschlossenen Zeitraum ('acht Stunden lang'). 'da' (seit) würde bedeuten, dass die Handlung noch andauert."
+  }
+]

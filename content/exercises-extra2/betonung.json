@@ -1,0 +1,82 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Schreibe auf Italienisch: Die Stadt ist sehr schön.",
+    "content": {},
+    "correct_answer": "La città è molto bella.",
+    "acceptable_alternatives": ["La città è bella."],
+    "explanation_de": "'città' wird auf der letzten Silbe betont und trägt einen Akzent: cit-TÀ. Auch das Verb 'è' (ist) hat einen Akzent, um es von 'e' (und) zu unterscheiden."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Schreibe auf Italienisch: Ich trinke gern einen Kaffee.",
+    "content": {},
+    "correct_answer": "Bevo volentieri un caffè.",
+    "acceptable_alternatives": ["Mi piace bere un caffè.", "Bevo un caffè volentieri."],
+    "explanation_de": "'caffè' wird auf der letzten Silbe betont und braucht deshalb einen Akzent: caf-FÈ. Ohne Akzent wäre die Schreibweise falsch."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Schreibe auf Italienisch: Warum lernst du Italienisch?",
+    "content": {},
+    "correct_answer": "Perché studi l'italiano?",
+    "acceptable_alternatives": ["Perché impari l'italiano?"],
+    "explanation_de": "'perché' wird auf der letzten Silbe betont und trägt einen geschlossenen Akzent: per-CHÉ. Achte auch auf den Apostroph bei l'italiano."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Schreibe auf Italienisch: Am Montag gehe ich an die Universität.",
+    "content": {},
+    "correct_answer": "Il lunedì vado all'università.",
+    "acceptable_alternatives": ["Lunedì vado all'università."],
+    "explanation_de": "Sowohl 'lunedì' (lu-ne-DÌ) als auch 'università' (u-ni-ver-si-TÀ) werden auf der letzten Silbe betont und tragen einen Akzent."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Schreibe auf Italienisch: Ich habe schon gegessen, aber ich möchte einen Tee.",
+    "content": {},
+    "correct_answer": "Ho già mangiato, però vorrei un tè.",
+    "acceptable_alternatives": ["Ho già mangiato, ma vorrei un tè."],
+    "explanation_de": "'già', 'però' und 'tè' werden alle auf der letzten Silbe betont und brauchen einen Akzent. Ohne Akzent haben sie eine andere Bedeutung (z. B. 'pero' = Birnbaum, 'te' = dich)."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: Die Stadt ist groß.",
+    "content": { "tokens": ["La", "città", "è", "grande."] },
+    "correct_answer": "La città è grande.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'città' wird auf der letzten Silbe betont (cit-TÀ) und trägt einen Akzent, ebenso das Verb 'è' (ist)."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: Ich möchte einen Kaffee, bitte.",
+    "content": { "tokens": ["Vorrei", "un", "caffè,", "per", "favore."] },
+    "correct_answer": "Vorrei un caffè, per favore.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'caffè' wird auf der letzten Silbe betont (caf-FÈ) und braucht deshalb einen Akzent."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: Warum bist du hier?",
+    "content": { "tokens": ["Perché", "sei", "qui?"] },
+    "correct_answer": "Perché sei qui?",
+    "acceptable_alternatives": [],
+    "explanation_de": "'perché' wird auf der letzten Silbe betont (per-CHÉ) und trägt einen geschlossenen Akzent."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: Heute ist Montag.",
+    "content": { "tokens": ["Oggi", "è", "lunedì."] },
+    "correct_answer": "Oggi è lunedì.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'lunedì' wird auf der letzten Silbe betont (lu-ne-DÌ) und trägt einen Akzent; auch 'è' (ist) hat einen Akzent."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: Ich studiere an der Universität.",
+    "content": { "tokens": ["Studio", "all'università."] },
+    "correct_answer": "Studio all'università.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'università' wird auf der letzten Silbe betont (u-ni-ver-si-TÀ) und trägt einen Akzent. Beachte auch den Apostroph bei all'università."
+  }
+]

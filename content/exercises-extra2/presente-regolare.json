@@ -1,0 +1,42 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: „Er kauft das Brot.“",
+    "content": {},
+    "correct_answer": "Lui compra il pane.",
+    "acceptable_alternatives": ["Compra il pane."],
+    "explanation_de": "comprare (-are), 3. Person Singular (lui): Stamm + -a → compra. Subjektpronomen kann wegfallen."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: „Sie schlafen gut.“",
+    "content": {},
+    "correct_answer": "Loro dormono bene.",
+    "acceptable_alternatives": ["Dormono bene."],
+    "explanation_de": "dormire (-ire ohne -isc-), 3. Person Plural (loro): Stamm + -ono → dormono. Subjektpronomen kann wegfallen."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge.",
+    "content": { "tokens": ["Noi", "studiamo", "all'università", "ogni", "giorno"] },
+    "correct_answer": "Noi studiamo all'università ogni giorno.",
+    "acceptable_alternatives": ["Studiamo all'università ogni giorno."],
+    "explanation_de": "studiare (-are), 1. Person Plural (noi): studiamo. Reihenfolge: Subjekt + Verb + Ort + Zeitangabe."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge.",
+    "content": { "tokens": ["Tu", "leggi", "un", "giornale", "interessante"] },
+    "correct_answer": "Tu leggi un giornale interessante.",
+    "acceptable_alternatives": ["Leggi un giornale interessante."],
+    "explanation_de": "leggere (-ere), 2. Person Singular (tu): leggi. Reihenfolge: Subjekt + Verb + Objekt mit Adjektiv."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge.",
+    "content": { "tokens": ["I", "bambini", "capiscono", "tutto"] },
+    "correct_answer": "I bambini capiscono tutto.",
+    "acceptable_alternatives": [],
+    "explanation_de": "capire (-isc-), 3. Person Plural: capiscono. Reihenfolge: Subjekt + Verb + Objekt."
+  }
+]

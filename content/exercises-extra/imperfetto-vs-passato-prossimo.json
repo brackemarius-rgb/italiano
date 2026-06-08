@@ -1,0 +1,106 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Hintergrund (Beschreibung) im imperfetto: Setze 'essere' richtig ein. Beschreibung einer Person in der Vergangenheit.",
+    "content": {
+      "sentence": "Da giovane mia nonna ___ molto bella."
+    },
+    "correct_answer": "era",
+    "acceptable_alternatives": [],
+    "explanation_de": "Beschreibungen von Personen und Zuständen in der Vergangenheit stehen im imperfetto: 'era'. Falsch wäre 'è stata', da es sich nicht um ein einzelnes Ereignis, sondern um eine andauernde Eigenschaft handelt."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Einzelnes, abgeschlossenes Ereignis: Setze 'comprare' richtig in der Vergangenheit ein. Signalwort: 'la settimana scorsa'.",
+    "content": {
+      "sentence": "La settimana scorsa ___ una macchina nuova."
+    },
+    "correct_answer": "ho comprato",
+    "acceptable_alternatives": [],
+    "explanation_de": "'la settimana scorsa' signalisiert eine einmalige, abgeschlossene Handlung -> passato prossimo: 'ho comprato'. Das imperfetto würde eine Gewohnheit oder einen Zustand bezeichnen."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Gewohnheit vs. Einzelereignis: Welcher Satz ist richtig? Signalwort 'di solito' (normalerweise).",
+    "content": {
+      "options": [
+        "Di solito facevo colazione al bar.",
+        "Di solito ho fatto colazione al bar.",
+        "Di solito sono fatto colazione al bar.",
+        "Di solito faccio facevo colazione al bar."
+      ]
+    },
+    "correct_answer": "Di solito facevo colazione al bar.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'di solito' (normalerweise) signalisiert eine wiederholte Gewohnheit -> imperfetto: 'facevo'. Das passato prossimo bezeichnet dagegen eine einzelne, abgeschlossene Handlung."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Zwei parallele Hintergrundhandlungen mit 'mentre': Setze 'dormire' richtig ein. Signalwort 'mentre'.",
+    "content": {
+      "sentence": "Mentre i bambini ___, io preparavo la cena."
+    },
+    "correct_answer": "dormivano",
+    "acceptable_alternatives": [],
+    "explanation_de": "'mentre' verbindet zwei parallele, andauernde Handlungen im Hintergrund -> beide stehen im imperfetto: 'dormivano' und 'preparavo'."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz in der richtigen Reihenfolge. Hintergrund (imperfetto) + Ereignis (passato prossimo): 'Ich schlief, als das Gewitter begann.'",
+    "content": {
+      "tokens": ["Dormivo", "quando", "è", "cominciato", "il temporale"]
+    },
+    "correct_answer": "Dormivo quando è cominciato il temporale.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'Dormivo' ist die andauernde Hintergrundhandlung -> imperfetto. 'è cominciato' ist das einzelne, punktuelle Ereignis -> passato prossimo. Beide Zeiten werden in der Erzählung kombiniert."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Bedeutungsunterschied bei 'sapere'. Welcher Satz bedeutet 'Gestern habe ich erfahren, dass Anna heiratet'?",
+    "content": {
+      "options": [
+        "Ieri ho saputo che Anna si sposa.",
+        "Ieri sapevo che Anna si sposa.",
+        "Ieri sono saputo che Anna si sposa.",
+        "Ieri so che Anna si sposa."
+      ]
+    },
+    "correct_answer": "Ieri ho saputo che Anna si sposa.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei 'sapere' bedeutet das passato prossimo 'ho saputo' = erfahren (einmaliges Ereignis). Das imperfetto 'sapevo' würde 'ich wusste' (andauernder Zustand) heißen."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Es regnete und ich bin zu Hause geblieben.' (Hintergrund -> imperfetto, Ereignis -> passato prossimo)",
+    "content": {},
+    "correct_answer": "Pioveva e sono rimasto a casa.",
+    "acceptable_alternatives": [
+      "Pioveva e sono rimasta a casa.",
+      "Pioveva, e sono rimasto a casa.",
+      "Pioveva, e sono rimasta a casa."
+    ],
+    "explanation_de": "'Pioveva' beschreibt das Wetter als Hintergrund -> imperfetto. 'sono rimasto/rimasta a casa' ist die einzelne, abgeschlossene Handlung -> passato prossimo."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Wiederholte Handlung in der Kindheit: Setze 'leggere' richtig ein. Signalwort 'tutte le sere'.",
+    "content": {
+      "sentence": "Da piccola mia madre mi ___ una storia tutte le sere."
+    },
+    "correct_answer": "leggeva",
+    "acceptable_alternatives": [],
+    "explanation_de": "'tutte le sere' (jeden Abend) und 'da piccola' signalisieren eine wiederholte Gewohnheit -> imperfetto: 'leggeva'. Das passato prossimo wäre hier falsch, da keine einmalige Handlung gemeint ist."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Während ich kochte, ist ein Freund angekommen.' (mentre + imperfetto / passato prossimo)",
+    "content": {},
+    "correct_answer": "Mentre cucinavo, è arrivato un amico.",
+    "acceptable_alternatives": [
+      "Mentre cucinavo è arrivato un amico.",
+      "Mentre cucinavo, è arrivata un'amica.",
+      "Mentre io cucinavo, è arrivato un amico."
+    ],
+    "explanation_de": "'Mentre cucinavo' ist die andauernde Hintergrundhandlung -> imperfetto. 'è arrivato' ist das einzelne, punktuelle Ereignis -> passato prossimo."
+  }
+]

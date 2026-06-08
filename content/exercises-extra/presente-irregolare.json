@@ -1,0 +1,74 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Form von 'venire' (kommen): Heute Abend kommen sie zu uns.",
+    "content": { "sentence": "Stasera ___ da noi." },
+    "correct_answer": "vengono",
+    "acceptable_alternatives": [],
+    "explanation_de": "'venire' ist unregelmäßig: io vengo, tu vieni, lui/lei viene, noi veniamo, voi venite, loro vengono. Für 'sie' (loro) heißt es 'vengono'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form von 'dire' (sagen) ist richtig? 'Wir sagen immer die Wahrheit.'",
+    "content": { "options": ["Diciamo sempre la verità.", "Dicciamo sempre la verità.", "Dimo sempre la verità.", "Disiamo sempre la verità."] },
+    "correct_answer": "Diciamo sempre la verità.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'dire' wird unregelmäßig konjugiert: io dico, tu dici, lui/lei dice, noi diciamo, voi dite, loro dicono. Für 'wir' (noi) heißt es 'diciamo'."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Form von 'dovere' (müssen): Du musst zu Hause bleiben.",
+    "content": { "sentence": "Tu ___ restare a casa." },
+    "correct_answer": "devi",
+    "acceptable_alternatives": [],
+    "explanation_de": "'dovere' ist ein unregelmäßiges Modalverb: io devo, tu devi, lui/lei deve, noi dobbiamo, voi dovete, loro devono. Für 'du' (tu) heißt es 'devi'."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: 'Maria gibt mir ein Buch.'",
+    "content": { "tokens": ["Maria", "mi", "dà", "un", "libro"] },
+    "correct_answer": "Maria mi dà un libro.",
+    "acceptable_alternatives": ["Maria mi dà un libro"],
+    "explanation_de": "'dare': io do, tu dai, lui/lei dà, noi diamo, voi date, loro danno. Die 3. Person Singular ist 'dà' mit Akzent, um sie von der Präposition 'da' zu unterscheiden."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Wie geht es dir?' (Verb: stare, du-Form)",
+    "content": {},
+    "correct_answer": "Come stai?",
+    "acceptable_alternatives": ["Come stai", "Come stai tu?"],
+    "explanation_de": "'stare': io sto, tu stai, lui/lei sta, noi stiamo, voi state, loro stanno. In der Frage nach dem Befinden heißt es 'Come stai?' für die du-Form."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form von 'sapere' (wissen/können) ist richtig? 'Ich kann Italienisch sprechen.'",
+    "content": { "options": ["So parlare italiano.", "Sapo parlare italiano.", "Sappo parlare italiano.", "Sai parlare italiano."] },
+    "correct_answer": "So parlare italiano.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'sapere': io so, tu sai, lui/lei sa, noi sappiamo, voi sapete, loro sanno. Für 'ich' (io) heißt es 'so'. 'sai' wäre die du-Form."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Form von 'scegliere' (wählen): Ich wähle den roten Wein.",
+    "content": { "sentence": "Io ___ il vino rosso." },
+    "correct_answer": "scelgo",
+    "acceptable_alternatives": [],
+    "explanation_de": "'scegliere' ist unregelmäßig: io scelgo, tu scegli, lui/lei sceglie, noi scegliamo, voi scegliete, loro scelgono. In der io-Form und der 3. Plural wird gl zu lg: scelgo."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Form von 'salire' (hinaufgehen/einsteigen): Wir steigen in den Zug ein.",
+    "content": { "sentence": "Noi ___ sul treno." },
+    "correct_answer": "saliamo",
+    "acceptable_alternatives": [],
+    "explanation_de": "'salire': io salgo, tu sali, lui/lei sale, noi saliamo, voi salite, loro salgono. Die noi-Form ist regelmäßig: saliamo (das 'g' erscheint nur in io salgo und loro salgono)."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Mir gefällt die Musik.' (Verb: piacere)",
+    "content": {},
+    "correct_answer": "Mi piace la musica.",
+    "acceptable_alternatives": ["Mi piace la musica", "La musica mi piace."],
+    "explanation_de": "'piacere' wird mit indirektem Objekt gebraucht: 'mi piace' (mir gefällt). Da 'la musica' im Singular ist, steht die Form 'piace' (3. Person Singular)."
+  }
+]

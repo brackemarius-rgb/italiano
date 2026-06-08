@@ -1,0 +1,74 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze den Plural von 'l'albergo' (das Hotel).",
+    "content": { "sentence": "In questa città ci sono molti ___ economici." },
+    "correct_answer": "alberghi",
+    "acceptable_alternatives": [],
+    "explanation_de": "Substantive auf -go mit Betonung auf der vorletzten Silbe bilden den Plural auf -ghi. Das 'h' erhält den harten g-Klang: 'l'albergo' → 'gli alberghi'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle den richtigen Plural von 'il medico' (der Arzt).",
+    "content": { "options": ["i medichi", "i medici", "le mediche", "i medighi"] },
+    "correct_answer": "i medici",
+    "acceptable_alternatives": [],
+    "explanation_de": "'medico' ist auf der drittletzten Silbe betont (mé-di-co), deshalb endet der Plural auf -ci: 'i medici', nicht 'i medichi'."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze den Plural von 'l'amica' (die Freundin).",
+    "content": { "sentence": "Esco con le mie ___ il sabato sera." },
+    "correct_answer": "amiche",
+    "acceptable_alternatives": [],
+    "explanation_de": "Substantive auf -ca bilden den Plural auf -che. Das 'h' erhält den harten k-Klang: 'l'amica' → 'le amiche'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle den richtigen Plural von 'l'arancia' (die Orange).",
+    "content": { "options": ["le arancie", "le aranci", "le arance", "le aranche"] },
+    "correct_answer": "le arance",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei -cia mit Konsonant davor (r) fällt das -i weg: 'l'arancia' → 'le arance'."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze den Plural von 'il negozio' (das Geschäft).",
+    "content": { "sentence": "In centro ci sono tanti ___ di vestiti." },
+    "correct_answer": "negozi",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei -io mit unbetontem -i steht im Plural nur ein -i: 'il negozio' → 'i negozi'."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge. Beachte den unregelmäßigen Plural von 'il dito' (der Finger).",
+    "content": { "tokens": ["Ho", "dieci", "dita", "alle", "mani"] },
+    "correct_answer": "Ho dieci dita alle mani.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'il dito' (maskulin) wird im Plural zu 'le dita' (feminin) – ein Körperteil mit Genuswechsel. Auch 'la mano' → 'le mani' ist unregelmäßig. Der Satz bedeutet: 'Ich habe zehn Finger an den Händen.'"
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Die Männer arbeiten viel.' (Beachte den unregelmäßigen Plural von 'l'uomo'.)",
+    "content": {},
+    "correct_answer": "Gli uomini lavorano molto.",
+    "acceptable_alternatives": ["Gli uomini lavorano tanto."],
+    "explanation_de": "'l'uomo' hat den unregelmäßigen Plural 'gli uomini'. Der maskuline Artikel vor Vokal ist 'gli'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle den richtigen Plural von 'lo zio' (der Onkel). Achtung: betontes -i!",
+    "content": { "options": ["gli zi", "gli zii", "i zii", "gli zie"] },
+    "correct_answer": "gli zii",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei 'lo zìo' ist das -i betont, deshalb bleibt es im Plural erhalten: 'gli zii' (mit zwei -i)."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze den Plural von 'il fungo' (der Pilz).",
+    "content": { "sentence": "Nel bosco abbiamo raccolto molti ___." },
+    "correct_answer": "funghi",
+    "acceptable_alternatives": [],
+    "explanation_de": "Substantive auf -go mit Betonung auf der vorletzten Silbe bilden den Plural auf -ghi. Das 'h' erhält den harten g-Klang: 'il fungo' → 'i funghi'."
+  }
+]

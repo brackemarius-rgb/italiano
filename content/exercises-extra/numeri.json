@@ -1,0 +1,74 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Schreibe die Zahl 17 als Wort in die Lücke.",
+    "content": { "sentence": "Mio fratello ha ___ anni." },
+    "correct_answer": "diciassette",
+    "acceptable_alternatives": [],
+    "explanation_de": "17 heißt 'diciassette'. Achtung auf das doppelte 's' und das doppelte 't': diec-i wird zu 'dici-' und davor steht 'asse-tte'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wie schreibt man die Zahl 31 als ein Wort?",
+    "content": { "options": ["trentuno", "trentauno", "trentiuno", "trenta uno"] },
+    "correct_answer": "trentuno",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor 'uno' fällt der Endvokal des Zehners weg: trenta + uno = trentuno. Die Zusammensetzungen werden zusammengeschrieben."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Schreibe die Zahl 100 als Wort in die Lücke.",
+    "content": { "sentence": "Il biglietto costa ___ euro." },
+    "correct_answer": "cento",
+    "acceptable_alternatives": [],
+    "explanation_de": "100 heißt 'cento'. Anders als im Deutschen sagt man nicht 'ein hundert' – einfach 'cento'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle die richtige Form für '3.000' (dreitausend).",
+    "content": { "options": ["tremille", "tre mila", "tremila", "tremille euro"] },
+    "correct_answer": "tremila",
+    "acceptable_alternatives": [],
+    "explanation_de": "'mille' wird im Plural zu 'mila' und zusammengeschrieben: tre + mila = tremila."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze die richtige Ordnungszahl ein: 'das erste Mal' (feminin, zu 'la volta').",
+    "content": { "sentence": "È la ___ volta che vengo a Roma." },
+    "correct_answer": "prima",
+    "acceptable_alternatives": [],
+    "explanation_de": "Die Ordnungszahl 'primo' richtet sich nach Genus und Numerus. Zu 'la volta' (feminin) heißt es 'la prima volta'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Satz ist für 'Heute ist der 1. Juni' korrekt?",
+    "content": { "options": ["Oggi è il uno giugno.", "Oggi è il primo giugno.", "Oggi è il prima giugno.", "Oggi è uno giugno."] },
+    "correct_answer": "Oggi è il primo giugno.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Beim Datum wird nur der 1. mit der Ordnungszahl gebildet: 'il primo giugno'. Ab dem 2. nimmt man die Grundzahl ('il due giugno')."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Bilde die maskuline Ordnungszahl zu 12 (zu 'il piano').",
+    "content": { "sentence": "L'ufficio è al ___ piano." },
+    "correct_answer": "dodicesimo",
+    "acceptable_alternatives": [],
+    "explanation_de": "Ab 11 bildet man Ordnungszahlen mit '-esimo' und der Endvokal entfällt: dodici → dodicesimo."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bring die Wörter in die richtige Reihenfolge: 'Ich habe zwei Millionen Euro gewonnen.'",
+    "content": { "tokens": ["Ho", "vinto", "due", "milioni", "di", "euro"] },
+    "correct_answer": "Ho vinto due milioni di euro.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Im Plural heißt 'milione' → 'milioni', und danach folgt immer 'di': due milioni di euro."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Schreibe auf Italienisch: 'Meine Telefonnummer ist drei, vier, fünf.' (Zahlen als Wörter)",
+    "content": {},
+    "correct_answer": "Il mio numero di telefono è tre, quattro, cinque.",
+    "acceptable_alternatives": ["Il mio numero è tre, quattro, cinque.", "Il mio numero di telefono è tre quattro cinque."],
+    "explanation_de": "Die Grundzahlen 3, 4, 5 heißen 'tre', 'quattro', 'cinque'. 'numero di telefono' = Telefonnummer."
+  }
+]

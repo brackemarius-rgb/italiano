@@ -1,0 +1,50 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher unbestimmte Artikel passt zu 'studente'? Achte auf s + Konsonant.",
+    "content": { "options": ["un", "uno", "una", "un'"] },
+    "correct_answer": "uno",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor maskulinen Substantiven, die mit s + Konsonant (auch z, x, y, gn, ps) beginnen, steht 'uno': uno studente."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze den unbestimmten Artikel. 'amica' ist feminin und beginnt mit einem Vokal.",
+    "content": { "sentence": "Ho ___ amica a Roma." },
+    "correct_answer": "un'",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor femininen Substantiven, die mit einem Vokal beginnen, wird 'una' zu 'un'' mit Apostroph: un'amica."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze den unbestimmten Artikel. 'uomo' ist maskulin und beginnt mit einem Vokal.",
+    "content": { "sentence": "C'è ___ uomo alla porta." },
+    "correct_answer": "un",
+    "acceptable_alternatives": [],
+    "explanation_de": "Im Maskulinum steht vor Vokal 'un' OHNE Apostroph: un uomo. Der Apostroph (un') gibt es nur im Femininum."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form ist richtig?",
+    "content": { "options": ["un' ombrello", "uno ombrello", "un ombrello", "una ombrello"] },
+    "correct_answer": "un ombrello",
+    "acceptable_alternatives": [],
+    "explanation_de": "'ombrello' ist maskulin und beginnt mit Vokal. Maskulin vor Vokal: 'un' ohne Apostroph (un ombrello). Der Apostroph wäre falsch, denn er steht nur im Femininum."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze den unbestimmten Artikel. 'zaino' ist maskulin und beginnt mit z.",
+    "content": { "sentence": "Compro ___ zaino nuovo." },
+    "correct_answer": "uno",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor maskulinen Substantiven, die mit z (auch s + Konsonant, x, y, gn, ps) beginnen, steht 'uno': uno zaino."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde einen korrekten Satz. 'aranciata' ist feminin und beginnt mit einem Vokal.",
+    "content": { "tokens": ["Vorrei", "un'", "aranciata", "fredda"] },
+    "correct_answer": "Vorrei un'aranciata fredda.",
+    "acceptable_alternatives": ["Vorrei un' aranciata fredda."],
+    "explanation_de": "Feminin vor Vokal: 'una' wird zu 'un'' mit Apostroph (un'aranciata). Der Apostroph wird ohne Leerzeichen direkt an das Wort angehängt."
+  }
+]

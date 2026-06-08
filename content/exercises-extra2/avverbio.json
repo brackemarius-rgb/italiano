@@ -1,0 +1,42 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Maria spricht langsam.' (Verb: parlare, Adjektiv: lento)",
+    "content": {},
+    "correct_answer": "Maria parla lentamente.",
+    "acceptable_alternatives": ["Maria parla piano."],
+    "explanation_de": "Das Verb 'parlare' wird durch ein Adverb beschrieben. Aus dem Adjektiv 'lento' bildet man die feminine Form (lenta) plus -mente: lentamente."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Ich esse oft Pizza.' (Verb: mangiare, Adverb: spesso)",
+    "content": {},
+    "correct_answer": "Mangio spesso la pizza.",
+    "acceptable_alternatives": ["Io mangio spesso la pizza.", "Mangio spesso pizza."],
+    "explanation_de": "Das Adverb der Häufigkeit 'spesso' (oft) steht beim einfachen Tempus nach dem Verb. Das Subjektpronomen 'io' kann weggelassen werden."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Der Kaffee ist sehr gut.' (molto, buono)",
+    "content": {},
+    "correct_answer": "Il caffè è molto buono.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Das Adverb 'molto' (sehr) verstärkt hier das Adjektiv 'buono' und bleibt unveränderlich: molto buono."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge. (Marco kommt immer zu spät.)",
+    "content": { "tokens": ["Marco", "arriva", "sempre", "tardi"] },
+    "correct_answer": "Marco arriva sempre tardi.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Beim einfachen Tempus steht das Adverb 'sempre' (immer) nach dem Verb, gefolgt vom Adverb 'tardi' (spät)."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge. (Ich habe schon gegessen.)",
+    "content": { "tokens": ["Ho", "già", "mangiato"] },
+    "correct_answer": "Ho già mangiato.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Im zusammengesetzten Tempus steht das Adverb 'già' (schon) zwischen Hilfsverb (ho) und Partizip (mangiato): Ho già mangiato."
+  }
+]

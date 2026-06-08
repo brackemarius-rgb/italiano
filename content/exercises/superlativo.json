@@ -1,0 +1,50 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle den korrekten relativen Superlativ: 'Die Toskana ist die schönste Region Italiens.'",
+    "content": { "options": ["La Toscana è più bella regione d'Italia.", "La Toscana è la più bella regione d'Italia.", "La Toscana è la bellissima regione d'Italia.", "La Toscana è molto bella regione d'Italia."] },
+    "correct_answer": "La Toscana è la più bella regione d'Italia.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Der relative Superlativ braucht den bestimmten Artikel: la più bella. Ohne 'la' ist es ein häufiger Fehler."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze den absoluten Superlativ von 'buono' ein: Der Kaffee ist sehr gut.",
+    "content": { "sentence": "Il caffè è ___." },
+    "correct_answer": "buonissimo",
+    "acceptable_alternatives": ["ottimo"],
+    "explanation_de": "Absoluter Superlativ: Stamm buon- + -issimo = buonissimo. Die unregelmäßige Form 'ottimo' ist auch korrekt."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Bilde den absoluten Superlativ von 'fresco' (Achtung: harter k-Klang): Die Birnen sind sehr frisch.",
+    "content": { "sentence": "Le pere sono ___." },
+    "correct_answer": "freschissime",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei -co-Adjektiven wird ein 'h' eingefügt, um den k-Klang zu erhalten: fresch-issime. 'frescissime' wäre falsch. Endung -e, weil 'pere' weiblich Plural ist."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Satz ist korrekt?",
+    "content": { "options": ["Il gelato è molto buonissimo.", "Il gelato è buonissimo.", "Il gelato è più buonissimo.", "Il gelato è la buonissimo."] },
+    "correct_answer": "Il gelato è buonissimo.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Man kombiniert nicht 'molto' mit -issimo. Richtig ist entweder 'molto buono' oder 'buonissimo', nie beides zusammen."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: 'Marco ist der netteste meiner Freunde.'",
+    "content": { "tokens": ["Marco", "è", "il", "più", "simpatico", "dei miei amici"] },
+    "correct_answer": "Marco è il più simpatico dei miei amici.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Relativer Superlativ: bestimmter Artikel + più + Adjektiv (il più simpatico), gefolgt vom Vergleich mit der Gruppe (dei miei amici)."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische (absoluter Superlativ mit -issimo): 'Die Pizza ist sehr gut.'",
+    "content": {},
+    "correct_answer": "La pizza è buonissima.",
+    "acceptable_alternatives": ["La pizza è molto buona.", "La pizza è ottima."],
+    "explanation_de": "Absoluter Superlativ: buon- + -issima (weiblich Singular, weil 'pizza' weiblich ist). Alternativen: 'molto buona' oder die unregelmäßige Form 'ottima'."
+  }
+]

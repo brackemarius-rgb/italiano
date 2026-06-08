@@ -1,0 +1,50 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das Gerundio des Verbs in Klammern: mangiare (essen).",
+    "content": { "sentence": "Sto ___ una pizza." },
+    "correct_answer": "mangiando",
+    "acceptable_alternatives": [],
+    "explanation_de": "Verben auf -are bilden das Gerundio mit der Endung -ando: mangiare → mangiando. Mit der konjugierten Form von stare (sto) entsteht die Verlaufsform."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form ist korrekt? 'Was machst du gerade?'",
+    "content": { "options": ["Cosa stai facendo?", "Cosa sei facendo?", "Cosa stai fando?", "Cosa stai facciendo?"] },
+    "correct_answer": "Cosa stai facendo?",
+    "acceptable_alternatives": [],
+    "explanation_de": "Die Verlaufsform wird immer mit stare gebildet (stai, nicht sei). Das Gerundio von fare ist unregelmäßig: facendo (nicht 'fando' oder 'facciendo')."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Form von 'stare' (Verlaufsform, 1. Person Singular).",
+    "content": { "sentence": "___ leggendo un libro." },
+    "correct_answer": "Sto",
+    "acceptable_alternatives": [],
+    "explanation_de": "Die Verlaufsform verwendet stare, nicht essere. Die io-Form von stare ist 'sto'. Häufiger Fehler: 'Sono leggendo' ist falsch."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: 'Wir reden gerade über dich.'",
+    "content": { "tokens": ["Stiamo", "parlando", "di", "te"] },
+    "correct_answer": "Stiamo parlando di te.",
+    "acceptable_alternatives": [],
+    "explanation_de": "noi-Form von stare ist 'stiamo'. parlare (-are) → parlando. Reihenfolge: stare + Gerundio + Ergänzung."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische (Verlaufsform): 'Marco schläft gerade.'",
+    "content": {},
+    "correct_answer": "Marco sta dormendo.",
+    "acceptable_alternatives": ["Marco sta dormendo"],
+    "explanation_de": "lui/lei-Form von stare ist 'sta'. dormire (-ire) → dormendo (Endung -endo). Ergebnis: Marco sta dormendo."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wann verwendet man die Verlaufsform (stare + gerundio) NICHT? Wähle den korrekten Satz für 'Morgen fahre ich nach Rom.'",
+    "content": { "options": ["Domani vado a Roma.", "Sto andando a Roma domani.", "Sto vado a Roma domani.", "Domani sto andando a Roma."] },
+    "correct_answer": "Domani vado a Roma.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Anders als im Englischen wird die Verlaufsform im Italienischen NICHT für Zukünftiges/Pläne benutzt. Für 'morgen' verwendet man das normale Präsens: Domani vado a Roma."
+  }
+]

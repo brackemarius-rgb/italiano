@@ -1,0 +1,50 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das betonte Pronomen für 'mit mir'.",
+    "content": { "sentence": "Vieni al cinema con ___?" },
+    "correct_answer": "me",
+    "acceptable_alternatives": [],
+    "explanation_de": "Nach Präpositionen steht das betonte Pronomen. Für die 1. Person Singular ist die Form 'me' (nicht 'io'): con me."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form ist richtig? 'Für dich einen Kaffee.'",
+    "content": { "options": ["Per tu un caffè.", "Per te un caffè.", "Per ti un caffè.", "Per io un caffè."] },
+    "correct_answer": "Per te un caffè.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Nach der Präposition 'per' steht das betonte Pronomen 'te' für die 2. Person Singular. 'tu' wäre das Subjektpronomen und ist hier falsch."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das betonte Pronomen für 'über uns' (parlare di ...).",
+    "content": { "sentence": "I miei amici parlano spesso di ___." },
+    "correct_answer": "noi",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei der 1. Person Plural ist das betonte Pronomen identisch mit dem Subjektpronomen: 'noi'. Nach 'di' also: di noi."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Zur Hervorhebung: 'Mir gefällt der Kaffee.' Welche Form ist richtig?",
+    "content": { "options": ["A io piace il caffè.", "A mi piace il caffè.", "A me piace il caffè.", "Me piace il caffè."] },
+    "correct_answer": "A me piace il caffè.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Zur Hervorhebung nutzt man 'a' + betontes Pronomen: 'a me'. 'a io' ist falsch (Subjektpronomen), 'a mi' vermischt betontes und unbetontes Pronomen."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: 'Kommst du heute Abend mit ihm?'",
+    "content": { "tokens": ["Vieni", "con", "lui", "stasera?"] },
+    "correct_answer": "Vieni con lui stasera?",
+    "acceptable_alternatives": ["Stasera vieni con lui?"],
+    "explanation_de": "Nach 'con' steht das betonte Pronomen. Für die 3. Person Singular maskulin ist es 'lui' (identisch mit dem Subjektpronomen): con lui."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Dieses Geschenk ist für euch.'",
+    "content": {},
+    "correct_answer": "Questo regalo è per voi.",
+    "acceptable_alternatives": ["Questo regalo è per voi", "È per voi questo regalo."],
+    "explanation_de": "Nach der Präposition 'per' steht das betonte Pronomen. Für die 2. Person Plural ist es 'voi': per voi."
+  }
+]

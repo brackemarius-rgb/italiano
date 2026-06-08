@@ -1,0 +1,74 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das Gerundio des Verbs in Klammern: scrivere (schreiben).",
+    "content": { "sentence": "Anna sta ___ un'email." },
+    "correct_answer": "scrivendo",
+    "acceptable_alternatives": [],
+    "explanation_de": "Verben auf -ere bilden das Gerundio mit der Endung -endo: scrivere → scrivendo. Mit 'sta' (lui/lei-Form von stare) entsteht die Verlaufsform."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Form von 'stare' (Verlaufsform, 3. Person Plural).",
+    "content": { "sentence": "I bambini ___ giocando in giardino." },
+    "correct_answer": "stanno",
+    "acceptable_alternatives": [],
+    "explanation_de": "Die loro-Form von stare ist 'stanno'. giocare (-are) → giocando. Häufiger Fehler: 'sono giocando' ist falsch, denn die Verlaufsform verwendet immer stare."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form ist korrekt? 'Sie trinken gerade einen Kaffee.'",
+    "content": { "options": ["Stanno bevendo un caffè.", "Stanno bevando un caffè.", "Sono bevendo un caffè.", "Stanno berendo un caffè."] },
+    "correct_answer": "Stanno bevendo un caffè.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Das Gerundio von bere ist unregelmäßig: bevendo (nicht 'bevando' oder 'berendo'). Die Verlaufsform wird mit stare gebildet (stanno), nicht mit essere (sono)."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: 'Was sagst du gerade?'",
+    "content": { "tokens": ["Cosa", "stai", "dicendo"] },
+    "correct_answer": "Cosa stai dicendo?",
+    "acceptable_alternatives": [],
+    "explanation_de": "Die tu-Form von stare ist 'stai'. Das Gerundio von dire ist unregelmäßig: dicendo. Reihenfolge: Fragewort + stare + Gerundio."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische (Verlaufsform): 'Wir kochen gerade.'",
+    "content": {},
+    "correct_answer": "Stiamo cucinando.",
+    "acceptable_alternatives": ["Stiamo cucinando", "Noi stiamo cucinando.", "Noi stiamo cucinando"],
+    "explanation_de": "Die noi-Form von stare ist 'stiamo'. cucinare (-are) → cucinando. Ergebnis: Stiamo cucinando."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das Gerundio des Verbs in Klammern: fare (machen/tun).",
+    "content": { "sentence": "Sto ___ i compiti." },
+    "correct_answer": "facendo",
+    "acceptable_alternatives": [],
+    "explanation_de": "Das Gerundio von fare ist unregelmäßig: facendo (nicht 'fando' oder 'facciendo'). Mit 'sto' entsteht die Verlaufsform der 1. Person Singular."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Satz ist korrekt? 'Ihr seht gerade fern.' (vedere/guardare la TV)",
+    "content": { "options": ["State guardando la TV.", "Siete guardando la TV.", "Stanno guardando la TV.", "State guardano la TV."] },
+    "correct_answer": "State guardando la TV.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Die voi-Form von stare ist 'state' (nicht 'siete', das ist essere). guardare (-are) → guardando, nicht 'guardano'."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische (Verlaufsform): 'Ich ziehe mich gerade an.' Hänge das Pronomen 'mi' an stare an.",
+    "content": {},
+    "correct_answer": "Mi sto vestendo.",
+    "acceptable_alternatives": ["Mi sto vestendo", "Sto vestendomi.", "Sto vestendomi"],
+    "explanation_de": "Bei reflexiven Verben kann das Pronomen vor stare stehen (Mi sto vestendo) oder am Gerundio angehängt werden (Sto vestendomi). vestirsi (-ire) → vestendo."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: 'Ich lese es gerade.' (es = il libro)",
+    "content": { "tokens": ["Lo", "sto", "leggendo"] },
+    "correct_answer": "Lo sto leggendo.",
+    "acceptable_alternatives": ["Sto leggendolo."],
+    "explanation_de": "Das Pronomen 'lo' kann vor stare stehen (Lo sto leggendo) oder am Gerundio angehängt werden (Sto leggendolo). leggere (-ere) → leggendo."
+  }
+]

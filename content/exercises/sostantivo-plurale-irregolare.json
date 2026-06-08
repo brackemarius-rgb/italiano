@@ -1,0 +1,50 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle den richtigen Plural von 'l'amico' (der Freund).",
+    "content": { "options": ["gli amichi", "gli amici", "i amici", "le amiche"] },
+    "correct_answer": "gli amici",
+    "acceptable_alternatives": [],
+    "explanation_de": "'amico' ist eine Ausnahme: Der Plural lautet 'gli amici' mit weichem -tschi-Klang, nicht 'amichi'. Der maskuline Artikel vor Vokal ist 'gli'."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze den Plural von 'l'uovo' (das Ei). Achtung: Das Genus wechselt!",
+    "content": { "sentence": "Compro sei ___ al supermercato." },
+    "correct_answer": "uova",
+    "acceptable_alternatives": [],
+    "explanation_de": "'l'uovo' (maskulin) wird im Plural zu 'le uova' (feminin). Das Genus wechselt von maskulin zu feminin."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle den richtigen Plural von 'la banca' (die Bank).",
+    "content": { "options": ["le bance", "le banci", "le banche", "le banchi"] },
+    "correct_answer": "le banche",
+    "acceptable_alternatives": [],
+    "explanation_de": "Substantive auf -ca bilden den Plural auf -che. Das 'h' bleibt erhalten, damit der harte k-Klang bestehen bleibt: 'la banca' → 'le banche'."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze den Plural von 'la mano' (die Hand).",
+    "content": { "sentence": "Mi lavo le ___ prima di mangiare." },
+    "correct_answer": "mani",
+    "acceptable_alternatives": [],
+    "explanation_de": "'la mano' ist unregelmäßig: Der Plural lautet 'le mani', nicht 'le mane'. Der Artikel bleibt feminin."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze den Plural von 'il lago' (der See).",
+    "content": { "sentence": "In Italia ci sono molti ___ bellissimi." },
+    "correct_answer": "laghi",
+    "acceptable_alternatives": [],
+    "explanation_de": "Substantive auf -go mit Betonung auf der vorletzten Silbe bilden den Plural auf -ghi. Das 'h' erhält den harten g-Klang: 'il lago' → 'i laghi'."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge. Beachte den unregelmäßigen Plural von 'il braccio' (der Arm).",
+    "content": { "tokens": ["Mi", "fanno", "male", "le", "braccia"] },
+    "correct_answer": "Mi fanno male le braccia.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'il braccio' (maskulin) wird im Plural zu 'le braccia' (feminin) – ein Körperteil, der das Genus wechselt. Der Satz bedeutet: 'Mir tun die Arme weh.'"
+  }
+]

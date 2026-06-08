@@ -1,0 +1,34 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: Man muss den Pass an der Grenze zeigen.",
+    "content": {},
+    "correct_answer": "Bisogna mostrare il passaporto alla frontiera.",
+    "acceptable_alternatives": ["Alla frontiera bisogna mostrare il passaporto."],
+    "explanation_de": "'bisogna' + Infinitiv ('mostrare'). Die Ortsangabe 'alla frontiera' kann am Ende oder am Anfang stehen."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: Es braucht viel Zeit, um eine Sprache zu lernen.",
+    "content": {},
+    "correct_answer": "Ci vuole molto tempo per imparare una lingua.",
+    "acceptable_alternatives": ["Per imparare una lingua ci vuole molto tempo."],
+    "explanation_de": "'tempo' ist Singular, deshalb 'ci vuole'. 'per' + Infinitiv ('imparare') gibt den Zweck an."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: Man muss aufpassen.",
+    "content": { "tokens": ["Bisogna", "fare", "attenzione"] },
+    "correct_answer": "Bisogna fare attenzione.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Unpersönliches 'bisogna' + Infinitiv ('fare'). 'fare attenzione' bedeutet aufpassen."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: Es braucht zwei Eier.",
+    "content": { "tokens": ["Ci", "vogliono", "due", "uova"] },
+    "correct_answer": "Ci vogliono due uova.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'due uova' ist Plural, deshalb 'ci vogliono'. Die Wortstellung ist 'ci vogliono' + Menge."
+  }
+]

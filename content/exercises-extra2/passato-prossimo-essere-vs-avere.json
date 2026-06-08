@@ -1,0 +1,42 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Wir haben einen Film gesehen.' (noi)",
+    "content": {},
+    "correct_answer": "Abbiamo visto un film.",
+    "acceptable_alternatives": ["Noi abbiamo visto un film."],
+    "explanation_de": "'vedere' ist transitiv (direktes Objekt 'un film') und nimmt 'avere'. Bei 'noi' lautet die Form 'abbiamo visto'. Bei avere bleibt das Partizip auf '-o'. Das Subjektpronomen 'noi' ist optional."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Er ist gestern nach Hause zurückgekehrt.'",
+    "content": {},
+    "correct_answer": "È tornato a casa ieri.",
+    "acceptable_alternatives": ["Lui è tornato a casa ieri.", "Ieri è tornato a casa."],
+    "explanation_de": "'tornare' (zurückkehren) ist ein Bewegungsverb und nimmt 'essere': 'è tornato'. Das Partizip endet auf '-o', weil das Subjekt maskulin Singular ist. Das Subjektpronomen 'lui' ist optional."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge (transitives Verb mit avere).",
+    "content": { "tokens": ["Ho", "letto", "un", "bel", "libro"] },
+    "correct_answer": "Ho letto un bel libro.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'leggere' ist transitiv (direktes Objekt 'un bel libro') und nimmt 'avere': 'ho letto'. Bei avere bleibt das Partizip unverändert auf '-o'."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge (Verb der Zustandsveränderung mit essere).",
+    "content": { "tokens": ["Mia", "nonna", "è", "nata", "nel", "1940"] },
+    "correct_answer": "Mia nonna è nata nel 1940.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'nascere' (geboren werden) drückt eine Zustandsveränderung aus und nimmt 'essere': 'è nata'. Das Partizip 'nata' richtet sich nach dem Subjekt (nonna, feminin Singular)."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge (Bewegungsverb mit essere).",
+    "content": { "tokens": ["I", "ragazzi", "sono", "andati", "al", "cinema"] },
+    "correct_answer": "I ragazzi sono andati al cinema.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'andare' (gehen) ist ein Bewegungsverb und nimmt 'essere': 'sono andati'. Das Partizip endet auf '-i', weil das Subjekt maskulin Plural ist (i ragazzi)."
+  }
+]

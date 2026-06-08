@@ -1,0 +1,50 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Setze das Verb 'essere' im Imperfetto ein (io-Form): Beschreibe, wie alt du warst.",
+    "content": { "sentence": "Quando ___ piccolo, abitavo a Roma." },
+    "correct_answer": "ero",
+    "acceptable_alternatives": [],
+    "explanation_de": "'essere' ist im Imperfetto unregelmäßig: io ero, tu eri, lui/lei era, noi eravamo, voi eravate, loro erano. Ein häufiger Fehler ist 'essevo' – das gibt es nicht."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form ist im Imperfetto korrekt? 'Da bambino ___ a calcio ogni domenica.' (giocare, io-Form)",
+    "content": { "options": ["giocavo", "giocava", "ho giocato", "gioco"] },
+    "correct_answer": "giocavo",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei -are-Verben lautet die io-Endung im Imperfetto -avo: gioc-avo. 'giocava' ist die lui/lei-Form, 'ho giocato' ist passato prossimo (Einzelhandlung), 'gioco' ist Präsens. Das Signalwort 'ogni domenica' (jeden Sonntag, Gewohnheit) verlangt das Imperfetto."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Beide Handlungen laufen parallel ab. Setze 'leggere' im Imperfetto ein (io-Form).",
+    "content": { "sentence": "Mentre ___ un libro, lui guardava la TV." },
+    "correct_answer": "leggevo",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei zwei parallel laufenden Handlungen mit 'mentre' (während) stehen beide Verben im Imperfetto. -ere-Verb: legg-evo. Falsch wäre 'ho letto' (passato prossimo)."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge (Beschreibung der Vergangenheit).",
+    "content": { "tokens": ["Era", "una", "bella", "giornata"] },
+    "correct_answer": "Era una bella giornata.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Das Imperfetto beschreibt Zustände in der Vergangenheit: 'Era una bella giornata.' (Es war ein schöner Tag.) 'era' ist die lui/lei-Form von 'essere'."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische (Gewohnheit in der Vergangenheit): 'Jeden Sommer fuhren wir ans Meer.'",
+    "content": {},
+    "correct_answer": "Ogni estate andavamo al mare.",
+    "acceptable_alternatives": ["Andavamo al mare ogni estate.", "Noi andavamo al mare ogni estate.", "Ogni estate noi andavamo al mare."],
+    "explanation_de": "Wiederholte Gewohnheiten in der Vergangenheit stehen im Imperfetto. 'andare' (-are): noi andavamo. Das Signalwort 'ogni estate' (jeden Sommer) zeigt eine Gewohnheit an."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Satz ist korrekt? Es geht um eine einmalige, abgeschlossene Handlung gestern.",
+    "content": { "options": ["Ieri sono andato al cinema.", "Ieri sono andavo al cinema.", "Ieri andavo al cinema una volta.", "Ieri ero andavo al cinema."] },
+    "correct_answer": "Ieri sono andato al cinema.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Eine einmalige, abgeschlossene Einzelhandlung ('gestern') steht im passato prossimo: 'sono andato'. 'sono andavo' vermischt fälschlich beide Zeiten. Das Imperfetto würde hier nur bei Gewohnheit oder Hintergrund passen."
+  }
+]

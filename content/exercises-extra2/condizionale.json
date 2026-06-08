@@ -1,0 +1,42 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische (höflicher Wunsch im Café): Ich hätte gern einen Tee. (Verwende 'vorrei')",
+    "content": {},
+    "correct_answer": "Vorrei un tè.",
+    "acceptable_alternatives": ["vorrei un tè", "Vorrei un tè, per favore."],
+    "explanation_de": "Für höfliche Wünsche benutzt man 'vorrei' (Condizionale von 'volere', io-Form): Vorrei un tè. = Ich hätte gern einen Tee. Beachte den Akzent bei 'tè'."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische (Ratschlag): Du solltest mehr schlafen. (Verwende 'dovere' und 'dormire')",
+    "content": {},
+    "correct_answer": "Dovresti dormire di più.",
+    "acceptable_alternatives": ["dovresti dormire di più", "Tu dovresti dormire di più."],
+    "explanation_de": "'Dovresti' ist der Condizionale von 'dovere' in der tu-Form und drückt einen Ratschlag aus: Dovresti dormire di più. = Du solltest mehr schlafen."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde einen höflichen Wunsch: Ich würde gern in Rom wohnen.",
+    "content": { "tokens": ["Mi", "piacerebbe", "abitare", "a", "Roma"] },
+    "correct_answer": "Mi piacerebbe abitare a Roma.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'Mi piacerebbe' + Infinitiv drückt einen Wunsch aus: Mi piacerebbe abitare a Roma. = Ich würde gern in Rom wohnen."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde eine höfliche Bitte an einen Freund: Könntest du mir helfen?",
+    "content": { "tokens": ["Potresti", "aiutarmi", "per", "favore"] },
+    "correct_answer": "Potresti aiutarmi, per favore?",
+    "acceptable_alternatives": ["Potresti aiutarmi per favore?"],
+    "explanation_de": "'Potresti' (Condizionale von 'potere', tu-Form) leitet eine höfliche Bitte ein: Potresti aiutarmi, per favore? = Könntest du mir helfen, bitte?"
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde eine hypothetische Aussage: Das wäre wirklich schön.",
+    "content": { "tokens": ["Sarebbe", "davvero", "molto", "bello"] },
+    "correct_answer": "Sarebbe davvero molto bello.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'Sarebbe' ist der Condizionale von 'essere' (lui/lei/es-Form, Stamm 'sar-' + '-ebbe') und drückt eine Hypothese aus: Sarebbe davvero molto bello. = Das wäre wirklich sehr schön."
+  }
+]

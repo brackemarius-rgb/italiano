@@ -1,0 +1,34 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Schreibe auf Italienisch die Aufforderung an einen Freund (tu): 'Sei brav!' (von 'essere'). Achtung: unregelmäßige Form von 'essere'.",
+    "content": {},
+    "correct_answer": "Sii buono!",
+    "acceptable_alternatives": ["Sii bravo!"],
+    "explanation_de": "Der Imperativ von 'essere' (tu) ist unregelmäßig: 'sii!'. 'Sii buono!' bedeutet 'Sei brav/gut!'."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Schreibe auf Italienisch die Aufforderung an einen Freund (tu): 'Mach schnell!' (von 'fare'). Achtung: unregelmäßige Form von 'fare'.",
+    "content": {},
+    "correct_answer": "Fa' presto!",
+    "acceptable_alternatives": ["Fai presto!"],
+    "explanation_de": "Der Imperativ von 'fare' (tu) ist unregelmäßig: 'fa'!' oder 'fai!'. Beide Formen sind korrekt: 'Fa' presto!' bedeutet 'Mach schnell!'."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde die höfliche Aufforderung (Lei): 'Sprechen Sie langsamer!' (von 'parlare').",
+    "content": { "tokens": ["Parli", "più", "lentamente!"] },
+    "correct_answer": "Parli più lentamente!",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei -are-Verben endet die höfliche Lei-Form auf -i: 'parli!'. Die vertrauliche tu-Form wäre 'parla!'."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Vorschlag an deine Freunde (noi): 'Essen wir eine Pizza!' (von 'mangiare').",
+    "content": { "tokens": ["Mangiamo", "una", "pizza!"] },
+    "correct_answer": "Mangiamo una pizza!",
+    "acceptable_alternatives": [],
+    "explanation_de": "Die noi-Form des Imperativs ('lasst uns ...') ist gleich der Präsensform: 'mangiamo!'. So machst du einen Vorschlag an die Gruppe."
+  }
+]

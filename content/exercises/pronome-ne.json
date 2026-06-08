@@ -1,0 +1,50 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das Pronomen. Frage: Quanti libri hai? Antwort: ___ ho tre. (Ich habe drei davon.)",
+    "content": { "sentence": "Quanti libri hai? ___ ho tre." },
+    "correct_answer": "Ne",
+    "acceptable_alternatives": ["ne"],
+    "explanation_de": "Wenn eine Menge oder Zahl angegeben ist, MUSS \"ne\" (davon) verwendet werden: \"Ne ho tre\". Am Satzanfang wird es großgeschrieben."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Antwort ist korrekt? Frage: Vuoi del caffè? (Willst du Kaffee?)",
+    "content": { "options": ["Sì, voglio.", "Sì, ne voglio.", "Sì, ci voglio.", "Sì, lo voglio uno."] },
+    "correct_answer": "Sì, ne voglio.",
+    "acceptable_alternatives": [],
+    "explanation_de": "\"ne\" (davon) ersetzt den Teilungsartikel \"del caffè\". \"ci\" bedeutet \"dort/daran\" und passt hier nicht."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze \"ne\". Verben mit \"di\": Parli del lavoro? Sì, ___ parlo. (Ja, ich spreche darüber.)",
+    "content": { "sentence": "Parli del lavoro? Sì, ___ parlo." },
+    "correct_answer": "ne",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei Verben mit \"di\" (parlare di) ersetzt \"ne\" das Objekt: \"parlare del lavoro\" → \"ne parlo\"."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge. (Geantwortet auf: Quante mele hai mangiato?)",
+    "content": { "tokens": ["Ne", "ho", "mangiate", "due"] },
+    "correct_answer": "Ne ho mangiate due.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Im Passato Prossimo passt sich das Partizip an Genus und Numerus an: \"mele\" ist weiblich Plural, daher \"mangiate\". \"Ne\" steht vor dem konjugierten Verb."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: \"Brauchst du das Auto? Ja, ich brauche es.\" (avere bisogno della macchina)",
+    "content": {},
+    "correct_answer": "Sì, ne ho bisogno.",
+    "acceptable_alternatives": ["Ne ho bisogno."],
+    "explanation_de": "\"avere bisogno di\" wird mit \"di\" konstruiert, daher ersetzt \"ne\" das Objekt: \"ne ho bisogno\" (ich brauche es/davon)."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Satz ist korrekt? (Du willst eine kleine Portion Eis.)",
+    "content": { "options": ["Voglio una porzione piccola.", "Ne voglio una porzione piccola.", "Lo voglio una porzione piccola.", "Ci voglio una porzione piccola."] },
+    "correct_answer": "Ne voglio una porzione piccola.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Da eine Menge angegeben ist (una porzione), muss \"ne\" (davon) stehen: \"Ne voglio una porzione piccola\". Ohne \"ne\" ist der Satz unvollständig."
+  }
+]

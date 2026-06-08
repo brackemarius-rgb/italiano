@@ -1,0 +1,50 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welches Hilfsverb passt? Ieri ___ andato a Roma.",
+    "content": { "options": ["ho", "sono", "è", "hai"] },
+    "correct_answer": "sono",
+    "acceptable_alternatives": [],
+    "explanation_de": "'andare' ist ein Bewegungsverb und bildet das passato prossimo immer mit 'essere'. Bei 'io' lautet die Form 'sono andato/andata'. 'Ho andato' ist ein typischer Fehler."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze das richtige Hilfsverb ein (avere oder essere, passende Form). Maria ___ mangiato una pizza.",
+    "content": { "sentence": "Maria ___ mangiato una pizza." },
+    "correct_answer": "ha",
+    "acceptable_alternatives": [],
+    "explanation_de": "'mangiare' ist transitiv (mit direktem Objekt 'una pizza') und nimmt daher 'avere'. Bei 'lei/Maria' lautet die Form 'ha mangiato'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Reflexives Verb: Welche Form ist korrekt? 'Heute Morgen bin ich um sieben aufgestanden.'",
+    "content": { "options": ["Mi sono alzato alle sette.", "Ho mi alzato alle sette.", "Mi ho alzato alle sette.", "Sono alzato mi alle sette."] },
+    "correct_answer": "Mi sono alzato alle sette.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Reflexive Verben bilden das passato prossimo IMMER mit 'essere'. Das Reflexivpronomen steht vor dem Hilfsverb: 'mi sono alzato'. 'Ho mi alzato' ist falsch."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Verb mit Wechsel-Hilfsverb: Hier OHNE direktes Objekt. Il film ___ finito alle dieci.",
+    "content": { "sentence": "Il film ___ finito alle dieci." },
+    "correct_answer": "è",
+    "acceptable_alternatives": [],
+    "explanation_de": "'finire' kann beide Hilfsverben nehmen. Ohne direktes Objekt (intransitiv: 'der Film ist zu Ende gegangen') verwendet man 'essere': 'è finito'. Mit Objekt ('Ho finito il libro') wäre es 'avere'."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge (Satz mit reflexivem Verb).",
+    "content": { "tokens": ["Ci", "siamo", "divertiti", "alla", "festa"] },
+    "correct_answer": "Ci siamo divertiti alla festa.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'divertirsi' ist reflexiv und nimmt 'essere'. Das Pronomen 'ci' steht vor dem Hilfsverb 'siamo', das Partizip 'divertiti' richtet sich nach dem Subjekt (noi, maskulin/gemischt)."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Wir sind zu Hause geblieben.' (noi, maskulin/gemischt)",
+    "content": {},
+    "correct_answer": "Siamo rimasti a casa.",
+    "acceptable_alternatives": ["Noi siamo rimasti a casa."],
+    "explanation_de": "'rimanere' (bleiben) gehört zu den essere-Verben. Form für 'noi': 'siamo rimasti'. Das Partizip endet auf '-i', weil das Subjekt Plural maskulin/gemischt ist. Das Subjektpronomen 'noi' ist optional."
+  }
+]

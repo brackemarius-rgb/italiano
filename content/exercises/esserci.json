@@ -1,0 +1,50 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle die richtige Form: „Auf dem Tisch liegen zwei Bücher.\"",
+    "content": { "options": ["c'è due libri sul tavolo", "ci sono due libri sul tavolo", "è due libri sul tavolo", "ci è due libri sul tavolo"] },
+    "correct_answer": "ci sono due libri sul tavolo",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei einer Mehrzahl (due libri = zwei Bücher) verwendet man immer „ci sono\", nicht „c'è\". „C'è\" steht nur im Singular."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze die richtige Form von esserci ein (Singular): „Gibt es eine Bar hier in der Nähe?\"",
+    "content": { "sentence": "___ un bar qui vicino?" },
+    "correct_answer": "C'è",
+    "acceptable_alternatives": ["c'è"],
+    "explanation_de": "„un bar\" ist Singular, also „c'è\" (mit Apostroph!). Es gibt = c'è im Singular."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze die richtige Form von esserci ein (Plural): „Es gibt viele Touristen.\"",
+    "content": { "sentence": "___ molti turisti." },
+    "correct_answer": "Ci sono",
+    "acceptable_alternatives": ["ci sono"],
+    "explanation_de": "„molti turisti\" (viele Touristen) ist Plural, deshalb „ci sono\" und nicht „c'è\"."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "c'è oder è? Wähle den richtigen Satz für „Marco ist Italiener.\"",
+    "content": { "options": ["Marco c'è italiano.", "Marco è italiano.", "Marco ci sono italiano.", "Marco ci è italiano."] },
+    "correct_answer": "Marco è italiano.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Hier beschreibt man eine Eigenschaft des Subjekts Marco, also „essere\" (è = er ist). „Esserci\" (c'è) bedeutet dagegen „vorhanden/da sein\"."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: „Es gibt keine Probleme.\"",
+    "content": { "tokens": ["Non", "ci", "sono", "problemi"] },
+    "correct_answer": "Non ci sono problemi.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Die Verneinung steht mit „non\" vor der Verbform. „problemi\" ist Plural, also „ci sono\": Non ci sono problemi."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: „Es ist niemand da.\"",
+    "content": {},
+    "correct_answer": "Non c'è nessuno.",
+    "acceptable_alternatives": ["Non c'è nessuno"],
+    "explanation_de": "„nessuno\" (niemand) ist Singular, also „c'è\". Mit der Verneinung: Non c'è nessuno. (Achte auf den Apostroph bei c'è.)"
+  }
+]

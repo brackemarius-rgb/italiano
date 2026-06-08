@@ -1,0 +1,50 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle das richtige Modalverb: \"Ich kann (= ich beherrsche es) Italienisch sprechen.\"",
+    "content": { "options": ["So parlare italiano.", "Posso parlare italiano.", "Voglio parlare italiano.", "Devo parlare italiano."] },
+    "correct_answer": "So parlare italiano.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei einer gelernten Fähigkeit benutzt man \"sapere\": \"So parlare italiano\" (1. Person: so). \"Posso\" würde Möglichkeit/Erlaubnis bedeuten, nicht das Beherrschen der Sprache."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Form von \"potere\": Bitte um Erlaubnis, das Fenster zu öffnen. (io)",
+    "content": { "sentence": "___ aprire la finestra?" },
+    "correct_answer": "Posso",
+    "acceptable_alternatives": ["posso"],
+    "explanation_de": "\"potere\" drückt Erlaubnis/Möglichkeit aus. Die io-Form ist \"posso\", gefolgt vom Infinitiv \"aprire\"."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Im Café: Wie bestellt man höflich einen Kaffee?",
+    "content": { "options": ["Vorrei un caffè.", "Voglio caffè.", "Devo un caffè.", "So un caffè."] },
+    "correct_answer": "Vorrei un caffè.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Höflich bestellt man mit dem Konditional \"Vorrei…\" (Ich hätte gerne…). \"Voglio caffè\" klingt unhöflich und es fehlt der Artikel \"un\"."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Modalverb + Infinitiv. Ergänze nur das fehlende Verb (Infinitiv): \"Du musst morgen lernen.\" (devi …)",
+    "content": { "sentence": "Devi ___ domani." },
+    "correct_answer": "studiare",
+    "acceptable_alternatives": ["lavorare"],
+    "explanation_de": "Nach einem Modalverb steht immer der Infinitiv: \"Devi studiare\" (nicht \"Devi studio\")."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: \"Ich kann heute Abend nicht kommen.\"",
+    "content": { "tokens": ["Non", "posso", "venire", "stasera"] },
+    "correct_answer": "Non posso venire stasera.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Verneinung mit \"non\" vor dem Modalverb \"posso\", danach der Infinitiv \"venire\"."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: \"Wir müssen morgen arbeiten.\" (noi)",
+    "content": {},
+    "correct_answer": "Dobbiamo lavorare domani.",
+    "acceptable_alternatives": ["Domani dobbiamo lavorare.", "Noi dobbiamo lavorare domani."],
+    "explanation_de": "Die noi-Form von \"dovere\" ist \"dobbiamo\", gefolgt vom Infinitiv \"lavorare\". Das Subjektpronomen \"noi\" kann entfallen."
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form ist das richtige Adverb? Bilde das Adverb aus dem Adjektiv 'lento' (langsam).",
+    "content": { "options": ["lentamente", "lentemente", "lentomente", "lentamento"] },
+    "correct_answer": "lentamente",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei Adjektiven auf -o nimmt man die feminine Form (lenta) und hängt -mente an: lenta + mente = lentamente."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze das Adverb ein. Bilde es aus dem Adjektiv 'facile' (einfach).",
+    "content": { "sentence": "Questo esercizio si fa ___." },
+    "correct_answer": "facilmente",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei Adjektiven auf -le entfällt das -e vor -mente: facile → facil + mente = facilmente (nur ein 'l')."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Adjektiv oder Adverb? Wähle die korrekte Form: 'Lui ___ italiano.' (Er spricht gut Italienisch.)",
+    "content": { "options": ["parla bene", "parla buono", "è bene", "parla buona"] },
+    "correct_answer": "parla bene",
+    "acceptable_alternatives": [],
+    "explanation_de": "Das Verb 'parlare' wird durch ein Adverb beschrieben, nicht durch ein Adjektiv. 'bene' (gut) ist das unregelmäßige Adverb; 'buono' ist das Adjektiv."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze das passende Adverb ein (schon). Achte auf die richtige Stellung im Satz mit zusammengesetztem Tempus.",
+    "content": { "sentence": "Ho ___ mangiato, grazie." },
+    "correct_answer": "già",
+    "acceptable_alternatives": [],
+    "explanation_de": "Adverbien wie 'già' (schon) stehen im zusammengesetzten Tempus zwischen Hilfsverb und Partizip: Ho già mangiato (nicht 'Ho mangiato già')."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge. (Ich habe nie einen so schönen Film gesehen.)",
+    "content": { "tokens": ["Non", "ho", "mai", "visto", "un", "film"] },
+    "correct_answer": "Non ho mai visto un film.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Das Adverb 'mai' steht im zusammengesetzten Tempus zwischen Hilfsverb (ho) und Partizip (visto). Die Verneinung 'non' steht vor dem Hilfsverb."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Er rennt schnell.' (Verb: correre, Adjektiv: veloce)",
+    "content": {},
+    "correct_answer": "Lui corre velocemente.",
+    "acceptable_alternatives": ["Corre velocemente."],
+    "explanation_de": "Das Verb 'correre' wird durch ein Adverb beschrieben. Aus dem Adjektiv 'veloce' bildet man velocemente. Das Subjektpronomen 'lui' kann weggelassen werden, da die Verbendung es bereits anzeigt."
+  }
+]

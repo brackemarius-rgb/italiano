@@ -1,0 +1,90 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Beantworte mit dem Ortspronomen: \"Quando vai in palestra?\" – \"___ vado domani.\"",
+    "content": {
+      "options": ["Ci", "Ne", "La", "Li"]
+    },
+    "correct_answer": "Ci",
+    "acceptable_alternatives": [],
+    "explanation_de": "\"ci\" ersetzt die Ortsangabe \"in palestra\" (dorthin). \"ne\" drückt eine Menge aus, \"la\"/\"li\" sind direkte Objektpronomen."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze die richtige Form von esserci ein (es gibt + Singular): \"Vicino a casa mia ___ un parco molto grande.\"",
+    "content": {
+      "sentence": "Vicino a casa mia ___ un parco molto grande."
+    },
+    "correct_answer": "c'è",
+    "acceptable_alternatives": [],
+    "explanation_de": "\"c'è\" (= ci + è) heißt \"es gibt\" mit einem Substantiv im Singular (un parco). Bei Plural stünde \"ci sono\"."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze die richtige Form von esserci ein (es gibt + Plural): \"Nel frigorifero ___ due bottiglie d'acqua.\"",
+    "content": {
+      "sentence": "Nel frigorifero ___ due bottiglie d'acqua."
+    },
+    "correct_answer": "ci sono",
+    "acceptable_alternatives": ["Ci sono"],
+    "explanation_de": "Weil \"due bottiglie\" Plural ist, verwendet man \"ci sono\" (Pluralform von esserci), nicht \"c'è\"."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Satz bedeutet korrekt \"Ich brauche eine halbe Stunde\"? (festes Verb metterci)",
+    "content": {
+      "options": ["Ci metto mezz'ora.", "Ne metto mezz'ora.", "La metto mezz'ora.", "Metto mezz'ora ci."]
+    },
+    "correct_answer": "Ci metto mezz'ora.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Das feste Verb \"metterci\" (Zeit brauchen) verlangt \"ci\" vor dem konjugierten Verb: Ci metto mezz'ora. \"ne\" oder \"la\" passen hier nicht."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "ci oder ne? \"Pensi spesso alle vacanze?\" – \"Sì, ___ penso ogni giorno.\"",
+    "content": {
+      "options": ["ci", "ne", "lo", "le"]
+    },
+    "correct_answer": "ci",
+    "acceptable_alternatives": [],
+    "explanation_de": "Das Verb \"pensare a\" (an etwas denken) verlangt \"ci\". \"ne\" wird bei Verben mit \"di\" benutzt (z. B. parlare di → ne parlo)."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: \"Heute Abend gehe ich nicht dorthin.\" (al ristorante → ci)",
+    "content": {
+      "tokens": ["Stasera", "non", "ci", "vado"]
+    },
+    "correct_answer": "Stasera non ci vado.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei der Verneinung steht \"non\" vor dem Pronomen \"ci\", das wiederum vor dem konjugierten Verb steht: non ci vado."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze das Objektpronomen \"uns\" ein: \"Marco ___ aiuta sempre con i compiti.\"",
+    "content": {
+      "sentence": "Marco ___ aiuta sempre con i compiti."
+    },
+    "correct_answer": "ci",
+    "acceptable_alternatives": [],
+    "explanation_de": "Hier ist \"ci\" das Objektpronomen für \"uns\" (1. Person Plural): Marco hilft uns. Es steht vor dem konjugierten Verb."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Antworte mit dem Ortspronomen \"ci\": \"Vai spesso al mare?\" (Antwort: Ja, ich fahre jeden Sommer dorthin.)",
+    "content": {},
+    "correct_answer": "Sì, ci vado ogni estate.",
+    "acceptable_alternatives": ["Ci vado ogni estate.", "Sì, ci vado tutte le estati."],
+    "explanation_de": "\"ci\" ersetzt die Ortsangabe \"al mare\" (dorthin) und steht vor dem konjugierten Verb: ci vado ogni estate."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Satz bedeutet \"Ich schaffe es nicht mehr!\"? (festes Verb farcela)",
+    "content": {
+      "options": ["Non ce la faccio più!", "Non ci faccio più!", "Non la faccio più!", "Non ne faccio più!"]
+    },
+    "correct_answer": "Non ce la faccio più!",
+    "acceptable_alternatives": [],
+    "explanation_de": "Beim festen Ausdruck \"farcela\" (es schaffen) wird \"ci\" vor \"la\" zu \"ce\": ce la faccio. Vollständig verneint: Non ce la faccio più!"
+  }
+]

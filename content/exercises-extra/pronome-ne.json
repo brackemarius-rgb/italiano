@@ -1,0 +1,74 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das Pronomen. Frage: Quante sorelle hai? Antwort: ___ ho due. (Ich habe zwei davon.)",
+    "content": { "sentence": "Quante sorelle hai? ___ ho due." },
+    "correct_answer": "Ne",
+    "acceptable_alternatives": ["ne"],
+    "explanation_de": "Bei einer angegebenen Zahl muss \"ne\" (davon) verwendet werden: \"Ne ho due\". Am Satzanfang wird es großgeschrieben."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Antwort ist korrekt? Frage: Vuoi della torta? (Willst du Kuchen?)",
+    "content": { "options": ["Sì, voglio una fetta.", "Sì, ne voglio una fetta.", "Sì, ci voglio una fetta.", "Sì, la voglio una fetta."] },
+    "correct_answer": "Sì, ne voglio una fetta.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Da eine Menge angegeben ist (una fetta), muss \"ne\" (davon) stehen. \"ne\" ersetzt den Teilungsartikel \"della torta\"."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze \"ne\". Verben mit \"di\": Parli spesso di politica? Sì, ___ parlo spesso. (Ja, ich spreche oft darüber.)",
+    "content": { "sentence": "Parli spesso di politica? Sì, ___ parlo spesso." },
+    "correct_answer": "ne",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei Verben mit \"di\" (parlare di) ersetzt \"ne\" das Objekt: \"parlare di politica\" → \"ne parlo\"."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge. (Geantwortet auf: Quanti panini hai comprato?)",
+    "content": { "tokens": ["Ne", "ho", "comprati", "quattro"] },
+    "correct_answer": "Ne ho comprati quattro.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Im Passato Prossimo passt sich das Partizip an: \"panini\" ist männlich Plural, daher \"comprati\". \"Ne\" steht vor dem konjugierten Verb."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: \"Hast du Lust auf Pizza? Ja, ich habe Lust darauf.\" (avere voglia di pizza)",
+    "content": {},
+    "correct_answer": "Hai voglia di pizza? Sì, ne ho voglia.",
+    "acceptable_alternatives": ["Sì, ne ho voglia.", "Ne ho voglia."],
+    "explanation_de": "\"avere voglia di\" wird mit \"di\" konstruiert, daher ersetzt \"ne\" das Objekt: \"ne ho voglia\" (ich habe Lust darauf)."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Satz ist korrekt? Frage: Quanti anni hai? (Wie alt bist du? — wörtlich: Wie viele Jahre hast du?)",
+    "content": { "options": ["Ho venti.", "Ne ho venti.", "Li ho venti.", "Ci ho venti."] },
+    "correct_answer": "Ne ho venti.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei einer Zahlangabe muss \"ne\" stehen: \"Ne ho venti\" (ich habe zwanzig [Jahre] davon). Ohne \"ne\" ist der Satz im Italienischen unvollständig."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das Pronomen. Frage: Hai bisogno di aiuto? Antwort: No, non ___ ho bisogno. (Nein, ich brauche keine.)",
+    "content": { "sentence": "Hai bisogno di aiuto? No, non ___ ho bisogno." },
+    "correct_answer": "ne",
+    "acceptable_alternatives": [],
+    "explanation_de": "\"avere bisogno di\" wird mit \"di\" konstruiert. \"ne\" ersetzt \"di aiuto\" und steht nach \"non\": \"non ne ho bisogno\"."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge. (Antwort auf: Vuoi ancora del vino?)",
+    "content": { "tokens": ["Sì", "ne", "voglio", "ancora"] },
+    "correct_answer": "Sì, ne voglio ancora.",
+    "acceptable_alternatives": ["Sì ne voglio ancora."],
+    "explanation_de": "\"ne\" (davon) ersetzt \"del vino\" und steht vor dem konjugierten Verb: \"ne voglio ancora\" (ich will noch davon)."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: \"Wie viele Katzen hast du? Ich habe drei davon.\" (gatti)",
+    "content": {},
+    "correct_answer": "Quanti gatti hai? Ne ho tre.",
+    "acceptable_alternatives": ["Ne ho tre."],
+    "explanation_de": "Bei einer Zahlangabe muss \"ne\" verwendet werden: \"Ne ho tre\". Es ersetzt das Substantiv \"gatti\" und steht vor dem Verb."
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Form von volerci (Für einen Kuchen braucht man drei Eier).",
+    "content": { "sentence": "Per fare la torta ___ tre uova." },
+    "correct_answer": "ci vogliono",
+    "acceptable_alternatives": [],
+    "explanation_de": "volerci richtet sich nach der gebrauchten Sache. 'tre uova' ist Plural, also 'ci vogliono'. Im Singular hieße es 'ci vuole'."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Form von volerci (Bis zum Bahnhof braucht man nur fünf Minuten).",
+    "content": { "sentence": "Fino alla stazione ___ solo cinque minuti." },
+    "correct_answer": "ci vogliono",
+    "acceptable_alternatives": [],
+    "explanation_de": "'cinque minuti' ist Plural, deshalb 'ci vogliono'. Bei einer Zeitangabe im Plural steht volerci immer im Plural."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Satz ist korrekt? (Man muss früh aufstehen.)",
+    "content": { "options": ["Bisogna alzarsi presto.", "Ci vuole alzarsi presto.", "Bisogna una sveglia presto.", "Bisogna che mi alzo presto."] },
+    "correct_answer": "Bisogna alzarsi presto.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'bisogna' steht immer mit dem Infinitiv: 'bisogna alzarsi'. 'ci vuole' kombiniert man nicht mit einem Verb, und 'bisogna' geht nicht mit Substantiv."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Satz ist korrekt? (Es braucht viel Mut.)",
+    "content": { "options": ["Ci vuole molto coraggio.", "Ci vogliono molto coraggio.", "Bisogna molto coraggio.", "Ha bisogno molto coraggio."] },
+    "correct_answer": "Ci vuole molto coraggio.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'coraggio' ist Singular, deshalb 'ci vuole'. 'bisogna' kann nicht mit einem Substantiv stehen, und für Singular passt 'ci vogliono' nicht."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze 'bisogna' oder die passende volerci-Form (Hier darf man nicht parken).",
+    "content": { "sentence": "Qui non ___ parcheggiare." },
+    "correct_answer": "bisogna",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor einem Infinitiv ('parcheggiare') steht 'bisogna'. 'non bisogna' drückt ein Verbot aus: man darf nicht."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: Man muss die Wahrheit sagen.",
+    "content": { "tokens": ["Bisogna", "dire", "la", "verità"] },
+    "correct_answer": "Bisogna dire la verità.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Unpersönliches 'bisogna' + Infinitiv ('dire'), gefolgt vom Objekt 'la verità'."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: Es dauert drei Tage.",
+    "content": { "tokens": ["Ci", "vogliono", "tre", "giorni"] },
+    "correct_answer": "Ci vogliono tre giorni.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'tre giorni' ist Plural, deshalb 'ci vogliono'. Die Wortstellung ist 'ci vogliono' + Zeitangabe."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: Man muss jeden Tag Wasser trinken.",
+    "content": {},
+    "correct_answer": "Bisogna bere acqua ogni giorno.",
+    "acceptable_alternatives": ["Bisogna bere dell'acqua ogni giorno.", "Ogni giorno bisogna bere acqua."],
+    "explanation_de": "'bisogna' + Infinitiv ('bere'). Die Zeitangabe 'ogni giorno' kann am Ende oder am Anfang stehen."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: Wie viel Geld braucht man für eine Reise nach Sizilien?",
+    "content": {},
+    "correct_answer": "Quanti soldi ci vogliono per un viaggio in Sicilia?",
+    "acceptable_alternatives": ["Quanti soldi ci vogliono per andare in Sicilia?"],
+    "explanation_de": "'soldi' ist Plural, deshalb 'ci vogliono'. Mit 'quanti soldi' fragt man nach der benötigten Geldmenge; 'per' + Substantiv oder Infinitiv gibt den Zweck an."
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: „Ich stehe jeden Morgen um sieben Uhr auf.“ (io, alzarsi, Presente)",
+    "content": {},
+    "correct_answer": "Mi alzo ogni mattina alle sette.",
+    "acceptable_alternatives": ["Io mi alzo ogni mattina alle sette.", "Mi alzo tutte le mattine alle sette."],
+    "explanation_de": "Für 'io' lautet das Reflexivpronomen 'mi' und steht vor dem konjugierten Verb 'alzo': 'Mi alzo ogni mattina alle sette.' (Häufiger Fehler: 'Alzo alle sette' ohne 'mi' ist falsch.)"
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: „Wie heißt deine Schwester?“ (lei, chiamarsi, Presente)",
+    "content": {},
+    "correct_answer": "Come si chiama tua sorella?",
+    "acceptable_alternatives": ["Come si chiama la tua sorella?"],
+    "explanation_de": "Bei 'lei' (dritte Person Singular) lautet das Reflexivpronomen 'si', das Verb chiamarsi wird zu 'chiama'. Das Pronomen steht vor dem Verb: 'Come si chiama tua sorella?' (Wie heißt deine Schwester?)."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: „Die Kinder amüsieren sich im Park.“ (i bambini, divertirsi, Presente)",
+    "content": {},
+    "correct_answer": "I bambini si divertono al parco.",
+    "acceptable_alternatives": ["I bambini si divertono nel parco."],
+    "explanation_de": "In der dritten Person Plural (loro) ist das Reflexivpronomen 'si'. Das Verb divertirsi wird zu 'divertono': 'I bambini si divertono al parco.' Das Pronomen darf nicht weggelassen werden."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: „Heute Morgen bin ich um sechs Uhr aufgewacht.“ (io maskulin, svegliarsi, passato prossimo)",
+    "content": {},
+    "correct_answer": "Stamattina mi sono svegliato alle sei.",
+    "acceptable_alternatives": ["Mi sono svegliato alle sei stamattina."],
+    "explanation_de": "Reflexive Verben bilden das passato prossimo immer mit 'essere'. Für 'io' lautet das Hilfsverb 'sono', das Partizip endet bei maskulinem Subjekt auf '-o': 'mi sono svegliato'."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge.",
+    "content": { "tokens": ["Marco", "si", "lava", "le", "mani"] },
+    "correct_answer": "Marco si lava le mani.",
+    "explanation_de": "Das Reflexivpronomen 'si' steht direkt vor dem konjugierten Verb 'lava': 'Marco si lava le mani.' (Marco wäscht sich die Hände.)"
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge.",
+    "content": { "tokens": ["Mi", "voglio", "riposare", "un po'"] },
+    "correct_answer": "Mi voglio riposare un po'.",
+    "explanation_de": "Mit Modalverb kann das Reflexivpronomen vor dem Modalverb stehen: 'Mi voglio riposare un po'.' (Alternative: 'Voglio riposarmi un po'.') Bedeutung: Ich möchte mich ein bisschen ausruhen."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge.",
+    "content": { "tokens": ["Lei", "si", "è", "vestita", "in fretta"] },
+    "correct_answer": "Lei si è vestita in fretta.",
+    "explanation_de": "Im passato prossimo bilden reflexive Verben das Hilfsverb mit 'essere'. Reihenfolge: Subjekt + 'si' + 'è' + Partizip. Bei weiblichem Subjekt endet das Partizip auf '-a': 'Lei si è vestita in fretta.'"
+  }
+]

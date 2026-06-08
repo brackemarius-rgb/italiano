@@ -1,0 +1,50 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Schreibweise ist korrekt? 'Marco ___ italiano.' (Marco ist Italiener.)",
+    "content": { "options": ["e", "è", "é", "e'"] },
+    "correct_answer": "è",
+    "acceptable_alternatives": [],
+    "explanation_de": "'è' (mit accento grave) bedeutet 'ist' (Form von essere). Ohne Akzent geschriebenes 'e' bedeutet dagegen 'und'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Antwort bedeutet 'ja'?",
+    "content": { "options": ["si", "sí", "sì", "si'"] },
+    "correct_answer": "sì",
+    "acceptable_alternatives": [],
+    "explanation_de": "'sì' (mit accento grave) heißt 'ja'. 'si' ohne Akzent ist das Reflexiv- bzw. unpersönliche Pronomen ('man')."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze die Elision mit Apostroph ein. Schreibe 'la amica' richtig: Lei è ___ amica di Marco.",
+    "content": { "sentence": "Lei è ___ amica di Marco." },
+    "correct_answer": "l'",
+    "acceptable_alternatives": ["l'amica"],
+    "explanation_de": "Vor einem Vokal entfällt der Endvokal von 'la', und es wird ein Apostroph gesetzt: 'la amica' → 'l'amica'."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Vervollständige mit der richtigen Form von 'questo' vor 'uomo' (Mann).",
+    "content": { "sentence": "___ uomo è molto simpatico." },
+    "correct_answer": "Quest'",
+    "acceptable_alternatives": ["Quest'uomo", "quest'", "quest'uomo"],
+    "explanation_de": "Vor einem Vokal wird 'questo' zu 'quest'' mit Apostroph: 'questo uomo' → 'quest'uomo'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Im Plural wird NICHT apostrophiert. Welche Form ist richtig?",
+    "content": { "options": ["gl'amici", "gli amici", "gli'amici", "gl' amici"] },
+    "correct_answer": "gli amici",
+    "acceptable_alternatives": [],
+    "explanation_de": "Wörter im Plural werden grundsätzlich nicht apostrophiert. Richtig ist 'gli amici' (die Freunde), nicht 'gl'amici'."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze 'anche io' (auch ich) in der elidierten Form ein: ___ sono di Roma.",
+    "content": { "sentence": "___ sono di Roma." },
+    "correct_answer": "Anch'io",
+    "acceptable_alternatives": ["anch'io"],
+    "explanation_de": "Vor dem Vokal 'i' entfällt das End-e von 'anche': 'anche io' → 'anch'io'."
+  }
+]

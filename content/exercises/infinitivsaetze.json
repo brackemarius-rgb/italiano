@@ -1,0 +1,50 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Präposition (oder keine) passt? 'Comincio ___ capire l'italiano.'",
+    "content": { "options": ["a", "di", "—", "da"] },
+    "correct_answer": "a",
+    "acceptable_alternatives": [],
+    "explanation_de": "'cominciare' (anfangen) verlangt die Präposition 'a': 'cominciare a + Infinitiv'. Verben des Anfangens stehen mit 'a'."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze die richtige Präposition ein (oder lass die Lücke bei einem '—' frei). 'Finisco ___ lavorare alle sei.'",
+    "content": { "sentence": "Finisco ___ lavorare alle sei." },
+    "correct_answer": "di",
+    "acceptable_alternatives": [],
+    "explanation_de": "'finire' (beenden, aufhören) steht mit 'di': 'finire di + Infinitiv'. Verben des Aufhörens nehmen 'di'. Achtung: NICHT 'finire a'."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Modalverben stehen ohne Präposition. Ergänze nur den Infinitiv von 'andare': 'Voglio ___ a casa.'",
+    "content": { "sentence": "Voglio ___ a casa." },
+    "correct_answer": "andare",
+    "acceptable_alternatives": [],
+    "explanation_de": "Nach Modalverben wie 'volere' (wollen) folgt der Infinitiv direkt, ohne Präposition: 'Voglio andare a casa.'"
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Satz ist korrekt?",
+    "content": { "options": ["Ho voglia mangiare una pizza.", "Ho voglia di mangiare una pizza.", "Ho voglia a mangiare una pizza.", "Ho voglia da mangiare una pizza."] },
+    "correct_answer": "Ho voglia di mangiare una pizza.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Der Ausdruck 'avere voglia' (Lust haben) verlangt 'di': 'avere voglia di + Infinitiv'. 'Ho voglia mangiare' ohne Präposition ist ein häufiger Fehler."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bring die Wörter in die richtige Reihenfolge.",
+    "content": { "tokens": ["Imparo", "a", "guidare", "la", "macchina"] },
+    "correct_answer": "Imparo a guidare la macchina.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'imparare' (lernen) steht mit 'a': 'imparare a + Infinitiv'. Verben des Lernens nehmen 'a': 'Imparo a guidare.'"
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Ich versuche, früh aufzustehen.' (versuchen = cercare, früh aufstehen = alzarmi presto)",
+    "content": {},
+    "correct_answer": "Cerco di alzarmi presto.",
+    "acceptable_alternatives": ["Io cerco di alzarmi presto.", "Cerco di alzarmi presto"],
+    "explanation_de": "'cercare' (versuchen) verlangt 'di': 'cercare di + Infinitiv'. Das Subjektpronomen 'io' kann man weglassen, weil die Verbform es schon zeigt."
+  }
+]

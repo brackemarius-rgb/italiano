@@ -1,0 +1,74 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das passende Negativ-Wort. (Ich kenne hier niemanden.)",
+    "content": { "sentence": "Non conosco ___ qui." },
+    "correct_answer": "nessuno",
+    "acceptable_alternatives": [],
+    "explanation_de": "'non … nessuno' bedeutet 'niemanden'. 'nessuno' steht nach dem Verb: 'Non conosco nessuno qui.'"
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Satz ist korrekt? (Er ist noch nicht angekommen.)",
+    "content": { "options": ["È ancora arrivato.", "Non è ancora arrivato.", "Non ancora è arrivato.", "Non è arrivato ancora non."] },
+    "correct_answer": "Non è ancora arrivato.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'non … ancora' bedeutet 'noch nicht'. 'ancora' steht zwischen Hilfsverb und Partizip: 'Non è ancora arrivato.'"
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bring die Wörter in die richtige Reihenfolge. (Ich trinke weder Wein noch Bier.)",
+    "content": { "tokens": ["Non", "bevo", "né", "vino", "né", "birra"] },
+    "correct_answer": "Non bevo né vino né birra.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'weder … noch' heißt 'né … né' und braucht zusätzlich 'non' vor dem Verb: 'Non bevo né vino né birra.'"
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das fehlende Wort. (Ich verstehe nichts.)",
+    "content": { "sentence": "Non capisco ___." },
+    "correct_answer": "niente",
+    "acceptable_alternatives": ["nulla"],
+    "explanation_de": "'non … niente' (oder 'nulla') bedeutet 'nichts'. Es steht nach dem Verb: 'Non capisco niente.'"
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Ich esse abends nie Fleisch.'",
+    "content": {},
+    "correct_answer": "Non mangio mai carne la sera.",
+    "acceptable_alternatives": ["La sera non mangio mai carne.", "Io non mangio mai carne la sera."],
+    "explanation_de": "'non … mai' bedeutet 'nie'. 'mai' steht direkt nach dem Verb: 'Non mangio mai carne la sera.' Das Subjektpronomen 'io' kann entfallen."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Satz ist korrekt? (Niemand ist zu Hause.)",
+    "content": { "options": ["Nessuno è a casa.", "Non nessuno è a casa.", "Nessuno non è a casa.", "È nessuno a casa."] },
+    "correct_answer": "Nessuno è a casa.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Steht das Negativwort vor dem Verb, entfällt 'non': 'Nessuno è a casa.' Auch möglich: 'Non c'è nessuno a casa.'"
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das passende Negativ-Wort. (Ich rauche nicht mehr.)",
+    "content": { "sentence": "Non fumo ___." },
+    "correct_answer": "più",
+    "acceptable_alternatives": [],
+    "explanation_de": "'non … più' bedeutet 'nicht mehr'. 'più' steht nach dem Verb: 'Non fumo più.'"
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bring die Wörter in die richtige Reihenfolge. (Ich weiß es nicht.)",
+    "content": { "tokens": ["Non", "lo", "so"] },
+    "correct_answer": "Non lo so.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'non' steht vor dem Pronomen 'lo', das wiederum vor dem Verb steht: 'Non lo so.'"
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Auch ich kenne ihn nicht.'",
+    "content": {},
+    "correct_answer": "Non lo conosco neanche io.",
+    "acceptable_alternatives": ["Non lo conosco neppure io.", "Neanche io lo conosco."],
+    "explanation_de": "'non … neanche/neppure' bedeutet 'auch nicht'. Mit dem Pronomen 'lo': 'Non lo conosco neanche io.'"
+  }
+]

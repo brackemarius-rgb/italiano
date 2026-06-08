@@ -1,0 +1,42 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische (Hintergrund einer Erzählung): 'Es war spät und es regnete.'",
+    "content": {},
+    "correct_answer": "Era tardi e pioveva.",
+    "acceptable_alternatives": ["Era tardi e stava piovendo."],
+    "explanation_de": "Das Imperfetto beschreibt den Hintergrund/Zustand in der Vergangenheit. 'essere' (es-Form) = 'era'; 'piovere' (-ere), es-Form = 'pioveva'."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische (Gewohnheit): 'Jeden Morgen trank mein Großvater einen Kaffee.'",
+    "content": {},
+    "correct_answer": "Ogni mattina mio nonno beveva un caffè.",
+    "acceptable_alternatives": ["Mio nonno beveva un caffè ogni mattina.", "Ogni mattina il nonno beveva un caffè."],
+    "explanation_de": "Wiederholte Gewohnheiten in der Vergangenheit ('ogni mattina' = jeden Morgen) stehen im Imperfetto. 'bere' ist unregelmäßig (Stamm bev-), lui-Form = 'beveva'."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge (Gewohnheit in der Kindheit).",
+    "content": { "tokens": ["Da", "bambino", "andavo", "spesso", "in", "bicicletta"] },
+    "correct_answer": "Da bambino andavo spesso in bicicletta.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Eine wiederholte Gewohnheit ('da bambino', 'spesso') steht im Imperfetto. 'andare' (-are), io-Form = 'andavo'. 'in bicicletta' = mit dem Fahrrad."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge (Beschreibung der Vergangenheit).",
+    "content": { "tokens": ["La", "casa", "era", "grande", "e", "luminosa"] },
+    "correct_answer": "La casa era grande e luminosa.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Beschreibungen von Zuständen in der Vergangenheit stehen im Imperfetto. 'essere' (es-Form) = 'era'. (Das Haus war groß und hell.)"
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge (Alter in der Vergangenheit).",
+    "content": { "tokens": ["Avevo", "dieci", "anni", "allora"] },
+    "correct_answer": "Avevo dieci anni allora.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Alter wird mit 'avere' ausgedrückt; ein Zustand in der Vergangenheit steht im Imperfetto: 'avevo dieci anni' (ich war zehn Jahre alt). 'allora' = damals."
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das betonte Pronomen für 'zu ihr' (andare da ...).",
+    "content": { "sentence": "Stasera vado da ___, da Giulia." },
+    "correct_answer": "lei",
+    "acceptable_alternatives": [],
+    "explanation_de": "Nach der Präposition 'da' steht das betonte Pronomen. Für die 3. Person Singular feminin ist es 'lei' (identisch mit dem Subjektpronomen): da lei."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form ist richtig? 'Kannst du es ohne mich machen?'",
+    "content": { "options": ["Puoi farlo senza io?", "Puoi farlo senza mi?", "Puoi farlo senza me?", "Puoi farlo senza mio?"] },
+    "correct_answer": "Puoi farlo senza me?",
+    "acceptable_alternatives": [],
+    "explanation_de": "Nach der Präposition 'senza' steht das betonte Pronomen. Für die 1. Person Singular ist es 'me' (nicht 'io'): senza me."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das betonte Pronomen für 'mit ihnen'.",
+    "content": { "sentence": "I bambini giocano in giardino e io gioco con ___." },
+    "correct_answer": "loro",
+    "acceptable_alternatives": [],
+    "explanation_de": "Nach 'con' steht das betonte Pronomen. Für die 3. Person Plural ist es 'loro' (identisch mit dem Subjektpronomen): con loro."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Höflichkeitsform: 'Dieser Brief ist für Sie.' Welche Form ist richtig?",
+    "content": { "options": ["Questa lettera è per tu.", "Questa lettera è per Lei.", "Questa lettera è per Le.", "Questa lettera è per Suo."] },
+    "correct_answer": "Questa lettera è per Lei.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei der höflichen Anrede steht nach 'per' das betonte Pronomen 'Lei' (großgeschrieben). 'Le' ist das unbetonte indirekte Pronomen und passt hier nicht."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: 'Ohne dich gehe ich nicht.'",
+    "content": { "tokens": ["Senza", "di", "te", "non", "vado" ] },
+    "correct_answer": "Senza di te non vado.",
+    "acceptable_alternatives": ["Non vado senza di te."],
+    "explanation_de": "Vor einem betonten Pronomen steht nach 'senza' oft 'di': senza di te. Für die 2. Person Singular ist das betonte Pronomen 'te' (nicht 'tu')."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das betonte Pronomen für 'vor mir' (davanti a ...).",
+    "content": { "sentence": "Marco è seduto davanti a ___ in autobus." },
+    "correct_answer": "me",
+    "acceptable_alternatives": [],
+    "explanation_de": "Die Ortsangabe 'davanti a' verlangt das betonte Pronomen. Für die 1. Person Singular ist es 'me' (nicht 'io'): davanti a me."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Ich denke oft an dich.' (pensare a ...)",
+    "content": {},
+    "correct_answer": "Penso spesso a te.",
+    "acceptable_alternatives": ["Penso spesso a te", "Io penso spesso a te."],
+    "explanation_de": "Das Verb 'pensare' verlangt die Präposition 'a'. Danach steht das betonte Pronomen 'te' für die 2. Person Singular: a te."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form ist richtig? 'Ich gehe lieber statt ihm.' (invece di ...)",
+    "content": { "options": ["Vado io invece di lui.", "Vado io invece di lo.", "Vado io invece di gli.", "Vado io invece di suo."] },
+    "correct_answer": "Vado io invece di lui.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Nach 'invece di' steht das betonte Pronomen. Für die 3. Person Singular maskulin ist es 'lui': invece di lui. 'lo' und 'gli' sind unbetonte Pronomen."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: 'Sie zählen auf uns.' (contare su ...)",
+    "content": { "tokens": ["Loro", "contano", "su", "di", "noi"] },
+    "correct_answer": "Loro contano su di noi.",
+    "acceptable_alternatives": ["Contano su di noi."],
+    "explanation_de": "Nach 'su' steht vor einem betonten Pronomen oft 'di': su di noi. Für die 1. Person Plural ist das betonte Pronomen 'noi' (identisch mit dem Subjektpronomen)."
+  }
+]

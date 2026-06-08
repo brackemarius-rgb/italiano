@@ -1,0 +1,74 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Verschmelzung von 'su' mit dem Artikel (vor 's + Konsonant).",
+    "content": { "sentence": "Le valigie sono ___ scaffale in alto." },
+    "correct_answer": "sullo",
+    "acceptable_alternatives": [],
+    "explanation_de": "su + lo = sullo. 'scaffale' (Regal) ist maskulin und beginnt mit 's + Konsonant', daher der Artikel 'lo'. So entsteht 'sullo scaffale'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form ist korrekt? 'Parlo spesso ___ miei nonni.' (Ich spreche oft mit meinen Großeltern... wörtlich: von meinen Großeltern.)",
+    "content": { "options": ["dei", "degli", "delle", "di i"] },
+    "correct_answer": "dei",
+    "acceptable_alternatives": [],
+    "explanation_de": "di + i = dei. 'nonni' ist maskulin Plural mit dem Artikel 'i', daher 'dei nonni'. 'degli' bräuchte 'gli' (vor Vokal/s+Konsonant), 'delle' ist feminin, 'di i' wird immer verschmolzen."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Verschmelzung von 'a' mit dem Artikel (maskulin Plural, vor Vokal).",
+    "content": { "sentence": "La mamma legge una favola ___ bambini ogni sera." },
+    "correct_answer": "ai",
+    "acceptable_alternatives": [],
+    "explanation_de": "a + i = ai. 'bambini' ist maskulin Plural mit dem Artikel 'i'. Achtung: 'bambini' beginnt mit Konsonant, daher 'i' (nicht 'gli'), also 'ai bambini'."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge. (Die Katze schläft auf dem Sofa.)",
+    "content": { "tokens": ["Il", "gatto", "dorme", "sul", "divano"] },
+    "correct_answer": "Il gatto dorme sul divano.",
+    "acceptable_alternatives": ["Il gatto dorme sul divano"],
+    "explanation_de": "su + il = sul. 'divano' (Sofa) ist maskulin und beginnt mit Konsonant, daher 'il'. So wird aus 'su il divano' das Wort 'sul divano'."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Verschmelzung von 'in' mit dem Artikel (feminin Singular).",
+    "content": { "sentence": "Ho lasciato le chiavi ___ borsa." },
+    "correct_answer": "nella",
+    "acceptable_alternatives": [],
+    "explanation_de": "in + la = nella. 'borsa' (Tasche) ist feminin und beginnt mit Konsonant, daher der Artikel 'la'. So entsteht 'nella borsa'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form ist korrekt? 'Torno a casa ___ ufficio alle sei.' (Ich komme um sechs vom Büro nach Hause.)",
+    "content": { "options": ["dall'", "dal", "dello", "nell'"] },
+    "correct_answer": "dall'",
+    "acceptable_alternatives": [],
+    "explanation_de": "da + l' = dall'. 'ufficio' ist maskulin und beginnt mit Vokal, daher der Artikel 'l''. Bei der Herkunft/Richtung 'von ... weg' benutzt man 'da': 'dall'ufficio'."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Die Bücher der Studenten sind interessant.' (di + Artikel). Tipp: i libri, gli studenti, interessanti.",
+    "content": {},
+    "correct_answer": "I libri degli studenti sono interessanti.",
+    "acceptable_alternatives": ["I libri degli studenti sono interessanti", "i libri degli studenti sono interessanti"],
+    "explanation_de": "di + gli = degli. 'studenti' ist maskulin Plural und beginnt mit 's + Konsonant', daher der Artikel 'gli'. So entsteht 'degli studenti'."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Verschmelzung von 'a' mit dem Artikel (feminin Plural).",
+    "content": { "sentence": "Il negozio è aperto fino ___ otto di sera." },
+    "correct_answer": "alle",
+    "acceptable_alternatives": [],
+    "explanation_de": "a + le = alle. Bei Uhrzeiten verwendet man den femininen Plural-Artikel 'le' (von 'le ore'), daher 'alle otto' (bis acht Uhr)."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form ist korrekt? 'Mettiamo i fiori ___ acqua.' (Wir stellen die Blumen ins Wasser.)",
+    "content": { "options": ["nell'", "nel", "nella", "in l'"] },
+    "correct_answer": "nell'",
+    "acceptable_alternatives": [],
+    "explanation_de": "in + l' = nell'. 'acqua' (Wasser) ist feminin und beginnt mit Vokal, daher der Artikel 'l''. Der Apostroph bleibt erhalten: 'nell'acqua'. 'nel' bräuchte 'il', 'nella' steht vor Konsonant."
+  }
+]

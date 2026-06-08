@@ -1,0 +1,74 @@
+[
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde einen korrekten italienischen Satz (SVO: Subjekt – Verb – Objekt).",
+    "content": { "tokens": ["Anna", "legge", "un", "libro"] },
+    "correct_answer": "Anna legge un libro.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Die Grundstellung ist SVO: zuerst das Subjekt (Anna), dann das Verb (legge), dann das Objekt (un libro). Diese Reihenfolge ist im Italienischen strenger als im Deutschen."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das Fragewort für 'Wann kommst du an?' (Fragewort am Satzanfang).",
+    "content": { "sentence": "___ arrivi?" },
+    "correct_answer": "Quando",
+    "acceptable_alternatives": ["quando"],
+    "explanation_de": "W-Wörter stehen am Satzanfang, direkt gefolgt vom Verb: 'Quando arrivi?'. Das Subjektpronomen 'tu' lässt man weg, weil die Verbendung -i schon 'du' anzeigt."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Wortstellung ist richtig? 'ein sympathischer Junge'",
+    "content": { "options": ["un ragazzo simpatico", "un simpatico ragazzo", "simpatico un ragazzo", "un ragazzo un simpatico"] },
+    "correct_answer": "un ragazzo simpatico",
+    "acceptable_alternatives": [],
+    "explanation_de": "Die meisten Adjektive stehen im Italienischen NACH dem Substantiv: 'un ragazzo simpatico'. Die Stellung davor ('un simpatico ragazzo') ist zwar möglich, aber für A1/A2 ist die natürliche Grundstellung das Adjektiv nach dem Substantiv."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Ich kenne ihn nicht.' (Verneinung 'non' vor dem Objektpronomen)",
+    "content": {},
+    "correct_answer": "Non lo conosco.",
+    "acceptable_alternatives": ["Io non lo conosco."],
+    "explanation_de": "Das Objektpronomen 'lo' steht direkt vor dem konjugierten Verb, und die Verneinung 'non' steht noch davor: 'Non lo conosco.' Reihenfolge: non + Pronomen + Verb."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde die Frage 'Wie viel kostet es?' – Fragewort an den Anfang.",
+    "content": { "tokens": ["Quanto", "costa"] },
+    "correct_answer": "Quanto costa?",
+    "acceptable_alternatives": [],
+    "explanation_de": "Das Fragewort 'quanto' steht am Satzanfang, gefolgt vom Verb 'costa': 'Quanto costa?'. Ein Subjekt wird nicht genannt."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze das Objektpronomen an die richtige Stelle: 'Ich will ihn sehen.' (Pronomen am Infinitiv angehängt)",
+    "content": { "sentence": "Voglio veder___." },
+    "correct_answer": "lo",
+    "acceptable_alternatives": [],
+    "explanation_de": "Am Infinitiv wird das Objektpronomen angehängt, und das Infinitiv-e fällt weg: vedere + lo → 'vederlo'. Daher: 'Voglio vederlo.'"
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wo steht das Frequenzadverb 'sempre' richtig? 'Ich habe das Meer immer geliebt.'",
+    "content": { "options": ["Ho sempre amato il mare.", "Sempre ho amato il mare.", "Ho amato sempre il mare.", "Ho amato il mare sempre."] },
+    "correct_answer": "Ho sempre amato il mare.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Frequenzadverbien wie 'sempre', 'spesso', 'mai' stehen zwischen Hilfsverb und Vollverb (Partizip): 'Ho sempre amato il mare.'"
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Warum lernst du Italienisch?' (Fragewort am Anfang, kein Subjektpronomen)",
+    "content": {},
+    "correct_answer": "Perché studi italiano?",
+    "acceptable_alternatives": ["Perché studi l'italiano?"],
+    "explanation_de": "Das Fragewort 'perché' steht am Satzanfang, dann das Verb 'studi'. Das Subjektpronomen 'tu' wird weggelassen, weil die Endung -i schon 'du' anzeigt."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Wo steht das modale Adverb? Ergänze die natürliche Stellung von 'bene' für 'Mir geht es gut.'",
+    "content": { "sentence": "Sto ___." },
+    "correct_answer": "bene",
+    "acceptable_alternatives": [],
+    "explanation_de": "Modale Adverbien wie 'bene', 'male', 'molto' stehen direkt nach dem Verb: 'Sto bene.' Nicht 'Bene sto.'"
+  }
+]

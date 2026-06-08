@@ -1,0 +1,42 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: „Gibt es ein Bad in der Wohnung?\"",
+    "content": {},
+    "correct_answer": "C'è un bagno nell'appartamento?",
+    "acceptable_alternatives": ["C'è un bagno nell'appartamento", "Nell'appartamento c'è un bagno?", "Nell'appartamento c'è un bagno"],
+    "explanation_de": "„un bagno\" (ein Bad) ist Singular, deshalb „c'è\" mit Apostroph. „nell'\" = in + l' vor Vokal (appartamento)."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: „Heute gibt es viele Leute auf der Piazza.\"",
+    "content": {},
+    "correct_answer": "Oggi ci sono molte persone in piazza.",
+    "acceptable_alternatives": ["Oggi ci sono molte persone in piazza", "Ci sono molte persone in piazza oggi.", "In piazza oggi ci sono molte persone."],
+    "explanation_de": "„molte persone\" (viele Leute) ist Plural, deshalb „ci sono\" und nicht „c'è\"."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: „Es gibt eine Kirche im Zentrum.\"",
+    "content": { "tokens": ["C'è", "una", "chiesa", "in", "centro"] },
+    "correct_answer": "C'è una chiesa in centro.",
+    "acceptable_alternatives": [],
+    "explanation_de": "„una chiesa\" (eine Kirche) ist Singular, deshalb „c'è\" mit Apostroph: C'è una chiesa in centro."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: „Es gibt viele Geschäfte in dieser Straße.\"",
+    "content": { "tokens": ["Ci", "sono", "molti", "negozi", "in", "questa via"] },
+    "correct_answer": "Ci sono molti negozi in questa via.",
+    "acceptable_alternatives": [],
+    "explanation_de": "„molti negozi\" (viele Geschäfte) ist Plural, deshalb „ci sono\" und nicht „c'è\"."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde die Frage: „Wie viele Studenten gibt es?\"",
+    "content": { "tokens": ["Quanti", "studenti", "ci", "sono?"] },
+    "correct_answer": "Quanti studenti ci sono?",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei einer Mehrzahl (quanti studenti) steht „ci sono\". In dieser Frage steht das Verb am Ende: Quanti studenti ci sono?"
+  }
+]

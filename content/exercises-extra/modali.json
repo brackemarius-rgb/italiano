@@ -1,0 +1,74 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Form von \"volere\": \"Die Kinder wollen ins Kino gehen.\" (loro)",
+    "content": { "sentence": "I bambini ___ andare al cinema." },
+    "correct_answer": "vogliono",
+    "acceptable_alternatives": [],
+    "explanation_de": "Die loro-Form von \"volere\" ist \"vogliono\", gefolgt vom Infinitiv \"andare\"."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle das richtige Modalverb: \"Kannst du schwimmen?\" (gemeint: beherrschst du es)",
+    "content": { "options": ["Sai nuotare?", "Puoi nuotare?", "Vuoi nuotare?", "Devi nuotare?"] },
+    "correct_answer": "Sai nuotare?",
+    "acceptable_alternatives": [],
+    "explanation_de": "Für eine gelernte Fähigkeit benutzt man \"sapere\": die tu-Form ist \"sai\". \"Puoi nuotare?\" würde die Möglichkeit (z. B. Zeit/Erlaubnis) meinen."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Form von \"dovere\": \"Maria muss zum Arzt gehen.\" (lei)",
+    "content": { "sentence": "Maria ___ andare dal medico." },
+    "correct_answer": "deve",
+    "acceptable_alternatives": [],
+    "explanation_de": "Die lui/lei-Form von \"dovere\" ist \"deve\", gefolgt vom Infinitiv \"andare\"."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde die höfliche Frage: \"Könntest du mir helfen?\"",
+    "content": { "tokens": ["Potresti", "aiutarmi", "per", "favore?"] },
+    "correct_answer": "Potresti aiutarmi per favore?",
+    "acceptable_alternatives": [],
+    "explanation_de": "Höfliche Bitte mit dem Konditional \"Potresti…?\" (Könntest du…?). Das Pronomen \"mi\" hängt am Infinitiv: \"aiutarmi\"."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle die richtige Form: \"Wir können heute Abend nicht ausgehen.\" (noi)",
+    "content": { "options": ["Non possiamo uscire stasera.", "Non potete uscire stasera.", "Non possono uscire stasera.", "Non posso uscire stasera."] },
+    "correct_answer": "Non possiamo uscire stasera.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Die noi-Form von \"potere\" ist \"possiamo\". \"potete\" wäre voi, \"possono\" wäre loro, \"posso\" wäre io."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Form von \"sapere\": \"Wisst ihr, wo der Bahnhof ist?\" (voi)",
+    "content": { "sentence": "___ dov'è la stazione?" },
+    "correct_answer": "Sapete",
+    "acceptable_alternatives": ["sapete"],
+    "explanation_de": "Mit einem Nebensatz bedeutet \"sapere\" wissen. Die voi-Form ist \"sapete\"."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: \"Ich will ein Glas Wasser.\" (io, mit Substantiv, kein Infinitiv)",
+    "content": {},
+    "correct_answer": "Voglio un bicchiere d'acqua.",
+    "acceptable_alternatives": ["Voglio un bicchiere d'acqua", "Io voglio un bicchiere d'acqua."],
+    "explanation_de": "\"volere\" kann direkt mit einem Substantiv stehen: \"Voglio un bicchiere d'acqua.\" Die io-Form ist \"voglio\"."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Satz ist grammatikalisch korrekt?",
+    "content": { "options": ["Vogliamo prenotare un tavolo.", "Vogliamo prenotiamo un tavolo.", "Vogliamo prenoto un tavolo.", "Vogliamo prenota un tavolo."] },
+    "correct_answer": "Vogliamo prenotare un tavolo.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Nach einem Modalverb steht immer der Infinitiv: \"Vogliamo prenotare\". Eine konjugierte Form (prenoto, prenota, prenotiamo) ist falsch."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: \"Du solltest dich ausruhen.\" (Ratschlag, Konditional)",
+    "content": { "tokens": ["Dovresti", "riposarti", "un", "po'"] },
+    "correct_answer": "Dovresti riposarti un po'.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Für einen Ratschlag benutzt man den Konditional von \"dovere\": \"Dovresti…\" (Du solltest…). Das reflexive Pronomen \"ti\" hängt am Infinitiv: \"riposarti\"."
+  }
+]

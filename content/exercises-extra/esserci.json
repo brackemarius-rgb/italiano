@@ -1,0 +1,74 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Setze die richtige Form von esserci ein (Singular): „In der Küche steht ein Kühlschrank.\"",
+    "content": { "sentence": "In cucina ___ un frigorifero." },
+    "correct_answer": "c'è",
+    "acceptable_alternatives": ["C'è"],
+    "explanation_de": "„un frigorifero\" (ein Kühlschrank) ist Singular, deshalb „c'è\" mit Apostroph. Es gibt = c'è im Singular."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze die richtige Form von esserci ein (Plural): „Im Park spielen viele Kinder.\"",
+    "content": { "sentence": "Nel parco ___ molti bambini." },
+    "correct_answer": "ci sono",
+    "acceptable_alternatives": ["Ci sono"],
+    "explanation_de": "„molti bambini\" (viele Kinder) ist Plural, deshalb „ci sono\" und nicht „c'è\"."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle die richtige Form: „Es gibt drei Fenster im Zimmer.\"",
+    "content": { "options": ["C'è tre finestre nella stanza.", "Ci sono tre finestre nella stanza.", "È tre finestre nella stanza.", "Ci è tre finestre nella stanza."] },
+    "correct_answer": "Ci sono tre finestre nella stanza.",
+    "acceptable_alternatives": [],
+    "explanation_de": "„tre finestre\" (drei Fenster) ist Plural, also „ci sono\". „C'è\" steht nur im Singular."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "c'è oder è? Wähle den richtigen Satz für „Anna ist müde.\"",
+    "content": { "options": ["Anna c'è stanca.", "Anna è stanca.", "Anna ci sono stanca.", "Anna ci è stanca."] },
+    "correct_answer": "Anna è stanca.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Hier wird eine Eigenschaft von Anna beschrieben, also „essere\" (è = sie ist). „Esserci\" (c'è) heißt dagegen „vorhanden/da sein\"."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde die Frage: „Gibt es einen Supermarkt in der Nähe?\"",
+    "content": { "tokens": ["C'è", "un", "supermercato", "qui", "vicino?"] },
+    "correct_answer": "C'è un supermercato qui vicino?",
+    "acceptable_alternatives": [],
+    "explanation_de": "„un supermercato\" ist Singular, also „c'è\". Die Frage hat dieselbe Wortstellung wie die Aussage, nur mit Fragezeichen."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Vergangenheit (passato prossimo): Setze die richtige Form von esserci ein. „Gestern hat es ein Konzert gegeben.\"",
+    "content": { "sentence": "Ieri ___ stato un concerto." },
+    "correct_answer": "c'è",
+    "acceptable_alternatives": ["C'è"],
+    "explanation_de": "Im passato prossimo heißt der Singular „c'è stato\". „un concerto\" ist Singular, deshalb „c'è stato\"."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: „Es gibt viele Restaurants in Rom.\"",
+    "content": {},
+    "correct_answer": "Ci sono molti ristoranti a Roma.",
+    "acceptable_alternatives": ["Ci sono molti ristoranti a Roma", "A Roma ci sono molti ristoranti.", "A Roma ci sono molti ristoranti"],
+    "explanation_de": "„molti ristoranti\" (viele Restaurants) ist Plural, deshalb „ci sono\". Vor Städtenamen steht die Präposition „a\": a Roma."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: „Im Glas ist Wasser.\"",
+    "content": {},
+    "correct_answer": "Nel bicchiere c'è dell'acqua.",
+    "acceptable_alternatives": ["Nel bicchiere c'è dell'acqua", "Nel bicchiere c'è acqua.", "Nel bicchiere c'è acqua", "C'è dell'acqua nel bicchiere."],
+    "explanation_de": "„acqua\" (Wasser) ist Singular, deshalb „c'è\". „nel\" = in + il (bicchiere). Achte auf den Apostroph bei c'è und bei dell'acqua."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Wendung passt? Jemand bedankt sich. Du antwortest: „Keine Ursache.\"",
+    "content": { "options": ["Non c'è di che.", "Non ci sono di che.", "Non è di che.", "Cosa c'è?"] },
+    "correct_answer": "Non c'è di che.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Die feste Wendung für „Keine Ursache\" ist „Non c'è di che.\" mit der Singularform c'è."
+  }
+]

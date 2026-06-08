@@ -1,0 +1,34 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Ich verstehe nichts.'",
+    "content": {},
+    "correct_answer": "Non capisco niente.",
+    "acceptable_alternatives": ["Non capisco nulla.", "Io non capisco niente."],
+    "explanation_de": "Im Italienischen ist die doppelte Verneinung nötig: 'non' vor dem Verb und 'niente' (oder 'nulla') danach: 'Non capisco niente.'"
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Heute trinke ich keinen Kaffee.'",
+    "content": {},
+    "correct_answer": "Oggi non bevo caffè.",
+    "acceptable_alternatives": ["Non bevo caffè oggi.", "Oggi io non bevo caffè."],
+    "explanation_de": "Die einfache Verneinung erfolgt mit 'non' direkt vor dem Verb: 'Oggi non bevo caffè.' Das Subjektpronomen 'io' kann entfallen."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bring die Wörter in die richtige Reihenfolge. (Ich gehe nie ins Kino.)",
+    "content": { "tokens": ["Non", "vado", "mai", "al", "cinema"] },
+    "correct_answer": "Non vado mai al cinema.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'non … mai' bedeutet 'nie'. 'mai' steht direkt nach dem Verb: 'Non vado mai al cinema.'"
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bring die Wörter in die richtige Reihenfolge. (Es ist nicht möglich.)",
+    "content": { "tokens": ["Non", "è", "possibile"] },
+    "correct_answer": "Non è possibile.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Die einfache Verneinung erfolgt mit 'non' direkt vor dem Verb 'è': 'Non è possibile.'"
+  }
+]

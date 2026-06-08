@@ -1,0 +1,50 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wie wird das -c- in »cinema« ausgesprochen?",
+    "content": { "options": ["wie 'k' (Kino)", "wie 'tsch' (tschüs)", "wie 'sch' (Scherz)", "wie 'ts' (Zeit)"] },
+    "correct_answer": "wie 'tsch' (tschüs)",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor e und i wird -c- wie 'tsch' ausgesprochen: »cinema« klingt also wie 'tschinema'. Vor a, o, u wäre es ein 'k'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "In welchem Wort wird das -c- wie 'k' (Kino) ausgesprochen?",
+    "content": { "options": ["cena", "cinema", "chiesa", "ciao"] },
+    "correct_answer": "chiesa",
+    "acceptable_alternatives": [],
+    "explanation_de": "Steht ein -h- zwischen c und e/i, wird das -c- wie 'k' gesprochen: »chiesa« = 'kiesa'. Bei »cena«, »cinema« und »ciao« klingt das c dagegen wie 'tsch'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wie wird das -g- in »gente« ausgesprochen?",
+    "content": { "options": ["wie 'g' (Golf)", "wie 'dsch' (Gin)", "wie 'ch' (Bach)", "wie 'j' (Junge)"] },
+    "correct_answer": "wie 'dsch' (Gin)",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor e und i wird -g- wie 'dsch' ausgesprochen, also »gente« = 'dschente'. Vor a, o, u (z.B. »gatto«) klingt es wie 'g' in Golf."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welches Wort enthält einen STUMMEN Buchstaben (der nicht gesprochen wird)?",
+    "content": { "options": ["hotel", "casa", "vino", "sole"] },
+    "correct_answer": "hotel",
+    "acceptable_alternatives": [],
+    "explanation_de": "Das -h- ist im Italienischen immer stumm. »hotel« wird daher 'otel' ausgesprochen."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wie wird die Buchstabenfolge -sc- in »sciare« ausgesprochen?",
+    "content": { "options": ["wie 'sk' (Skala)", "wie 'sch' (Scherz)", "wie 's' (Sonne)", "wie 'tsch' (tschüs)"] },
+    "correct_answer": "wie 'sch' (Scherz)",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor e und i wird -sc- wie 'sch' ausgesprochen: »sciare« = 'schiare'. Vor a, o, u (z.B. »scuola«) klingt es dagegen wie 'sk'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wie heißt der Buchstabe »H« im italienischen Alphabet?",
+    "content": { "options": ["acca", "hacca", "i lunga", "ipsilon"] },
+    "correct_answer": "acca",
+    "acceptable_alternatives": [],
+    "explanation_de": "Der Buchstabe H heißt im Italienischen »acca«. »i lunga« ist der Name für J und »ipsilon« für Y."
+  }
+]

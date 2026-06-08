@@ -1,0 +1,42 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische und ersetze das indirekte Objekt durch ein Pronomen: 'Ich schreibe ihr eine E-Mail.' (scrivere a)",
+    "content": {},
+    "correct_answer": "Le scrivo un'email.",
+    "acceptable_alternatives": ["Io le scrivo un'email.", "Le scrivo una email."],
+    "explanation_de": "'scrivere a' verlangt ein indirektes Objekt. Für 'ihr' (3. Person Singular weiblich) steht 'le' vor dem konjugierten Verb 'scrivo'. Das Subjektpronomen 'io' kann entfallen."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische und ersetze das indirekte Objekt durch ein Pronomen: 'Ich gebe ihm das Buch.' (dare a)",
+    "content": {},
+    "correct_answer": "Gli do il libro.",
+    "acceptable_alternatives": ["Io gli do il libro."],
+    "explanation_de": "'dare a' verlangt ein indirektes Objekt. Für 'ihm' (3. Person Singular männlich) steht 'gli' vor dem konjugierten Verb 'do'. Das Subjektpronomen 'io' kann entfallen."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Gefällt dir die Musik?' (piacere)",
+    "content": {},
+    "correct_answer": "Ti piace la musica?",
+    "acceptable_alternatives": ["La musica ti piace?"],
+    "explanation_de": "Bei 'piacere' steht das indirekte Pronomen 'ti' (dir) vorne. Da 'la musica' Singular ist, steht das Verb im Singular: 'piace'."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: 'Ich sage dir die Wahrheit.'",
+    "content": { "tokens": ["Ti", "dico", "la", "verità"] },
+    "correct_answer": "Ti dico la verità.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Das indirekte Objektpronomen 'ti' (dir) steht vor dem konjugierten Verb 'dico'. 'dire a' verlangt ein indirektes Objekt."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: 'Uns gefällt das Meer.'",
+    "content": { "tokens": ["Ci", "piace", "il", "mare"] },
+    "correct_answer": "Ci piace il mare.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei 'piacere' steht das indirekte Pronomen 'ci' (uns) vorne. Da 'il mare' Singular ist, steht das Verb im Singular: 'piace'."
+  }
+]

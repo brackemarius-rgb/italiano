@@ -1,0 +1,74 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Setze 'fare' im Imperfetto ein (es-Form, Wetterbeschreibung).",
+    "content": { "sentence": "Quella sera ___ molto freddo e nevicava." },
+    "correct_answer": "faceva",
+    "acceptable_alternatives": [],
+    "explanation_de": "'fare' ist im Imperfetto unregelmäßig (Stamm fac-): facevo, facevi, faceva ... Beim Wetter benutzt man 'fare': 'faceva freddo' (es war kalt). Das Imperfetto beschreibt hier den Hintergrund/Zustand."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze 'avere' im Imperfetto ein (io-Form): Sag, wie viele Jahre du hattest.",
+    "content": { "sentence": "Quando ho conosciuto Anna, ___ vent'anni." },
+    "correct_answer": "avevo",
+    "acceptable_alternatives": [],
+    "explanation_de": "Alter wird mit 'avere' ausgedrückt, und ein Zustand in der Vergangenheit steht im Imperfetto: 'avevo vent'anni' (ich war zwanzig Jahre alt). -ere-Verb: av-evo."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form ist im Imperfetto korrekt? 'Da giovane mia nonna ___ in una piccola fattoria.' (vivere, lei-Form)",
+    "content": { "options": ["viveva", "vivevo", "ha vissuto", "vive"] },
+    "correct_answer": "viveva",
+    "acceptable_alternatives": [],
+    "explanation_de": "Die lei-Form von 'vivere' (-ere) im Imperfetto ist 'viveva'. 'vivevo' wäre io, 'ha vissuto' passato prossimo, 'vive' Präsens. 'Da giovane' (als junger Mensch) signalisiert eine andauernde Lebenssituation -> Imperfetto."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze 'dire' im Imperfetto ein (loro-Form, Gewohnheit).",
+    "content": { "sentence": "I miei genitori mi ___ sempre di studiare di più." },
+    "correct_answer": "dicevano",
+    "acceptable_alternatives": [],
+    "explanation_de": "'dire' ist im Imperfetto unregelmäßig (Stamm dic-): dicevo, dicevi ... dicevano. Das Signalwort 'sempre' (immer) zeigt eine wiederholte Gewohnheit an -> Imperfetto. loro-Form: dic-evano."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge (zwei parallele Handlungen mit 'mentre').",
+    "content": { "tokens": ["Mentre", "cucinavo", "ascoltavo", "la", "radio"] },
+    "correct_answer": "Mentre cucinavo, ascoltavo la radio.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei zwei gleichzeitig laufenden Handlungen mit 'mentre' (während) stehen beide Verben im Imperfetto: 'cucinavo' und 'ascoltavo' (beide -are, io-Form)."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische (Beschreibung in der Vergangenheit): 'Das Zimmer war klein, aber gemütlich.'",
+    "content": {},
+    "correct_answer": "La camera era piccola ma accogliente.",
+    "acceptable_alternatives": ["La stanza era piccola ma accogliente.", "La camera era piccola però accogliente.", "La stanza era piccola però accogliente."],
+    "explanation_de": "Beschreibungen von Zuständen in der Vergangenheit stehen im Imperfetto. 'essere' (lei/es-Form) = 'era'. 'camera' oder 'stanza' bedeuten beide Zimmer."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Satz ist richtig? Es geht um eine Gewohnheit in der Kindheit.",
+    "content": { "options": ["Da bambini bevevamo sempre il latte a colazione.", "Da bambini abbiamo bevuto sempre il latte a colazione.", "Da bambini beviamo sempre il latte a colazione.", "Da bambini bevevemo sempre il latte a colazione."] },
+    "correct_answer": "Da bambini bevevamo sempre il latte a colazione.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Eine wiederholte Gewohnheit in der Kindheit ('da bambini', 'sempre') steht im Imperfetto. 'bere' ist unregelmäßig (Stamm bev-): noi 'bevevamo'. 'abbiamo bevuto' wäre passato prossimo, 'beviamo' Präsens, 'bevevemo' existiert nicht."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze 'dormire' im Imperfetto ein (tu-Form): Hintergrund einer Erzählung.",
+    "content": { "sentence": "Quando ti ho telefonato, tu ___ ancora." },
+    "correct_answer": "dormivi",
+    "acceptable_alternatives": [],
+    "explanation_de": "Das Imperfetto beschreibt den andauernden Hintergrund ('du hast noch geschlafen'), während 'ho telefonato' (passato prossimo) das neue Ereignis ist. -ire-Verb, tu-Form: dorm-ivi."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische (Gewohnheit): 'Als Kind las ich oft Comics.' (io-Form)",
+    "content": {},
+    "correct_answer": "Da bambino leggevo spesso i fumetti.",
+    "acceptable_alternatives": ["Da bambina leggevo spesso i fumetti.", "Da bambino leggevo i fumetti spesso.", "Leggevo spesso i fumetti da bambino."],
+    "explanation_de": "Eine wiederholte Gewohnheit in der Vergangenheit ('da bambino', 'spesso' = oft) steht im Imperfetto. 'leggere' (-ere), io-Form: legg-evo. 'fumetti' = Comics; 'da bambina' für weibliche Sprecher."
+  }
+]

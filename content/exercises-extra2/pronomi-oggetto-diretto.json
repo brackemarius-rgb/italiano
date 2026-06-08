@@ -1,0 +1,48 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Antworte mit einem direkten Objektpronomen: \"Conosci quel ragazzo?\" (Ja, ich kenne ihn.)",
+    "content": {},
+    "correct_answer": "Sì, lo conosco.",
+    "acceptable_alternatives": ["Sì lo conosco.", "Lo conosco.", "Sì, lo conosco"],
+    "explanation_de": "\"quel ragazzo\" ist maskulin Singular, das direkte Objektpronomen ist \"lo\" (ihn). Es steht vor dem konjugierten Verb: \"Lo conosco.\""
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Antworte mit einem direkten Objektpronomen: \"Prendi le chiavi?\" (Ja, ich nehme sie.)",
+    "content": {},
+    "correct_answer": "Sì, le prendo.",
+    "acceptable_alternatives": ["Sì le prendo.", "Le prendo.", "Sì, le prendo"],
+    "explanation_de": "\"le chiavi\" ist feminin Plural, das direkte Objektpronomen ist \"le\" (sie). Es steht vor dem konjugierten Verb: \"Le prendo.\""
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge (das Pronomen steht vor dem Verb!).",
+    "content": {
+      "tokens": ["No", "non", "lo", "capisco"]
+    },
+    "correct_answer": "No, non lo capisco.",
+    "acceptable_alternatives": ["No non lo capisco."],
+    "explanation_de": "Das direkte Objektpronomen \"lo\" (ihn/es) steht vor dem konjugierten Verb \"capisco\". Die Verneinung \"non\" steht direkt vor dem Pronomen: \"non lo capisco\"."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge (das Pronomen steht vor dem Verb!).",
+    "content": {
+      "tokens": ["Maria", "ci", "invita", "stasera"]
+    },
+    "correct_answer": "Maria ci invita stasera.",
+    "acceptable_alternatives": ["Maria ci invita stasera"],
+    "explanation_de": "Das direkte Objektpronomen \"ci\" (uns) steht vor dem konjugierten Verb \"invita\": \"Maria ci invita stasera.\" (Maria lädt uns heute Abend ein.)"
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge (das Pronomen steht vor dem Verb!).",
+    "content": {
+      "tokens": ["Le", "mele", "le", "mangio"]
+    },
+    "correct_answer": "Le mele le mangio.",
+    "acceptable_alternatives": ["Le mele le mangio"],
+    "explanation_de": "Hier wird das Objekt \"le mele\" (feminin Plural) vorangestellt und durch das Pronomen \"le\" wieder aufgenommen, das vor dem Verb \"mangio\" steht: \"Le mele le mangio.\" (Die Äpfel, die esse ich.)"
+  }
+]

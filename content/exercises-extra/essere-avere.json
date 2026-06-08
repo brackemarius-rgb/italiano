@@ -1,0 +1,70 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Setze 'essere' im Präsens ein.",
+    "content": { "sentence": "Tu ___ molto gentile. (essere)" },
+    "correct_answer": "sei",
+    "acceptable_alternatives": [],
+    "explanation_de": "essere, tu-Form: sei. 'Du bist sehr nett.'"
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze 'avere' im Präsens ein.",
+    "content": { "sentence": "Lei ___ trent'anni. (avere)" },
+    "correct_answer": "ha",
+    "acceptable_alternatives": [],
+    "explanation_de": "avere, lui/lei-Form: ha. Das Alter wird mit avere gebildet: 'Sie ist 30 Jahre alt.'"
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze 'avere' im Präsens ein. Achtung: stummes h!",
+    "content": { "sentence": "Voi ___ sete? (avere)" },
+    "correct_answer": "avete",
+    "acceptable_alternatives": [],
+    "explanation_de": "avere, voi-Form: avete. 'avere sete' = Durst haben."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form ist richtig? I bambini ___ sonno. (avere)",
+    "content": { "options": ["hanno", "sono", "abbiamo", "ha"] },
+    "correct_answer": "hanno",
+    "explanation_de": "avere, loro-Form: hanno. 'avere sonno' = müde sein. Müdigkeit wird mit avere ausgedrückt, nicht mit essere."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Satz ist korrekt geschrieben? Gemeint ist: 'Sara ist meine Schwester.'",
+    "content": { "options": ["Sara è mia sorella.", "Sara e mia sorella.", "Sara hè mia sorella.", "Sara ha mia sorella."] },
+    "correct_answer": "Sara è mia sorella.",
+    "explanation_de": "'è' (mit Akzent) ist das Verb 'ist'. Ohne Akzent wäre 'e' die Konjunktion 'und'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "essere oder avere? Wähle den richtigen Satz für 'Wir haben es eilig.'",
+    "content": { "options": ["Abbiamo fretta.", "Siamo fretta.", "Abbiamo siamo fretta.", "Avete fretta."] },
+    "correct_answer": "Abbiamo fretta.",
+    "explanation_de": "'avere fretta' = es eilig haben. noi-Form von avere: abbiamo."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: „Wir sind aus Berlin.“",
+    "content": {},
+    "correct_answer": "Siamo di Berlino.",
+    "acceptable_alternatives": ["Noi siamo di Berlino."],
+    "explanation_de": "Herkunft mit essere + di: 'essere di + Ort'. noi-Form: siamo."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: „Hast du Angst?“ (du)",
+    "content": {},
+    "correct_answer": "Hai paura?",
+    "acceptable_alternatives": ["Tu hai paura?"],
+    "explanation_de": "'avere paura' = Angst haben. tu-Form von avere: hai (h stumm)."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bring die Wörter in die richtige Reihenfolge.",
+    "content": { "tokens": ["Oggi", "è", "lunedì"] },
+    "correct_answer": "Oggi è lunedì.",
+    "explanation_de": "Wochentage und Datum stehen mit essere: 'Oggi è lunedì.' = Heute ist Montag."
+  }
+]

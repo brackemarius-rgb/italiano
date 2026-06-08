@@ -1,0 +1,56 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Antworte mit dem Ortspronomen \"ci\": \"Andate al cinema stasera?\" (Antwort: Ja, wir gehen um acht Uhr dorthin.)",
+    "content": {},
+    "correct_answer": "Sì, ci andiamo alle otto.",
+    "acceptable_alternatives": ["Ci andiamo alle otto."],
+    "explanation_de": "\"ci\" ersetzt die Ortsangabe \"al cinema\" (dorthin) und steht vor dem konjugierten Verb: ci andiamo alle otto."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze mit dem festen Verb \"metterci\": \"Ich brauche zwanzig Minuten zur Arbeit.\"",
+    "content": {},
+    "correct_answer": "Ci metto venti minuti per andare al lavoro.",
+    "acceptable_alternatives": ["Ci metto venti minuti.", "Per andare al lavoro ci metto venti minuti."],
+    "explanation_de": "Das feste Verb \"metterci\" (Zeit brauchen) verlangt \"ci\" vor dem konjugierten Verb: ci metto venti minuti."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Antworte mit dem festen Verb \"pensarci\": \"Wer kümmert sich um das Abendessen?\" – \"Ich kümmere mich darum.\"",
+    "content": {},
+    "correct_answer": "Ci penso io.",
+    "acceptable_alternatives": ["Ci penso io!"],
+    "explanation_de": "Das feste Verb \"pensarci\" (sich um etwas kümmern, daran denken) braucht \"ci\". \"io\" steht nachgestellt zur Betonung: Ci penso io."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: \"Morgen gehe ich dorthin mit dem Zug.\" (a Milano → ci)",
+    "content": {
+      "tokens": ["Domani", "ci", "vado", "in", "treno"]
+    },
+    "correct_answer": "Domani ci vado in treno.",
+    "acceptable_alternatives": [],
+    "explanation_de": "\"ci\" (dorthin) steht vor dem konjugierten Verb \"vado\". Die Zeitangabe \"domani\" steht am Satzanfang."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: \"Wann fährst du dorthin?\" (in città → ci)",
+    "content": {
+      "tokens": ["Quando", "ci", "vai", "in", "città"]
+    },
+    "correct_answer": "Quando ci vai in città?",
+    "acceptable_alternatives": ["Quando ci vai in città"],
+    "explanation_de": "In der Frage steht das Fragewort \"quando\" am Anfang, danach \"ci\" (dorthin) vor dem konjugierten Verb \"vai\"."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz mit dem festen Verb \"pensarci\": \"Ich denke jeden Tag daran.\"",
+    "content": {
+      "tokens": ["Ci", "penso", "ogni", "giorno"]
+    },
+    "correct_answer": "Ci penso ogni giorno.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Beim festen Verb \"pensarci\" steht \"ci\" vor dem konjugierten Verb \"penso\": Ci penso ogni giorno."
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Auf welcher Silbe liegt bei den meisten italienischen Wörtern die Betonung?",
+    "content": { "options": ["auf der letzten Silbe", "auf der vorletzten Silbe", "auf der drittletzten Silbe", "auf der ersten Silbe"] },
+    "correct_answer": "auf der vorletzten Silbe",
+    "acceptable_alternatives": [],
+    "explanation_de": "Italienische Wörter werden in der Regel auf der vorletzten Silbe betont, z. B. stu-DEN-te oder gior-NA-le."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welches Wort wird auf der letzten Silbe betont und braucht deshalb einen Akzent?",
+    "content": { "options": ["studente", "città", "giornale", "Napoli"] },
+    "correct_answer": "città",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei Betonung auf der letzten Silbe steht ein Akzent: cit-TÀ. 'studente' und 'giornale' werden auf der vorletzten Silbe betont, 'Napoli' auf der drittletzten."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze den fehlenden Akzent: Das Wort für 'Kaffee' wird auf der letzten Silbe betont. Schreibe das ganze Wort richtig.",
+    "content": { "sentence": "Vorrei un ___, per favore." },
+    "correct_answer": "caffè",
+    "acceptable_alternatives": [],
+    "explanation_de": "Weil 'caffè' auf der letzten Silbe betont wird, trägt es einen Akzent: caf-FÈ. Ohne Akzent ist es falsch geschrieben."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welches Wort wird auf der drittletzten Silbe betont (kein Akzent geschrieben, muss man lernen)?",
+    "content": { "options": ["caffè", "giornale", "zucchero", "città"] },
+    "correct_answer": "zucchero",
+    "acceptable_alternatives": [],
+    "explanation_de": "'zucchero' wird auf der drittletzten Silbe betont: ZUC-che-ro. Solche Wörter tragen keinen Akzent und muss man auswendig lernen. 'caffè' und 'città' werden auf der letzten Silbe betont, 'giornale' auf der vorletzten."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welches Wort ist richtig geschrieben?",
+    "content": { "options": ["perche", "perché", "pèrche", "perchè"] },
+    "correct_answer": "perché",
+    "acceptable_alternatives": [],
+    "explanation_de": "'perché' wird auf der letzten Silbe betont und braucht deshalb einen Akzent. Korrekt ist der geschlossene Akzent: per-CHÉ."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Welche Stadt wird auf der drittletzten Silbe betont und ohne Akzent geschrieben? Ergänze den Namen.",
+    "content": { "sentence": "Abito a ___, in Liguria." },
+    "correct_answer": "Genova",
+    "acceptable_alternatives": [],
+    "explanation_de": "'Genova' wird auf der drittletzten Silbe betont: GE-no-va. Wie bei 'Napoli' steht kein Akzent, man muss die Betonung lernen."
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "type": "reorder",
+    "prompt_de": "Bring die Wörter in die richtige Reihenfolge. Beschreibende Adjektive (Eigenschaften) stehen normalerweise NACH dem Substantiv.",
+    "content": { "tokens": ["una", "macchina", "veloce"] },
+    "correct_answer": "una macchina veloce",
+    "acceptable_alternatives": [],
+    "explanation_de": "Beschreibende Adjektive stehen im Italienischen nach dem Substantiv: 'una macchina veloce' (ein schnelles Auto), nicht 'una veloce macchina'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Wortstellung ist richtig? (sympathische Freunde)",
+    "content": { "options": ["gli amici simpatici", "i simpatici amici", "gli amici simpatico", "simpatici gli amici"] },
+    "correct_answer": "gli amici simpatici",
+    "acceptable_alternatives": [],
+    "explanation_de": "Das beschreibende Adjektiv steht nach dem Substantiv und passt sich in der Form an: 'gli amici simpatici' (maskulin Plural). 'i simpatici amici' ist im Alltag unüblich, 'simpatico' wäre die falsche Endung."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Form von 'bello' vor dem Substantiv. (vor Vokal, maskulin: ein schöner Mann)",
+    "content": { "sentence": "Antonio è un ___ uomo." },
+    "correct_answer": "bell'",
+    "acceptable_alternatives": ["bell"],
+    "explanation_de": "Steht 'bello' vor einem maskulinen Wort, das mit Vokal beginnt (l'uomo), wird es zu 'bell'' mit Apostroph: un bell'uomo. Es folgt damit dem bestimmten Artikel l'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle die richtige Form von 'bello' vor dem Substantiv im Plural. (schöne Bücher, maskulin Plural)",
+    "content": { "options": ["bei libri", "belli libri", "begli libri", "belle libri"] },
+    "correct_answer": "bei libri",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor maskulinen Wörtern im Plural, die mit Konsonant beginnen (i libri), wird 'bello' zu 'bei': bei libri. 'begli' steht nur vor Vokal oder s+Konsonant (begli specchi)."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die richtige Form von 'buono' vor dem Substantiv. (vor s+Konsonant, maskulin: ein guter Student)",
+    "content": { "sentence": "Luca è un ___ studente." },
+    "correct_answer": "buono",
+    "acceptable_alternatives": [],
+    "explanation_de": "Steht 'buono' vor einem maskulinen Wort mit s+Konsonant (lo studente), behält es die volle Form 'buono': un buono studente. 'un buon studente' wäre falsch."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bring die Wörter in die richtige Reihenfolge. 'piccolo' (klein) gehört zu den Adjektiven, die meist VOR dem Substantiv stehen.",
+    "content": { "tokens": ["una", "piccola", "casa"] },
+    "correct_answer": "una piccola casa",
+    "acceptable_alternatives": [],
+    "explanation_de": "'piccolo' steht meist vor dem Substantiv: 'una piccola casa' (ein kleines Haus). Es behält dabei die normalen Adjektivendungen (piccola, feminin Singular)."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Was bedeutet 'un vecchio amico'? Achte auf die Stellung des Adjektivs.",
+    "content": { "options": ["ein langjähriger Freund", "ein alter Freund (vom Alter her)", "ein neuer Freund", "ein guter Freund"] },
+    "correct_answer": "ein langjähriger Freund",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor dem Substantiv bedeutet 'vecchio' 'langjährig': un vecchio amico = ein langjähriger Freund. Nach dem Substantiv (un amico vecchio) wäre es ein vom Alter her alter Freund."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Nächste Woche' (prossimo steht vor dem Substantiv; settimana ist feminin).",
+    "content": {},
+    "correct_answer": "la prossima settimana",
+    "acceptable_alternatives": ["prossima settimana"],
+    "explanation_de": "'prossimo' steht vor dem Substantiv und passt sich an: 'la prossima settimana' (feminin Singular). Es behält die normalen Endungen."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Es ist ein schönes Haus.' (bello vor weiblichem Wort mit Konsonant: casa)",
+    "content": {},
+    "correct_answer": "È una bella casa.",
+    "acceptable_alternatives": ["È una bella casa", "Questa è una bella casa.", "Questa è una bella casa"],
+    "explanation_de": "Vor einem femininen Wort mit Konsonant (la casa) heißt 'bello' einfach 'bella': una bella casa. Im Femininen verhält sich 'bello' wie der normale Artikel la/le."
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Das Haus, in dem ich wohne, ist groß.'",
+    "content": {},
+    "correct_answer": "La casa in cui abito è grande.",
+    "acceptable_alternatives": ["La casa in cui abito e' grande.", "La casa in cui vivo è grande.", "La casa in cui vivo e' grande."],
+    "explanation_de": "Nach der Präposition 'in' steht immer 'cui', nie 'che'. 'La casa in cui abito' = 'Das Haus, in dem ich wohne'."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Der Mann, der dort arbeitet, ist mein Vater.'",
+    "content": {},
+    "correct_answer": "L'uomo che lavora lì è mio padre.",
+    "acceptable_alternatives": ["L'uomo che lavora li' e' mio padre.", "L'uomo che lavora lì e' mio padre.", "L'uomo che lavora lì è mio padre"],
+    "explanation_de": "'che' ersetzt hier das Subjekt ('der Mann, der arbeitet') und ist unveränderlich. Vor 'mio padre' (Verwandtschaft, Singular) steht kein Artikel."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: 'Das Auto, das ich kaufe, ist rot.'",
+    "content": { "tokens": ["La", "macchina", "che", "compro", "è", "rossa"] },
+    "correct_answer": "La macchina che compro è rossa.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'che' ersetzt das direkte Objekt ('das Auto, das ich kaufe') und steht ohne Präposition. 'comprare' ist ein direktes Verb."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: 'Die Freundin, mit der ich spreche.'",
+    "content": { "tokens": ["L'amica", "con", "cui", "parlo"] },
+    "correct_answer": "L'amica con cui parlo.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Nach der Präposition 'con' steht 'cui', nie 'che'. 'con cui parlo' = 'mit der ich spreche'."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: 'Der Lehrer, dessen Bücher ich lese.'",
+    "content": { "tokens": ["Il", "professore", "i", "cui", "libri", "leggo"] },
+    "correct_answer": "Il professore i cui libri leggo.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei Besitz ('dessen') steht 'cui' mit Artikel. Der Artikel richtet sich nach dem besessenen Gegenstand ('i libri', männlich Plural), also 'i cui libri'."
+  }
+]

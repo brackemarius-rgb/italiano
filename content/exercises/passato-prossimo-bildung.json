@@ -1,0 +1,50 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das regelmäßige Partizip Perfekt von 'parlare'.",
+    "content": { "sentence": "Ieri ho ___ con Marco al telefono." },
+    "correct_answer": "parlato",
+    "acceptable_alternatives": [],
+    "explanation_de": "Verben auf -are bilden das Partizip auf -ato: parlare → parlato. Das Hilfsverb 'ho' (avere) darf nicht fehlen."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welches ist das richtige Partizip Perfekt von 'prendere'?",
+    "content": { "options": ["prendato", "prenduto", "preso", "prendito"] },
+    "correct_answer": "preso",
+    "acceptable_alternatives": [],
+    "explanation_de": "'prendere' ist unregelmäßig: das Partizip lautet 'preso'. Die regelmäßige Form 'prenduto' wäre falsch."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das Partizip von 'andare'. Achte auf die Anpassung an das Subjekt (Maria, feminin Singular).",
+    "content": { "sentence": "Maria è ___ al cinema." },
+    "correct_answer": "andata",
+    "acceptable_alternatives": [],
+    "explanation_de": "Mit dem Hilfsverb 'essere' richtet sich das Partizip nach Genus und Numerus des Subjekts. Maria ist feminin Singular: andato → andata."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Satz ist korrekt im passato prossimo?",
+    "content": { "options": ["Loro hanno andato a Roma.", "Loro sono andati a Roma.", "Loro sono andato a Roma.", "Loro andati a Roma."] },
+    "correct_answer": "Loro sono andati a Roma.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'andare' braucht das Hilfsverb 'essere', nicht 'avere'. Das Partizip passt sich dem Subjekt an (Plural maskulin/gemischt): sono andati."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge (passato prossimo mit avere).",
+    "content": { "tokens": ["Abbiamo", "visto", "un", "bel", "film"] },
+    "correct_answer": "Abbiamo visto un bel film.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Aufbau: Hilfsverb (abbiamo) + Partizip (visto, unregelmäßig von vedere) + Objekt. 'Wir haben einen schönen Film gesehen.'"
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische (passato prossimo): 'Ich habe eine Pizza gegessen.'",
+    "content": {},
+    "correct_answer": "Ho mangiato una pizza.",
+    "acceptable_alternatives": ["Io ho mangiato una pizza."],
+    "explanation_de": "passato prossimo = Präsens von avere (ho) + Partizip (mangiato, regelmäßig von mangiare). Das Subjektpronomen 'io' kann stehen, ist aber meist weggelassen."
+  }
+]

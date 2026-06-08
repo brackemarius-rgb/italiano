@@ -1,0 +1,74 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das indirekte Objektpronomen. 'Do un consiglio a mia sorella' → '___ do un consiglio.' (Ich gebe ihr einen Rat.)",
+    "content": { "sentence": "___ do un consiglio." },
+    "correct_answer": "Le",
+    "acceptable_alternatives": ["le"],
+    "explanation_de": "'dare a' verlangt ein indirektes Objekt (wem?). 'a mia sorella' = ihr (3. Person Singular weiblich) → 'le'. Nicht 'la', das wäre das direkte Pronomen."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle das richtige indirekte Objektpronomen: 'Dico la verità ai miei genitori' → '___ dico la verità.'",
+    "content": { "options": ["Gli", "Li", "Le", "Lo"] },
+    "correct_answer": "Gli",
+    "acceptable_alternatives": [],
+    "explanation_de": "'dire a' verlangt ein indirektes Objekt. Für die 3. Person Plural (ai miei genitori = ihnen) steht heute meist 'gli'. 'li'/'lo' wären direkte Pronomen, 'le' wäre weiblich Singular."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: 'Er schickt uns eine E-Mail.'",
+    "content": { "tokens": ["Ci", "manda", "un'", "email"] },
+    "correct_answer": "Ci manda un'email.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Das indirekte Objektpronomen 'ci' (uns) steht vor dem konjugierten Verb 'manda'. 'mandare a' verlangt ein indirektes Objekt."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das indirekte Objektpronomen für 'euch'. 'Ragazzi, ___ offro un caffè!' (Jungs, ich spendiere euch einen Kaffee!)",
+    "content": { "sentence": "Ragazzi, ___ offro un caffè!" },
+    "correct_answer": "vi",
+    "acceptable_alternatives": [],
+    "explanation_de": "'a voi' = euch (2. Person Plural) → 'vi'. Das Pronomen steht vor dem konjugierten Verb 'offro'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Satz ist korrekt? (gefallen = piacere)",
+    "content": { "options": ["A Luca piace viaggiare.", "A Luca piacciono viaggiare.", "A Luca lo piace viaggiare.", "A Luca gli piacciono viaggiare."] },
+    "correct_answer": "A Luca piace viaggiare.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Wenn ein Infinitiv ('viaggiare') gefällt, steht 'piace' im Singular. 'A Luca' nennt schon die Person, daher kein zusätzliches Pronomen nötig."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische und ersetze das indirekte Objekt durch ein Pronomen: 'Ich stelle dir eine Frage.' (fare una domanda a)",
+    "content": {},
+    "correct_answer": "Ti faccio una domanda.",
+    "acceptable_alternatives": ["Io ti faccio una domanda."],
+    "explanation_de": "'fare una domanda a' verlangt ein indirektes Objekt. Für 'dir' (2. Person Singular) steht 'ti' vor dem konjugierten Verb 'faccio'. Das Subjektpronomen 'io' kann entfallen."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Höflichkeitsform: Ergänze das indirekte Pronomen für 'Ihnen'. (Signora,) '___ posso offrire un tè?' (Darf ich Ihnen einen Tee anbieten?)",
+    "content": { "sentence": "Signora, ___ posso offrire un tè?" },
+    "correct_answer": "Le",
+    "acceptable_alternatives": [],
+    "explanation_de": "Die höfliche Anrede 'Ihnen' wird mit großgeschriebenem 'Le' gebildet. Beim Modalverb 'posso' + Infinitiv kann das Pronomen auch davorstehen: 'Le posso offrire...' oder angehängt 'posso offrirLe...'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Direkt oder indirekt? 'Aspetto Anna alla stazione' → '___ aspetto alla stazione.' (Ich warte auf sie.)",
+    "content": { "options": ["La", "Le", "Gli", "Li"] },
+    "correct_answer": "La",
+    "acceptable_alternatives": [],
+    "explanation_de": "'aspettare' verlangt ein direktes Objekt (ohne 'a'). 'Anna' = sie (weiblich) → direktes Pronomen 'la'. 'le' wäre falsch, das ist das indirekte Pronomen."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: 'Mir gefallen die Schuhe.'",
+    "content": { "tokens": ["Mi", "piacciono", "le", "scarpe"] },
+    "correct_answer": "Mi piacciono le scarpe.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei 'piacere' steht das indirekte Pronomen 'mi' (mir) vorne. Da 'le scarpe' Plural ist, steht das Verb im Plural: 'piacciono'."
+  }
+]

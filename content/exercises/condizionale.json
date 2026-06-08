@@ -1,0 +1,50 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Im Restaurant: Wie bestellst du höflich einen Kaffee?",
+    "content": { "options": ["Voglio un caffè.", "Vorrei un caffè.", "Volere un caffè.", "Vorebbe un caffè."] },
+    "correct_answer": "Vorrei un caffè.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Für höfliche Bitten benutzt man den Condizionale: 'vorrei' (ich hätte gern). 'Voglio' (ich will) klingt im Restaurant unhöflich, und 'vorebbe' ist falsch geschrieben (richtig: vorrebbe)."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze den Condizionale von 'potere' (du): Könntest du mir helfen?",
+    "content": { "sentence": "___ aiutarmi, per favore?" },
+    "correct_answer": "Potresti",
+    "acceptable_alternatives": ["potresti"],
+    "explanation_de": "'Potere' ist unregelmäßig. Der Condizionale-Stamm ist 'potr-', die tu-Endung ist '-esti': potresti = könntest du."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Achtung Doppelkonsonant! Ergänze den Condizionale von 'parlare' (wir): Wir würden mit ihm reden.",
+    "content": { "sentence": "Noi ___ con lui." },
+    "correct_answer": "parleremmo",
+    "acceptable_alternatives": [],
+    "explanation_de": "Die noi-Form endet auf '-emmo' mit Doppel-m: parleremmo. Ein häufiger Fehler ist 'parleremo' (nur ein m) — das wäre Futuro."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form ist der korrekte Condizionale von 'volere' für 'lui/lei' (er/sie hätte gern)?",
+    "content": { "options": ["vorebbe", "volerebbe", "vorrebbe", "vorresti"] },
+    "correct_answer": "vorrebbe",
+    "acceptable_alternatives": [],
+    "explanation_de": "'Volere' bildet den Condizionale mit dem Stamm 'vorr-' (Doppel-r) und der lui/lei-Endung '-ebbe': vorrebbe. 'vorebbe' (nur ein r) ist ein typischer Fehler, 'vorresti' ist die tu-Form."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische (Wunsch): Ich würde gern nach Italien fahren. (Verwende 'mi piacerebbe')",
+    "content": {},
+    "correct_answer": "Mi piacerebbe andare in Italia.",
+    "acceptable_alternatives": ["mi piacerebbe andare in Italia"],
+    "explanation_de": "Für Wünsche benutzt man 'mi piacerebbe' + Infinitiv: Mi piacerebbe andare in Italia. = Ich würde gern nach Italien fahren."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde einen höflichen Ratschlag: Du solltest mehr lernen.",
+    "content": { "tokens": ["Dovresti", "studiare", "di", "più"] },
+    "correct_answer": "Dovresti studiare di più.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'Dovresti' (Condizionale von 'dovere', tu-Form) drückt einen Ratschlag aus: Dovresti studiare di più. = Du solltest mehr lernen."
+  }
+]

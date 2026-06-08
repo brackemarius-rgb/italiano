@@ -1,0 +1,74 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Gewohnheit in der Vergangenheit: Wähle die richtige Form. Signalwort: 'ogni estate' (jeden Sommer).",
+    "content": {
+      "options": [
+        "Da bambino andavo al mare ogni estate.",
+        "Da bambino sono andato al mare ogni estate.",
+        "Da bambino ho andato al mare ogni estate.",
+        "Da bambino vado al mare ogni estate."
+      ]
+    },
+    "correct_answer": "Da bambino andavo al mare ogni estate.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Eine wiederholte Gewohnheit ('ogni estate', 'da bambino') steht im imperfetto: 'andavo'. Das passato prossimo bezeichnet dagegen eine einmalige, abgeschlossene Handlung."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Hintergrund (Beschreibung) im imperfetto: Setze 'tirare' (vento) richtig ein. Beschreibung des Wetters.",
+    "content": {
+      "sentence": "Era una sera fredda e ___ molto vento."
+    },
+    "correct_answer": "tirava",
+    "acceptable_alternatives": ["c'era"],
+    "explanation_de": "Beschreibungen und Hintergrund einer Erzählung stehen im imperfetto: 'tirava (vento)' bzw. 'c'era (vento)'. Es geht um einen andauernden Zustand, nicht um ein einzelnes Ereignis."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Einzelnes Ereignis im Vordergrund: Setze 'suonare' richtig in der Vergangenheit ein. Signalwort: 'all'improvviso'.",
+    "content": {
+      "sentence": "Leggevo un libro quando all'improvviso ___ il telefono."
+    },
+    "correct_answer": "è suonato",
+    "acceptable_alternatives": ["ha suonato"],
+    "explanation_de": "'all'improvviso' signalisiert ein punktuelles, abgeschlossenes Ereignis -> passato prossimo: 'è suonato'. Der Hintergrund 'leggevo' bleibt im imperfetto."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Bedeutungsunterschied bei 'conoscere'. Welcher Satz bedeutet 'Ich habe Marco (gestern) kennengelernt'?",
+    "content": {
+      "options": [
+        "Ieri ho conosciuto Marco.",
+        "Ieri conoscevo Marco.",
+        "Ieri sono conosciuto Marco.",
+        "Ieri conosco Marco."
+      ]
+    },
+    "correct_answer": "Ieri ho conosciuto Marco.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei 'conoscere' bedeutet das passato prossimo 'ho conosciuto' = kennenlernen (einmaliges Ereignis). Das imperfetto 'conoscevo' würde 'ich kannte' (Zustand) heißen."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz in der richtigen Reihenfolge. Hintergrund (imperfetto) + Ereignis (passato prossimo): 'Es war heiß, also bin ich ans Meer gefahren.'",
+    "content": {
+      "tokens": ["Faceva", "caldo", "e", "sono", "andato", "al mare"]
+    },
+    "correct_answer": "Faceva caldo e sono andato al mare.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'Faceva caldo' ist eine Beschreibung des Hintergrunds -> imperfetto. 'sono andato al mare' ist die einzelne, abgeschlossene Handlung -> passato prossimo. Beide Zeiten werden in der Erzählung kombiniert."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Als ich klein war, spielte ich immer Fußball.' (Gewohnheit -> imperfetto)",
+    "content": {},
+    "correct_answer": "Quando ero piccolo giocavo sempre a calcio.",
+    "acceptable_alternatives": [
+      "Quando ero piccola giocavo sempre a calcio.",
+      "Da bambino giocavo sempre a calcio.",
+      "Quando ero piccolo, giocavo sempre a calcio."
+    ],
+    "explanation_de": "'sempre' signalisiert eine Gewohnheit -> imperfetto: 'ero', 'giocavo'. Falsch wäre 'ho giocato sempre', da es sich nicht um eine einzelne Handlung handelt."
+  }
+]

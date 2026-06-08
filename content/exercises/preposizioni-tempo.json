@@ -1,0 +1,58 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle die richtige Form für die Uhrzeit: \"Il treno parte ___ tre.\" (Der Zug fährt um drei Uhr ab.)",
+    "content": { "options": ["a le", "alle", "alla", "in"] },
+    "correct_answer": "alle",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei Uhrzeiten verschmilzt 'a' mit dem Artikel: a + le = 'alle tre'. Die getrennte Form 'a le' ist falsch (Verschmelzung ist Pflicht)."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die Präposition (Zukunft): \"Vor zwei Stunden\" heißt 'due ore fa'. Setze nun die Zukunft ein: \"Parto ___ due ore.\" (Ich fahre in zwei Stunden ab.)",
+    "content": { "sentence": "Parto ___ due ore." },
+    "correct_answer": "fra",
+    "acceptable_alternatives": ["tra"],
+    "explanation_de": "Für Zukünftiges ('in zwei Stunden') benutzt man 'fra' oder 'tra' (gleichbedeutend). 'fa' bedeutet 'vor' und bezieht sich auf die Vergangenheit."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die Präposition: \"Studio italiano ___ due anni.\" (Ich lerne seit zwei Jahren Italienisch.)",
+    "content": { "sentence": "Studio italiano ___ due anni." },
+    "correct_answer": "da",
+    "acceptable_alternatives": [],
+    "explanation_de": "'da' bedeutet 'seit'. Beachte: Im Italienischen steht dabei das Präsens (studio), wo das Deutsche oft das Perfekt nutzen würde."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle die richtige Präposition: \"Ho studiato italiano ___ due anni.\" (Ich habe zwei Jahre lang Italienisch gelernt — abgeschlossen.)",
+    "content": { "options": ["da", "per", "fa", "fra"] },
+    "correct_answer": "per",
+    "acceptable_alternatives": [],
+    "explanation_de": "'per' bezeichnet einen abgeschlossenen Zeitraum ('zwei Jahre lang'). 'da' (seit) würde bedeuten, dass die Handlung noch andauert."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wie sagt man \"Montags arbeite ich zu Hause\" (Gewohnheit)?",
+    "content": { "options": ["In lunedì lavoro a casa.", "Il lunedì lavoro a casa.", "A lunedì lavoro a casa.", "Di lunedì lavoro a casa."] },
+    "correct_answer": "Il lunedì lavoro a casa.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Für wiederkehrende Gewohnheiten an einem Wochentag steht der Artikel 'il' vor dem Tag: 'il lunedì' (montags). 'In lunedì' ist falsch; ohne Artikel ('lunedì') würde es nur diesen einen konkreten Montag meinen."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz: \"Ich bin vor einem Jahr abgefahren.\"",
+    "content": { "tokens": ["Sono", "partito", "un", "anno", "fa"] },
+    "correct_answer": "Sono partito un anno fa.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'fa' steht für 'vor' (Vergangenheit) und kommt nach der Zeitangabe: 'un anno fa' = vor einem Jahr."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: \"Ich lebe seit zehn Jahren hier.\" (vivere = leben/wohnen, qui = hier)",
+    "content": {},
+    "correct_answer": "Vivo qui da dieci anni.",
+    "acceptable_alternatives": ["Io vivo qui da dieci anni.", "Vivo da dieci anni qui.", "Abito qui da dieci anni."],
+    "explanation_de": "'da' bedeutet 'seit' und wird mit dem Präsens (vivo) gebraucht. Das Subjektpronomen 'io' kann entfallen, da die Verbendung die Person zeigt."
+  }
+]

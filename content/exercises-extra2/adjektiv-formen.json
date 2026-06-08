@@ -1,0 +1,58 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Das weiße Auto ist neu.' ('macchina' ist feminin Singular.)",
+    "content": {},
+    "correct_answer": "La macchina bianca è nuova.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'la macchina' ist feminin Singular. Adjektive auf -o passen sich an: 'bianco' -> 'bianca' und 'nuovo' -> 'nuova'."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Die Zimmer sind groß.' ('camere' ist feminin Plural.)",
+    "content": {},
+    "correct_answer": "Le camere sono grandi.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'grande' ist ein Adjektiv auf -e und hat im Plural nur eine Form: 'grandi' – egal ob maskulin oder feminin."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Ich habe blaue Augen.' ('occhi' ist maskulin Plural, 'blu' ist unveränderlich.)",
+    "content": {},
+    "correct_answer": "Ho gli occhi blu.",
+    "acceptable_alternatives": ["Io ho gli occhi blu."],
+    "explanation_de": "'blu' gehört zu den unveränderlichen Farbadjektiven und bekommt nie eine Endung – auch nicht im Plural. Das Subjektpronomen 'io' kann entfallen."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Die Freunde sind sympathisch.' ('amici' ist maskulin Plural.)",
+    "content": {},
+    "correct_answer": "Gli amici sono simpatici.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei 'simpatico' liegt die Betonung auf der drittletzten Silbe, daher maskuliner Plural auf -ci: 'simpatici' (nicht 'simpatichi')."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde einen korrekten Satz: 'Marco ist sehr sympathisch.' Bringe die Wörter in die richtige Reihenfolge.",
+    "content": { "tokens": ["Marco", "è", "molto", "simpatico"] },
+    "correct_answer": "Marco è molto simpatico.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'Marco' ist maskulin Singular, daher das Adjektiv auf -o: 'simpatico'. 'molto' (sehr) bleibt hier unverändert."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde einen korrekten Satz: 'Die gelben Taschen sind elegant.' Bringe die Wörter in die richtige Reihenfolge.",
+    "content": { "tokens": ["Le", "borse", "gialle", "sono", "eleganti"] },
+    "correct_answer": "Le borse gialle sono eleganti.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'le borse' ist feminin Plural: 'giallo' -> 'gialle' (-o-Adjektiv). 'elegante' ist ein -e-Adjektiv und wird im Plural zu 'eleganti'."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde einen korrekten Satz: 'Der weiße Pullover ist groß.' Bringe die Wörter in die richtige Reihenfolge.",
+    "content": { "tokens": ["Il", "maglione", "bianco", "è", "grande"] },
+    "correct_answer": "Il maglione bianco è grande.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'il maglione' ist maskulin Singular: 'bianco' (-o-Adjektiv). 'grande' ist ein -e-Adjektiv und bleibt im Singular unverändert."
+  }
+]

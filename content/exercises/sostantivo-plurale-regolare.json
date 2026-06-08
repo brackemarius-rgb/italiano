@@ -1,0 +1,50 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Setze den Plural ein: Maskuline Substantive auf -o enden im Plural auf -i.",
+    "content": { "sentence": "Sul tavolo ci sono due ___ (libro)." },
+    "correct_answer": "libri",
+    "acceptable_alternatives": [],
+    "explanation_de": "Maskuline Substantive auf -o bilden den Plural auf -i: il libro → i libri."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze den Plural ein: Feminine Substantive auf -a enden im Plural auf -e (nicht -i!).",
+    "content": { "sentence": "In questa via ci sono molte ___ (casa)." },
+    "correct_answer": "case",
+    "acceptable_alternatives": [],
+    "explanation_de": "Feminine Substantive auf -a bilden den Plural auf -e: la casa → le case. Ein häufiger Fehler ist die falsche Endung -i (case, nicht casi)."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wie lautet der korrekte Plural von 'il giornale'?",
+    "content": { "options": ["i giornali", "le giornali", "i giornale", "le giornale"] },
+    "correct_answer": "i giornali",
+    "acceptable_alternatives": [],
+    "explanation_de": "Substantive auf -e bilden den Plural auf -i. 'il giornale' ist maskulin, also bleibt der Artikel maskulin: i giornali."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welches Substantiv bleibt im Plural UNVERÄNDERT?",
+    "content": { "options": ["la città", "la chiave", "il negozio", "la casa"] },
+    "correct_answer": "la città",
+    "acceptable_alternatives": [],
+    "explanation_de": "Substantive auf betontem Vokal bleiben unverändert: la città → le città. Die anderen ändern ihre Endung: chiave → chiavi, negozio → negozi, casa → case."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze den Plural ein: Substantive auf -io haben nur ein einfaches -i.",
+    "content": { "sentence": "In centro ci sono tanti ___ (negozio)." },
+    "correct_answer": "negozi",
+    "acceptable_alternatives": [],
+    "explanation_de": "Substantive auf -io bilden den Plural mit einem einfachen -i: il negozio → i negozi (nicht negozii)."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge. Achte auf den Plural von 'la chiave'.",
+    "content": { "tokens": ["Le", "chiavi", "sono", "sul", "tavolo"] },
+    "correct_answer": "Le chiavi sono sul tavolo.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Feminine Substantive auf -e bilden den Plural auf -i: la chiave → le chiavi. Der Artikel bleibt feminin (le)."
+  }
+]

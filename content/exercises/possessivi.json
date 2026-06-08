@@ -1,0 +1,50 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das Possessivpronomen mit Artikel: \"mein Buch\".",
+    "content": { "sentence": "Dov'è ___ libro? (mein)" },
+    "correct_answer": "il mio",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor dem Possessivpronomen steht im Italienischen fast immer der bestimmte Artikel. \"Libro\" ist maskulin Singular, deshalb \"il mio\"."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wie heißt \"meine Mutter\" auf Italienisch?",
+    "content": { "options": ["la mia madre", "mia madre", "mio madre", "la mia mamma"] },
+    "correct_answer": "mia madre",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei einzelnen Familienmitgliedern im Singular entfällt der Artikel: \"mia madre\". \"La mia madre\" ist falsch; \"la mia mamma\" wäre nur die Verkleinerungsform mit Artikel."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze: \"unsere Freunde\" (i nostri amici). Setze das Possessivpronomen ein.",
+    "content": { "sentence": "I ___ amici abitano a Roma. (unsere)" },
+    "correct_answer": "nostri",
+    "acceptable_alternatives": [],
+    "explanation_de": "Das Possessivpronomen richtet sich nach Genus und Numerus des Besessenen. \"Amici\" ist maskulin Plural, daher \"i nostri amici\"."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form ist korrekt für \"ihr Vater\" (Plural-Besitzer, die Eltern eines Paares)?",
+    "content": { "options": ["loro padre", "il loro padre", "il loro papà", "i loro padre"] },
+    "correct_answer": "il loro padre",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei \"loro\" bleibt der Artikel immer erhalten, auch bei Familienmitgliedern im Singular: \"il loro padre\"."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: \"Meine Schwester ist 20 Jahre alt.\"",
+    "content": { "tokens": ["Mia", "sorella", "ha", "venti", "anni"] },
+    "correct_answer": "Mia sorella ha venti anni.",
+    "acceptable_alternatives": [],
+    "explanation_de": "\"Sorella\" ist ein Familienmitglied im Singular, daher ohne Artikel: \"mia sorella\". Das Alter wird mit \"avere\" (ha) ausgedrückt."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: \"Wo ist mein Sakko?\" (Sakko = la giacca).",
+    "content": {},
+    "correct_answer": "Dov'è la mia giacca?",
+    "acceptable_alternatives": ["Dove è la mia giacca?"],
+    "explanation_de": "\"Giacca\" ist feminin Singular, daher \"la mia giacca\". Der Artikel \"la\" darf nicht weggelassen werden. \"Dov'è\" ist die übliche Kurzform von \"dove è\"."
+  }
+]

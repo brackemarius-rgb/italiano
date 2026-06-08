@@ -1,0 +1,50 @@
+[
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wie schreibt man die Zahl 28 als ein Wort?",
+    "content": { "options": ["ventiotto", "ventotto", "ventiootto", "ventidue otto"] },
+    "correct_answer": "ventotto",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor 'otto' fällt der Endvokal des Zehners weg: venti + otto = ventotto. Dasselbe gilt vor 'uno' (z. B. ventuno)."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Schreibe die Zahl 21 als ein Wort in die Lücke.",
+    "content": { "sentence": "Ho ___ anni." },
+    "correct_answer": "ventuno",
+    "acceptable_alternatives": [],
+    "explanation_de": "Vor 'uno' entfällt der Endvokal des Zehners: venti + uno = ventuno. Die Zusammensetzungen 21–99 werden zusammengeschrieben."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Schreibe das Jahr 2024 als ein Wort aus.",
+    "content": { "sentence": "Siamo nel ___." },
+    "correct_answer": "duemilaventiquattro",
+    "acceptable_alternatives": [],
+    "explanation_de": "'mille' wird im Plural zu 'mila': due + mila = duemila. Danach wird alles angehängt und zusammengeschrieben: duemilaventiquattro = 2024."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle die richtige Form: 'eine Million Euro'.",
+    "content": { "options": ["un milione euro", "un milione di euro", "un mille euro", "una milione di euro"] },
+    "correct_answer": "un milione di euro",
+    "acceptable_alternatives": [],
+    "explanation_de": "Nach 'milione' (und 'miliardo') steht die Präposition 'di': un milione di euro. Im Plural heißt es 'due milioni di euro'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Datum: Welcher Satz ist korrekt für 'Heute ist der 2. Mai'?",
+    "content": { "options": ["Oggi è il secondo maggio.", "Oggi è il due maggio.", "Oggi è il secondo di maggio.", "Oggi è due maggio."] },
+    "correct_answer": "Oggi è il due maggio.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Beim Datum wird nur der 1. mit der Ordnungszahl gebildet ('il primo maggio'). Ab dem 2. verwendet man die Grundzahl: 'il due maggio'."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Bilde die Ordnungszahl zu 20: Setze die maskuline Form (zu 'il piano') ein.",
+    "content": { "sentence": "Abito al ___ piano." },
+    "correct_answer": "ventesimo",
+    "acceptable_alternatives": [],
+    "explanation_de": "Ab 11 bildet man Ordnungszahlen mit '-esimo', wobei der Endvokal entfällt: venti → ventesimo. Die Ordnungszahl richtet sich nach Genus/Numerus (hier maskulin: il piano)."
+  }
+]

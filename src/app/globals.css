@@ -1,26 +1,113 @@
 @import "tailwindcss";
+@import "tw-animate-css";
+@plugin "@tailwindcss/typography";
 
+/* Dark-Variante nur über .dark-Klasse (nie aktiv) – verhindert, dass das
+   Betriebssystem-Dark-Mode die shadcn-Komponenten unbeabsichtigt umfärbt.
+   Echter Dark Mode kommt laut PROJECT.md erst später. */
+@custom-variant dark (&:is(.dark *));
+
+/* ----------------------------------------------------------------
+   Farbpalette & Design-Tokens (aus PROJECT.md / Design-Prototyp)
+   ---------------------------------------------------------------- */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* --- Eigene Palette --- */
+  --bg: #faf7f2; /* Cremeweiß */
+  --bg-card: #ffffff;
+  --ink: #1a1614; /* Warmes Schwarz */
+  --ink-soft: #6b635c;
+  --ink-faint: #a39b94;
+  --line: #ebe5dd;
+  --line-strong: #d8d0c5;
+  --accent: #b8332f; /* Italienisches Rot (Utility: text-brand / bg-brand) */
+  --good: #4a7c59; /* Olivgrün */
+  --warn: #c47d2a; /* Senf */
+  --bad: #b8332f; /* = Akzent */
+  --subtle: #f2ede5; /* dezenter Hover-/Füllton zwischen bg und line */
+
+  /* --- shadcn/ui-Tokens (Standardnamen), gemappt auf unsere Palette --- */
+  --radius: 0.625rem;
+  --background: var(--bg);
+  --foreground: var(--ink);
+  --card: var(--bg-card);
+  --card-foreground: var(--ink);
+  --popover: var(--bg-card);
+  --popover-foreground: var(--ink);
+  --primary: var(--ink); /* primäre Buttons: warmes Schwarz */
+  --primary-foreground: var(--bg-card);
+  --secondary: var(--subtle);
+  --secondary-foreground: var(--ink);
+  --muted: var(--subtle);
+  --muted-foreground: var(--ink-soft);
+  /* shadcn-Hover-Hintergrund (neutral) wird in @theme direkt auf --subtle
+     gemappt – NICHT erneut --accent setzen, sonst überschreibt es das Rot! */
+  --accent-foreground: var(--ink);
+  --destructive: #b8332f; /* destruktiv = italienisches Rot */
+  --border: var(--line);
+  --input: var(--line-strong);
+  --ring: var(--ink-faint);
 }
 
+/* Tailwind v4: Tokens als Utilities verfügbar machen */
 @theme inline {
+  /* Eigene Palette: bg-bg, bg-card, text-ink, text-ink-soft, border-line, text-brand … */
+  --color-bg: var(--bg);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-ink-faint: var(--ink-faint);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-brand: var(--accent); /* italienisches Rot */
+  --color-good: var(--good);
+  --color-warn: var(--warn);
+  --color-subtle: var(--subtle);
+
+  /* shadcn/ui-Utilities (Standardnamen) */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--subtle); /* shadcn-Hover-Hintergrund (neutral) */
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  /* Schriften */
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-fraunces);
+  --font-mono: var(--font-jetbrains);
+
+  /* Radien */
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  * {
+    @apply border-border;
   }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-inter), system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  /* Italienische Wörter im Fließtext: Fraunces-Italic in Akzentfarbe */
+  em {
+    font-family: var(--font-fraunces), Georgia, serif;
+    font-style: italic;
+    color: var(--accent);
+  }
 }

@@ -1,0 +1,42 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische (passato prossimo): 'Sie (sie/feminin Singular) ist ins Kino gegangen.'",
+    "content": {},
+    "correct_answer": "È andata al cinema.",
+    "acceptable_alternatives": ["Lei è andata al cinema."],
+    "explanation_de": "passato prossimo mit essere: 'andare' braucht essere (è). Das Partizip passt sich an das feminine Subjekt an: andato → andata."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische (passato prossimo): 'Hast du das Fenster geöffnet?'",
+    "content": {},
+    "correct_answer": "Hai aperto la finestra?",
+    "acceptable_alternatives": ["Tu hai aperto la finestra?"],
+    "explanation_de": "passato prossimo = Präsens von avere (hai) + Partizip. 'aprire' ist unregelmäßig: das Partizip lautet 'aperto'."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische (passato prossimo): 'Wir haben einen Kaffee getrunken.'",
+    "content": {},
+    "correct_answer": "Abbiamo bevuto un caffè.",
+    "acceptable_alternatives": ["Noi abbiamo bevuto un caffè."],
+    "explanation_de": "passato prossimo = Präsens von avere (abbiamo) + Partizip. 'bere' ist unregelmäßig: das Partizip lautet 'bevuto'."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge (passato prossimo mit avere).",
+    "content": { "tokens": ["Ho", "letto", "un", "libro", "interessante"] },
+    "correct_answer": "Ho letto un libro interessante.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Aufbau: Hilfsverb (ho) + Partizip (letto, unregelmäßig von leggere) + Objekt. 'Ich habe ein interessantes Buch gelesen.'"
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge (passato prossimo mit essere).",
+    "content": { "tokens": ["I", "bambini", "sono", "tornati", "a", "scuola"] },
+    "correct_answer": "I bambini sono tornati a scuola.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Aufbau: Subjekt (i bambini) + Hilfsverb essere (sono) + Partizip. 'tornare' braucht essere; das Partizip passt sich an maskulin Plural an: tornati. 'Die Kinder sind in die Schule zurückgekehrt.'"
+  }
+]

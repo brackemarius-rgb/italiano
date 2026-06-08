@@ -1,0 +1,50 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das passende Relativpronomen (che oder cui).",
+    "content": { "sentence": "Il libro ___ leggo è molto interessante." },
+    "correct_answer": "che",
+    "acceptable_alternatives": [],
+    "explanation_de": "'che' ist unveränderlich und ersetzt hier das direkte Objekt ('das Buch, das ich lese'). Nach einer Präposition stünde 'cui', aber hier gibt es keine Präposition."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das passende Relativpronomen nach der Präposition.",
+    "content": { "sentence": "La città in ___ vivo è molto bella." },
+    "correct_answer": "cui",
+    "acceptable_alternatives": [],
+    "explanation_de": "Nach einer Präposition (hier 'in') steht immer 'cui', nie 'che'. 'La città in cui vivo' = 'Die Stadt, in der ich lebe'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle die richtige Form: 'Der Freund, dem ich schreibe.'",
+    "content": { "options": ["L'amico che scrivo", "L'amico a cui scrivo", "L'amico in cui scrivo", "L'amico cui scrivo"] },
+    "correct_answer": "L'amico a cui scrivo",
+    "acceptable_alternatives": [],
+    "explanation_de": "Das Verb 'scrivere a qualcuno' verlangt die Präposition 'a'. Nach Präposition steht 'cui': 'a cui'. 'che' wäre ohne Präposition falsch, 'in cui' hätte die falsche Präposition."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wähle die richtige Form: 'Der Schriftsteller, dessen Buch berühmt ist.'",
+    "content": { "options": ["Lo scrittore che libro è famoso", "Lo scrittore cui libro è famoso", "Lo scrittore il cui libro è famoso", "Lo scrittore di cui libro è famoso"] },
+    "correct_answer": "Lo scrittore il cui libro è famoso",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei Besitz ('dessen/deren') steht 'cui' mit bestimmtem Artikel. Der Artikel richtet sich nach dem besessenen Gegenstand ('il libro'), also 'il cui libro'. Den Artikel darf man nicht weglassen."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: 'Das Buch, von dem ich spreche.'",
+    "content": { "tokens": ["Il", "libro", "di", "cui", "parlo"] },
+    "correct_answer": "Il libro di cui parlo",
+    "acceptable_alternatives": [],
+    "explanation_de": "'parlare di qualcosa' verlangt die Präposition 'di'. Nach der Präposition steht 'cui': 'di cui parlo' = 'von dem ich spreche'."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Die Frau, die spricht, ist meine Mutter.'",
+    "content": {},
+    "correct_answer": "La donna che parla è mia madre.",
+    "acceptable_alternatives": ["La donna che parla e' mia madre."],
+    "explanation_de": "'che' ersetzt hier das Subjekt ('die Frau, die spricht'). Es ist unveränderlich und steht ohne Präposition. Beachte: vor Verwandtschaftsbezeichnungen im Singular ('mia madre') steht kein Artikel."
+  }
+]

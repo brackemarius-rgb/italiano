@@ -1,0 +1,58 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'In Italien gibt es viele Seen.' (Beachte den Plural von 'il lago'.)",
+    "content": {},
+    "correct_answer": "In Italia ci sono molti laghi.",
+    "acceptable_alternatives": ["Ci sono molti laghi in Italia."],
+    "explanation_de": "Substantive auf -go mit Betonung auf der vorletzten Silbe bilden den Plural auf -ghi: 'il lago' → 'i laghi'. Das 'h' erhält den harten g-Klang."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Die Eier sind im Kühlschrank.' (Beachte den Plural von 'l'uovo' – das Genus wechselt!)",
+    "content": {},
+    "correct_answer": "Le uova sono nel frigorifero.",
+    "acceptable_alternatives": ["Le uova sono in frigorifero.", "Le uova sono nel frigo."],
+    "explanation_de": "'l'uovo' (maskulin) wird im Plural zu 'le uova' (feminin). Das Genus wechselt von maskulin zu feminin."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Meine Freundinnen sind sehr sympathisch.' (Beachte den Plural von 'l'amica'.)",
+    "content": {},
+    "correct_answer": "Le mie amiche sono molto simpatiche.",
+    "acceptable_alternatives": ["Le mie amiche sono simpatiche."],
+    "explanation_de": "Substantive auf -ca bilden den Plural auf -che: 'l'amica' → 'le amiche'. Auch das Adjektiv 'simpatica' wird zu 'simpatiche'."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Sie hat sehr kalte Hände.' (Beachte den Plural von 'la mano'.)",
+    "content": {},
+    "correct_answer": "Lei ha le mani molto fredde.",
+    "acceptable_alternatives": ["Ha le mani molto fredde.", "Lei ha le mani fredde."],
+    "explanation_de": "'la mano' ist unregelmäßig: Der Plural lautet 'le mani', nicht 'le mane'. Der Artikel bleibt feminin."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge. Beachte den Plural von 'il medico' (der Arzt).",
+    "content": { "tokens": ["I", "medici", "lavorano", "in", "ospedale"] },
+    "correct_answer": "I medici lavorano in ospedale.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'medico' ist auf der drittletzten Silbe betont (mé-di-co), deshalb endet der Plural auf -ci: 'i medici'. Der Satz bedeutet: 'Die Ärzte arbeiten im Krankenhaus.'"
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge. Beachte den Plural von 'la banca' (die Bank).",
+    "content": { "tokens": ["Le", "banche", "sono", "chiuse", "oggi"] },
+    "correct_answer": "Le banche sono chiuse oggi.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Substantive auf -ca bilden den Plural auf -che: 'la banca' → 'le banche'. Der Satz bedeutet: 'Die Banken sind heute geschlossen.'"
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge. Beachte den unregelmäßigen Plural von 'l'uomo' (der Mann).",
+    "content": { "tokens": ["Gli", "uomini", "leggono", "il", "giornale"] },
+    "correct_answer": "Gli uomini leggono il giornale.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'l'uomo' hat den unregelmäßigen Plural 'gli uomini'. Der maskuline Artikel vor Vokal ist 'gli'. Der Satz bedeutet: 'Die Männer lesen die Zeitung.'"
+  }
+]

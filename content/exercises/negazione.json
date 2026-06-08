@@ -1,0 +1,50 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Verneine den Satz: Setze das fehlende Wort ein. (Ich spreche kein Italienisch.)",
+    "content": { "sentence": "___ parlo italiano." },
+    "correct_answer": "Non",
+    "acceptable_alternatives": ["non"],
+    "explanation_de": "Die einfache Verneinung erfolgt mit 'non', das direkt vor dem Verb steht: 'Non parlo italiano.'"
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Satz ist korrekt? (Ich sehe nichts.)",
+    "content": { "options": ["Vedo niente.", "Non vedo niente.", "Non vedo non niente.", "Niente vedo."] },
+    "correct_answer": "Non vedo niente.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Im Italienischen ist die doppelte Verneinung nötig: 'non' vor dem Verb und 'niente' danach. 'Vedo niente' ist falsch, weil 'non' fehlt."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das passende Negativ-Wort. (Ich fahre nie nach Rom.)",
+    "content": { "sentence": "Non vado ___ a Roma." },
+    "correct_answer": "mai",
+    "acceptable_alternatives": [],
+    "explanation_de": "'non … mai' bedeutet 'nie'. 'mai' steht nach dem Verb: 'Non vado mai a Roma.'"
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bring die Wörter in die richtige Reihenfolge. (Niemand ist gekommen.)",
+    "content": { "tokens": ["Non", "è", "venuto", "nessuno"] },
+    "correct_answer": "Non è venuto nessuno.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Die häufigere Variante lautet 'Non è venuto nessuno' mit 'non' vor dem Verb und 'nessuno' am Ende. Auch möglich: 'Nessuno è venuto' (dann ohne 'non')."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Satz ist korrekt? (Ich wohne nicht mehr hier.)",
+    "content": { "options": ["Non vivo più qui.", "Non più vivo qui.", "Vivo più qui.", "Non vivo qui più non."] },
+    "correct_answer": "Non vivo più qui.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'non … più' bedeutet 'nicht mehr'. 'più' steht nach dem Verb: 'Non vivo più qui.'"
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Ich habe weder Zeit noch Geld.'",
+    "content": {},
+    "correct_answer": "Non ho né tempo né soldi.",
+    "acceptable_alternatives": ["Non ho né tempo né denaro.", "Io non ho né tempo né soldi."],
+    "explanation_de": "'weder … noch' heißt 'né … né' und braucht zusätzlich 'non' vor dem Verb: 'Non ho né tempo né soldi.' Das Subjektpronomen 'io' kann entfallen."
+  }
+]

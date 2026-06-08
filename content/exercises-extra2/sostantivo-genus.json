@@ -1,0 +1,58 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Das Buch ist interessant.'",
+    "content": {},
+    "correct_answer": "Il libro è interessante.",
+    "acceptable_alternatives": ["Il libro e interessante."],
+    "explanation_de": "'Libro' endet auf -o und ist maskulin: il libro. 'Interessante' endet auf -e und hat für beide Geschlechter dieselbe Form."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Das Programm ist lang.' (Achte auf das Genus von 'programma'!)",
+    "content": {},
+    "correct_answer": "Il programma è lungo.",
+    "acceptable_alternatives": ["Il programma e lungo."],
+    "explanation_de": "'Programma' endet auf -a, ist aber maskulin (griechischer Ursprung auf -ma): il programma. Deshalb das maskuline Adjektiv 'lungo'."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Die Hand ist warm.' (Achte auf das Genus von 'mano'!)",
+    "content": {},
+    "correct_answer": "La mano è calda.",
+    "acceptable_alternatives": ["La mano e calda."],
+    "explanation_de": "'Mano' endet auf -o, ist aber feminin: la mano. Deshalb das feminine Adjektiv 'calda'."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: 'Die Zeitung ist alt.' (Achte auf das Genus von 'giornale'!)",
+    "content": {},
+    "correct_answer": "Il giornale è vecchio.",
+    "acceptable_alternatives": ["Il giornale e vecchio."],
+    "explanation_de": "'Giornale' endet auf -e und ist maskulin: il giornale. Deshalb das maskuline Adjektiv 'vecchio'."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz in der richtigen Reihenfolge (das Foto ist schön). Achtung: 'foto' ist feminin!",
+    "content": { "tokens": ["La", "foto", "è", "bella."] },
+    "correct_answer": "La foto è bella.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'Foto' endet auf -o, ist aber feminin (Kurzform von 'fotografia'): la foto. Deshalb das feminine Adjektiv 'bella'."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz in der richtigen Reihenfolge (das Kino ist groß).",
+    "content": { "tokens": ["Il", "cinema", "è", "grande."] },
+    "correct_answer": "Il cinema è grande.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'Cinema' endet auf -a, ist aber maskulin: il cinema. 'Grande' endet auf -e und ist für beide Geschlechter gleich."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bilde den Satz in der richtigen Reihenfolge (das Haus ist klein).",
+    "content": { "tokens": ["La", "casa", "è", "piccola."] },
+    "correct_answer": "La casa è piccola.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'Casa' endet auf -a und ist feminin: la casa. Deshalb das feminine Adjektiv 'piccola'."
+  }
+]

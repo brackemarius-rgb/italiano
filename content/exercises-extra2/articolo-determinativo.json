@@ -1,0 +1,66 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: \"Der Zucker ist auf dem Tisch.\"",
+    "content": {},
+    "correct_answer": "Lo zucchero è sul tavolo.",
+    "acceptable_alternatives": ["lo zucchero è sul tavolo"],
+    "explanation_de": "Vor 'z' steht im Maskulin Singular 'lo': lo zucchero."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: \"Der Freund von Maria spricht Deutsch.\"",
+    "content": {},
+    "correct_answer": "L'amico di Maria parla il tedesco.",
+    "acceptable_alternatives": ["l'amico di Maria parla il tedesco", "L'amico di Maria parla tedesco."],
+    "explanation_de": "Vor Vokal wird 'il' zu 'l'': l'amico. Bei Sprachen steht der Artikel: il tedesco."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: \"Die Mädchen kaufen die Taschen.\"",
+    "content": {},
+    "correct_answer": "Le ragazze comprano le borse.",
+    "acceptable_alternatives": ["le ragazze comprano le borse"],
+    "explanation_de": "Feminin Plural ist immer 'le': le ragazze, le borse."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: \"Der Spiegel ist im Zimmer.\"",
+    "content": {},
+    "correct_answer": "Lo specchio è in camera.",
+    "acceptable_alternatives": ["lo specchio è in camera", "Lo specchio è nella camera.", "Lo specchio è nella stanza."],
+    "explanation_de": "Vor s + Konsonant (sp-) steht im Maskulin Singular 'lo': lo specchio."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge.",
+    "content": { "tokens": ["L'", "ombrello", "è", "nuovo"] },
+    "correct_answer": "L'ombrello è nuovo.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'ombrello' ist maskulin und beginnt mit Vokal → 'il' wird zu 'l'': l'ombrello."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge.",
+    "content": { "tokens": ["Gli", "zaini", "sono", "pesanti"] },
+    "correct_answer": "Gli zaini sono pesanti.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Maskuliner Plural vor 'z' → 'gli': gli zaini."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge.",
+    "content": { "tokens": ["Le", "ragazze", "studiano", "la", "lezione"] },
+    "correct_answer": "Le ragazze studiano la lezione.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Feminin Plural 'le': le ragazze; feminin Singular vor Konsonant 'la': la lezione."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge.",
+    "content": { "tokens": ["Marco", "suona", "il", "pianoforte"] },
+    "correct_answer": "Marco suona il pianoforte.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei Musikinstrumenten steht der bestimmte Artikel: il pianoforte."
+  }
+]

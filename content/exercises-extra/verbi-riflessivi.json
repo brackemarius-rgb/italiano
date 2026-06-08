@@ -1,0 +1,74 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das richtige Reflexivpronomen. (noi / riposarsi)",
+    "content": { "sentence": "Dopo il lavoro ___ riposiamo un po' sul divano." },
+    "correct_answer": "ci",
+    "acceptable_alternatives": [],
+    "explanation_de": "In der ersten Person Plural (noi) lautet das Reflexivpronomen 'ci' und steht vor dem konjugierten Verb: 'ci riposiamo'."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze das reflexive Verb im Presente in die richtige Form. (vestirsi, voi)",
+    "content": { "sentence": "Ragazzi, perché non ___ ___ in fretta?" },
+    "correct_answer": "vi vestite",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei 'voi' lautet das Reflexivpronomen 'vi'. Das Verb vestirsi (e-Konjugation, -ire) wird zu 'vestite': 'vi vestite' (zieht ihr euch an)."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form ist im Presente richtig? (i bambini, svegliarsi)",
+    "content": { "options": ["I bambini si svegliano presto.", "I bambini svegliano presto.", "I bambini si sveglia presto.", "I bambini ci svegliano presto."] },
+    "correct_answer": "I bambini si svegliano presto.",
+    "acceptable_alternatives": [],
+    "explanation_de": "In der dritten Person Plural (loro) ist das Reflexivpronomen 'si' und das Verb endet auf '-ano': 'si svegliano'. Das Pronomen darf nicht weggelassen werden."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze die Hilfsverb-Form im passato prossimo. (lei / sentirsi)",
+    "content": { "sentence": "Ieri Giulia non si ___ sentita bene." },
+    "correct_answer": "è",
+    "acceptable_alternatives": [],
+    "explanation_de": "Reflexive Verben bilden das passato prossimo immer mit 'essere'. Für 'lei' ist das 'è': 'si è sentita'. Das Partizip endet bei weiblichem Subjekt auf '-a'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welcher Satz mit Modalverb ist richtig? (tu / fermarsi)",
+    "content": { "options": ["Devi fermarti al semaforo.", "Devi fermarsi al semaforo.", "Ti devi fermarti al semaforo.", "Devi fermare ti al semaforo."] },
+    "correct_answer": "Devi fermarti al semaforo.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Mit Modalverb kann das Reflexivpronomen am Infinitiv hängen und passt sich an die Person an: bei 'tu' wird aus fermarsi → 'fermarti'. Alternative wäre 'Ti devi fermare'. 'Devi fermarsi' ist falsch, weil 'si' nicht zu 'tu' passt."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge.",
+    "content": { "tokens": ["I", "miei", "genitori", "si", "sono", "sposati"] },
+    "correct_answer": "I miei genitori si sono sposati.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Reflexive Verben bilden das passato prossimo mit 'essere'. Reihenfolge: Subjekt + Reflexivpronomen 'si' + 'sono' + Partizip '-i' (männliche/gemischte Gruppe): 'I miei genitori si sono sposati.' (Meine Eltern haben geheiratet.)"
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: „Ich wasche mich und ziehe mich an.“ (io, lavarsi + vestirsi, Presente)",
+    "content": {},
+    "correct_answer": "Mi lavo e mi vesto.",
+    "acceptable_alternatives": ["Io mi lavo e mi vesto."],
+    "explanation_de": "Für 'io' lautet das Reflexivpronomen 'mi' und steht vor jedem Verb: 'mi lavo' (ich wasche mich) und 'mi vesto' (ich ziehe mich an). Verbunden mit 'e': 'Mi lavo e mi vesto.'"
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das Partizip im passato prossimo. (noi, weibliche Gruppe / annoiarsi)",
+    "content": { "sentence": "Alla festa ci siamo ___ molto. (annoiarsi, tutte ragazze)" },
+    "correct_answer": "annoiate",
+    "acceptable_alternatives": [],
+    "explanation_de": "Im passato prossimo mit 'essere' passt sich das Partizip an das Subjekt an. Bei 'noi' und einer rein weiblichen Gruppe endet es auf '-e': 'ci siamo annoiate' (wir haben uns gelangweilt)."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welches Reflexivpronomen passt? (lui / arrabbiarsi)",
+    "content": { "options": ["si", "mi", "ti", "ci"] },
+    "correct_answer": "si",
+    "acceptable_alternatives": [],
+    "explanation_de": "In der dritten Person Singular (lui/lei) lautet das Reflexivpronomen 'si'. Beispiel: 'Marco si arrabbia spesso.' (Marco regt sich oft auf.)"
+  }
+]

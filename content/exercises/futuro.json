@@ -1,0 +1,50 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Setze das Verb 'partire' im Futuro in der 1. Person Singular (io) ein. Achte auf den Akzent!",
+    "content": { "sentence": "Domani ___ per Roma." },
+    "correct_answer": "partirò",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei -ire-Verben bleibt der Stamm erhalten: partir- + Endung -ò für 'io'. Der Akzent auf der letzten Silbe (partirò) ist Pflicht."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form ist der korrekte Futuro-Stamm von 'andare' in der 1. Person Singular (io)?",
+    "content": { "options": ["andarò", "andrò", "anderò", "andero"] },
+    "correct_answer": "andrò",
+    "acceptable_alternatives": [],
+    "explanation_de": "'andare' hat einen unregelmäßigen Stamm: andr-. Daraus wird 'andrò'. Formen wie 'andarò' oder 'andero' sind häufige Fehler."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Setze 'parlare' im Futuro für 'noi' ein.",
+    "content": { "sentence": "Stasera ___ con i nostri amici." },
+    "correct_answer": "parleremo",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei -are-Verben wird das 'a' im Stamm zu 'e': parlare → parler-. Mit der Endung -emo für 'noi' ergibt sich 'parleremo'."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Vermutung in der Gegenwart: Wie sagt man 'Es wird (jetzt wohl) drei Uhr sein.'?",
+    "content": { "options": ["Sono le tre.", "Saranno le tre.", "Erano le tre.", "Sarà le tre."] },
+    "correct_answer": "Saranno le tre.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Das Futuro drückt auch eine Vermutung in der Gegenwart aus. 'le tre' ist Plural, daher die 3. Person Plural von 'essere': saranno."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge (Futuro von 'avere').",
+    "content": { "tokens": ["L'anno", "prossimo", "avrò", "trent'anni"] },
+    "correct_answer": "L'anno prossimo avrò trent'anni.",
+    "acceptable_alternatives": [],
+    "explanation_de": "'avere' hat den unregelmäßigen Stamm avr-, also 'avrò' (io). Die Zeitangabe 'L'anno prossimo' steht am Satzanfang."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische (Futuro): 'Ich werde dich morgen anrufen.' (Verb: chiamare, Objekt: ti)",
+    "content": {},
+    "correct_answer": "Ti chiamerò domani.",
+    "acceptable_alternatives": ["Domani ti chiamerò.", "Io ti chiamerò domani.", "Ti chiamerò domani"],
+    "explanation_de": "'chiamare' ist regelmäßig: chiamar- → chiamer- (a wird zu e) + -ò für 'io' = 'chiamerò'. Das unbetonte Pronomen 'ti' steht vor dem Verb."
+  }
+]

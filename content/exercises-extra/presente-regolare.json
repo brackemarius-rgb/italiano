@@ -1,0 +1,74 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Konjugiere das Verb in Klammern im Präsens.",
+    "content": { "sentence": "Lui ___ la finestra. (aprire)" },
+    "correct_answer": "apre",
+    "acceptable_alternatives": [],
+    "explanation_de": "-ire-Verben ohne -isc-, 3. Person Singular (lui): Stamm + -e → apre."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Konjugiere das Verb in Klammern im Präsens.",
+    "content": { "sentence": "Io ___ un film stasera. (preferire)" },
+    "correct_answer": "preferisco",
+    "acceptable_alternatives": [],
+    "explanation_de": "preferire gehört zur -isc-Gruppe. 1. Person Singular: Stamm + -isco → preferisco."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form ist richtig? Noi ___ a tennis ogni domenica. (giocare)",
+    "content": { "options": ["giochiamo", "giocamo", "giocemo", "giocano"] },
+    "correct_answer": "giochiamo",
+    "acceptable_alternatives": [],
+    "explanation_de": "noi-Form ist immer -iamo. Bei giocare wird ein 'h' eingefügt, um den harten Klang zu erhalten: giochiamo."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Person ist gemeint? „Finiscono il lavoro alle sei.“",
+    "content": { "options": ["loro", "noi", "voi", "tu"] },
+    "correct_answer": "loro",
+    "acceptable_alternatives": [],
+    "explanation_de": "finire (-isc-), 3. Person Plural: Stamm + -iscono → finiscono. Das ist die loro-Form."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Konjugiere das Verb in Klammern im Präsens.",
+    "content": { "sentence": "Tu ___ la macchina ogni sabato. (pulire)" },
+    "correct_answer": "pulisci",
+    "acceptable_alternatives": [],
+    "explanation_de": "pulire gehört zur -isc-Gruppe. 2. Person Singular (tu): Stamm + -isci → pulisci."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge.",
+    "content": { "tokens": ["Marta", "legge", "un", "libro", "interessante"] },
+    "correct_answer": "Marta legge un libro interessante.",
+    "acceptable_alternatives": [],
+    "explanation_de": "leggere (-ere), 3. Person Singular: legge. Reihenfolge: Subjekt + Verb + Objekt."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge.",
+    "content": { "tokens": ["Voi", "partite", "domani", "mattina"] },
+    "correct_answer": "Voi partite domani mattina.",
+    "acceptable_alternatives": ["Partite domani mattina."],
+    "explanation_de": "partire (-ire ohne -isc-), 2. Person Plural (voi): partite. Das Präsens kann auch die nahe Zukunft ausdrücken."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: „Jeden Morgen höre ich Radio.“",
+    "content": {},
+    "correct_answer": "Ogni mattina ascolto la radio.",
+    "acceptable_alternatives": ["Ascolto la radio ogni mattina.", "Ogni mattina io ascolto la radio."],
+    "explanation_de": "ascoltare (-are), 1. Person Singular (io): ascolto. Eine Gewohnheit wird im Präsens ausgedrückt: 'ogni mattina'."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: „Versteht ihr die Frage?“",
+    "content": {},
+    "correct_answer": "Capite la domanda?",
+    "acceptable_alternatives": ["Voi capite la domanda?"],
+    "explanation_de": "capire (-isc-), 2. Person Plural (voi): capite (in der voi-Form OHNE -isc-). Subjektpronomen wird meist weggelassen."
+  }
+]

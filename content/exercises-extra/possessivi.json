@@ -1,0 +1,74 @@
+[
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das Possessivpronomen mit Artikel: \"deine Tasche\" (la borsa).",
+    "content": { "sentence": "Hai dimenticato ___ borsa sul treno. (deine)" },
+    "correct_answer": "la tua",
+    "acceptable_alternatives": [],
+    "explanation_de": "\"Borsa\" ist feminin Singular, daher \"la tua borsa\". Vor dem Possessivpronomen steht der bestimmte Artikel."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Welche Form ist korrekt für \"meine Eltern\" (i genitori)?",
+    "content": { "options": ["i mie genitori", "i miei genitori", "miei genitori", "le mie genitori"] },
+    "correct_answer": "i miei genitori",
+    "acceptable_alternatives": [],
+    "explanation_de": "\"Genitori\" ist maskulin Plural. Die maskuline Pluralform von \"mein\" ist \"i miei\". Im Plural bleibt der Artikel auch bei Familienmitgliedern erhalten."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das Possessivpronomen ohne Artikel: \"sein Bruder\" (il fratello).",
+    "content": { "sentence": "___ fratello lavora a Milano. (sein)" },
+    "correct_answer": "Suo",
+    "acceptable_alternatives": ["suo"],
+    "explanation_de": "Bei einzelnen Familienmitgliedern im Singular entfällt der Artikel: \"suo fratello\". \"Suo\" bedeutet hier \"sein\" und richtet sich nach \"fratello\" (maskulin Singular)."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: \"Unser Haus ist klein.\" (Haus = la casa, klein = piccola).",
+    "content": {},
+    "correct_answer": "La nostra casa è piccola.",
+    "acceptable_alternatives": [],
+    "explanation_de": "\"Casa\" ist feminin Singular, daher \"la nostra casa\". Der Artikel \"la\" muss stehen. Das Adjektiv \"piccola\" passt sich an feminin Singular an."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: \"Wo sind meine Schlüssel?\"",
+    "content": { "tokens": ["Dove", "sono", "le", "mie", "chiavi"] },
+    "correct_answer": "Dove sono le mie chiavi?",
+    "acceptable_alternatives": [],
+    "explanation_de": "\"Chiavi\" ist feminin Plural, daher \"le mie chiavi\". Bei Plural-Subjekt steht das Verb im Plural: \"sono\"."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Wie heißt \"euer Auto\" auf Italienisch? (Auto = la macchina)",
+    "content": { "options": ["il vostro macchina", "la vostra macchina", "la nostra macchina", "le vostre macchina"] },
+    "correct_answer": "la vostra macchina",
+    "acceptable_alternatives": [],
+    "explanation_de": "\"Macchina\" ist feminin Singular. \"Euer\" in der femininen Singularform ist \"la vostra\". \"La nostra\" wäre \"unser\"."
+  },
+  {
+    "type": "cloze",
+    "prompt_de": "Ergänze das Possessivpronomen mit Artikel: \"ihre Kinder\" (Plural-Besitzer, i figli).",
+    "content": { "sentence": "I ___ figli vanno a scuola insieme. (ihre, Plural)" },
+    "correct_answer": "loro",
+    "acceptable_alternatives": [],
+    "explanation_de": "\"Loro\" ist unveränderlich und behält immer den Artikel. \"Figli\" ist maskulin Plural, daher \"i loro figli\"."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: \"Mein Vater ist Lehrer.\" (Vater = il padre, Lehrer = insegnante).",
+    "content": {},
+    "correct_answer": "Mio padre è insegnante.",
+    "acceptable_alternatives": [],
+    "explanation_de": "\"Padre\" ist ein Familienmitglied im Singular, daher ohne Artikel: \"mio padre\". Im Italienischen steht bei Berufen kein unbestimmter Artikel: \"è insegnante\"."
+  },
+  {
+    "type": "multiple_choice",
+    "prompt_de": "Warum heißt es \"la mia mamma\" mit Artikel, obwohl es ein Familienmitglied ist?",
+    "content": { "options": ["Weil \"mamma\" Plural ist", "Weil \"mamma\" eine Verkleinerungs-/Koseform ist", "Weil \"mamma\" maskulin ist", "Weil es immer falsch ist"] },
+    "correct_answer": "Weil \"mamma\" eine Verkleinerungs-/Koseform ist",
+    "acceptable_alternatives": [],
+    "explanation_de": "Bei Koseformen wie \"mamma\" oder \"papà\" bleibt der Artikel erhalten: \"la mia mamma\", \"il mio papà\". Nur bei den neutralen Formen \"madre\" und \"padre\" im Singular entfällt er."
+  }
+]

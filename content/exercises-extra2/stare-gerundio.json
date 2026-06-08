@@ -1,0 +1,42 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische (Verlaufsform): 'Sie (lei) trinkt gerade einen Tee.'",
+    "content": {},
+    "correct_answer": "Sta bevendo un tè.",
+    "acceptable_alternatives": ["Sta bevendo un tè", "Lei sta bevendo un tè.", "Lei sta bevendo un tè"],
+    "explanation_de": "Die lei-Form von stare ist 'sta'. Das Gerundio von bere ist unregelmäßig: bevendo (nicht 'bevando'). Ergebnis: Sta bevendo un tè."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische (Verlaufsform): 'Die Kinder spielen gerade im Park.' (i bambini, il parco)",
+    "content": {},
+    "correct_answer": "I bambini stanno giocando nel parco.",
+    "acceptable_alternatives": ["I bambini stanno giocando nel parco"],
+    "explanation_de": "Die loro-Form von stare ist 'stanno'. giocare (-are) → giocando. 'in + il' wird zu 'nel'. Ergebnis: I bambini stanno giocando nel parco."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische (Verlaufsform): 'Ich höre gerade Musik.' (ascoltare la musica)",
+    "content": {},
+    "correct_answer": "Sto ascoltando la musica.",
+    "acceptable_alternatives": ["Sto ascoltando la musica", "Io sto ascoltando la musica.", "Io sto ascoltando la musica"],
+    "explanation_de": "Die io-Form von stare ist 'sto'. ascoltare (-are) → ascoltando. Ergebnis: Sto ascoltando la musica."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: 'Maria schreibt gerade einen Brief.'",
+    "content": { "tokens": ["Maria", "sta", "scrivendo", "una", "lettera"] },
+    "correct_answer": "Maria sta scrivendo una lettera.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Die lui/lei-Form von stare ist 'sta'. scrivere (-ere) → scrivendo. Reihenfolge: Subjekt + stare + Gerundio + Objekt."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: 'Paolo läuft gerade im Park.' (correre = laufen)",
+    "content": { "tokens": ["Paolo", "sta", "correndo", "nel", "parco"] },
+    "correct_answer": "Paolo sta correndo nel parco.",
+    "acceptable_alternatives": [],
+    "explanation_de": "Die lui/lei-Form von stare ist 'sta'. correre (-ere) → correndo. Reihenfolge: Subjekt + stare + Gerundio + Ergänzung."
+  }
+]

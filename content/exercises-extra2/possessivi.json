@@ -1,0 +1,42 @@
+[
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: \"Deine Freunde sind sehr nett.\" (Freunde = gli amici, nett = simpatici).",
+    "content": {},
+    "correct_answer": "I tuoi amici sono molto simpatici.",
+    "acceptable_alternatives": ["I tuoi amici sono simpatici."],
+    "explanation_de": "\"Amici\" ist maskulin Plural, daher \"i tuoi amici\". Der Artikel \"i\" muss stehen. Das Adjektiv \"simpatici\" passt sich an maskulin Plural an."
+  },
+  {
+    "type": "free_write",
+    "prompt_de": "Übersetze ins Italienische: \"Meine Schwester wohnt in Rom.\" (Schwester = la sorella, wohnen = abitare).",
+    "content": {},
+    "correct_answer": "Mia sorella abita a Roma.",
+    "acceptable_alternatives": [],
+    "explanation_de": "\"Sorella\" ist ein einzelnes Familienmitglied im Singular, daher ohne Artikel: \"mia sorella\". Bei Städten benutzt man die Präposition \"a\": \"a Roma\"."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: \"Mein Buch ist hier.\"",
+    "content": { "tokens": ["Il", "mio", "libro", "è", "qui"] },
+    "correct_answer": "Il mio libro è qui.",
+    "acceptable_alternatives": [],
+    "explanation_de": "\"Libro\" ist maskulin Singular, daher \"il mio libro\". Der Artikel \"il\" darf nicht weggelassen werden."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: \"Sein Vater arbeitet in Mailand.\"",
+    "content": { "tokens": ["Suo", "padre", "lavora", "a", "Milano"] },
+    "correct_answer": "Suo padre lavora a Milano.",
+    "acceptable_alternatives": [],
+    "explanation_de": "\"Padre\" ist ein einzelnes Familienmitglied im Singular, daher ohne Artikel: \"suo padre\". Bei Städten steht die Präposition \"a\": \"a Milano\"."
+  },
+  {
+    "type": "reorder",
+    "prompt_de": "Bringe die Wörter in die richtige Reihenfolge: \"Unsere Lehrerin ist sehr nett.\"",
+    "content": { "tokens": ["La", "nostra", "insegnante", "è", "simpatica"] },
+    "correct_answer": "La nostra insegnante è simpatica.",
+    "acceptable_alternatives": [],
+    "explanation_de": "\"Insegnante\" ist hier feminin Singular, daher \"la nostra insegnante\". Der Artikel \"la\" muss stehen, da es kein einfaches Familienmitglied ist."
+  }
+]
