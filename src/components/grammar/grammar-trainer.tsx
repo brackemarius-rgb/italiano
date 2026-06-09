@@ -144,7 +144,7 @@ export function GrammarTrainer({
               i < results.length
                 ? results[i]
                   ? "bg-good"
-                  : "bg-brand"
+                  : "bg-bad"
                 : i === index
                   ? "bg-ink"
                   : "bg-line",

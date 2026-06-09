@@ -27,7 +27,7 @@ export const STATUS_META: Record<
 > = {
   beherrscht: { label: "Beherrscht", dot: "bg-good" },
   lernend: { label: "Lernend", dot: "bg-warn" },
-  schwierig: { label: "Schwierig", dot: "bg-brand" },
+  schwierig: { label: "Schwierig", dot: "bg-bad" },
   neu: { label: "Neu", dot: "bg-ink-faint" },
 };
 

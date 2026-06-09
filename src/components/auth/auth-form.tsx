@@ -85,7 +85,7 @@ export function AuthForm({
 
         {/* Fehlermeldung */}
         {state?.error && (
-          <p className="rounded-lg border border-brand/30 bg-brand/5 px-4 py-3 text-sm text-brand">
+          <p className="rounded-lg border border-bad/30 bg-bad/5 px-4 py-3 text-sm text-bad">
             {state.error}
           </p>
         )}

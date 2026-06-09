@@ -2,67 +2,71 @@
 @import "tw-animate-css";
 @plugin "@tailwindcss/typography";
 
-/* Dark-Variante nur über .dark-Klasse (nie aktiv) – verhindert, dass das
-   Betriebssystem-Dark-Mode die shadcn-Komponenten unbeabsichtigt umfärbt.
-   Echter Dark Mode kommt laut PROJECT.md erst später. */
+/* Dark-Variante nur über .dark-Klasse (nie aktiv). */
 @custom-variant dark (&:is(.dark *));
 
 /* ----------------------------------------------------------------
-   Farbpalette & Design-Tokens (aus PROJECT.md / Design-Prototyp)
+   Design-Tokens — cosmoworks.studio-Branding
+   Paper / Ink / Sage · editorial, ruhig, scharfe Kanten
    ---------------------------------------------------------------- */
 :root {
-  /* --- Eigene Palette --- */
-  --bg: #faf7f2; /* Cremeweiß */
-  --bg-card: #ffffff;
-  --ink: #1a1614; /* Warmes Schwarz */
-  --ink-soft: #6b635c;
-  --ink-faint: #a39b94;
-  --line: #ebe5dd;
-  --line-strong: #d8d0c5;
-  --accent: #b8332f; /* Italienisches Rot (Utility: text-brand / bg-brand) */
-  --good: #4a7c59; /* Olivgrün */
-  --warn: #c47d2a; /* Senf */
-  --bad: #b8332f; /* = Akzent */
-  --subtle: #f2ede5; /* dezenter Hover-/Füllton zwischen bg und line */
+  /* --- Palette --- */
+  --bg: #fbfaf6; /* Paper */
+  --bg-card: #ffffff; /* Karten */
+  --ink: #1a1814; /* Ink (warmes Schwarz) */
+  --ink-soft: #6b655d; /* ~65% */
+  --ink-faint: #9c968c; /* ~45% */
+  --line: #e4e0d7; /* Hairline auf Paper */
+  --line-strong: #d0cabe;
+  --accent: #7d8a7a; /* Sage – Akzent (Utility: text-brand / bg-brand) */
+  --accent-dk: #5e6a5b; /* Sage-dunkel – Akzentwort, Hover */
+  --good: #5e6a5b; /* beherrscht = tiefes Sage */
+  --warn: #b08a4e; /* lernend = gedämpftes Ocker */
+  --bad: #a8584a; /* schwierig / falsch = gedämpftes Terrakotta */
+  --subtle: #f3f0e8; /* Paper-dunkel – Hover-/Füllton */
 
-  /* --- shadcn/ui-Tokens (Standardnamen), gemappt auf unsere Palette --- */
-  --radius: 0.625rem;
+  /* Schriften – Switzer für alles (single font) */
+  --font-inter: "Switzer", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-fraunces: "Switzer", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-jetbrains: "Switzer", ui-sans-serif, system-ui, -apple-system, sans-serif;
+
+  /* --- shadcn/ui-Tokens, auf die Palette gemappt --- */
   --background: var(--bg);
   --foreground: var(--ink);
   --card: var(--bg-card);
   --card-foreground: var(--ink);
   --popover: var(--bg-card);
   --popover-foreground: var(--ink);
-  --primary: var(--ink); /* primäre Buttons: warmes Schwarz */
-  --primary-foreground: var(--bg-card);
+  --primary: var(--ink);
+  --primary-foreground: var(--bg);
   --secondary: var(--subtle);
   --secondary-foreground: var(--ink);
   --muted: var(--subtle);
   --muted-foreground: var(--ink-soft);
-  /* shadcn-Hover-Hintergrund (neutral) wird in @theme direkt auf --subtle
-     gemappt – NICHT erneut --accent setzen, sonst überschreibt es das Rot! */
+  --accent-bg: var(--subtle); /* shadcn-Hover-Hintergrund */
   --accent-foreground: var(--ink);
-  --destructive: #b8332f; /* destruktiv = italienisches Rot */
+  --destructive: var(--bad);
   --border: var(--line);
   --input: var(--line-strong);
-  --ring: var(--ink-faint);
+  --ring: var(--accent);
 }
 
-/* Tailwind v4: Tokens als Utilities verfügbar machen */
 @theme inline {
-  /* Eigene Palette: bg-bg, bg-card, text-ink, text-ink-soft, border-line, text-brand … */
+  /* Eigene Palette */
   --color-bg: var(--bg);
   --color-ink: var(--ink);
   --color-ink-soft: var(--ink-soft);
   --color-ink-faint: var(--ink-faint);
   --color-line: var(--line);
   --color-line-strong: var(--line-strong);
-  --color-brand: var(--accent); /* italienisches Rot */
+  --color-brand: var(--accent); /* Sage */
+  --color-brand-dk: var(--accent-dk);
   --color-good: var(--good);
   --color-warn: var(--warn);
+  --color-bad: var(--bad);
   --color-subtle: var(--subtle);
 
-  /* shadcn/ui-Utilities (Standardnamen) */
+  /* shadcn/ui-Utilities */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -75,7 +79,7 @@
   --color-secondary-foreground: var(--secondary-foreground);
   --color-muted: var(--muted);
   --color-muted-foreground: var(--muted-foreground);
-  --color-accent: var(--subtle); /* shadcn-Hover-Hintergrund (neutral) */
+  --color-accent: var(--accent-bg);
   --color-accent-foreground: var(--accent-foreground);
   --color-destructive: var(--destructive);
   --color-border: var(--border);
@@ -87,11 +91,13 @@
   --font-serif: var(--font-fraunces);
   --font-mono: var(--font-jetbrains);
 
-  /* Radien */
-  --radius-sm: calc(var(--radius) - 4px);
-  --radius-md: calc(var(--radius) - 2px);
-  --radius-lg: var(--radius);
-  --radius-xl: calc(var(--radius) + 4px);
+  /* Radien – scharf/knapp (editorial, kaum Rundung) */
+  --radius-sm: 1px;
+  --radius-md: 2px;
+  --radius-lg: 2px;
+  --radius-xl: 3px;
+  --radius-2xl: 4px;
+  --radius-3xl: 5px;
 }
 
 @layer base {
@@ -101,13 +107,14 @@
   body {
     background: var(--bg);
     color: var(--ink);
-    font-family: var(--font-inter), system-ui, sans-serif;
+    font-family: var(--font-inter);
     -webkit-font-smoothing: antialiased;
+    letter-spacing: -0.005em;
   }
-  /* Italienische Wörter im Fließtext: Fraunces-Italic in Akzentfarbe */
+  /* Akzentwort / italienische Wörter: Switzer-Italic in Sage-dunkel */
   em {
-    font-family: var(--font-fraunces), Georgia, serif;
     font-style: italic;
-    color: var(--accent);
+    font-weight: 600;
+    color: var(--accent-dk);
   }
 }

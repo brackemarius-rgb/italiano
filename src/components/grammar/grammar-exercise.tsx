@@ -92,7 +92,7 @@ export function GrammarExercise({
                     checked &&
                       isPicked &&
                       !isAnswer &&
-                      "border-brand bg-brand/5 text-brand",
+                      "border-bad bg-bad/5 text-bad",
                     checked && !isAnswer && !isPicked && "border-line opacity-50",
                   )}
                 >
@@ -187,7 +187,7 @@ export function GrammarExercise({
               "rounded-xl px-4 py-3 text-sm",
               correct
                 ? "bg-good/5 text-good"
-                : "bg-brand/5 text-ink-soft",
+                : "bg-bad/5 text-ink-soft",
             )}
           >
             {correct ? (

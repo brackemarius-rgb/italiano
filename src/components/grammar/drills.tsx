@@ -261,7 +261,7 @@ export function Drills() {
           className={cn(
             "mt-7 text-center font-serif text-lg",
             checked &&
-              (isCorrect ? "border-good text-good" : "border-brand text-brand"),
+              (isCorrect ? "border-good text-good" : "border-bad text-bad"),
           )}
         />
 

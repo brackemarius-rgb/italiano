@@ -207,7 +207,7 @@ function MockRow({
 }) {
   return (
     <div className="flex items-center justify-between">
-      <span className={cn("text-sm", danger ? "text-brand" : "text-ink")}>
+      <span className={cn("text-sm", danger ? "text-bad" : "text-ink")}>
         {label}
       </span>
       <span className="rounded-full bg-subtle px-2 py-0.5 text-xs text-ink-faint">

@@ -22,7 +22,7 @@ function normalize(s: string, accentTolerant: boolean): string {
 const onlyLetters = (s: string) => [...s].filter((c) => !isSep(c)).join("");
 
 const RATINGS: { value: 1 | 2 | 3 | 4; label: string; cls: string }[] = [
-  { value: 1, label: "Nochmal", cls: "border-brand text-brand hover:bg-brand/5" },
+  { value: 1, label: "Nochmal", cls: "border-bad text-bad hover:bg-bad/5" },
   { value: 2, label: "Schwer", cls: "border-warn text-warn hover:bg-warn/5" },
   { value: 3, label: "Gut", cls: "border-good text-good hover:bg-good/5" },
   { value: 4, label: "Einfach", cls: "border-ink text-ink hover:bg-subtle" },
@@ -194,7 +194,7 @@ export function TrainerCard({
                 answered
                   ? isCorrect
                     ? "border-good bg-good/5 text-good"
-                    : "border-brand bg-brand/5 text-ink"
+                    : "border-bad bg-bad/5 text-ink"
                   : "border-line-strong text-ink",
               )}
             >
