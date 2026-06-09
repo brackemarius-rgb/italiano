@@ -68,7 +68,7 @@ export default async function GrammarDetailPage({
 
         {/* CTA: Übungen starten (falls vorhanden) */}
         {exerciseCount > 0 ? (
-          <div className="mt-10 rounded-2xl bg-ink px-6 py-6 text-bg">
+          <div className="mt-10 rounded-2xl bg-brand-dk px-6 py-6 text-bg">
             <p className="font-serif text-lg">Bereit zum Üben?</p>
             <p className="mt-1 text-sm text-bg/70">
               {exerciseCount} Übungen zu diesem Thema.

@@ -47,7 +47,7 @@ export default async function DashboardPage() {
       <div className="mt-7 lg:grid lg:grid-cols-3 lg:items-stretch lg:gap-4">
         <Link
           href="/vocab?tab=trainer"
-          className="block rounded-2xl bg-ink px-6 py-7 text-bg transition-transform active:scale-[0.99] lg:col-span-2 lg:flex lg:flex-col lg:justify-center"
+          className="block rounded-2xl bg-brand-dk px-6 py-7 text-bg transition-transform active:scale-[0.99] lg:col-span-2 lg:flex lg:flex-col lg:justify-center"
         >
         {isNew ? (
           <>

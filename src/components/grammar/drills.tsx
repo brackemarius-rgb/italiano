@@ -143,7 +143,7 @@ export function Drills() {
       <div>
         <button
           onClick={() => start(DRILL_SETS)}
-          className="flex w-full items-center justify-between rounded-2xl bg-ink px-5 py-4 text-bg transition-transform active:scale-[0.99]"
+          className="flex w-full items-center justify-between rounded-2xl bg-brand-dk px-5 py-4 text-bg transition-transform active:scale-[0.99]"
         >
           <span>
             <span className="block font-serif text-lg">Alle gemischt</span>
@@ -327,7 +327,7 @@ function VerbGroups({
           <AccordionContent>
             <button
               onClick={() => onStart(groupSets)}
-              className="mb-3 flex w-full items-center justify-center gap-2 rounded-lg bg-ink px-4 py-2.5 text-sm font-medium text-bg"
+              className="mb-3 flex w-full items-center justify-center gap-2 rounded-lg bg-brand-dk px-4 py-2.5 text-sm font-medium text-bg"
             >
               <Repeat className="size-4" /> Alle {group} gemischt
             </button>
