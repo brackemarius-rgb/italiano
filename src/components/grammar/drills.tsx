@@ -1,8 +1,14 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { ArrowLeft, Repeat } from "lucide-react";
+import { ArrowLeft, Repeat, Shuffle } from "lucide-react";
 
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { cn } from "@/lib/utils";
@@ -18,7 +24,6 @@ const DRILL_SETS: DrillSet[] = (() => {
   return source.filter((s) => (seen.has(s.id) ? false : seen.add(s.id)));
 })();
 
-// Kategorien in bevorzugter Reihenfolge, Rest alphabetisch dahinter.
 const CATEGORY_ORDER = [
   "Pronomen",
   "Verben",
@@ -34,6 +39,27 @@ const CATEGORIES = [...new Set(DRILL_SETS.map((s) => s.category))].sort(
     return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib) || a.localeCompare(b);
   },
 );
+
+const TENSE_ORDER = [
+  "Präsens",
+  "Passato prossimo",
+  "Imperfetto",
+  "Futuro semplice",
+  "Futuro",
+  "Condizionale",
+  "Imperativo",
+  "Gerundio",
+];
+
+// "andare – Präsens" -> { name: "andare", group: "Präsens" }
+function splitTitle(title: string): { name: string; group: string } {
+  const i = title.indexOf("–");
+  if (i === -1) return { name: title, group: "Weitere" };
+  return {
+    name: title.slice(0, i).trim(),
+    group: title.slice(i + 1).trim(),
+  };
+}
 
 type Card = { prompt: string; answer: string; alt?: string[]; ctx: string };
 type Phase = "select" | "drill" | "done";
@@ -56,15 +82,10 @@ function shuffle<T>(a: T[]): T[] {
   return r;
 }
 
-function buildCards(set: DrillSet | "all"): Card[] {
-  if (set === "all") {
-    return shuffle(
-      DRILL_SETS.flatMap((s) =>
-        s.items.map((it) => ({ ...it, ctx: s.title })),
-      ),
-    );
-  }
-  return shuffle(set.items.map((it) => ({ ...it, ctx: set.title })));
+function buildCards(sets: DrillSet[]): Card[] {
+  return shuffle(
+    sets.flatMap((s) => s.items.map((it) => ({ ...it, ctx: s.title }))),
+  );
 }
 
 export function Drills() {
@@ -80,8 +101,9 @@ export function Drills() {
     if (phase === "drill" && !checked) inputRef.current?.focus();
   }, [phase, index, checked]);
 
-  function start(set: DrillSet | "all") {
-    setCards(buildCards(set));
+  function start(sets: DrillSet[]) {
+    if (sets.length === 0) return;
+    setCards(buildCards(sets));
     setIndex(0);
     setTyped("");
     setChecked(false);
@@ -120,7 +142,7 @@ export function Drills() {
     return (
       <div>
         <button
-          onClick={() => start("all")}
+          onClick={() => start(DRILL_SETS)}
           className="flex w-full items-center justify-between rounded-2xl bg-ink px-5 py-4 text-bg transition-transform active:scale-[0.99]"
         >
           <span>
@@ -130,33 +152,22 @@ export function Drills() {
               zufällig
             </span>
           </span>
-          <Repeat className="size-5" />
+          <Shuffle className="size-5" />
         </button>
 
         {CATEGORIES.map((cat) => {
           const sets = DRILL_SETS.filter((s) => s.category === cat);
           if (sets.length === 0) return null;
           return (
-            <section key={cat} className="mt-6">
+            <section key={cat} className="mt-7">
               <h3 className="mb-3 text-xs font-semibold uppercase tracking-wide text-ink-faint">
                 {cat}
               </h3>
-              <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
-                {sets.map((s) => (
-                  <button
-                    key={s.id}
-                    onClick={() => start(s)}
-                    className="rounded-xl border border-line bg-card px-4 py-3.5 text-left transition-colors hover:border-line-strong"
-                  >
-                    <span className="block text-sm font-medium text-ink">
-                      {s.title}
-                    </span>
-                    <span className="text-xs text-ink-faint">
-                      {s.subtitle} · {s.items.length} Formen
-                    </span>
-                  </button>
-                ))}
-              </div>
+              {cat === "Verben" ? (
+                <VerbGroups sets={sets} onStart={start} />
+              ) : (
+                <SetGrid sets={sets} onStart={(s) => start([s])} />
+              )}
             </section>
           );
         })}
@@ -250,9 +261,7 @@ export function Drills() {
           className={cn(
             "mt-7 text-center font-serif text-lg",
             checked &&
-              (isCorrect
-                ? "border-good text-good"
-                : "border-brand text-brand"),
+              (isCorrect ? "border-good text-good" : "border-brand text-brand"),
           )}
         />
 
@@ -275,6 +284,102 @@ export function Drills() {
           {checked ? "Weiter" : "Prüfen"}
         </Button>
       </div>
+    </div>
+  );
+}
+
+// Verben: nach Zeit gruppiert, aufklappbar
+function VerbGroups({
+  sets,
+  onStart,
+}: {
+  sets: DrillSet[];
+  onStart: (sets: DrillSet[]) => void;
+}) {
+  const groups = new Map<string, DrillSet[]>();
+  for (const s of sets) {
+    const { group } = splitTitle(s.title);
+    if (!groups.has(group)) groups.set(group, []);
+    groups.get(group)!.push(s);
+  }
+  const ordered = [...groups.entries()].sort((a, b) => {
+    const ia = TENSE_ORDER.indexOf(a[0]);
+    const ib = TENSE_ORDER.indexOf(b[0]);
+    return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib) || a[0].localeCompare(b[0]);
+  });
+
+  return (
+    <Accordion type="multiple" className="space-y-2">
+      {ordered.map(([group, groupSets]) => (
+        <AccordionItem
+          key={group}
+          value={group}
+          className="rounded-xl border border-line bg-card px-4"
+        >
+          <AccordionTrigger className="hover:no-underline">
+            <span className="flex w-full items-center justify-between pr-2">
+              <span className="font-medium text-ink">{group}</span>
+              <span className="font-mono text-xs text-ink-faint">
+                {groupSets.length} Verben
+              </span>
+            </span>
+          </AccordionTrigger>
+          <AccordionContent>
+            <button
+              onClick={() => onStart(groupSets)}
+              className="mb-3 flex w-full items-center justify-center gap-2 rounded-lg bg-ink px-4 py-2.5 text-sm font-medium text-bg"
+            >
+              <Repeat className="size-4" /> Alle {group} gemischt
+            </button>
+            <div className="grid grid-cols-2 gap-2 sm:grid-cols-3">
+              {groupSets.map((s) => (
+                <button
+                  key={s.id}
+                  onClick={() => onStart([s])}
+                  className="rounded-lg border border-line px-3 py-2 text-left text-sm transition-colors hover:border-line-strong"
+                >
+                  <span className="font-serif italic text-ink">
+                    {splitTitle(s.title).name}
+                  </span>
+                  {s.subtitle && (
+                    <span className="block text-xs text-ink-faint">
+                      {s.subtitle}
+                    </span>
+                  )}
+                </button>
+              ))}
+            </div>
+          </AccordionContent>
+        </AccordionItem>
+      ))}
+    </Accordion>
+  );
+}
+
+// Einfache Kategorien: Sets als Raster
+function SetGrid({
+  sets,
+  onStart,
+}: {
+  sets: DrillSet[];
+  onStart: (set: DrillSet) => void;
+}) {
+  return (
+    <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
+      {sets.map((s) => (
+        <button
+          key={s.id}
+          onClick={() => onStart(s)}
+          className="rounded-xl border border-line bg-card px-4 py-3.5 text-left transition-colors hover:border-line-strong"
+        >
+          <span className="block text-sm font-medium text-ink">{s.title}</span>
+          {s.subtitle && (
+            <span className="text-xs text-ink-faint">
+              {s.subtitle} · {s.items.length} Formen
+            </span>
+          )}
+        </button>
+      ))}
     </div>
   );
 }
