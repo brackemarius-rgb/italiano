@@ -1,0 +1,76 @@
+[
+  {
+    "id": "possessivi-maschile-singolare",
+    "title": "Possessivpronomen – maskulin Singular",
+    "subtitle": "il mio, il tuo …",
+    "category": "Pronomen",
+    "items": [
+      { "prompt": "mein", "answer": "il mio" },
+      { "prompt": "dein", "answer": "il tuo" },
+      { "prompt": "sein/ihr", "answer": "il suo" },
+      { "prompt": "Ihr (höfl.)", "answer": "il Suo" },
+      { "prompt": "unser", "answer": "il nostro" },
+      { "prompt": "euer", "answer": "il vostro" },
+      { "prompt": "ihr (Pl.)", "answer": "il loro" }
+    ]
+  },
+  {
+    "id": "possessivi-femminile-singolare",
+    "title": "Possessivpronomen – feminin Singular",
+    "subtitle": "la mia, la tua …",
+    "category": "Pronomen",
+    "items": [
+      { "prompt": "mein", "answer": "la mia" },
+      { "prompt": "dein", "answer": "la tua" },
+      { "prompt": "sein/ihr", "answer": "la sua" },
+      { "prompt": "Ihr (höfl.)", "answer": "la Sua" },
+      { "prompt": "unser", "answer": "la nostra" },
+      { "prompt": "euer", "answer": "la vostra" },
+      { "prompt": "ihr (Pl.)", "answer": "la loro" }
+    ]
+  },
+  {
+    "id": "possessivi-maschile-plurale",
+    "title": "Possessivpronomen – maskulin Plural",
+    "subtitle": "i miei, i tuoi …",
+    "category": "Pronomen",
+    "items": [
+      { "prompt": "mein", "answer": "i miei" },
+      { "prompt": "dein", "answer": "i tuoi" },
+      { "prompt": "sein/ihr", "answer": "i suoi" },
+      { "prompt": "Ihr (höfl.)", "answer": "i Suoi" },
+      { "prompt": "unser", "answer": "i nostri" },
+      { "prompt": "euer", "answer": "i vostri" },
+      { "prompt": "ihr (Pl.)", "answer": "i loro" }
+    ]
+  },
+  {
+    "id": "possessivi-femminile-plurale",
+    "title": "Possessivpronomen – feminin Plural",
+    "subtitle": "le mie, le tue …",
+    "category": "Pronomen",
+    "items": [
+      { "prompt": "mein", "answer": "le mie" },
+      { "prompt": "dein", "answer": "le tue" },
+      { "prompt": "sein/ihr", "answer": "le sue" },
+      { "prompt": "Ihr (höfl.)", "answer": "le Sue" },
+      { "prompt": "unser", "answer": "le nostre" },
+      { "prompt": "euer", "answer": "le vostre" },
+      { "prompt": "ihr (Pl.)", "answer": "le loro" }
+    ]
+  },
+  {
+    "id": "possessivi-familienmitglieder",
+    "title": "Possessivpronomen – Familie (ohne Artikel)",
+    "subtitle": "mia madre, tuo padre …",
+    "category": "Pronomen",
+    "items": [
+      { "prompt": "meine Mutter", "answer": "mia madre" },
+      { "prompt": "dein Vater", "answer": "tuo padre" },
+      { "prompt": "sein/ihr Bruder", "answer": "suo fratello" },
+      { "prompt": "unsere Schwester", "answer": "nostra sorella" },
+      { "prompt": "ihr Vater (Pl.)", "answer": "il loro padre" },
+      { "prompt": "meine Brüder", "answer": "i miei fratelli" }
+    ]
+  }
+]

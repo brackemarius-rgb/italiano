@@ -1,0 +1,17 @@
+[
+  {
+    "id": "articolo-partitivo-forme",
+    "title": "Teilungsartikel – di + bestimmter Artikel",
+    "subtitle": "etwas / einige",
+    "category": "Artikel",
+    "items": [
+      { "prompt": "di + il", "answer": "del" },
+      { "prompt": "di + lo", "answer": "dello" },
+      { "prompt": "di + la", "answer": "della" },
+      { "prompt": "di + l'", "answer": "dell'" },
+      { "prompt": "di + i", "answer": "dei" },
+      { "prompt": "di + le", "answer": "delle" },
+      { "prompt": "di + gli", "answer": "degli" }
+    ]
+  }
+]

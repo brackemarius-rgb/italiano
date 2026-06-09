@@ -1,0 +1,55 @@
+[
+  {
+    "id": "passato-prossimo-participio-regolare",
+    "title": "Infinitiv → Partizip (regelmäßig)",
+    "subtitle": "Partizip Perfekt",
+    "category": "Verben",
+    "items": [
+      { "prompt": "parlare", "answer": "parlato" },
+      { "prompt": "credere", "answer": "creduto" },
+      { "prompt": "dormire", "answer": "dormito" }
+    ]
+  },
+  {
+    "id": "passato-prossimo-participio-irregolare",
+    "title": "Infinitiv → Partizip (unregelmäßig)",
+    "subtitle": "Partizip Perfekt",
+    "category": "Verben",
+    "items": [
+      { "prompt": "essere", "answer": "stato" },
+      { "prompt": "fare", "answer": "fatto" },
+      { "prompt": "dire", "answer": "detto" },
+      { "prompt": "venire", "answer": "venuto" },
+      { "prompt": "rimanere", "answer": "rimasto" },
+      { "prompt": "nascere", "answer": "nato" },
+      { "prompt": "morire", "answer": "morto" },
+      { "prompt": "chiedere", "answer": "chiesto" },
+      { "prompt": "rispondere", "answer": "risposto" },
+      { "prompt": "vivere", "answer": "vissuto" },
+      { "prompt": "aprire", "answer": "aperto" },
+      { "prompt": "offrire", "answer": "offerto" },
+      { "prompt": "scrivere", "answer": "scritto" },
+      { "prompt": "leggere", "answer": "letto" },
+      { "prompt": "vedere", "answer": "visto" },
+      { "prompt": "prendere", "answer": "preso" },
+      { "prompt": "mettere", "answer": "messo" },
+      { "prompt": "chiudere", "answer": "chiuso" },
+      { "prompt": "bere", "answer": "bevuto" },
+      { "prompt": "scegliere", "answer": "scelto" }
+    ]
+  },
+  {
+    "id": "passato-prossimo-essere-accordo",
+    "title": "essere – Anpassung des Partizips",
+    "subtitle": "andare/partire nach Genus und Numerus",
+    "category": "Verben",
+    "items": [
+      { "prompt": "Singular maskulin (andare)", "answer": "andato" },
+      { "prompt": "Singular feminin (andare)", "answer": "andata" },
+      { "prompt": "Plural maskulin (andare)", "answer": "andati" },
+      { "prompt": "Plural feminin (andare)", "answer": "andate" },
+      { "prompt": "Plural maskulin (partire)", "answer": "partiti" },
+      { "prompt": "Plural feminin (partire)", "answer": "partite" }
+    ]
+  }
+]

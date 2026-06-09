@@ -1,0 +1,41 @@
+[
+  {
+    "id": "articolo-indeterminativo-maskulin",
+    "title": "Unbestimmter Artikel – Maskulin",
+    "subtitle": "ein (m.)",
+    "category": "Artikel",
+    "items": [
+      { "prompt": "vor Konsonant, maskulin", "answer": "un" },
+      { "prompt": "vor Vokal, maskulin", "answer": "un" },
+      { "prompt": "vor s+Konsonant, z, x, y, gn, ps, maskulin", "answer": "uno" }
+    ]
+  },
+  {
+    "id": "articolo-indeterminativo-feminin",
+    "title": "Unbestimmter Artikel – Feminin",
+    "subtitle": "eine (f.)",
+    "category": "Artikel",
+    "items": [
+      { "prompt": "vor Konsonant, feminin", "answer": "una" },
+      { "prompt": "vor Vokal, feminin", "answer": "un'" }
+    ]
+  },
+  {
+    "id": "articolo-indeterminativo-beispiele",
+    "title": "Unbestimmter Artikel – Beispiele",
+    "subtitle": "un / uno / una / un'",
+    "category": "Artikel",
+    "items": [
+      { "prompt": "___ libro (Mask. + Konsonant)", "answer": "un libro" },
+      { "prompt": "___ caffè (Mask. + Konsonant)", "answer": "un caffè" },
+      { "prompt": "___ uomo (Mask. + Vokal)", "answer": "un uomo" },
+      { "prompt": "___ albergo (Mask. + Vokal)", "answer": "un albergo" },
+      { "prompt": "___ studente (Mask. + s+Konsonant)", "answer": "uno studente" },
+      { "prompt": "___ zaino (Mask. + z)", "answer": "uno zaino" },
+      { "prompt": "___ yogurt (Mask. + y)", "answer": "uno yogurt" },
+      { "prompt": "___ borsa (Fem. + Konsonant)", "answer": "una borsa" },
+      { "prompt": "___ amica (Fem. + Vokal)", "answer": "un'amica" },
+      { "prompt": "___ aranciata (Fem. + Vokal)", "answer": "un'aranciata" }
+    ]
+  }
+]

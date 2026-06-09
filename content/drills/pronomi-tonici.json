@@ -1,0 +1,18 @@
+[
+  {
+    "id": "pronomi-tonici-forme",
+    "title": "Betonte Pronomen",
+    "subtitle": "nach Präpositionen",
+    "category": "Pronomen",
+    "items": [
+      { "prompt": "mich/mir (1. Sg.)", "answer": "me" },
+      { "prompt": "dich/dir (2. Sg.)", "answer": "te" },
+      { "prompt": "ihn/ihm (3. Sg. m.)", "answer": "lui" },
+      { "prompt": "sie/ihr (3. Sg. f.)", "answer": "lei" },
+      { "prompt": "Sie/Ihnen (Höflichkeit)", "answer": "Lei" },
+      { "prompt": "uns (1. Pl.)", "answer": "noi" },
+      { "prompt": "euch (2. Pl.)", "answer": "voi" },
+      { "prompt": "sie/ihnen (3. Pl.)", "answer": "loro" }
+    ]
+  }
+]

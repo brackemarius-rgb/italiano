@@ -1,0 +1,120 @@
+[
+  {
+    "id": "numeri-grundzahlen-0-20",
+    "title": "Grundzahlen 0–20",
+    "subtitle": "numeri cardinali",
+    "category": "Zahlen",
+    "items": [
+      { "prompt": "0", "answer": "zero" },
+      { "prompt": "1", "answer": "uno" },
+      { "prompt": "2", "answer": "due" },
+      { "prompt": "3", "answer": "tre" },
+      { "prompt": "4", "answer": "quattro" },
+      { "prompt": "5", "answer": "cinque" },
+      { "prompt": "6", "answer": "sei" },
+      { "prompt": "7", "answer": "sette" },
+      { "prompt": "8", "answer": "otto" },
+      { "prompt": "9", "answer": "nove" },
+      { "prompt": "10", "answer": "dieci" },
+      { "prompt": "11", "answer": "undici" },
+      { "prompt": "12", "answer": "dodici" },
+      { "prompt": "13", "answer": "tredici" },
+      { "prompt": "14", "answer": "quattordici" },
+      { "prompt": "15", "answer": "quindici" },
+      { "prompt": "16", "answer": "sedici" },
+      { "prompt": "17", "answer": "diciassette" },
+      { "prompt": "18", "answer": "diciotto" },
+      { "prompt": "19", "answer": "diciannove" },
+      { "prompt": "20", "answer": "venti" }
+    ]
+  },
+  {
+    "id": "numeri-zehner",
+    "title": "Zehner",
+    "subtitle": "20–90",
+    "category": "Zahlen",
+    "items": [
+      { "prompt": "20", "answer": "venti" },
+      { "prompt": "30", "answer": "trenta" },
+      { "prompt": "40", "answer": "quaranta" },
+      { "prompt": "50", "answer": "cinquanta" },
+      { "prompt": "60", "answer": "sessanta" },
+      { "prompt": "70", "answer": "settanta" },
+      { "prompt": "80", "answer": "ottanta" },
+      { "prompt": "90", "answer": "novanta" }
+    ]
+  },
+  {
+    "id": "numeri-zusammensetzungen-21-99",
+    "title": "Zusammensetzungen 21–99",
+    "subtitle": "Zehner + Einer",
+    "category": "Zahlen",
+    "items": [
+      { "prompt": "21", "answer": "ventuno" },
+      { "prompt": "22", "answer": "ventidue" },
+      { "prompt": "28", "answer": "ventotto" },
+      { "prompt": "31", "answer": "trentuno" },
+      { "prompt": "38", "answer": "trentotto" },
+      { "prompt": "45", "answer": "quarantacinque" }
+    ]
+  },
+  {
+    "id": "numeri-ab-100",
+    "title": "Ab 100",
+    "subtitle": "Hunderter, Tausender, Millionen",
+    "category": "Zahlen",
+    "items": [
+      { "prompt": "100", "answer": "cento" },
+      { "prompt": "200", "answer": "duecento" },
+      { "prompt": "300", "answer": "trecento" },
+      { "prompt": "1.000", "answer": "mille" },
+      { "prompt": "2.000", "answer": "duemila" },
+      { "prompt": "10.000", "answer": "diecimila" },
+      { "prompt": "1.000.000", "answer": "un milione" },
+      { "prompt": "1.000.000.000", "answer": "un miliardo" }
+    ]
+  },
+  {
+    "id": "numeri-beispiele-zusammengesetzt",
+    "title": "Zusammengesetzte Zahlen",
+    "subtitle": "Beispiele",
+    "category": "Zahlen",
+    "items": [
+      { "prompt": "126", "answer": "centoventisei" },
+      { "prompt": "1.989", "answer": "millenovecentottantanove" },
+      { "prompt": "2024", "answer": "duemilaventiquattro" }
+    ]
+  },
+  {
+    "id": "numeri-ordnungszahlen-1-10",
+    "title": "Ordnungszahlen 1.–10.",
+    "subtitle": "numeri ordinali",
+    "category": "Zahlen",
+    "items": [
+      { "prompt": "1.", "answer": "primo" },
+      { "prompt": "2.", "answer": "secondo" },
+      { "prompt": "3.", "answer": "terzo" },
+      { "prompt": "4.", "answer": "quarto" },
+      { "prompt": "5.", "answer": "quinto" },
+      { "prompt": "6.", "answer": "sesto" },
+      { "prompt": "7.", "answer": "settimo" },
+      { "prompt": "8.", "answer": "ottavo" },
+      { "prompt": "9.", "answer": "nono" },
+      { "prompt": "10.", "answer": "decimo" }
+    ]
+  },
+  {
+    "id": "numeri-ordnungszahlen-ab-11",
+    "title": "Ordnungszahlen ab 11",
+    "subtitle": "Grundzahl + -esimo",
+    "category": "Zahlen",
+    "items": [
+      { "prompt": "11.", "answer": "undicesimo" },
+      { "prompt": "12.", "answer": "dodicesimo" },
+      { "prompt": "20.", "answer": "ventesimo" },
+      { "prompt": "21.", "answer": "ventunesimo" },
+      { "prompt": "100.", "answer": "centesimo" },
+      { "prompt": "1000.", "answer": "millesimo" }
+    ]
+  }
+]

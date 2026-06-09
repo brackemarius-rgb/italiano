@@ -1,0 +1,180 @@
+[
+  {
+    "id": "irregolari-presente-io",
+    "title": "Unregelmäßige Verben – Präsens (io)",
+    "subtitle": "1. Person Singular",
+    "category": "Verben",
+    "items": [
+      { "prompt": "essere – io", "answer": "sono" },
+      { "prompt": "avere – io", "answer": "ho" },
+      { "prompt": "fare – io", "answer": "faccio" },
+      { "prompt": "dare – io", "answer": "do" },
+      { "prompt": "stare – io", "answer": "sto" },
+      { "prompt": "andare – io", "answer": "vado" },
+      { "prompt": "venire – io", "answer": "vengo" },
+      { "prompt": "dire – io", "answer": "dico" },
+      { "prompt": "uscire – io", "answer": "esco" },
+      { "prompt": "bere – io", "answer": "bevo" }
+    ]
+  },
+  {
+    "id": "irregolari-presente-io-2",
+    "title": "Unregelmäßige Verben – Präsens (io) II",
+    "subtitle": "Modal- und weitere Verben",
+    "category": "Verben",
+    "items": [
+      { "prompt": "volere – io", "answer": "voglio" },
+      { "prompt": "potere – io", "answer": "posso" },
+      { "prompt": "dovere – io", "answer": "devo" },
+      { "prompt": "sapere – io", "answer": "so" },
+      { "prompt": "piacere – io", "answer": "piaccio" },
+      { "prompt": "tenere – io", "answer": "tengo" },
+      { "prompt": "salire – io", "answer": "salgo" },
+      { "prompt": "scegliere – io", "answer": "scelgo" },
+      { "prompt": "rimanere – io", "answer": "rimango" },
+      { "prompt": "morire – io", "answer": "muoio" }
+    ]
+  },
+  {
+    "id": "irregolari-presente-loro",
+    "title": "Unregelmäßige Verben – Präsens (loro)",
+    "subtitle": "3. Person Plural",
+    "category": "Verben",
+    "items": [
+      { "prompt": "essere – loro", "answer": "sono" },
+      { "prompt": "avere – loro", "answer": "hanno" },
+      { "prompt": "fare – loro", "answer": "fanno" },
+      { "prompt": "dare – loro", "answer": "danno" },
+      { "prompt": "stare – loro", "answer": "stanno" },
+      { "prompt": "andare – loro", "answer": "vanno" },
+      { "prompt": "venire – loro", "answer": "vengono" },
+      { "prompt": "dire – loro", "answer": "dicono" },
+      { "prompt": "bere – loro", "answer": "bevono" },
+      { "prompt": "sapere – loro", "answer": "sanno" }
+    ]
+  },
+  {
+    "id": "irregolari-partizip",
+    "title": "Unregelmäßige Partizipien",
+    "subtitle": "Infinitiv → Partizip",
+    "category": "Verben",
+    "items": [
+      { "prompt": "essere", "answer": "stato" },
+      { "prompt": "avere", "answer": "avuto" },
+      { "prompt": "fare", "answer": "fatto" },
+      { "prompt": "dire", "answer": "detto" },
+      { "prompt": "bere", "answer": "bevuto" },
+      { "prompt": "venire", "answer": "venuto" },
+      { "prompt": "rimanere", "answer": "rimasto" },
+      { "prompt": "morire", "answer": "morto" },
+      { "prompt": "nascere", "answer": "nato" },
+      { "prompt": "vedere", "answer": "visto" }
+    ]
+  },
+  {
+    "id": "irregolari-partizip-2",
+    "title": "Unregelmäßige Partizipien II",
+    "subtitle": "Infinitiv → Partizip",
+    "category": "Verben",
+    "items": [
+      { "prompt": "vivere", "answer": "vissuto" },
+      { "prompt": "leggere", "answer": "letto" },
+      { "prompt": "scrivere", "answer": "scritto" },
+      { "prompt": "prendere", "answer": "preso" },
+      { "prompt": "mettere", "answer": "messo" },
+      { "prompt": "chiudere", "answer": "chiuso" },
+      { "prompt": "aprire", "answer": "aperto" },
+      { "prompt": "offrire", "answer": "offerto" },
+      { "prompt": "chiedere", "answer": "chiesto" },
+      { "prompt": "rispondere", "answer": "risposto" }
+    ]
+  },
+  {
+    "id": "irregolari-partizip-3",
+    "title": "Unregelmäßige Partizipien III",
+    "subtitle": "Infinitiv → Partizip",
+    "category": "Verben",
+    "items": [
+      { "prompt": "spegnere", "answer": "spento" },
+      { "prompt": "cuocere", "answer": "cotto" },
+      { "prompt": "piacere", "answer": "piaciuto" },
+      { "prompt": "scegliere", "answer": "scelto" },
+      { "prompt": "tenere", "answer": "tenuto" },
+      { "prompt": "volere", "answer": "voluto" },
+      { "prompt": "potere", "answer": "potuto" },
+      { "prompt": "dovere", "answer": "dovuto" },
+      { "prompt": "sapere", "answer": "saputo" },
+      { "prompt": "salire", "answer": "salito" }
+    ]
+  },
+  {
+    "id": "irregolari-imperfetto-io",
+    "title": "Unregelmäßige Verben – Imperfetto (io)",
+    "subtitle": "1. Person Singular",
+    "category": "Verben",
+    "items": [
+      { "prompt": "essere – io", "answer": "ero" },
+      { "prompt": "fare – io", "answer": "facevo" },
+      { "prompt": "dire – io", "answer": "dicevo" },
+      { "prompt": "bere – io", "answer": "bevevo" },
+      { "prompt": "avere – io", "answer": "avevo" },
+      { "prompt": "stare – io", "answer": "stavo" },
+      { "prompt": "andare – io", "answer": "andavo" },
+      { "prompt": "venire – io", "answer": "venivo" },
+      { "prompt": "vedere – io", "answer": "vedevo" },
+      { "prompt": "vivere – io", "answer": "vivevo" }
+    ]
+  },
+  {
+    "id": "irregolari-futuro-stamm",
+    "title": "Unregelmäßige Verben – Futuro-Stamm",
+    "subtitle": "auch für Condizionale",
+    "category": "Verben",
+    "items": [
+      { "prompt": "essere", "answer": "sar-" },
+      { "prompt": "avere", "answer": "avr-" },
+      { "prompt": "fare", "answer": "far-" },
+      { "prompt": "andare", "answer": "andr-" },
+      { "prompt": "venire", "answer": "verr-" },
+      { "prompt": "volere", "answer": "vorr-" },
+      { "prompt": "potere", "answer": "potr-" },
+      { "prompt": "dovere", "answer": "dovr-" },
+      { "prompt": "sapere", "answer": "sapr-" },
+      { "prompt": "vedere", "answer": "vedr-" }
+    ]
+  },
+  {
+    "id": "irregolari-futuro-stamm-2",
+    "title": "Unregelmäßige Verben – Futuro-Stamm II",
+    "subtitle": "auch für Condizionale",
+    "category": "Verben",
+    "items": [
+      { "prompt": "tenere", "answer": "terr-" },
+      { "prompt": "rimanere", "answer": "rimarr-" },
+      { "prompt": "bere", "answer": "berr-" },
+      { "prompt": "vivere", "answer": "vivr-" },
+      { "prompt": "dare", "answer": "dar-" },
+      { "prompt": "stare", "answer": "star-" },
+      { "prompt": "dire", "answer": "dir-" },
+      { "prompt": "uscire", "answer": "uscir-" }
+    ]
+  },
+  {
+    "id": "irregolari-hilfsverb",
+    "title": "Hilfsverb im Passato Prossimo",
+    "subtitle": "essere oder avere",
+    "category": "Verben",
+    "items": [
+      { "prompt": "essere", "answer": "essere" },
+      { "prompt": "avere", "answer": "avere" },
+      { "prompt": "andare", "answer": "essere" },
+      { "prompt": "venire", "answer": "essere" },
+      { "prompt": "stare", "answer": "essere" },
+      { "prompt": "uscire", "answer": "essere" },
+      { "prompt": "rimanere", "answer": "essere" },
+      { "prompt": "nascere", "answer": "essere" },
+      { "prompt": "morire", "answer": "essere" },
+      { "prompt": "fare", "answer": "avere" }
+    ]
+  }
+]

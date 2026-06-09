@@ -1,0 +1,62 @@
+[
+  {
+    "id": "avverbio-mente-o",
+    "title": "Adverbbildung mit -mente (Adjektive auf -o)",
+    "subtitle": "feminine Form + -mente",
+    "category": "Adjektive",
+    "items": [
+      { "prompt": "lento", "answer": "lentamente" },
+      { "prompt": "veloce", "answer": "velocemente" },
+      { "prompt": "profondo", "answer": "profondamente" },
+      { "prompt": "vero", "answer": "veramente" },
+      { "prompt": "esatto", "answer": "esattamente" },
+      { "prompt": "improvviso", "answer": "improvvisamente" },
+      { "prompt": "probabile", "answer": "probabilmente" }
+    ]
+  },
+  {
+    "id": "avverbio-mente-le-re",
+    "title": "Adverbbildung mit -mente (Adjektive auf -le/-re)",
+    "subtitle": "-e entfällt vor -mente",
+    "category": "Adjektive",
+    "items": [
+      { "prompt": "facile", "answer": "facilmente" },
+      { "prompt": "difficile", "answer": "difficilmente" },
+      { "prompt": "regolare", "answer": "regolarmente" },
+      { "prompt": "naturale", "answer": "naturalmente" },
+      { "prompt": "finale", "answer": "finalmente" }
+    ]
+  },
+  {
+    "id": "avverbio-irregolari",
+    "title": "Unregelmäßige Adverbien",
+    "subtitle": "auswendig lernen",
+    "category": "Adjektive",
+    "items": [
+      { "prompt": "gut", "answer": "bene" },
+      { "prompt": "schlecht", "answer": "male" },
+      { "prompt": "viel, sehr", "answer": "molto" },
+      { "prompt": "wenig", "answer": "poco" },
+      { "prompt": "viel, so sehr", "answer": "tanto" },
+      { "prompt": "zu viel/sehr", "answer": "troppo" },
+      { "prompt": "genug, ziemlich", "answer": "abbastanza" },
+      { "prompt": "immer", "answer": "sempre" },
+      { "prompt": "oft", "answer": "spesso" }
+    ]
+  },
+  {
+    "id": "avverbio-tempo",
+    "title": "Häufige Zeit-Adverbien",
+    "subtitle": "wann?",
+    "category": "Adjektive",
+    "items": [
+      { "prompt": "nie", "answer": "mai" },
+      { "prompt": "schon", "answer": "già" },
+      { "prompt": "sofort", "answer": "subito" },
+      { "prompt": "jetzt", "answer": "adesso", "alt": ["ora"] },
+      { "prompt": "früh, bald", "answer": "presto" },
+      { "prompt": "spät", "answer": "tardi" },
+      { "prompt": "auch", "answer": "anche" }
+    ]
+  }
+]

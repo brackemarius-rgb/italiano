@@ -1,0 +1,40 @@
+[
+  {
+    "id": "adjektiv-o-formen",
+    "title": "Adjektive auf -o – vier Formen",
+    "subtitle": "z. B. nero (schwarz)",
+    "category": "Adjektive",
+    "items": [
+      { "prompt": "maskulin Singular (il cappello …)", "answer": "nero" },
+      { "prompt": "maskulin Plural (i cappelli …)", "answer": "neri" },
+      { "prompt": "feminin Singular (la borsa …)", "answer": "gialla" },
+      { "prompt": "feminin Plural (le borse …)", "answer": "gialle" }
+    ]
+  },
+  {
+    "id": "adjektiv-e-formen",
+    "title": "Adjektive auf -e – zwei Formen",
+    "subtitle": "z. B. elegante / grande",
+    "category": "Adjektive",
+    "items": [
+      { "prompt": "maskulin Singular (il maglione …)", "answer": "elegante" },
+      { "prompt": "maskulin Plural (i maglioni …)", "answer": "eleganti" },
+      { "prompt": "feminin Singular (la camera …)", "answer": "grande" },
+      { "prompt": "feminin Plural (le camere …)", "answer": "grandi" }
+    ]
+  },
+  {
+    "id": "adjektiv-plural-besonderheiten",
+    "title": "Plural-Besonderheiten -co/-ca/-go/-ga",
+    "subtitle": "Singular → Plural",
+    "category": "Adjektive",
+    "items": [
+      { "prompt": "fresca (feminin) → Plural", "answer": "fresche" },
+      { "prompt": "fresco (maskulin) → Plural", "answer": "freschi" },
+      { "prompt": "simpatico → Plural", "answer": "simpatici" },
+      { "prompt": "pratico → Plural", "answer": "pratici" },
+      { "prompt": "austriaco → Plural", "answer": "austriaci" },
+      { "prompt": "automatico → Plural", "answer": "automatici" }
+    ]
+  }
+]

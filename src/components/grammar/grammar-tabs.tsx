@@ -6,6 +6,7 @@ import { ChevronRight } from "lucide-react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import type { GrammarCategory } from "@/lib/data/grammar";
 import type { GrammarType } from "@/app/(app)/grammar/trainer-actions";
+import { Drills } from "./drills";
 import { GrammarTrainer } from "./grammar-trainer";
 
 export function GrammarTabs({
@@ -29,6 +30,9 @@ export function GrammarTabs({
         </TabsTrigger>
         <TabsTrigger value="trainer" className="flex-1">
           Trainer
+        </TabsTrigger>
+        <TabsTrigger value="drills" className="flex-1">
+          Wiederholen
         </TabsTrigger>
       </TabsList>
 
@@ -65,6 +69,16 @@ export function GrammarTabs({
             types={trainerTypes}
             initialTopic={initialTopic}
           />
+        </div>
+      </TabsContent>
+
+      <TabsContent value="drills" className="mt-6">
+        <div className="mx-auto max-w-xl">
+          <p className="mb-5 text-sm text-ink-soft">
+            Schnelles Wiederholen fester Formen – Pronomen, Konjugationen & Co.
+            immer wieder selbst tippen.
+          </p>
+          <Drills />
         </div>
       </TabsContent>
     </Tabs>

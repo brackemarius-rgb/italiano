@@ -1,0 +1,34 @@
+[
+  {
+    "id": "pronomi-oggetto-indiretto-formen",
+    "title": "Indirekte Objektpronomen",
+    "subtitle": "Dativ – Wem?",
+    "category": "Pronomen",
+    "items": [
+      { "prompt": "mir", "answer": "mi" },
+      { "prompt": "dir", "answer": "ti" },
+      { "prompt": "ihm", "answer": "gli" },
+      { "prompt": "ihr", "answer": "le" },
+      { "prompt": "Ihnen (Höflichkeit)", "answer": "Le" },
+      { "prompt": "uns", "answer": "ci" },
+      { "prompt": "euch", "answer": "vi" },
+      { "prompt": "ihnen (m./f.)", "answer": "gli", "alt": ["loro"] }
+    ]
+  },
+  {
+    "id": "pronomi-direkt-vs-indirekt",
+    "title": "Direkt vs. indirekt",
+    "subtitle": "Akkusativ → Dativ",
+    "category": "Pronomen",
+    "items": [
+      { "prompt": "ihn (Akk.)", "answer": "lo" },
+      { "prompt": "ihm (Dat.)", "answer": "gli" },
+      { "prompt": "sie, fem. Sg. (Akk.)", "answer": "la" },
+      { "prompt": "ihr (Dat.)", "answer": "le" },
+      { "prompt": "sie, mask. Pl. (Akk.)", "answer": "li" },
+      { "prompt": "ihnen, mask. (Dat.)", "answer": "gli" },
+      { "prompt": "sie, fem. Pl. (Akk.)", "answer": "le" },
+      { "prompt": "ihnen, fem. (Dat.)", "answer": "gli" }
+    ]
+  }
+]

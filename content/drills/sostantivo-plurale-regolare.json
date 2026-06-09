@@ -1,0 +1,39 @@
+[
+  {
+    "id": "sostantivo-plurale-regolare-endungen",
+    "title": "Plural – regelmäßige Endungen",
+    "subtitle": "Singular → Plural",
+    "category": "Substantive",
+    "items": [
+      { "prompt": "il libro", "answer": "i libri" },
+      { "prompt": "il giornale", "answer": "i giornali" },
+      { "prompt": "la casa", "answer": "le case" },
+      { "prompt": "la chiave", "answer": "le chiavi" },
+      { "prompt": "il giornalista", "answer": "i giornalisti" }
+    ]
+  },
+  {
+    "id": "sostantivo-plurale-regolare-invariabili",
+    "title": "Plural – unveränderliche Substantive",
+    "subtitle": "Konsonant / betonter Vokal / Kurzform",
+    "category": "Substantive",
+    "items": [
+      { "prompt": "il bar", "answer": "i bar" },
+      { "prompt": "il caffè", "answer": "i caffè" },
+      { "prompt": "la città", "answer": "le città" },
+      { "prompt": "la foto", "answer": "le foto" },
+      { "prompt": "il film", "answer": "i film" },
+      { "prompt": "lo sport", "answer": "gli sport" }
+    ]
+  },
+  {
+    "id": "sostantivo-plurale-regolare-io",
+    "title": "Plural – Substantive auf -io",
+    "subtitle": "il negozio → i negozi",
+    "category": "Substantive",
+    "items": [
+      { "prompt": "il negozio", "answer": "i negozi" },
+      { "prompt": "lo zìo", "answer": "gli zìi" }
+    ]
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "dimostrativi-questo-forme",
+    "title": "questo – vier Formen",
+    "subtitle": "dieser/diese/dieses",
+    "category": "Pronomen",
+    "items": [
+      { "prompt": "maskulin Singular (questo libro)", "answer": "questo" },
+      { "prompt": "feminin Singular (questa casa)", "answer": "questa" },
+      { "prompt": "maskulin Plural (questi libri)", "answer": "questi" },
+      { "prompt": "feminin Plural (queste case)", "answer": "queste" },
+      { "prompt": "vor Vokal, Singular (___amico)", "answer": "quest'" }
+    ]
+  },
+  {
+    "id": "dimostrativi-quello-begleiter",
+    "title": "quello – als Begleiter (wie der Artikel)",
+    "subtitle": "jener/jene/jenes",
+    "category": "Pronomen",
+    "items": [
+      { "prompt": "maskulin Sg. vor Konsonant (___ ragazzo)", "answer": "quel" },
+      { "prompt": "maskulin Sg. vor Vokal (___ uomo)", "answer": "quell'" },
+      { "prompt": "maskulin Sg. vor s+Kons./z (___ studente)", "answer": "quello" },
+      { "prompt": "feminin Sg. vor Konsonant (___ ragazza)", "answer": "quella" },
+      { "prompt": "feminin Sg. vor Vokal (___ amica)", "answer": "quell'" },
+      { "prompt": "maskulin Pl. vor Konsonant (___ ragazzi)", "answer": "quei" },
+      { "prompt": "maskulin Pl. vor Vokal/s+Kons./z (___ uomini)", "answer": "quegli" },
+      { "prompt": "feminin Pl. (___ ragazze)", "answer": "quelle" }
+    ]
+  },
+  {
+    "id": "dimostrativi-pronomi",
+    "title": "questo / quello – als Pronomen",
+    "subtitle": "alleinstehend, vier reguläre Formen",
+    "category": "Pronomen",
+    "items": [
+      { "prompt": "dieser (m. Sg.)", "answer": "questo" },
+      { "prompt": "diese (f. Sg.)", "answer": "questa" },
+      { "prompt": "diese (m. Pl.)", "answer": "questi" },
+      { "prompt": "diese (f. Pl.)", "answer": "queste" },
+      { "prompt": "jener (m. Sg.)", "answer": "quello" },
+      { "prompt": "jene (f. Sg.)", "answer": "quella" },
+      { "prompt": "jene (m. Pl.)", "answer": "quelli" },
+      { "prompt": "jene (f. Pl.)", "answer": "quelle" }
+    ]
+  }
+]

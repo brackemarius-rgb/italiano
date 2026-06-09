@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "seed": "tsx scripts/seed.ts",
-    "seed:exercises": "tsx scripts/seed-exercises.ts"
+    "seed:exercises": "tsx scripts/seed-exercises.ts",
+    "build:drills": "tsx scripts/build-drills.ts"
   },
   "dependencies": {
     "@supabase/ssr": "^0.10.3",

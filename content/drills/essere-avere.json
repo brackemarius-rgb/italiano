@@ -1,0 +1,30 @@
+[
+  {
+    "id": "presente-essere",
+    "title": "essere – Präsens",
+    "subtitle": "sein",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "sono" },
+      { "prompt": "tu", "answer": "sei" },
+      { "prompt": "lui/lei", "answer": "è" },
+      { "prompt": "noi", "answer": "siamo" },
+      { "prompt": "voi", "answer": "siete" },
+      { "prompt": "loro", "answer": "sono" }
+    ]
+  },
+  {
+    "id": "presente-avere",
+    "title": "avere – Präsens",
+    "subtitle": "haben",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "ho" },
+      { "prompt": "tu", "answer": "hai" },
+      { "prompt": "lui/lei", "answer": "ha" },
+      { "prompt": "noi", "answer": "abbiamo" },
+      { "prompt": "voi", "answer": "avete" },
+      { "prompt": "loro", "answer": "hanno" }
+    ]
+  }
+]

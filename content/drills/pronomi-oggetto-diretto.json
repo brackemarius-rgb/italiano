@@ -1,0 +1,31 @@
+[
+  {
+    "id": "pronomi-oggetto-diretto-formen",
+    "title": "Direkte Objektpronomen",
+    "subtitle": "Akkusativ – mich, dich, ihn …",
+    "category": "Pronomen",
+    "items": [
+      { "prompt": "mich", "answer": "mi" },
+      { "prompt": "dich", "answer": "ti" },
+      { "prompt": "ihn/es", "answer": "lo" },
+      { "prompt": "sie (Sg.)", "answer": "la" },
+      { "prompt": "Sie (Höflichkeit)", "answer": "La" },
+      { "prompt": "uns", "answer": "ci" },
+      { "prompt": "euch", "answer": "vi" },
+      { "prompt": "sie (Pl. m.)", "answer": "li" },
+      { "prompt": "sie (Pl. f.)", "answer": "le" }
+    ]
+  },
+  {
+    "id": "pronomi-oggetto-diretto-partizip",
+    "title": "Partizip-Anpassung im Passato Prossimo",
+    "subtitle": "Pronomen → Partizip-Endung",
+    "category": "Pronomen",
+    "items": [
+      { "prompt": "lo", "answer": "-o" },
+      { "prompt": "la", "answer": "-a" },
+      { "prompt": "li", "answer": "-i" },
+      { "prompt": "le", "answer": "-e" }
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "pronomi-soggetto",
+    "title": "Subjektpronomen",
+    "subtitle": "io, tu, lui …",
+    "category": "Pronomen",
+    "items": [
+      { "prompt": "ich", "answer": "io" },
+      { "prompt": "du", "answer": "tu" },
+      { "prompt": "er", "answer": "lui" },
+      { "prompt": "sie (Sg.)", "answer": "lei" },
+      { "prompt": "Sie (Höflichkeit)", "answer": "Lei" },
+      { "prompt": "wir", "answer": "noi" },
+      { "prompt": "ihr", "answer": "voi" },
+      { "prompt": "sie (Pl.)", "answer": "loro" }
+    ]
+  }
+]

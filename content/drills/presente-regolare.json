@@ -1,0 +1,58 @@
+[
+  {
+    "id": "presente-regolare-parlare",
+    "title": "parlare – Präsens",
+    "subtitle": "sprechen (-are)",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "parlo" },
+      { "prompt": "tu", "answer": "parli" },
+      { "prompt": "lui/lei", "answer": "parla" },
+      { "prompt": "noi", "answer": "parliamo" },
+      { "prompt": "voi", "answer": "parlate" },
+      { "prompt": "loro", "answer": "parlano" }
+    ]
+  },
+  {
+    "id": "presente-regolare-prendere",
+    "title": "prendere – Präsens",
+    "subtitle": "nehmen (-ere)",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "prendo" },
+      { "prompt": "tu", "answer": "prendi" },
+      { "prompt": "lui/lei", "answer": "prende" },
+      { "prompt": "noi", "answer": "prendiamo" },
+      { "prompt": "voi", "answer": "prendete" },
+      { "prompt": "loro", "answer": "prendono" }
+    ]
+  },
+  {
+    "id": "presente-regolare-dormire",
+    "title": "dormire – Präsens",
+    "subtitle": "schlafen (-ire)",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "dormo" },
+      { "prompt": "tu", "answer": "dormi" },
+      { "prompt": "lui/lei", "answer": "dorme" },
+      { "prompt": "noi", "answer": "dormiamo" },
+      { "prompt": "voi", "answer": "dormite" },
+      { "prompt": "loro", "answer": "dormono" }
+    ]
+  },
+  {
+    "id": "presente-regolare-capire",
+    "title": "capire – Präsens",
+    "subtitle": "verstehen (-ire, -isc-)",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "capisco" },
+      { "prompt": "tu", "answer": "capisci" },
+      { "prompt": "lui/lei", "answer": "capisce" },
+      { "prompt": "noi", "answer": "capiamo" },
+      { "prompt": "voi", "answer": "capite" },
+      { "prompt": "loro", "answer": "capiscono" }
+    ]
+  }
+]

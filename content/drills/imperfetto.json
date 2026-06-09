@@ -1,0 +1,100 @@
+[
+  {
+    "id": "imperfetto-parlare",
+    "title": "parlare – Imperfetto",
+    "subtitle": "sprechen",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "parlavo" },
+      { "prompt": "tu", "answer": "parlavi" },
+      { "prompt": "lui/lei", "answer": "parlava" },
+      { "prompt": "noi", "answer": "parlavamo" },
+      { "prompt": "voi", "answer": "parlavate" },
+      { "prompt": "loro", "answer": "parlavano" }
+    ]
+  },
+  {
+    "id": "imperfetto-prendere",
+    "title": "prendere – Imperfetto",
+    "subtitle": "nehmen",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "prendevo" },
+      { "prompt": "tu", "answer": "prendevi" },
+      { "prompt": "lui/lei", "answer": "prendeva" },
+      { "prompt": "noi", "answer": "prendevamo" },
+      { "prompt": "voi", "answer": "prendevate" },
+      { "prompt": "loro", "answer": "prendevano" }
+    ]
+  },
+  {
+    "id": "imperfetto-dormire",
+    "title": "dormire – Imperfetto",
+    "subtitle": "schlafen",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "dormivo" },
+      { "prompt": "tu", "answer": "dormivi" },
+      { "prompt": "lui/lei", "answer": "dormiva" },
+      { "prompt": "noi", "answer": "dormivamo" },
+      { "prompt": "voi", "answer": "dormivate" },
+      { "prompt": "loro", "answer": "dormivano" }
+    ]
+  },
+  {
+    "id": "imperfetto-essere",
+    "title": "essere – Imperfetto",
+    "subtitle": "sein",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "ero" },
+      { "prompt": "tu", "answer": "eri" },
+      { "prompt": "lui/lei", "answer": "era" },
+      { "prompt": "noi", "answer": "eravamo" },
+      { "prompt": "voi", "answer": "eravate" },
+      { "prompt": "loro", "answer": "erano" }
+    ]
+  },
+  {
+    "id": "imperfetto-fare",
+    "title": "fare – Imperfetto",
+    "subtitle": "machen/tun",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "facevo" },
+      { "prompt": "tu", "answer": "facevi" },
+      { "prompt": "lui/lei", "answer": "faceva" },
+      { "prompt": "noi", "answer": "facevamo" },
+      { "prompt": "voi", "answer": "facevate" },
+      { "prompt": "loro", "answer": "facevano" }
+    ]
+  },
+  {
+    "id": "imperfetto-dire",
+    "title": "dire – Imperfetto",
+    "subtitle": "sagen",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "dicevo" },
+      { "prompt": "tu", "answer": "dicevi" },
+      { "prompt": "lui/lei", "answer": "diceva" },
+      { "prompt": "noi", "answer": "dicevamo" },
+      { "prompt": "voi", "answer": "dicevate" },
+      { "prompt": "loro", "answer": "dicevano" }
+    ]
+  },
+  {
+    "id": "imperfetto-bere",
+    "title": "bere – Imperfetto",
+    "subtitle": "trinken",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "bevevo" },
+      { "prompt": "tu", "answer": "bevevi" },
+      { "prompt": "lui/lei", "answer": "beveva" },
+      { "prompt": "noi", "answer": "bevevamo" },
+      { "prompt": "voi", "answer": "bevevate" },
+      { "prompt": "loro", "answer": "bevevano" }
+    ]
+  }
+]

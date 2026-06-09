@@ -1,0 +1,100 @@
+[
+  {
+    "id": "condizionale-parlare",
+    "title": "parlare – Condizionale",
+    "subtitle": "sprechen (regelmäßig -are)",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "parlerei" },
+      { "prompt": "tu", "answer": "parleresti" },
+      { "prompt": "lui/lei", "answer": "parlerebbe" },
+      { "prompt": "noi", "answer": "parleremmo" },
+      { "prompt": "voi", "answer": "parlereste" },
+      { "prompt": "loro", "answer": "parlerebbero" }
+    ]
+  },
+  {
+    "id": "condizionale-prendere",
+    "title": "prendere – Condizionale",
+    "subtitle": "nehmen (regelmäßig -ere)",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "prenderei" },
+      { "prompt": "tu", "answer": "prenderesti" },
+      { "prompt": "lui/lei", "answer": "prenderebbe" },
+      { "prompt": "noi", "answer": "prenderemmo" },
+      { "prompt": "voi", "answer": "prendereste" },
+      { "prompt": "loro", "answer": "prenderebbero" }
+    ]
+  },
+  {
+    "id": "condizionale-dormire",
+    "title": "dormire – Condizionale",
+    "subtitle": "schlafen (regelmäßig -ire)",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "dormirei" },
+      { "prompt": "tu", "answer": "dormiresti" },
+      { "prompt": "lui/lei", "answer": "dormirebbe" },
+      { "prompt": "noi", "answer": "dormiremmo" },
+      { "prompt": "voi", "answer": "dormireste" },
+      { "prompt": "loro", "answer": "dormirebbero" }
+    ]
+  },
+  {
+    "id": "condizionale-essere",
+    "title": "essere – Condizionale",
+    "subtitle": "sein (unregelmäßig)",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "sarei" },
+      { "prompt": "tu", "answer": "saresti" },
+      { "prompt": "lui/lei", "answer": "sarebbe" },
+      { "prompt": "noi", "answer": "saremmo" },
+      { "prompt": "voi", "answer": "sareste" },
+      { "prompt": "loro", "answer": "sarebbero" }
+    ]
+  },
+  {
+    "id": "condizionale-avere",
+    "title": "avere – Condizionale",
+    "subtitle": "haben (unregelmäßig)",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "avrei" },
+      { "prompt": "tu", "answer": "avresti" },
+      { "prompt": "lui/lei", "answer": "avrebbe" },
+      { "prompt": "noi", "answer": "avremmo" },
+      { "prompt": "voi", "answer": "avreste" },
+      { "prompt": "loro", "answer": "avrebbero" }
+    ]
+  },
+  {
+    "id": "condizionale-volere",
+    "title": "volere – Condizionale",
+    "subtitle": "wollen (unregelmäßig)",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "vorrei" },
+      { "prompt": "tu", "answer": "vorresti" },
+      { "prompt": "lui/lei", "answer": "vorrebbe" },
+      { "prompt": "noi", "answer": "vorremmo" },
+      { "prompt": "voi", "answer": "vorreste" },
+      { "prompt": "loro", "answer": "vorrebbero" }
+    ]
+  },
+  {
+    "id": "condizionale-potere",
+    "title": "potere – Condizionale",
+    "subtitle": "können (unregelmäßig)",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "potrei" },
+      { "prompt": "tu", "answer": "potresti" },
+      { "prompt": "lui/lei", "answer": "potrebbe" },
+      { "prompt": "noi", "answer": "potremmo" },
+      { "prompt": "voi", "answer": "potreste" },
+      { "prompt": "loro", "answer": "potrebbero" }
+    ]
+  }
+]

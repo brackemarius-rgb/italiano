@@ -1,0 +1,77 @@
+[
+  {
+    "id": "preposizioni-articolate-a",
+    "title": "a + Artikel",
+    "subtitle": "Verschmelzung mit 'a'",
+    "category": "Artikel",
+    "items": [
+      { "prompt": "a + il", "answer": "al" },
+      { "prompt": "a + lo", "answer": "allo" },
+      { "prompt": "a + la", "answer": "alla" },
+      { "prompt": "a + l'", "answer": "all'" },
+      { "prompt": "a + i", "answer": "ai" },
+      { "prompt": "a + le", "answer": "alle" },
+      { "prompt": "a + gli", "answer": "agli" }
+    ]
+  },
+  {
+    "id": "preposizioni-articolate-da",
+    "title": "da + Artikel",
+    "subtitle": "Verschmelzung mit 'da'",
+    "category": "Artikel",
+    "items": [
+      { "prompt": "da + il", "answer": "dal" },
+      { "prompt": "da + lo", "answer": "dallo" },
+      { "prompt": "da + la", "answer": "dalla" },
+      { "prompt": "da + l'", "answer": "dall'" },
+      { "prompt": "da + i", "answer": "dai" },
+      { "prompt": "da + le", "answer": "dalle" },
+      { "prompt": "da + gli", "answer": "dagli" }
+    ]
+  },
+  {
+    "id": "preposizioni-articolate-di",
+    "title": "di + Artikel",
+    "subtitle": "Verschmelzung mit 'di'",
+    "category": "Artikel",
+    "items": [
+      { "prompt": "di + il", "answer": "del" },
+      { "prompt": "di + lo", "answer": "dello" },
+      { "prompt": "di + la", "answer": "della" },
+      { "prompt": "di + l'", "answer": "dell'" },
+      { "prompt": "di + i", "answer": "dei" },
+      { "prompt": "di + le", "answer": "delle" },
+      { "prompt": "di + gli", "answer": "degli" }
+    ]
+  },
+  {
+    "id": "preposizioni-articolate-in",
+    "title": "in + Artikel",
+    "subtitle": "Verschmelzung mit 'in'",
+    "category": "Artikel",
+    "items": [
+      { "prompt": "in + il", "answer": "nel" },
+      { "prompt": "in + lo", "answer": "nello" },
+      { "prompt": "in + la", "answer": "nella" },
+      { "prompt": "in + l'", "answer": "nell'" },
+      { "prompt": "in + i", "answer": "nei" },
+      { "prompt": "in + le", "answer": "nelle" },
+      { "prompt": "in + gli", "answer": "negli" }
+    ]
+  },
+  {
+    "id": "preposizioni-articolate-su",
+    "title": "su + Artikel",
+    "subtitle": "Verschmelzung mit 'su'",
+    "category": "Artikel",
+    "items": [
+      { "prompt": "su + il", "answer": "sul" },
+      { "prompt": "su + lo", "answer": "sullo" },
+      { "prompt": "su + la", "answer": "sulla" },
+      { "prompt": "su + l'", "answer": "sull'" },
+      { "prompt": "su + i", "answer": "sui" },
+      { "prompt": "su + le", "answer": "sulle" },
+      { "prompt": "su + gli", "answer": "sugli" }
+    ]
+  }
+]

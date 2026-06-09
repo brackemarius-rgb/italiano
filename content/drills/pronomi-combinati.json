@@ -1,0 +1,83 @@
+[
+  {
+    "id": "pronomi-combinati-veraenderung",
+    "title": "Indirektes Pronomen – Veränderung",
+    "subtitle": "vor lo, la, li, le, ne",
+    "category": "Pronomen",
+    "items": [
+      { "prompt": "mi", "answer": "me" },
+      { "prompt": "ti", "answer": "te" },
+      { "prompt": "gli", "answer": "glie-" },
+      { "prompt": "le", "answer": "glie-" },
+      { "prompt": "Le (Höflichkeit)", "answer": "glie-" },
+      { "prompt": "ci", "answer": "ce" },
+      { "prompt": "vi", "answer": "ve" },
+      { "prompt": "gli (Plural)", "answer": "glie-" }
+    ]
+  },
+  {
+    "id": "pronomi-combinati-mi",
+    "title": "mi (me) + direktes Pronomen",
+    "subtitle": "mir + es/sie/davon",
+    "category": "Pronomen",
+    "items": [
+      { "prompt": "mi + lo", "answer": "me lo" },
+      { "prompt": "mi + la", "answer": "me la" },
+      { "prompt": "mi + li", "answer": "me li" },
+      { "prompt": "mi + le", "answer": "me le" },
+      { "prompt": "mi + ne", "answer": "me ne" }
+    ]
+  },
+  {
+    "id": "pronomi-combinati-ti",
+    "title": "ti (te) + direktes Pronomen",
+    "subtitle": "dir + es/sie/davon",
+    "category": "Pronomen",
+    "items": [
+      { "prompt": "ti + lo", "answer": "te lo" },
+      { "prompt": "ti + la", "answer": "te la" },
+      { "prompt": "ti + li", "answer": "te li" },
+      { "prompt": "ti + le", "answer": "te le" },
+      { "prompt": "ti + ne", "answer": "te ne" }
+    ]
+  },
+  {
+    "id": "pronomi-combinati-glie",
+    "title": "gli/le/Le (glie-) + direktes Pronomen",
+    "subtitle": "ihm/ihr/Ihnen – zusammengeschrieben",
+    "category": "Pronomen",
+    "items": [
+      { "prompt": "gli/le + lo", "answer": "glielo" },
+      { "prompt": "gli/le + la", "answer": "gliela" },
+      { "prompt": "gli/le + li", "answer": "glieli" },
+      { "prompt": "gli/le + le", "answer": "gliele" },
+      { "prompt": "gli/le + ne", "answer": "gliene" }
+    ]
+  },
+  {
+    "id": "pronomi-combinati-ci",
+    "title": "ci (ce) + direktes Pronomen",
+    "subtitle": "uns + es/sie/davon",
+    "category": "Pronomen",
+    "items": [
+      { "prompt": "ci + lo", "answer": "ce lo" },
+      { "prompt": "ci + la", "answer": "ce la" },
+      { "prompt": "ci + li", "answer": "ce li" },
+      { "prompt": "ci + le", "answer": "ce le" },
+      { "prompt": "ci + ne", "answer": "ce ne" }
+    ]
+  },
+  {
+    "id": "pronomi-combinati-vi",
+    "title": "vi (ve) + direktes Pronomen",
+    "subtitle": "euch + es/sie/davon",
+    "category": "Pronomen",
+    "items": [
+      { "prompt": "vi + lo", "answer": "ve lo" },
+      { "prompt": "vi + la", "answer": "ve la" },
+      { "prompt": "vi + li", "answer": "ve li" },
+      { "prompt": "vi + le", "answer": "ve le" },
+      { "prompt": "vi + ne", "answer": "ve ne" }
+    ]
+  }
+]

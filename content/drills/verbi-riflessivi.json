@@ -1,0 +1,66 @@
+[
+  {
+    "id": "riflessivi-pronomi",
+    "title": "Reflexivpronomen",
+    "subtitle": "mi, ti, si …",
+    "category": "Pronomen",
+    "items": [
+      { "prompt": "io", "answer": "mi" },
+      { "prompt": "tu", "answer": "ti" },
+      { "prompt": "lui/lei/Lei", "answer": "si" },
+      { "prompt": "noi", "answer": "ci" },
+      { "prompt": "voi", "answer": "vi" },
+      { "prompt": "loro", "answer": "si" }
+    ]
+  },
+  {
+    "id": "alzarsi-presente",
+    "title": "alzarsi – Präsens",
+    "subtitle": "aufstehen",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "mi alzo" },
+      { "prompt": "tu", "answer": "ti alzi" },
+      { "prompt": "lui/lei", "answer": "si alza" },
+      { "prompt": "noi", "answer": "ci alziamo" },
+      { "prompt": "voi", "answer": "vi alzate" },
+      { "prompt": "loro", "answer": "si alzano" }
+    ]
+  },
+  {
+    "id": "alzarsi-passato-prossimo",
+    "title": "alzarsi – Passato prossimo",
+    "subtitle": "aufgestanden sein (immer essere)",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "mi sono alzato", "alt": ["mi sono alzata"] },
+      { "prompt": "tu", "answer": "ti sei alzato", "alt": ["ti sei alzata"] },
+      { "prompt": "lui", "answer": "si è alzato" },
+      { "prompt": "lei", "answer": "si è alzata" },
+      { "prompt": "noi", "answer": "ci siamo alzati", "alt": ["ci siamo alzate"] },
+      { "prompt": "voi", "answer": "vi siete alzati", "alt": ["vi siete alzate"] },
+      { "prompt": "loro (m)", "answer": "si sono alzati" },
+      { "prompt": "loro (f)", "answer": "si sono alzate" }
+    ]
+  },
+  {
+    "id": "riflessivi-verbi-importanti",
+    "title": "Wichtige reflexive Verben",
+    "subtitle": "Infinitiv (deutsch → italienisch)",
+    "category": "Verben",
+    "items": [
+      { "prompt": "heißen", "answer": "chiamarsi" },
+      { "prompt": "aufstehen", "answer": "alzarsi" },
+      { "prompt": "aufwachen", "answer": "svegliarsi" },
+      { "prompt": "sich waschen", "answer": "lavarsi" },
+      { "prompt": "sich anziehen", "answer": "vestirsi" },
+      { "prompt": "sich kämmen", "answer": "pettinarsi" },
+      { "prompt": "einschlafen", "answer": "addormentarsi" },
+      { "prompt": "sich ausruhen", "answer": "riposarsi" },
+      { "prompt": "sich amüsieren", "answer": "divertirsi" },
+      { "prompt": "sich langweilen", "answer": "annoiarsi" },
+      { "prompt": "heiraten", "answer": "sposarsi" },
+      { "prompt": "sich fühlen", "answer": "sentirsi" }
+    ]
+  }
+]

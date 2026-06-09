@@ -1,0 +1,198 @@
+[
+  {
+    "id": "futuro-regolare-parlare",
+    "title": "parlare – Futuro semplice",
+    "subtitle": "sprechen (werde sprechen)",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "parlerò" },
+      { "prompt": "tu", "answer": "parlerai" },
+      { "prompt": "lui/lei", "answer": "parlerà" },
+      { "prompt": "noi", "answer": "parleremo" },
+      { "prompt": "voi", "answer": "parlerete" },
+      { "prompt": "loro", "answer": "parleranno" }
+    ]
+  },
+  {
+    "id": "futuro-regolare-prendere",
+    "title": "prendere – Futuro semplice",
+    "subtitle": "nehmen (werde nehmen)",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "prenderò" },
+      { "prompt": "tu", "answer": "prenderai" },
+      { "prompt": "lui/lei", "answer": "prenderà" },
+      { "prompt": "noi", "answer": "prenderemo" },
+      { "prompt": "voi", "answer": "prenderete" },
+      { "prompt": "loro", "answer": "prenderanno" }
+    ]
+  },
+  {
+    "id": "futuro-regolare-dormire",
+    "title": "dormire – Futuro semplice",
+    "subtitle": "schlafen (werde schlafen)",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "dormirò" },
+      { "prompt": "tu", "answer": "dormirai" },
+      { "prompt": "lui/lei", "answer": "dormirà" },
+      { "prompt": "noi", "answer": "dormiremo" },
+      { "prompt": "voi", "answer": "dormirete" },
+      { "prompt": "loro", "answer": "dormiranno" }
+    ]
+  },
+  {
+    "id": "futuro-irregolare-essere",
+    "title": "essere – Futuro semplice",
+    "subtitle": "sein (Stamm: sar-)",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "sarò" },
+      { "prompt": "tu", "answer": "sarai" },
+      { "prompt": "lui/lei", "answer": "sarà" },
+      { "prompt": "noi", "answer": "saremo" },
+      { "prompt": "voi", "answer": "sarete" },
+      { "prompt": "loro", "answer": "saranno" }
+    ]
+  },
+  {
+    "id": "futuro-irregolare-avere",
+    "title": "avere – Futuro semplice",
+    "subtitle": "haben (Stamm: avr-)",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "avrò" },
+      { "prompt": "tu", "answer": "avrai" },
+      { "prompt": "lui/lei", "answer": "avrà" },
+      { "prompt": "noi", "answer": "avremo" },
+      { "prompt": "voi", "answer": "avrete" },
+      { "prompt": "loro", "answer": "avranno" }
+    ]
+  },
+  {
+    "id": "futuro-irregolare-andare",
+    "title": "andare – Futuro semplice",
+    "subtitle": "gehen (Stamm: andr-)",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "andrò" },
+      { "prompt": "tu", "answer": "andrai" },
+      { "prompt": "lui/lei", "answer": "andrà" },
+      { "prompt": "noi", "answer": "andremo" },
+      { "prompt": "voi", "answer": "andrete" },
+      { "prompt": "loro", "answer": "andranno" }
+    ]
+  },
+  {
+    "id": "futuro-irregolare-venire",
+    "title": "venire – Futuro semplice",
+    "subtitle": "kommen (Stamm: verr-)",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "verrò" },
+      { "prompt": "tu", "answer": "verrai" },
+      { "prompt": "lui/lei", "answer": "verrà" },
+      { "prompt": "noi", "answer": "verremo" },
+      { "prompt": "voi", "answer": "verrete" },
+      { "prompt": "loro", "answer": "verranno" }
+    ]
+  },
+  {
+    "id": "futuro-irregolare-fare",
+    "title": "fare – Futuro semplice",
+    "subtitle": "machen/tun (Stamm: far-)",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "farò" },
+      { "prompt": "tu", "answer": "farai" },
+      { "prompt": "lui/lei", "answer": "farà" },
+      { "prompt": "noi", "answer": "faremo" },
+      { "prompt": "voi", "answer": "farete" },
+      { "prompt": "loro", "answer": "faranno" }
+    ]
+  },
+  {
+    "id": "futuro-irregolare-vedere",
+    "title": "vedere – Futuro semplice",
+    "subtitle": "sehen (Stamm: vedr-)",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "vedrò" },
+      { "prompt": "tu", "answer": "vedrai" },
+      { "prompt": "lui/lei", "answer": "vedrà" },
+      { "prompt": "noi", "answer": "vedremo" },
+      { "prompt": "voi", "answer": "vedrete" },
+      { "prompt": "loro", "answer": "vedranno" }
+    ]
+  },
+  {
+    "id": "futuro-irregolare-sapere",
+    "title": "sapere – Futuro semplice",
+    "subtitle": "wissen (Stamm: sapr-)",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "saprò" },
+      { "prompt": "tu", "answer": "saprai" },
+      { "prompt": "lui/lei", "answer": "saprà" },
+      { "prompt": "noi", "answer": "sapremo" },
+      { "prompt": "voi", "answer": "saprete" },
+      { "prompt": "loro", "answer": "sapranno" }
+    ]
+  },
+  {
+    "id": "futuro-irregolare-potere",
+    "title": "potere – Futuro semplice",
+    "subtitle": "können (Stamm: potr-)",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "potrò" },
+      { "prompt": "tu", "answer": "potrai" },
+      { "prompt": "lui/lei", "answer": "potrà" },
+      { "prompt": "noi", "answer": "potremo" },
+      { "prompt": "voi", "answer": "potrete" },
+      { "prompt": "loro", "answer": "potranno" }
+    ]
+  },
+  {
+    "id": "futuro-irregolare-volere",
+    "title": "volere – Futuro semplice",
+    "subtitle": "wollen (Stamm: vorr-)",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "vorrò" },
+      { "prompt": "tu", "answer": "vorrai" },
+      { "prompt": "lui/lei", "answer": "vorrà" },
+      { "prompt": "noi", "answer": "vorremo" },
+      { "prompt": "voi", "answer": "vorrete" },
+      { "prompt": "loro", "answer": "vorranno" }
+    ]
+  },
+  {
+    "id": "futuro-irregolare-dovere",
+    "title": "dovere – Futuro semplice",
+    "subtitle": "müssen (Stamm: dovr-)",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "dovrò" },
+      { "prompt": "tu", "answer": "dovrai" },
+      { "prompt": "lui/lei", "answer": "dovrà" },
+      { "prompt": "noi", "answer": "dovremo" },
+      { "prompt": "voi", "answer": "dovrete" },
+      { "prompt": "loro", "answer": "dovranno" }
+    ]
+  },
+  {
+    "id": "futuro-irregolare-rimanere",
+    "title": "rimanere – Futuro semplice",
+    "subtitle": "bleiben (Stamm: rimarr-)",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "rimarrò" },
+      { "prompt": "tu", "answer": "rimarrai" },
+      { "prompt": "lui/lei", "answer": "rimarrà" },
+      { "prompt": "noi", "answer": "rimarremo" },
+      { "prompt": "voi", "answer": "rimarrete" },
+      { "prompt": "loro", "answer": "rimarranno" }
+    ]
+  }
+]

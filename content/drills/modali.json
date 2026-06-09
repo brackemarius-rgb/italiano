@@ -1,0 +1,58 @@
+[
+  {
+    "id": "presente-modale-volere",
+    "title": "volere – Präsens",
+    "subtitle": "wollen",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "voglio" },
+      { "prompt": "tu", "answer": "vuoi" },
+      { "prompt": "lui/lei", "answer": "vuole" },
+      { "prompt": "noi", "answer": "vogliamo" },
+      { "prompt": "voi", "answer": "volete" },
+      { "prompt": "loro", "answer": "vogliono" }
+    ]
+  },
+  {
+    "id": "presente-modale-potere",
+    "title": "potere – Präsens",
+    "subtitle": "können / dürfen",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "posso" },
+      { "prompt": "tu", "answer": "puoi" },
+      { "prompt": "lui/lei", "answer": "può" },
+      { "prompt": "noi", "answer": "possiamo" },
+      { "prompt": "voi", "answer": "potete" },
+      { "prompt": "loro", "answer": "possono" }
+    ]
+  },
+  {
+    "id": "presente-modale-dovere",
+    "title": "dovere – Präsens",
+    "subtitle": "müssen / sollen",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "devo" },
+      { "prompt": "tu", "answer": "devi" },
+      { "prompt": "lui/lei", "answer": "deve" },
+      { "prompt": "noi", "answer": "dobbiamo" },
+      { "prompt": "voi", "answer": "dovete" },
+      { "prompt": "loro", "answer": "devono" }
+    ]
+  },
+  {
+    "id": "presente-modale-sapere",
+    "title": "sapere – Präsens",
+    "subtitle": "können (Fähigkeit) / wissen",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "so" },
+      { "prompt": "tu", "answer": "sai" },
+      { "prompt": "lui/lei", "answer": "sa" },
+      { "prompt": "noi", "answer": "sappiamo" },
+      { "prompt": "voi", "answer": "sapete" },
+      { "prompt": "loro", "answer": "sanno" }
+    ]
+  }
+]

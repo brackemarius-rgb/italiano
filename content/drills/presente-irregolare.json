@@ -1,0 +1,226 @@
+[
+  {
+    "id": "presente-irregolare-andare",
+    "title": "andare – Präsens",
+    "subtitle": "gehen",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "vado" },
+      { "prompt": "tu", "answer": "vai" },
+      { "prompt": "lui/lei", "answer": "va" },
+      { "prompt": "noi", "answer": "andiamo" },
+      { "prompt": "voi", "answer": "andate" },
+      { "prompt": "loro", "answer": "vanno" }
+    ]
+  },
+  {
+    "id": "presente-irregolare-venire",
+    "title": "venire – Präsens",
+    "subtitle": "kommen",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "vengo" },
+      { "prompt": "tu", "answer": "vieni" },
+      { "prompt": "lui/lei", "answer": "viene" },
+      { "prompt": "noi", "answer": "veniamo" },
+      { "prompt": "voi", "answer": "venite" },
+      { "prompt": "loro", "answer": "vengono" }
+    ]
+  },
+  {
+    "id": "presente-irregolare-stare",
+    "title": "stare – Präsens",
+    "subtitle": "sich befinden",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "sto" },
+      { "prompt": "tu", "answer": "stai" },
+      { "prompt": "lui/lei", "answer": "sta" },
+      { "prompt": "noi", "answer": "stiamo" },
+      { "prompt": "voi", "answer": "state" },
+      { "prompt": "loro", "answer": "stanno" }
+    ]
+  },
+  {
+    "id": "presente-irregolare-fare",
+    "title": "fare – Präsens",
+    "subtitle": "machen",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "faccio" },
+      { "prompt": "tu", "answer": "fai" },
+      { "prompt": "lui/lei", "answer": "fa" },
+      { "prompt": "noi", "answer": "facciamo" },
+      { "prompt": "voi", "answer": "fate" },
+      { "prompt": "loro", "answer": "fanno" }
+    ]
+  },
+  {
+    "id": "presente-irregolare-dare",
+    "title": "dare – Präsens",
+    "subtitle": "geben",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "do" },
+      { "prompt": "tu", "answer": "dai" },
+      { "prompt": "lui/lei", "answer": "dà" },
+      { "prompt": "noi", "answer": "diamo" },
+      { "prompt": "voi", "answer": "date" },
+      { "prompt": "loro", "answer": "danno" }
+    ]
+  },
+  {
+    "id": "presente-irregolare-dire",
+    "title": "dire – Präsens",
+    "subtitle": "sagen",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "dico" },
+      { "prompt": "tu", "answer": "dici" },
+      { "prompt": "lui/lei", "answer": "dice" },
+      { "prompt": "noi", "answer": "diciamo" },
+      { "prompt": "voi", "answer": "dite" },
+      { "prompt": "loro", "answer": "dicono" }
+    ]
+  },
+  {
+    "id": "presente-irregolare-volere",
+    "title": "volere – Präsens",
+    "subtitle": "wollen",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "voglio" },
+      { "prompt": "tu", "answer": "vuoi" },
+      { "prompt": "lui/lei", "answer": "vuole" },
+      { "prompt": "noi", "answer": "vogliamo" },
+      { "prompt": "voi", "answer": "volete" },
+      { "prompt": "loro", "answer": "vogliono" }
+    ]
+  },
+  {
+    "id": "presente-irregolare-potere",
+    "title": "potere – Präsens",
+    "subtitle": "können",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "posso" },
+      { "prompt": "tu", "answer": "puoi" },
+      { "prompt": "lui/lei", "answer": "può" },
+      { "prompt": "noi", "answer": "possiamo" },
+      { "prompt": "voi", "answer": "potete" },
+      { "prompt": "loro", "answer": "possono" }
+    ]
+  },
+  {
+    "id": "presente-irregolare-dovere",
+    "title": "dovere – Präsens",
+    "subtitle": "müssen",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "devo" },
+      { "prompt": "tu", "answer": "devi" },
+      { "prompt": "lui/lei", "answer": "deve" },
+      { "prompt": "noi", "answer": "dobbiamo" },
+      { "prompt": "voi", "answer": "dovete" },
+      { "prompt": "loro", "answer": "devono" }
+    ]
+  },
+  {
+    "id": "presente-irregolare-sapere",
+    "title": "sapere – Präsens",
+    "subtitle": "wissen",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "so" },
+      { "prompt": "tu", "answer": "sai" },
+      { "prompt": "lui/lei", "answer": "sa" },
+      { "prompt": "noi", "answer": "sappiamo" },
+      { "prompt": "voi", "answer": "sapete" },
+      { "prompt": "loro", "answer": "sanno" }
+    ]
+  },
+  {
+    "id": "presente-irregolare-piacere",
+    "title": "piacere – Präsens",
+    "subtitle": "gefallen",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "piaccio" },
+      { "prompt": "tu", "answer": "piaci" },
+      { "prompt": "lui/lei", "answer": "piace" },
+      { "prompt": "noi", "answer": "piacciamo" },
+      { "prompt": "voi", "answer": "piacete" },
+      { "prompt": "loro", "answer": "piacciono" }
+    ]
+  },
+  {
+    "id": "presente-irregolare-uscire",
+    "title": "uscire – Präsens",
+    "subtitle": "hinausgehen",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "esco" },
+      { "prompt": "tu", "answer": "esci" },
+      { "prompt": "lui/lei", "answer": "esce" },
+      { "prompt": "noi", "answer": "usciamo" },
+      { "prompt": "voi", "answer": "uscite" },
+      { "prompt": "loro", "answer": "escono" }
+    ]
+  },
+  {
+    "id": "presente-irregolare-bere",
+    "title": "bere – Präsens",
+    "subtitle": "trinken",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "bevo" },
+      { "prompt": "tu", "answer": "bevi" },
+      { "prompt": "lui/lei", "answer": "beve" },
+      { "prompt": "noi", "answer": "beviamo" },
+      { "prompt": "voi", "answer": "bevete" },
+      { "prompt": "loro", "answer": "bevono" }
+    ]
+  },
+  {
+    "id": "presente-irregolare-tenere",
+    "title": "tenere – Präsens",
+    "subtitle": "halten",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "tengo" },
+      { "prompt": "tu", "answer": "tieni" },
+      { "prompt": "lui/lei", "answer": "tiene" },
+      { "prompt": "noi", "answer": "teniamo" },
+      { "prompt": "voi", "answer": "tenete" },
+      { "prompt": "loro", "answer": "tengono" }
+    ]
+  },
+  {
+    "id": "presente-irregolare-salire",
+    "title": "salire – Präsens",
+    "subtitle": "hinaufsteigen",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "salgo" },
+      { "prompt": "tu", "answer": "sali" },
+      { "prompt": "lui/lei", "answer": "sale" },
+      { "prompt": "noi", "answer": "saliamo" },
+      { "prompt": "voi", "answer": "salite" },
+      { "prompt": "loro", "answer": "salgono" }
+    ]
+  },
+  {
+    "id": "presente-irregolare-scegliere",
+    "title": "scegliere – Präsens",
+    "subtitle": "wählen",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "scelgo" },
+      { "prompt": "tu", "answer": "scegli" },
+      { "prompt": "lui/lei", "answer": "sceglie" },
+      { "prompt": "noi", "answer": "scegliamo" },
+      { "prompt": "voi", "answer": "scegliete" },
+      { "prompt": "loro", "answer": "scelgono" }
+    ]
+  }
+]

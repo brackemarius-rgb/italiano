@@ -1,0 +1,30 @@
+[
+  {
+    "id": "stare-presente",
+    "title": "stare – Präsens",
+    "subtitle": "Hilfsverb der Verlaufsform",
+    "category": "Verben",
+    "items": [
+      { "prompt": "io", "answer": "sto" },
+      { "prompt": "tu", "answer": "stai" },
+      { "prompt": "lui/lei", "answer": "sta" },
+      { "prompt": "noi", "answer": "stiamo" },
+      { "prompt": "voi", "answer": "state" },
+      { "prompt": "loro", "answer": "stanno" }
+    ]
+  },
+  {
+    "id": "gerundio-bildung",
+    "title": "Infinitiv → Gerundio",
+    "subtitle": "Verlaufsform (stare + gerundio)",
+    "category": "Verben",
+    "items": [
+      { "prompt": "parlare", "answer": "parlando" },
+      { "prompt": "prendere", "answer": "prendendo" },
+      { "prompt": "dormire", "answer": "dormendo" },
+      { "prompt": "fare", "answer": "facendo" },
+      { "prompt": "dire", "answer": "dicendo" },
+      { "prompt": "bere", "answer": "bevendo" }
+    ]
+  }
+]

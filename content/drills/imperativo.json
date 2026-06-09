@@ -1,0 +1,82 @@
+[
+  {
+    "id": "imperativo-parlare",
+    "title": "parlare – Imperativo",
+    "subtitle": "sprechen",
+    "category": "Verben",
+    "items": [
+      { "prompt": "tu", "answer": "parla" },
+      { "prompt": "Lei", "answer": "parli" },
+      { "prompt": "noi", "answer": "parliamo" },
+      { "prompt": "voi", "answer": "parlate" }
+    ]
+  },
+  {
+    "id": "imperativo-prendere",
+    "title": "prendere – Imperativo",
+    "subtitle": "nehmen",
+    "category": "Verben",
+    "items": [
+      { "prompt": "tu", "answer": "prendi" },
+      { "prompt": "Lei", "answer": "prenda" },
+      { "prompt": "noi", "answer": "prendiamo" },
+      { "prompt": "voi", "answer": "prendete" }
+    ]
+  },
+  {
+    "id": "imperativo-dormire",
+    "title": "dormire – Imperativo",
+    "subtitle": "schlafen",
+    "category": "Verben",
+    "items": [
+      { "prompt": "tu", "answer": "dormi" },
+      { "prompt": "Lei", "answer": "dorma" },
+      { "prompt": "noi", "answer": "dormiamo" },
+      { "prompt": "voi", "answer": "dormite" }
+    ]
+  },
+  {
+    "id": "imperativo-finire",
+    "title": "finire (-isc-) – Imperativo",
+    "subtitle": "beenden",
+    "category": "Verben",
+    "items": [
+      { "prompt": "tu", "answer": "finisci" },
+      { "prompt": "Lei", "answer": "finisca" },
+      { "prompt": "noi", "answer": "finiamo" },
+      { "prompt": "voi", "answer": "finite" }
+    ]
+  },
+  {
+    "id": "imperativo-irregolare-tu",
+    "title": "Unregelmäßiger Imperativ – tu",
+    "subtitle": "wichtige Verben (du-Form)",
+    "category": "Verben",
+    "items": [
+      { "prompt": "essere", "answer": "sii" },
+      { "prompt": "avere", "answer": "abbi" },
+      { "prompt": "andare", "answer": "va'", "alt": ["vai"] },
+      { "prompt": "dare", "answer": "da'", "alt": ["dai"] },
+      { "prompt": "fare", "answer": "fa'", "alt": ["fai"] },
+      { "prompt": "dire", "answer": "di'" },
+      { "prompt": "stare", "answer": "sta'", "alt": ["stai"] },
+      { "prompt": "sapere", "answer": "sappi" }
+    ]
+  },
+  {
+    "id": "imperativo-irregolare-lei",
+    "title": "Unregelmäßiger Imperativ – Lei",
+    "subtitle": "wichtige Verben (Sie-Form)",
+    "category": "Verben",
+    "items": [
+      { "prompt": "essere", "answer": "sia" },
+      { "prompt": "avere", "answer": "abbia" },
+      { "prompt": "andare", "answer": "vada" },
+      { "prompt": "dare", "answer": "dia" },
+      { "prompt": "fare", "answer": "faccia" },
+      { "prompt": "dire", "answer": "dica" },
+      { "prompt": "stare", "answer": "stia" },
+      { "prompt": "sapere", "answer": "sappia" }
+    ]
+  }
+]

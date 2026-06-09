@@ -1,0 +1,94 @@
+[
+  {
+    "id": "articolo-determinativo-forme",
+    "title": "Bestimmter Artikel – Formen",
+    "subtitle": "il, lo, la, i, gli, le",
+    "category": "Artikel",
+    "items": [
+      { "prompt": "maskulin Singular, vor Konsonant (libro)", "answer": "il" },
+      { "prompt": "maskulin Singular, vor Vokal (ombrello)", "answer": "l'" },
+      { "prompt": "maskulin Singular, vor s+Kons., z, x, y, gn, ps (studente)", "answer": "lo" },
+      { "prompt": "feminin Singular, vor Konsonant (borsa)", "answer": "la" },
+      { "prompt": "feminin Singular, vor Vokal (aranciata)", "answer": "l'" },
+      { "prompt": "maskulin Plural, vor Konsonant (libri)", "answer": "i" },
+      { "prompt": "maskulin Plural, vor Vokal / s+Kons. (ombrelli, studenti)", "answer": "gli" },
+      { "prompt": "feminin Plural, vor Konsonant (borse)", "answer": "le" },
+      { "prompt": "feminin Plural, vor Vokal (aranciate)", "answer": "le" }
+    ]
+  },
+  {
+    "id": "articolo-determinativo-a",
+    "title": "Verschmelzung – a + Artikel",
+    "subtitle": "an, zu, um",
+    "category": "Artikel",
+    "items": [
+      { "prompt": "a + il", "answer": "al" },
+      { "prompt": "a + lo", "answer": "allo" },
+      { "prompt": "a + la", "answer": "alla" },
+      { "prompt": "a + l'", "answer": "all'" },
+      { "prompt": "a + i", "answer": "ai" },
+      { "prompt": "a + le", "answer": "alle" },
+      { "prompt": "a + gli", "answer": "agli" }
+    ]
+  },
+  {
+    "id": "articolo-determinativo-da",
+    "title": "Verschmelzung – da + Artikel",
+    "subtitle": "von, bei, ab",
+    "category": "Artikel",
+    "items": [
+      { "prompt": "da + il", "answer": "dal" },
+      { "prompt": "da + lo", "answer": "dallo" },
+      { "prompt": "da + la", "answer": "dalla" },
+      { "prompt": "da + l'", "answer": "dall'" },
+      { "prompt": "da + i", "answer": "dai" },
+      { "prompt": "da + le", "answer": "dalle" },
+      { "prompt": "da + gli", "answer": "dagli" }
+    ]
+  },
+  {
+    "id": "articolo-determinativo-di",
+    "title": "Verschmelzung – di + Artikel",
+    "subtitle": "von, des",
+    "category": "Artikel",
+    "items": [
+      { "prompt": "di + il", "answer": "del" },
+      { "prompt": "di + lo", "answer": "dello" },
+      { "prompt": "di + la", "answer": "della" },
+      { "prompt": "di + l'", "answer": "dell'" },
+      { "prompt": "di + i", "answer": "dei" },
+      { "prompt": "di + le", "answer": "delle" },
+      { "prompt": "di + gli", "answer": "degli" }
+    ]
+  },
+  {
+    "id": "articolo-determinativo-in",
+    "title": "Verschmelzung – in + Artikel",
+    "subtitle": "in, im",
+    "category": "Artikel",
+    "items": [
+      { "prompt": "in + il", "answer": "nel" },
+      { "prompt": "in + lo", "answer": "nello" },
+      { "prompt": "in + la", "answer": "nella" },
+      { "prompt": "in + l'", "answer": "nell'" },
+      { "prompt": "in + i", "answer": "nei" },
+      { "prompt": "in + le", "answer": "nelle" },
+      { "prompt": "in + gli", "answer": "negli" }
+    ]
+  },
+  {
+    "id": "articolo-determinativo-su",
+    "title": "Verschmelzung – su + Artikel",
+    "subtitle": "auf, über",
+    "category": "Artikel",
+    "items": [
+      { "prompt": "su + il", "answer": "sul" },
+      { "prompt": "su + lo", "answer": "sullo" },
+      { "prompt": "su + la", "answer": "sulla" },
+      { "prompt": "su + l'", "answer": "sull'" },
+      { "prompt": "su + i", "answer": "sui" },
+      { "prompt": "su + le", "answer": "sulle" },
+      { "prompt": "su + gli", "answer": "sugli" }
+    ]
+  }
+]
