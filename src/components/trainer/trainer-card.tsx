@@ -11,7 +11,26 @@ import type {
   TrainerMode,
 } from "@/app/(app)/vocab/trainer-actions";
 
-const SEPARATORS = new Set([" ", "'", "’", "-"]);
+// Diese Zeichen sind im Schreibmodus fest vorgegeben (Hinweis) und müssen
+// NICHT eingetippt werden: Leerzeichen, Apostroph, Bindestrich + Satzzeichen.
+const SEPARATORS = new Set([
+  " ",
+  "'",
+  "’",
+  "-",
+  ",",
+  ".",
+  "?",
+  "!",
+  ":",
+  ";",
+  "…",
+  "(",
+  ")",
+  "«",
+  "»",
+  '"',
+]);
 const isSep = (c: string) => SEPARATORS.has(c);
 
 function normalize(s: string, accentTolerant: boolean): string {
