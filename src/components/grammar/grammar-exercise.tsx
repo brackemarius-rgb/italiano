@@ -138,7 +138,7 @@ export function GrammarExercise({
                     setChosen(chosen.filter((_, idx) => idx !== i));
                     setPool([...pool, w]);
                   }}
-                  className="rounded-lg bg-ink px-3 py-1.5 font-serif italic text-bg"
+                  className="rounded-lg bg-brand-dk px-3 py-1.5 font-serif italic text-bg"
                 >
                   {w}
                 </button>

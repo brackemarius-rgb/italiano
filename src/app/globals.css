@@ -37,7 +37,7 @@
   --card-foreground: var(--ink);
   --popover: var(--bg-card);
   --popover-foreground: var(--ink);
-  --primary: var(--ink);
+  --primary: var(--accent-dk); /* Buttons: Sage-dunkel statt Schwarz */
   --primary-foreground: var(--bg);
   --secondary: var(--subtle);
   --secondary-foreground: var(--ink);

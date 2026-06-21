@@ -182,7 +182,7 @@ function Toggle({
         onClick={() => onChange(!checked)}
         className={cn(
           "relative h-6 w-10 shrink-0 rounded-full transition-colors disabled:opacity-50",
-          checked ? "bg-ink" : "bg-line-strong",
+          checked ? "bg-brand-dk" : "bg-line-strong",
         )}
       >
         <span

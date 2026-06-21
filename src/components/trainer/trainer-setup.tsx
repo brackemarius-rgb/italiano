@@ -65,7 +65,7 @@ export function TrainerSetup({
               className={cn(
                 "rounded-xl border px-4 py-3 text-left transition-colors",
                 mode === m.value
-                  ? "border-ink bg-ink text-bg"
+                  ? "border-brand-dk bg-brand-dk text-bg"
                   : "border-line bg-card text-ink hover:border-line-strong",
               )}
             >
@@ -94,7 +94,7 @@ export function TrainerSetup({
               className={cn(
                 "rounded-xl border px-4 py-3 text-left transition-colors",
                 direction === d.value
-                  ? "border-ink bg-ink text-bg"
+                  ? "border-brand-dk bg-brand-dk text-bg"
                   : "border-line bg-card text-ink hover:border-line-strong",
               )}
             >
@@ -198,7 +198,7 @@ function Chip({
       className={cn(
         "min-w-9 rounded-full border px-3 py-1.5 text-sm transition-colors",
         active
-          ? "border-ink bg-ink text-bg"
+          ? "border-brand-dk bg-brand-dk text-bg"
           : "border-line bg-card text-ink-soft hover:border-line-strong",
       )}
     >
